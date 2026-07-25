@@ -937,6 +937,58 @@
     background: var(--ink);
   }
 
+  /* 左上角访客量数符 */
+  .visitor-counter-badge {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--mist);
+    background: rgba(250, 250, 247, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--hair);
+    padding: 7px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 900;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    user-select: none;
+  }
+  .visitor-counter-badge:hover {
+    color: var(--ink);
+    border-color: var(--mist-pale);
+    background: var(--paper);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  }
+  .visitor-count-num {
+    font-family: var(--serif);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  @media (max-width: 600px) {
+    .imprints-toggle {
+      top: 16px;
+      right: 16px;
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+    .visitor-counter-badge {
+      top: 16px;
+      left: 16px;
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+
   .drawer-overlay {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -1562,6 +1614,14 @@
 </style>
 </head>
 <body>
+  <!-- 左上角访客量挂件 -->
+  <div class="visitor-counter-badge" id="visitorCounterBadge">
+    <span class="visitor-icon">🕯️</span>
+    <span id="busuanzi_container_site_pv" style="display:none;">
+      访窗人次 <span class="visitor-count-num" id="busuanzi_value_site_pv">--</span>
+    </span>
+  </div>
+
   <!-- 旅行印迹悬浮按钮 -->
   <button class="imprints-toggle" id="imprintsToggle" onclick="toggleDrawer(true)">
     <span class="imprints-icon">🎴</span>
@@ -1631,13 +1691,6 @@
       <div class="fail-reason" id="failReason"></div>
       <button class="retry-btn" onclick="startDecompression()">再试一次</button>
     </section>
-
-    <!-- 页脚：不蒜子轻量统计 -->
-    <footer class="site-footer">
-      <span id="busuanzi_container_site_pv" style="display:none;">
-        已有 <span id="busuanzi_value_site_pv">--</span> 人次推开这扇窗
-      </span>
-    </footer>
   </div>
 
   <!-- 抽屉底色遮罩 -->
