@@ -797,7 +797,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #E5E7E9 100%)",
     "stampColor": "#7F8C8D",
     "locClass": "loc-yogyakarta",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "菲律宾 · 长滩岛",
@@ -810,7 +810,7 @@
     "glow": "radial-gradient(circle at center, #EBF5FB 20%, #AED6F1 100%)",
     "stampColor": "#2874A6",
     "locClass": "loc-boracay",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "柬埔寨 · 吴哥窟",
