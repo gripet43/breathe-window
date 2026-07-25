@@ -823,7 +823,7 @@
     "glow": "radial-gradient(circle at center, #FAF9F6 20%, #F5CBA7 100%)",
     "stampColor": "#B7950B",
     "locClass": "loc-angkor",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "缅甸 · 蒲甘",
