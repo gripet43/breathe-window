@@ -897,37 +897,46 @@
     outline-offset: 4px;
   }
 
-  /* 旅行手账侧边栏抽屉 */
-  .imprints-toggle {
+  /* 右上角功能挂件组合 */
+  .top-right-actions {
     position: fixed;
     top: 24px;
     right: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 900;
+  }
+  .imprints-toggle, .bgm-toggle {
+    position: relative;
+    top: auto;
+    right: auto;
     font-family: var(--sans);
     font-size: 13px;
     font-weight: 500;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     color: var(--mist);
     background: rgba(250, 250, 247, 0.85);
     backdrop-filter: blur(8px);
     border: 1px solid var(--hair);
-    padding: 8px 16px;
+    padding: 8px 14px;
     border-radius: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 6px;
-    z-index: 900;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    user-select: none;
   }
-  .imprints-toggle:hover {
+  .imprints-toggle:hover, .bgm-toggle:hover {
     color: var(--ink);
     border-color: var(--mist-pale);
     background: var(--paper);
     transform: translateY(-1px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
   }
-  .imprints-toggle:active {
+  .imprints-toggle:active, .bgm-toggle:active {
     transform: translateY(0);
   }
   .imprints-count {
@@ -982,28 +991,6 @@
     color: var(--ink);
   }
 
-  /* 右上角 BGM 音乐悬浮按钮 */
-  .bgm-toggle {
-    position: fixed;
-    top: 24px;
-    right: 120px;
-    font-family: var(--sans);
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    color: var(--mist);
-    background: rgba(250, 250, 247, 0.85);
-    backdrop-filter: blur(8px);
-    border: 1px solid var(--hair);
-    padding: 8px 14px;
-    border-radius: 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    z-index: 900;
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
     user-select: none;
   }
   .bgm-toggle:hover {
@@ -1700,23 +1687,26 @@
     </span>
   </div>
 
-  <!-- BGM 音乐与音效控制按钮 -->
-  <button class="bgm-toggle" id="bgmToggle" onclick="toggleBGM()">
-    <span class="bgm-icon" id="bgmIcon">🎵</span>
-    <span class="bgm-text" id="bgmText">音乐</span>
-    <span class="bgm-equalizer hidden" id="bgmEqualizer">
-      <span class="eq-bar"></span>
-      <span class="eq-bar"></span>
-      <span class="eq-bar"></span>
-    </span>
-  </button>
+  <!-- 右上角功能挂件组合 -->
+  <div class="top-right-actions">
+    <!-- BGM 音乐与音效控制按钮 -->
+    <button class="bgm-toggle" id="bgmToggle" onclick="toggleBGM()">
+      <span class="bgm-icon" id="bgmIcon">🎵</span>
+      <span class="bgm-text" id="bgmText">音乐</span>
+      <span class="bgm-equalizer hidden" id="bgmEqualizer">
+        <span class="eq-bar"></span>
+        <span class="eq-bar"></span>
+        <span class="eq-bar"></span>
+      </span>
+    </button>
 
-  <!-- 旅行印迹悬浮按钮 -->
-  <button class="imprints-toggle" id="imprintsToggle" onclick="toggleDrawer(true)">
-    <span class="imprints-icon">🎴</span>
-    <span class="imprints-text">印迹</span>
-    <span class="imprints-count" id="imprintsCount">0</span>
-  </button>
+    <!-- 旅行印迹悬浮按钮 -->
+    <button class="imprints-toggle" id="imprintsToggle" onclick="toggleDrawer(true)">
+      <span class="imprints-icon">🎴</span>
+      <span class="imprints-text">印迹</span>
+      <span class="imprints-count" id="imprintsCount">0</span>
+    </button>
+  </div>
 
   <div class="stage">
     <div class="masthead"><div class="date" id="date"></div></div>
@@ -3289,9 +3279,9 @@
     bgmGain: null,
     bgmBuffer: null,
     bgmSource: null,
+    bgmPromise: null,
     sfxBuffer: null,
     isPlaying: false,
-    isLoaded: false,
 
     init() {
       if (this.ctx) return;
@@ -3302,7 +3292,8 @@
       this.bgmGain.gain.value = 0;
       this.bgmGain.connect(this.ctx.destination);
       
-      this.loadBgm();
+      // 立即触发预加载，无需等待第一次点击
+      this.bgmPromise = this.loadBgm();
       this.loadSfx();
     },
 
@@ -3312,9 +3303,8 @@
         if (!resp.ok) throw new Error('Audio fetch error');
         const arrayBuf = await resp.arrayBuffer();
         this.bgmBuffer = await this.ctx.decodeAudioData(arrayBuf);
-        this.isLoaded = true;
       } catch(e) {
-        console.log("AudioEngine: BGM asset loaded or fallback ready.");
+        console.log("AudioEngine: BGM asset load error.");
       }
     },
 
@@ -3328,24 +3318,36 @@
       } catch(e) {}
     },
 
-    toggle() {
+    async toggle() {
       if (!this.ctx) this.init();
       if (this.ctx && this.ctx.state === 'suspended') {
-        this.ctx.resume();
+        await this.ctx.resume();
       }
       if (this.isPlaying) {
         this.disable();
       } else {
-        this.enable();
+        await this.enable();
       }
     },
 
-    enable() {
+    async enable() {
       if (!this.ctx) this.init();
       if (this.ctx && this.ctx.state === 'suspended') {
-        this.ctx.resume();
+        await this.ctx.resume();
       }
       
+      this.isPlaying = true;
+      this.updateUI();
+      try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
+
+      // 如果 mp3 文件还在解压/下载，等待解码完成
+      if (!this.bgmBuffer && this.bgmPromise) {
+        await this.bgmPromise;
+      }
+
+      // 如果在加载期间用户又点击了关闭，直接中断
+      if (!this.isPlaying) return;
+
       if (this.bgmBuffer && !this.bgmSource) {
         this.bgmSource = this.ctx.createBufferSource();
         this.bgmSource.buffer = this.bgmBuffer;
@@ -3355,17 +3357,19 @@
       }
       
       // 平滑 1.5 秒渐入
-      const now = this.ctx.currentTime;
-      this.bgmGain.gain.cancelScheduledValues(now);
-      this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
-      this.bgmGain.gain.linearRampToValueAtTime(0.35, now + 1.5);
-      
-      this.isPlaying = true;
-      try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
-      this.updateUI();
+      if (this.ctx) {
+        const now = this.ctx.currentTime;
+        this.bgmGain.gain.cancelScheduledValues(now);
+        this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
+        this.bgmGain.gain.linearRampToValueAtTime(0.35, now + 1.5);
+      }
     },
 
     disable() {
+      this.isPlaying = false;
+      this.updateUI();
+      try { localStorage.setItem('breathe_window_bgm', 'disabled'); } catch(e) {}
+
       if (!this.ctx) return;
       // 平滑 1.0 秒渐出
       const now = this.ctx.currentTime;
@@ -3382,10 +3386,6 @@
           this.bgmSource = null;
         }
       }, 1000);
-
-      this.isPlaying = false;
-      try { localStorage.setItem('breathe_window_bgm', 'disabled'); } catch(e) {}
-      this.updateUI();
     },
 
     playWindowOpen() {
