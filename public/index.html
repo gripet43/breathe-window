@@ -3308,7 +3308,7 @@
 
     async loadBgm() {
       try {
-        const resp = await fetch('./assets/audio/healing_bgm.wav');
+        const resp = await fetch('./assets/audio/healing_bgm.mp3');
         if (!resp.ok) throw new Error('Audio fetch error');
         const arrayBuf = await resp.arrayBuffer();
         this.bgmBuffer = await this.ctx.decodeAudioData(arrayBuf);
