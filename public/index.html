@@ -143,13 +143,22 @@
     transition: opacity 0.8s ease;
   }
   .gate-sub {
-    font-family: var(--sans);
+    font-family: var(--serif);
     font-size: 14.5px;
-    line-height: 1.8;
+    line-height: 2.2;
+    letter-spacing: 0.08em;
     color: var(--ink-soft);
-    max-width: 320px;
-    margin-bottom: 36px;
+    max-width: 420px;
+    margin: 0 auto 36px auto;
+    text-align: center;
     transition: opacity 0.8s ease;
+  }
+  .gate-sub .poem-line {
+    margin: 0 0 6px 0;
+    opacity: 0.9;
+  }
+  .gate-sub .poem-line:last-child {
+    margin-bottom: 0;
   }
 
   /* ——— 拟物化双扇木窗 ——— */
@@ -1714,7 +1723,11 @@
     <!-- 门槛：包含拟物化木窗 -->
     <section class="gate" id="gate">
       <h1 class="gate-title" id="gateTitle">在书桌前，推开世界之窗</h1>
-      <div class="gate-sub" id="gateSub">每一次开窗，都是一趟精神的漫游。去往世界不同的角落，看一眼别处的此刻。看完别忘了在手账上留下印迹。</div>
+      <div class="gate-sub" id="gateSub">
+        <p class="poem-line">每一次开窗，都是一趟精神的漫游。</p>
+        <p class="poem-line">去往世界不同的角落，看一眼别处的此刻。</p>
+        <p class="poem-line">看完别忘了在手账上留下印迹。</p>
+      </div>
       
       <!-- 地理徽章 -->
       <div class="loc-badge-wrapper" id="locBadgeWrapper">
