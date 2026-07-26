@@ -3283,117 +3283,7 @@
     if (loadingTimer) { clearInterval(loadingTimer); loadingTimer = null; }
   }
 
-  async function boot() {
-    document.getElementById("date").textContent = todayLabel();
-    document.getElementById("loadingWord").style.transition = "opacity 0.3s ease";
-
-    // 动态加载所有选址元数据 locations.json
-    try {
-      const response = await fetch("./assets/data/locations.json");
-      if (response.ok) {
-        const rawData = await response.json();
-        
-        // 备份并恢复上次保存的城市名称以防止过滤后索引错位
-        let savedCityName = null;
-        try {
-          const savedLoc = localStorage.getItem("breathe:currentLocationIndex");
-          if (savedLoc !== null) {
-            const savedIdx = parseInt(savedLoc) || 0;
-            if (savedIdx >= 0 && savedIdx < rawData.length) {
-              savedCityName = rawData[savedIdx].name;
-            }
-          }
-        } catch(e) {}
-        
-        // 只保留具有全部专属插画的城市
-        const data = rawData.filter(loc => loc.hasCustomImages === true);
-        
-        // 排序（虽然都是 true，仍保留以防万一）
-        data.sort((a, b) => {
-          const aHas = a.hasCustomImages === true ? 1 : 0;
-          const bHas = b.hasCustomImages === true ? 1 : 0;
-          return bHas - aHas;
-        });
-        
-        LOCATIONS.length = 0;
-        LOCATIONS.push(...data);
-        
-        if (savedCityName) {
-          const newIdx = LOCATIONS.findIndex(l => l.name === savedCityName);
-          if (newIdx !== -1) {
-            currentLocationIndex = newIdx;
-          } else {
-            currentLocationIndex = 0;
-          }
-        }
-      } else {
-        console.error("加载 locations.json 失败:", response.statusText);
-      }
-    } catch (e) {
-      console.error("网络请求 locations.json 失败:", e);
-    }
-    
-    // 确保当前索引合法
-    if (currentLocationIndex >= LOCATIONS.length) {
-      currentLocationIndex = 0;
-    }
-    
-    if (LOCATIONS.length > 0) {
-      await initHomeGlobe();
-      applyLocationSettings(currentLocationIndex, true);
-    }
-    updateImprintsCount();
-
-    try {
-      const isOpen = localStorage.getItem(KEY_IS_OPEN);
-      if (isOpen === "true") {
-        const savedItems = localStorage.getItem(KEY_ITEMS);
-        if (savedItems) {
-          const items = JSON.parse(savedItems);
-          
-           // 校验缓存数据格式：如果是缺少本地图片、使用Picsum外链的旧格式，或者对应城市已有专属插图但缓存仍为通用占位图，直接清除缓存强制重新推开窗
-          const hasFallbackImage = items.some(item => 
-            item.image && (
-              item.image.includes("world_corner.png") ||
-              item.image.includes("science_nature.png") ||
-              item.image.includes("others_present.png") ||
-              item.image.includes("spark_of_thought.png") ||
-              item.image.includes("old_knowledge.png")
-            )
-          );
-          const loc = LOCATIONS[currentLocationIndex];
-          const isOutdatedCache = loc && loc.hasCustomImages && hasFallbackImage;
-
-          const isOldFormat = !Array.isArray(items) || 
-                              items.some(item => !item.image || item.image.startsWith('http') || item.image.includes('picsum')) ||
-                              isOutdatedCache;
-          if (isOldFormat) {
-            localStorage.removeItem(KEY_IS_OPEN);
-            localStorage.removeItem(KEY_ITEMS);
-            localStorage.removeItem(KEY_SLIDE_INDEX);
-            try {
-              localStorage.removeItem("breathe:demo");
-            } catch (e) {}
-          } else {
-            document.getElementById("btnGroup").classList.add("fade-out");
-            document.getElementById("locBadgeWrapper").classList.add("fade-out");
-            document.getElementById("gate").classList.add("hidden");
-            const globeWrapper = document.getElementById("homeGlobeWrapper");
-            if (globeWrapper) globeWrapper.classList.add("hidden");
-
-            renderCards(items);
-            
-            const feed = document.getElementById("feed");
-            feed.classList.remove("hidden");
-            feed.style.opacity = 1;
-            feed.style.transform = "translateY(0)";
-            return;
-          }
-        }
-      }
-    } catch (e) { /* 读取失败 */ }
-
-    /* ——— 治愈系 BGM 混音音效引擎 (Web Audio API Engine) ——— */
+  /* ——— 治愈系 BGM 混音音效引擎 (Web Audio API Engine) ——— */
   const AudioEngine = {
     ctx: null,
     bgmGain: null,
@@ -3559,7 +3449,10 @@
     AudioEngine.toggle();
   }
 
-  function boot() {
+  async function boot() {
+    document.getElementById("date").textContent = todayLabel();
+    document.getElementById("loadingWord").style.transition = "opacity 0.3s ease";
+
     try {
       if (localStorage.getItem('breathe_window_bgm') === 'enabled') {
         const unlock = () => {
@@ -3571,6 +3464,111 @@
         window.addEventListener('touchstart', unlock, { once: true });
       }
     } catch(e) {}
+
+    // 动态加载所有选址元数据 locations.json
+    try {
+      const response = await fetch("./assets/data/locations.json");
+      if (response.ok) {
+        const rawData = await response.json();
+        
+        // 备份并恢复上次保存的城市名称以防止过滤后索引错位
+        let savedCityName = null;
+        try {
+          const savedLoc = localStorage.getItem("breathe:currentLocationIndex");
+          if (savedLoc !== null) {
+            const savedIdx = parseInt(savedLoc) || 0;
+            if (savedIdx >= 0 && savedIdx < rawData.length) {
+              savedCityName = rawData[savedIdx].name;
+            }
+          }
+        } catch(e) {}
+        
+        // 只保留具有全部专属插画的城市
+        const data = rawData.filter(loc => loc.hasCustomImages === true);
+        
+        // 排序（虽然都是 true，仍保留以防万一）
+        data.sort((a, b) => {
+          const aHas = a.hasCustomImages === true ? 1 : 0;
+          const bHas = b.hasCustomImages === true ? 1 : 0;
+          return bHas - aHas;
+        });
+        
+        LOCATIONS.length = 0;
+        LOCATIONS.push(...data);
+        
+        if (savedCityName) {
+          const newIdx = LOCATIONS.findIndex(l => l.name === savedCityName);
+          if (newIdx !== -1) {
+            currentLocationIndex = newIdx;
+          } else {
+            currentLocationIndex = 0;
+          }
+        }
+      } else {
+        console.error("加载 locations.json 失败:", response.statusText);
+      }
+    } catch (e) {
+      console.error("网络请求 locations.json 失败:", e);
+    }
+    
+    // 确保当前索引合法
+    if (currentLocationIndex >= LOCATIONS.length) {
+      currentLocationIndex = 0;
+    }
+    
+    if (LOCATIONS.length > 0) {
+      await initHomeGlobe();
+      applyLocationSettings(currentLocationIndex, true);
+    }
+    updateImprintsCount();
+
+    try {
+      const isOpen = localStorage.getItem(KEY_IS_OPEN);
+      if (isOpen === "true") {
+        const savedItems = localStorage.getItem(KEY_ITEMS);
+        if (savedItems) {
+          const items = JSON.parse(savedItems);
+          
+          const hasFallbackImage = items.some(item => 
+            item.image && (
+              item.image.includes("world_corner.png") ||
+              item.image.includes("science_nature.png") ||
+              item.image.includes("others_present.png") ||
+              item.image.includes("spark_of_thought.png") ||
+              item.image.includes("old_knowledge.png")
+            )
+          );
+          const loc = LOCATIONS[currentLocationIndex];
+          const isOutdatedCache = loc && loc.hasCustomImages && hasFallbackImage;
+
+          const isOldFormat = !Array.isArray(items) || 
+                              items.some(item => !item.image || item.image.startsWith('http') || item.image.includes('picsum')) ||
+                              isOutdatedCache;
+          if (isOldFormat) {
+            localStorage.removeItem(KEY_IS_OPEN);
+            localStorage.removeItem(KEY_ITEMS);
+            localStorage.removeItem(KEY_SLIDE_INDEX);
+            try {
+              localStorage.removeItem("breathe:demo");
+            } catch (e) {}
+          } else {
+            document.getElementById("btnGroup").classList.add("fade-out");
+            document.getElementById("locBadgeWrapper").classList.add("fade-out");
+            document.getElementById("gate").classList.add("hidden");
+            const globeWrapper = document.getElementById("homeGlobeWrapper");
+            if (globeWrapper) globeWrapper.classList.add("hidden");
+
+            renderCards(items);
+            
+            const feed = document.getElementById("feed");
+            feed.classList.remove("hidden");
+            feed.style.opacity = 1;
+            feed.style.transform = "translateY(0)";
+            return;
+          }
+        }
+      }
+    } catch (e) { /* 读取失败 */ }
 
     show("gate");
   }
