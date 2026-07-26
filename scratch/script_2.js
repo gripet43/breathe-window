@@ -1420,11 +1420,10 @@
   const AudioEngine = {
     ctx: null,
     bgmGain: null,
-    bgmBuffer: null,
-    bgmSource: null,
+    bgmElement: null,
+    bgmMediaNode: null,
     sfxBuffer: null,
     isPlaying: false,
-    isLoaded: false,
 
     init() {
       if (this.ctx) return;
@@ -1435,20 +1434,18 @@
       this.bgmGain.gain.value = 0;
       this.bgmGain.connect(this.ctx.destination);
       
-      this.loadBgm();
-      this.loadSfx();
-    },
+      // 创建 HTML5 Audio 元素进行 HTTP Range 渐进式秒开流式加载
+      this.bgmElement = new Audio();
+      this.bgmElement.src = './assets/audio/healing_bgm.m4a';
+      this.bgmElement.loop = true;
+      this.bgmElement.preload = 'auto';
 
-    async loadBgm() {
       try {
-        const resp = await fetch('./assets/audio/healing_bgm.wav');
-        if (!resp.ok) throw new Error('Audio fetch error');
-        const arrayBuf = await resp.arrayBuffer();
-        this.bgmBuffer = await this.ctx.decodeAudioData(arrayBuf);
-        this.isLoaded = true;
-      } catch(e) {
-        console.log("AudioEngine: BGM asset loaded or fallback ready.");
-      }
+        this.bgmMediaNode = this.ctx.createMediaElementSource(this.bgmElement);
+        this.bgmMediaNode.connect(this.bgmGain);
+      } catch(e) {}
+
+      this.loadSfx();
     },
 
     async loadSfx() {
@@ -1461,44 +1458,47 @@
       } catch(e) {}
     },
 
-    toggle() {
+    async toggle() {
       if (!this.ctx) this.init();
       if (this.ctx && this.ctx.state === 'suspended') {
-        this.ctx.resume();
+        await this.ctx.resume();
       }
       if (this.isPlaying) {
         this.disable();
       } else {
-        this.enable();
+        await this.enable();
       }
     },
 
-    enable() {
+    async enable() {
       if (!this.ctx) this.init();
       if (this.ctx && this.ctx.state === 'suspended') {
-        this.ctx.resume();
+        await this.ctx.resume();
       }
-      
-      if (this.bgmBuffer && !this.bgmSource) {
-        this.bgmSource = this.ctx.createBufferSource();
-        this.bgmSource.buffer = this.bgmBuffer;
-        this.bgmSource.loop = true;
-        this.bgmSource.connect(this.bgmGain);
-        this.bgmSource.start(0);
-      }
-      
-      // 平滑 1.5 秒渐入
-      const now = this.ctx.currentTime;
-      this.bgmGain.gain.cancelScheduledValues(now);
-      this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
-      this.bgmGain.gain.linearRampToValueAtTime(0.35, now + 1.5);
       
       this.isPlaying = true;
-      try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
       this.updateUI();
+      try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
+
+      // 0.1 秒秒开流式播放
+      if (this.bgmElement) {
+        this.bgmElement.play().catch(e => console.log('Autoplay blocked:', e));
+      }
+
+      // 平滑 1.5 秒渐入
+      if (this.ctx) {
+        const now = this.ctx.currentTime;
+        this.bgmGain.gain.cancelScheduledValues(now);
+        this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
+        this.bgmGain.gain.linearRampToValueAtTime(0.35, now + 1.5);
+      }
     },
 
     disable() {
+      this.isPlaying = false;
+      this.updateUI();
+      try { localStorage.setItem('breathe_window_bgm', 'disabled'); } catch(e) {}
+
       if (!this.ctx) return;
       // 平滑 1.0 秒渐出
       const now = this.ctx.currentTime;
@@ -1507,18 +1507,10 @@
       this.bgmGain.gain.linearRampToValueAtTime(0.0, now + 1.0);
       
       setTimeout(() => {
-        if (!this.isPlaying && this.bgmSource) {
-          try {
-            this.bgmSource.stop();
-            this.bgmSource.disconnect();
-          } catch(e) {}
-          this.bgmSource = null;
+        if (!this.isPlaying && this.bgmElement) {
+          this.bgmElement.pause();
         }
       }, 1000);
-
-      this.isPlaying = false;
-      try { localStorage.setItem('breathe_window_bgm', 'disabled'); } catch(e) {}
-      this.updateUI();
     },
 
     playWindowOpen() {

@@ -3277,9 +3277,8 @@
   const AudioEngine = {
     ctx: null,
     bgmGain: null,
-    bgmBuffer: null,
-    bgmSource: null,
-    bgmPromise: null,
+    bgmElement: null,
+    bgmMediaNode: null,
     sfxBuffer: null,
     isPlaying: false,
 
@@ -3292,20 +3291,18 @@
       this.bgmGain.gain.value = 0;
       this.bgmGain.connect(this.ctx.destination);
       
-      // 立即触发预加载，无需等待第一次点击
-      this.bgmPromise = this.loadBgm();
-      this.loadSfx();
-    },
+      // 创建 HTML5 Audio 元素进行 HTTP Range 渐进式秒开流式加载
+      this.bgmElement = new Audio();
+      this.bgmElement.src = './assets/audio/healing_bgm.m4a';
+      this.bgmElement.loop = true;
+      this.bgmElement.preload = 'auto';
 
-    async loadBgm() {
       try {
-        const resp = await fetch('./assets/audio/healing_bgm.mp3');
-        if (!resp.ok) throw new Error('Audio fetch error');
-        const arrayBuf = await resp.arrayBuffer();
-        this.bgmBuffer = await this.ctx.decodeAudioData(arrayBuf);
-      } catch(e) {
-        console.log("AudioEngine: BGM asset load error.");
-      }
+        this.bgmMediaNode = this.ctx.createMediaElementSource(this.bgmElement);
+        this.bgmMediaNode.connect(this.bgmGain);
+      } catch(e) {}
+
+      this.loadSfx();
     },
 
     async loadSfx() {
@@ -3340,22 +3337,11 @@
       this.updateUI();
       try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
 
-      // 如果 mp3 文件还在解压/下载，等待解码完成
-      if (!this.bgmBuffer && this.bgmPromise) {
-        await this.bgmPromise;
+      // 0.1 秒秒开流式播放
+      if (this.bgmElement) {
+        this.bgmElement.play().catch(e => console.log('Autoplay blocked:', e));
       }
 
-      // 如果在加载期间用户又点击了关闭，直接中断
-      if (!this.isPlaying) return;
-
-      if (this.bgmBuffer && !this.bgmSource) {
-        this.bgmSource = this.ctx.createBufferSource();
-        this.bgmSource.buffer = this.bgmBuffer;
-        this.bgmSource.loop = true;
-        this.bgmSource.connect(this.bgmGain);
-        this.bgmSource.start(0);
-      }
-      
       // 平滑 1.5 秒渐入
       if (this.ctx) {
         const now = this.ctx.currentTime;
@@ -3378,12 +3364,8 @@
       this.bgmGain.gain.linearRampToValueAtTime(0.0, now + 1.0);
       
       setTimeout(() => {
-        if (!this.isPlaying && this.bgmSource) {
-          try {
-            this.bgmSource.stop();
-            this.bgmSource.disconnect();
-          } catch(e) {}
-          this.bgmSource = null;
+        if (!this.isPlaying && this.bgmElement) {
+          this.bgmElement.pause();
         }
       }, 1000);
     },
