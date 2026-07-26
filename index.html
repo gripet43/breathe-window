@@ -982,11 +982,81 @@
     color: var(--ink);
   }
 
+  /* 右上角 BGM 音乐悬浮按钮 */
+  .bgm-toggle {
+    position: fixed;
+    top: 24px;
+    right: 120px;
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--mist);
+    background: rgba(250, 250, 247, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--hair);
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    z-index: 900;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    user-select: none;
+  }
+  .bgm-toggle:hover {
+    color: var(--ink);
+    border-color: var(--mist-pale);
+    background: var(--paper);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  }
+  .bgm-toggle:active {
+    transform: translateY(0);
+  }
+  .bgm-toggle.playing {
+    color: var(--ink);
+    border-color: var(--mist-pale);
+    background: rgba(244, 239, 230, 0.95);
+  }
+
+  /* 音乐律动声波 */
+  .bgm-equalizer {
+    display: flex;
+    align-items: flex-end;
+    gap: 2.5px;
+    height: 12px;
+    padding: 0 2px;
+  }
+  .eq-bar {
+    width: 2px;
+    height: 100%;
+    background: var(--mist);
+    border-radius: 1px;
+    animation: eq-pulse 1.2s infinite ease-in-out alternate;
+  }
+  .eq-bar:nth-child(1) { animation-delay: 0.1s; height: 40%; }
+  .eq-bar:nth-child(2) { animation-delay: 0.4s; height: 85%; }
+  .eq-bar:nth-child(3) { animation-delay: 0.2s; height: 60%; }
+
+  @keyframes eq-pulse {
+    0% { height: 25%; opacity: 0.4; }
+    100% { height: 100%; opacity: 1; }
+  }
+
   @media (max-width: 600px) {
     .imprints-toggle {
       top: 16px;
       right: 16px;
       padding: 6px 12px;
+      font-size: 12px;
+    }
+    .bgm-toggle {
+      top: 16px;
+      right: 102px;
+      padding: 6px 11px;
       font-size: 12px;
     }
     .visitor-counter-badge {
@@ -1629,6 +1699,17 @@
       开窗人数 <span class="visitor-count-num" id="busuanzi_value_site_uv">--</span>
     </span>
   </div>
+
+  <!-- BGM 音乐与音效控制按钮 -->
+  <button class="bgm-toggle" id="bgmToggle" onclick="toggleBGM()">
+    <span class="bgm-icon" id="bgmIcon">🎵</span>
+    <span class="bgm-text" id="bgmText">音乐</span>
+    <span class="bgm-equalizer hidden" id="bgmEqualizer">
+      <span class="eq-bar"></span>
+      <span class="eq-bar"></span>
+      <span class="eq-bar"></span>
+    </span>
+  </button>
 
   <!-- 旅行印迹悬浮按钮 -->
   <button class="imprints-toggle" id="imprintsToggle" onclick="toggleDrawer(true)">
@@ -2989,6 +3070,9 @@
   }
 
   function executeWindowOpen(items) {
+    // 触发木窗打开的拟物音效
+    AudioEngine.playWindowOpen();
+
     document.getElementById("shutterLeft").classList.add("open");
     document.getElementById("shutterRight").classList.add("open");
     document.getElementById("windowLight").classList.add("glowing");
@@ -3308,6 +3392,185 @@
         }
       }
     } catch (e) { /* 读取失败 */ }
+
+    /* ——— 治愈系 BGM 混音音效引擎 (Web Audio API Engine) ——— */
+  const AudioEngine = {
+    ctx: null,
+    bgmGain: null,
+    bgmBuffer: null,
+    bgmSource: null,
+    sfxBuffer: null,
+    isPlaying: false,
+    isLoaded: false,
+
+    init() {
+      if (this.ctx) return;
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      if (!AudioCtx) return;
+      this.ctx = new AudioCtx();
+      this.bgmGain = this.ctx.createGain();
+      this.bgmGain.gain.value = 0;
+      this.bgmGain.connect(this.ctx.destination);
+      
+      this.loadBgm();
+      this.loadSfx();
+    },
+
+    async loadBgm() {
+      try {
+        const resp = await fetch('./assets/audio/healing_bgm.wav');
+        if (!resp.ok) throw new Error('Audio fetch error');
+        const arrayBuf = await resp.arrayBuffer();
+        this.bgmBuffer = await this.ctx.decodeAudioData(arrayBuf);
+        this.isLoaded = true;
+      } catch(e) {
+        console.log("AudioEngine: BGM asset loaded or fallback ready.");
+      }
+    },
+
+    async loadSfx() {
+      try {
+        const resp = await fetch('./assets/audio/window_open.wav');
+        if (resp.ok) {
+          const arrayBuf = await resp.arrayBuffer();
+          this.sfxBuffer = await this.ctx.decodeAudioData(arrayBuf);
+        }
+      } catch(e) {}
+    },
+
+    toggle() {
+      if (!this.ctx) this.init();
+      if (this.ctx && this.ctx.state === 'suspended') {
+        this.ctx.resume();
+      }
+      if (this.isPlaying) {
+        this.disable();
+      } else {
+        this.enable();
+      }
+    },
+
+    enable() {
+      if (!this.ctx) this.init();
+      if (this.ctx && this.ctx.state === 'suspended') {
+        this.ctx.resume();
+      }
+      
+      if (this.bgmBuffer && !this.bgmSource) {
+        this.bgmSource = this.ctx.createBufferSource();
+        this.bgmSource.buffer = this.bgmBuffer;
+        this.bgmSource.loop = true;
+        this.bgmSource.connect(this.bgmGain);
+        this.bgmSource.start(0);
+      }
+      
+      // 平滑 1.5 秒渐入
+      const now = this.ctx.currentTime;
+      this.bgmGain.gain.cancelScheduledValues(now);
+      this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
+      this.bgmGain.gain.linearRampToValueAtTime(0.35, now + 1.5);
+      
+      this.isPlaying = true;
+      try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
+      this.updateUI();
+    },
+
+    disable() {
+      if (!this.ctx) return;
+      // 平滑 1.0 秒渐出
+      const now = this.ctx.currentTime;
+      this.bgmGain.gain.cancelScheduledValues(now);
+      this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
+      this.bgmGain.gain.linearRampToValueAtTime(0.0, now + 1.0);
+      
+      setTimeout(() => {
+        if (!this.isPlaying && this.bgmSource) {
+          try {
+            this.bgmSource.stop();
+            this.bgmSource.disconnect();
+          } catch(e) {}
+          this.bgmSource = null;
+        }
+      }, 1000);
+
+      this.isPlaying = false;
+      try { localStorage.setItem('breathe_window_bgm', 'disabled'); } catch(e) {}
+      this.updateUI();
+    },
+
+    playWindowOpen() {
+      if (!this.ctx) this.init();
+      if (this.ctx && this.ctx.state === 'suspended') {
+        this.ctx.resume();
+      }
+
+      if (this.sfxBuffer) {
+        try {
+          const sfx = this.ctx.createBufferSource();
+          const gain = this.ctx.createGain();
+          gain.gain.value = 0.5;
+          sfx.buffer = this.sfxBuffer;
+          sfx.connect(gain);
+          gain.connect(this.ctx.destination);
+          sfx.start(0);
+          return;
+        } catch(e) {}
+      }
+      this.synthCreak();
+    },
+
+    synthCreak() {
+      if (!this.ctx) return;
+      try {
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'sawtooth';
+        const now = this.ctx.currentTime;
+        osc.frequency.setValueAtTime(140, now);
+        osc.frequency.exponentialRampToValueAtTime(240, now + 0.6);
+        gain.gain.setValueAtTime(0.12, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.6);
+      } catch(e) {}
+    },
+
+    updateUI() {
+      const toggleBtn = document.getElementById('bgmToggle');
+      const iconSpan = document.getElementById('bgmIcon');
+      const eqSpan = document.getElementById('bgmEqualizer');
+      if (!toggleBtn) return;
+
+      if (this.isPlaying) {
+        toggleBtn.classList.add('playing');
+        if (iconSpan) iconSpan.innerText = '🎶';
+        if (eqSpan) eqSpan.classList.remove('hidden');
+      } else {
+        toggleBtn.classList.remove('playing');
+        if (iconSpan) iconSpan.innerText = '🎵';
+        if (eqSpan) eqSpan.classList.add('hidden');
+      }
+    }
+  };
+
+  function toggleBGM() {
+    AudioEngine.toggle();
+  }
+
+  function boot() {
+    try {
+      if (localStorage.getItem('breathe_window_bgm') === 'enabled') {
+        const unlock = () => {
+          AudioEngine.enable();
+          window.removeEventListener('click', unlock);
+          window.removeEventListener('touchstart', unlock);
+        };
+        window.addEventListener('click', unlock, { once: true });
+        window.addEventListener('touchstart', unlock, { once: true });
+      }
+    } catch(e) {}
 
     show("gate");
   }
