@@ -3408,18 +3408,29 @@
     synthCreak() {
       if (!this.ctx) return;
       try {
-        const osc = this.ctx.createOscillator();
-        const gain = this.ctx.createGain();
-        osc.type = 'sawtooth';
         const now = this.ctx.currentTime;
-        osc.frequency.setValueAtTime(140, now);
-        osc.frequency.exponentialRampToValueAtTime(240, now + 0.6);
-        gain.gain.setValueAtTime(0.12, now);
-        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
-        osc.connect(gain);
-        gain.connect(this.ctx.destination);
-        osc.start(now);
-        osc.stop(now + 0.6);
+        const masterGain = this.ctx.createGain();
+        masterGain.connect(this.ctx.destination);
+
+        // 温暖的木框叩击声：低频正弦波 + 快速衰减包络
+        const freqs = [120, 200, 380];
+        const gains = [0.55, 0.25, 0.08];
+        const decays = [18, 22, 50];
+
+        freqs.forEach((freq, idx) => {
+          const osc = this.ctx.createOscillator();
+          const g = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(freq, now);
+          // 轻微音调下滑，模拟木头共鸣
+          osc.frequency.exponentialRampToValueAtTime(freq * 0.85, now + 0.4);
+          g.gain.setValueAtTime(gains[idx] * 0.5, now);
+          g.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+          osc.connect(g);
+          g.connect(masterGain);
+          osc.start(now);
+          osc.stop(now + 0.55);
+        });
       } catch(e) {}
     },
 
