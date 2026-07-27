@@ -134,6 +134,13 @@
     animation: rise 0.7s ease both;
     transition: opacity 0.8s ease, transform 0.8s ease;
   }
+  /* 首屏城市定位完成前，先隐藏城市相关元素（徽章 / 木窗 / 按钮）。
+     待 boot() 恢复上次选择的城市后统一揭幕，
+     避免"先闪出默认城市、半秒后再跳到上次城市"的割裂感。
+     三者各自已有的 opacity 过渡会让揭幕自然渐显。 */
+  .gate.pre-boot .loc-badge-wrapper,
+  .gate.pre-boot .window-wrapper { opacity: 0; }
+  .gate.pre-boot .btn-group { opacity: 0; pointer-events: none; }
   .gate-title {
     font-size: 26px;
     font-weight: 600;
@@ -562,197 +569,7 @@
   }
   .hidden { display: none !important; }
 
-  /* ==========================================================================
-     世界之窗 (Windows of the World) - 6种特色木窗框与窗格样式
-     ========================================================================== */
-  
-  /* 京都: 深胡桃木 + 日式格子 */
-  .loc-kyoto {
-    --wood: #4A3E3D;
-    --wood-dark: #2F2625;
-    --glow: radial-gradient(circle at center, #FFF3DF 20%, #E3CDA9 100%);
-  }
-  .loc-kyoto .shutter-grid {
-    background-image: linear-gradient(rgba(47, 38, 37, 0.12) 1.5px, transparent 1.5px),
-                      linear-gradient(90deg, rgba(47, 38, 37, 0.12) 1.5px, transparent 1.5px);
-    background-size: 25% 16.6%;
-    border: 1px solid rgba(47, 38, 37, 0.15);
-  }
-
-  /* 雷克雅未克: 漂流木 + 现代大玻璃 */
-  .loc-reykjavik {
-    --wood: #8F9CAE;
-    --wood-dark: #5C6775;
-    --glow: radial-gradient(circle at center, #E6F3FF 20%, #B9D3EE 100%);
-  }
-  .loc-reykjavik .shutter-grid {
-    border: 1px solid rgba(255, 255, 255, 0.18);
-  }
-
-  /* 四川竹海: 青竹木 + 细竹篦 */
-  .loc-bamboo {
-    --wood: #769E76;
-    --wood-dark: #4A6E4A;
-    --glow: radial-gradient(circle at center, #F0FFF0 20%, #C1E1C1 100%);
-  }
-  .loc-bamboo .shutter-grid {
-    background-image: linear-gradient(90deg, rgba(74, 110, 74, 0.08) 2px, transparent 2px);
-    background-size: 10% 100%;
-    border: 1px solid rgba(74, 110, 74, 0.15);
-  }
-
-  /* 巴黎: 白橡木 + 法式双拱大格 */
-  .loc-paris {
-    --wood: #E1DACF;
-    --wood-dark: #B9AE9F;
-    --glow: radial-gradient(circle at center, #FFF9E6 20%, #E6C280 100%);
-  }
-  .loc-paris .shutter-grid {
-    background-image: linear-gradient(rgba(185, 174, 159, 0.18) 3px, transparent 3px),
-                      linear-gradient(90deg, rgba(185, 174, 159, 0.18) 3px, transparent 3px);
-    background-size: 50% 33.3%;
-    border: 1px solid rgba(185, 174, 159, 0.25);
-  }
-
-  /* 马拉喀什: 红陶土 + 摩洛哥网格 */
-  .loc-marrakech {
-    --wood: #C67850;
-    --wood-dark: #914F2E;
-    --glow: radial-gradient(circle at center, #FFE6D5 20%, #D2B48C 100%);
-  }
-  .loc-marrakech .shutter-grid {
-    background-image: radial-gradient(circle at center, transparent 4px, rgba(145, 79, 46, 0.09) 4.5px, transparent 5px);
-    background-size: 16px 16px;
-    border: 1px solid rgba(145, 79, 46, 0.15);
-  }
-
-  /* 特罗姆瑟: 炭黑松木 + 四字格 */
-  .loc-tromso {
-    --wood: #3A444C;
-    --wood-dark: #1E252B;
-    --glow: radial-gradient(circle at center, #E0FFE0 20%, #A9DFBF 100%);
-  }
-  .loc-tromso .shutter-grid {
-    background-image: linear-gradient(rgba(30, 37, 43, 0.18) 2px, transparent 2px),
-                      linear-gradient(90deg, rgba(30, 37, 43, 0.18) 2px, transparent 2px);
-    background-size: 50% 50%;
-    border: 1px solid rgba(30, 37, 43, 0.25);
-  }
-
-  /* 瑞士: 饱经风霜的浅色松木 + 简洁十字格 */
-  .loc-alps {
-    --wood: #C5B49C;
-    --wood-dark: #8E7E65;
-    --glow: radial-gradient(circle at center, #FFFFFF 20%, #E0F2FE 100%);
-  }
-  .loc-alps .shutter-grid {
-    background-image: linear-gradient(90deg, rgba(142, 126, 101, 0.15) 2px, transparent 2px);
-    background-size: 50% 100%;
-    border: 1px solid rgba(142, 126, 101, 0.2);
-  }
-
-  /* 意大利: 威尼斯红木 + 精致横格子 */
-  .loc-venice {
-    --wood: #8B4513;
-    --wood-dark: #5C2E0B;
-    --glow: radial-gradient(circle at center, #FFF4E0 20%, #A5D6A7 100%);
-  }
-  .loc-venice .shutter-grid {
-    background-image: linear-gradient(rgba(92, 46, 11, 0.15) 1.5px, transparent 1.5px),
-                      linear-gradient(90deg, rgba(92, 46, 11, 0.15) 1.5px, transparent 1.5px);
-    background-size: 33.3% 20%;
-    border: 1px solid rgba(92, 46, 11, 0.22);
-  }
-
-  /* 希腊: 圣托里尼纯白/亮蓝窗框 */
-  .loc-santorini {
-    --wood: #0284C7;
-    --wood-dark: #0369A1;
-    --glow: radial-gradient(circle at center, #FFFFFF 20%, #FFFBEB 100%);
-  }
-  .loc-santorini .shutter-grid {
-    background-image: linear-gradient(rgba(3, 105, 161, 0.12) 2px, transparent 2px);
-    background-size: 100% 25%;
-    border: 1px solid rgba(3, 105, 161, 0.2);
-  }
-
-  /* 英国: 伦敦铁灰 + 双悬窗风格 */
-  .loc-london {
-    --wood: #52525B;
-    --wood-dark: #27272A;
-    --glow: radial-gradient(circle at center, #FEF3C7 20%, #D4D4D8 100%);
-  }
-  .loc-london .shutter-grid {
-    background-image: linear-gradient(rgba(39, 39, 42, 0.15) 2.5px, transparent 2.5px),
-                      linear-gradient(90deg, rgba(39, 39, 42, 0.15) 2.5px, transparent 2.5px);
-    background-size: 50% 25%;
-    border: 1px solid rgba(39, 39, 42, 0.25);
-  }
-
-  /* 加拿大: 魁北克枫红木色 */
-  .loc-quebec {
-    --wood: #B45309;
-    --wood-dark: #78350F;
-    --glow: radial-gradient(circle at center, #FFFBEB 20%, #FDE047 100%);
-  }
-  .loc-quebec .shutter-grid {
-    background-image: linear-gradient(rgba(120, 53, 15, 0.12) 2px, transparent 2px),
-                      linear-gradient(90deg, rgba(120, 53, 15, 0.12) 2px, transparent 2px);
-    background-size: 25% 25%;
-    border: 1px solid rgba(120, 53, 15, 0.2);
-  }
-
-  /* 埃及: 开罗焦铜网格 */
-  .loc-cairo {
-    --wood: #D97706;
-    --wood-dark: #92400E;
-    --glow: radial-gradient(circle at center, #FEF3C7 20%, #F59E0B 100%);
-  }
-  .loc-cairo .shutter-grid {
-    background-image: radial-gradient(circle at center, transparent 3px, rgba(146, 64, 14, 0.1) 3.5px, transparent 4px);
-    background-size: 12px 12px;
-    border: 1px solid rgba(146, 64, 14, 0.18);
-  }
-
-  /* 芬兰: 圣诞红窗框 + 派对小方格 */
-  .loc-finland {
-    --wood: #991B1B;
-    --wood-dark: #7F1D1D;
-    --glow: radial-gradient(circle at center, #FFF7ED 20%, #FDBA74 100%);
-  }
-  .loc-finland .shutter-grid {
-    background-image: linear-gradient(rgba(127, 29, 29, 0.15) 2px, transparent 2px),
-                      linear-gradient(90deg, rgba(127, 29, 29, 0.15) 2px, transparent 2px);
-    background-size: 50% 33.3%;
-    border: 1px solid rgba(127, 29, 29, 0.22);
-  }
-
-  /* 新西兰: 霍比屯圆木窗格 */
-  .loc-hobbiton {
-    --wood: #15803D;
-    --wood-dark: #166534;
-    --glow: radial-gradient(circle at center, #FEF08A 20%, #BBF7D0 100%);
-  }
-  .loc-hobbiton .shutter-grid {
-    background-image: radial-gradient(circle at center, rgba(22, 101, 52, 0.1) 60%, transparent 62%);
-    background-size: 100% 100%;
-    border: 1px solid rgba(22, 101, 52, 0.2);
-  }
-
-  /* 中国: 苏州漏窗传统几何冰裂纹 */
-  .loc-suzhou {
-    --wood: #1E1E1E;
-    --wood-dark: #111111;
-    --glow: radial-gradient(circle at center, #F0FDF4 20%, #D1FAE5 100%);
-  }
-  .loc-suzhou .shutter-grid {
-    background-image: linear-gradient(45deg, rgba(17, 17, 17, 0.08) 1px, transparent 1px),
-                      linear-gradient(-45deg, rgba(17, 17, 17, 0.08) 1px, transparent 1px),
-                      linear-gradient(rgba(17, 17, 17, 0.08) 1px, transparent 1px),
-                      linear-gradient(90deg, rgba(17, 17, 17, 0.08) 1px, transparent 1px);
-    background-size: 30px 30px;
-    border: 1px solid rgba(17, 17, 17, 0.25);
-  }
+  /* 城市窗框样式统一由 window-themes.css 管理（脚本自动生成，覆盖全部城市） */
 
   /* 基础窗户变量与翻转过渡 */
   .window-wrapper {
@@ -999,9 +816,6 @@
     font-size: 13px;
     font-weight: 600;
     color: var(--ink);
-  }
-
-    user-select: none;
   }
   .bgm-toggle:hover {
     color: var(--ink);
@@ -1722,7 +1536,7 @@
     <div class="masthead"><div class="date" id="date"></div></div>
 
     <!-- 门槛：包含拟物化木窗 -->
-    <section class="gate" id="gate">
+    <section class="gate pre-boot" id="gate">
       <h1 class="gate-title" id="gateTitle">在书桌前，推开世界之窗</h1>
       <div class="gate-sub" id="gateSub">
         <p class="poem-line">每一次开窗，都是一趟精神的漫游。</p>
@@ -1734,7 +1548,7 @@
       <div class="loc-badge-wrapper" id="locBadgeWrapper">
         <span class="loc-badge-container">
           <span class="loc-badge" id="locBadge">📍 日本 · 京都</span>
-          <span class="loc-stamp-seal" id="visitStatusTag">✓</span>
+          <span class="loc-stamp-seal unvisited" id="visitStatusTag" data-tooltip="待开启探索"></span>
         </span>
       </div>
       
@@ -1873,8 +1687,13 @@
   const KEY_ITEMS = "breathe:items";
   const KEY_IS_OPEN = "breathe:isOpen";
   const KEY_SLIDE_INDEX = "breathe:currentSlideIndex";
+  const KEY_OPEN_DATE = "breathe:openDate";
+  const KEY_HISTORY = "breathe:history";
+  const KEY_LOCATION_NAME = "breathe:currentLocationName";
+  const KEY_BGM = "breathe_window_bgm";
 
-  let LOCATIONS = [];
+  let LOCATIONS = [];       // 有专属插画的城市（可开窗）
+  let ALL_LOCATIONS = [];   // 全部 300 座城市（用于地图展示）
 
   let currentLocationIndex = 0;
   let isReviewMode = false;
@@ -1963,23 +1782,34 @@
     if (openBtn) openBtn.disabled = true;
     if (shuffleBtn) shuffleBtn.disabled = true;
 
-    // 坍缩锚点 = 升起后地球的视觉中心，所有元素仿佛被吸入地球
-    const centerX = window.innerWidth / 2;
     const globeCenterY = window.innerHeight * 0.6;   // 升起时球心落在视口 60% 处，整体略偏下更稳重
     const RAISED_ZOOM = 1.15;   // 升起为整球时的地图缩放（露出更多大陆，转动更有“地球感”）
 
-    // 将某元素朝中心锚点坍缩为一点
+    // 坍缩锚点 = 当前城市红点【此刻】的真实屏幕位置（动态取自红点元素），
+    // 而非某个固定视口坐标——所有元素将被吸进这枚"地球上的坐标点"
+    let anchorX = window.innerWidth / 2;
+    let anchorY = window.innerHeight * 0.6;
+    const pinAtStart = document.getElementById("homeGlobePin");
+    if (pinAtStart) {
+      const pr = pinAtStart.getBoundingClientRect();
+      if (pr.width > 0 || pr.height > 0) {
+        anchorX = pr.left + pr.width / 2;
+        anchorY = pr.top + pr.height / 2;
+      }
+    }
+
+    // 将某元素朝红点锚点坍缩为一点：加速坠入、末段淡出，像被坐标点吸走
     function collapseTo(el, extraY) {
       if (!el) return;
       const r = el.getBoundingClientRect();
       const cx = r.left + r.width / 2;
       const cy = r.top + r.height / 2;
-      el.style.transition = "transform 1.3s cubic-bezier(0.6, 0, 0.2, 1), opacity 0.85s ease-in";
-      el.style.transform = `translate(${centerX - cx}px, ${globeCenterY - cy + (extraY || 0)}px) scale(0.02)`;
+      el.style.transition = "transform 0.9s cubic-bezier(0.55, 0, 0.85, 0.36), opacity 0.5s ease-in 0.4s";
+      el.style.transform = `translate(${anchorX - cx}px, ${anchorY - cy + (extraY || 0)}px) scale(0.02)`;
       el.style.opacity = "0";
     }
 
-    // ═══ Phase A: 所有元素坍缩成点 + 地球完整升起为整球 (0 → 1.5s) ═══
+    // ═══ Phase A1: 元素坍缩，坠入地球上当前城市的红点 (0 → 0.9s) ═══
     collapseTo(wrapper, 0);
     collapseTo(locBadgeWrapper, 0);
     collapseTo(btnGroup, -18);
@@ -1987,35 +1817,64 @@
     if (gateTitle) { gateTitle.style.transition = "opacity 0.55s ease"; gateTitle.style.opacity = "0"; }
     if (gateSub)   { gateSub.style.transition = "opacity 0.55s ease"; gateSub.style.opacity = "0"; }
 
-    // 把球心从屏幕下方抬到 globeCenterY，使整个圆球完整浮现
-    const raiseY = globeCenterY - window.innerHeight - 120;
-    if (globeWrapper) {
-      globeWrapper.style.transition = "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)";
-      globeWrapper.style.transform = `translateX(-50%) translateY(${raiseY}px)`;
+    // 红点原地不动，先让元素们"回家"；坠入瞬间脉冲放大，像在这枚坐标点上盖了枚邮戳
+    if (pinAtStart) {
+      pinAtStart.style.transition = "transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.45s ease, opacity 0.3s ease";
+      pinAtStart.style.opacity = "1";
     }
+    setTimeout(() => {
+      const pin = document.getElementById("homeGlobePin");
+      if (!pin) return;
+      pin.style.transform = "scale(2.1)";
+      pin.style.boxShadow = "0 0 26px 6px var(--stamp-color, #d45d54)";
+      setTimeout(() => {
+        // 升起阶段的 panGlobeToCity 会覆写红点 transition，这里先还回平滑过渡再收回脉冲
+        pin.style.transition = "transform 0.4s ease-out, box-shadow 0.4s ease-out";
+        pin.style.transform = "scale(1)";
+        pin.style.boxShadow = "";
+      }, 420);
+    }, 620);
 
-    // 当前城市随升起平移到球心，并把地图缩放到整球视角
-    panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 320, RAISED_ZOOM,
-                   "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)");
-    const pin0 = document.getElementById("homeGlobePin");
-    if (pin0) { pin0.style.transition = "opacity 0.6s ease"; pin0.style.opacity = "1"; }
+    // ═══ Phase A2: 红点承接完毕，地球载着这枚坐标点整体升起为整球 (0.95s → 2.45s) ═══
+    setTimeout(() => {
+      // 把球心从屏幕下方抬到 globeCenterY，使整个圆球完整浮现
+      const raiseY = globeCenterY - window.innerHeight - 120;
+      if (globeWrapper) {
+        globeWrapper.style.transition = "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)";
+        globeWrapper.style.transform = `translateX(-50%) translateY(${raiseY}px)`;
+      }
+      // 当前城市随升起平移到球心，并把地图缩放到整球视角
+      panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 320, RAISED_ZOOM,
+                     "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)");
+    }, 950);
 
-    // ═══ Phase B: 整球转动，从当前城市滚向目的地 (1.5s → 3.7s) ═══
+    // ═══ Phase B: 整球转动，从当前城市滚向目的地 (2.45s → 4.65s) ═══
     setTimeout(() => {
       // 先让旧红点【就地】淡出，淡出期间绝不移动它的坐标，避免“跳位闪烁”
       const pin = document.getElementById("homeGlobePin");
       if (pin) { pin.style.transition = "opacity 0.4s ease"; pin.style.opacity = "0"; }
 
       // 在所有可抽取城市(LOCATIONS 已过滤为 hasCustomImages 城市)中随机抽取，
-      // 排除当前城市，保证每次都确实换到不同的一扇窗
+      // 排除当前城市；并"跨洲换窗"：这次在亚洲，下次就从非亚洲里抽，
+      // 以此类推，让每一次换窗都必然跨越到另一片大陆
       if (LOCATIONS.length > 1) {
-        let nextIndex;
-        do {
-          nextIndex = Math.floor(Math.random() * LOCATIONS.length);
-        } while (nextIndex === currentLocationIndex);
-        currentLocationIndex = nextIndex;
+        const curContinent = getContinent(LOCATIONS[currentLocationIndex]);
+        const crossPool = LOCATIONS
+          .map((l, idx) => ({ idx, cont: getContinent(l) }))
+          .filter(({ idx, cont }) => idx !== currentLocationIndex && cont !== curContinent)
+          .map(({ idx }) => idx);
+        if (crossPool.length > 0) {
+          currentLocationIndex = crossPool[Math.floor(Math.random() * crossPool.length)];
+        } else {
+          // 兜底：万一所有城市同属一洲，退化为仅排除当前城市
+          let nextIndex;
+          do {
+            nextIndex = Math.floor(Math.random() * LOCATIONS.length);
+          } while (nextIndex === currentLocationIndex);
+          currentLocationIndex = nextIndex;
+        }
       }
-      try { localStorage.setItem("breathe:currentLocationIndex", currentLocationIndex); } catch (e) {}
+      try { localStorage.setItem(KEY_LOCATION_NAME, LOCATIONS[currentLocationIndex].name); } catch (e) {}
 
       // 切换窗框主题与徽章（地球转动由本函数手动接管，故跳过其内置定位）
       applyLocationSettings(currentLocationIndex, true, true);
@@ -2032,9 +1891,9 @@
           if (p2) { p2.style.transition = "opacity 0.8s ease"; p2.style.opacity = "1"; }
         }, 1150);
       }, 450);
-    }, 1500);
+    }, 2450);
 
-    // ═══ Phase C: 地球放大着沉回底部，回到半球露出态 (3.9s → 5.2s) ═══
+    // ═══ Phase C: 地球放大着沉回底部，回到半球露出态 (4.85s → 6.15s) ═══
     setTimeout(() => {
       if (globeWrapper) {
         globeWrapper.style.transition = "transform 1.3s cubic-bezier(0.5, 0, 0.2, 1)";
@@ -2043,9 +1902,9 @@
       panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 180, 1.4,
                      "transform 1.3s cubic-bezier(0.5, 0, 0.2, 1)");
       lastHomeGlobeIndex = currentLocationIndex;
-    }, 3900);
+    }, 4850);
 
-    // ═══ Phase D: 其余元素从中心一点缓缓重新展开 (5.2s → 6.6s) ═══
+    // ═══ Phase D: 其余元素从坐标点缓缓重新展开 (6.15s → 7.55s) ═══
     setTimeout(() => {
       function expand(el, delay) {
         if (!el) return;
@@ -2058,9 +1917,9 @@
       expand(btnGroup, 0.2);
       if (gateTitle) { gateTitle.style.transition = "opacity 1.2s ease-out 0.3s"; gateTitle.style.opacity = "1"; }
       if (gateSub)   { gateSub.style.transition = "opacity 1.2s ease-out 0.4s"; gateSub.style.opacity = "1"; }
-    }, 5200);
+    }, 6150);
 
-    // ═══ Phase E: 动画收尾，清除行内样式 (6.8s) ═══
+    // ═══ Phase E: 动画收尾，清除行内样式 (7.75s) ═══
     setTimeout(() => {
       [wrapper, locBadgeWrapper, btnGroup, gateTitle, gateSub].forEach(el => {
         if (!el) return;
@@ -2074,11 +1933,15 @@
         globeWrapper.style.transform = "translateX(-50%)";
       }
       const pin = document.getElementById("homeGlobePin");
-      if (pin) pin.style.transition = "";
+      if (pin) {
+        pin.style.transition = "";
+        pin.style.transform = "";
+        pin.style.boxShadow = "";
+      }
       if (openBtn) openBtn.disabled = false;
       if (shuffleBtn) shuffleBtn.disabled = false;
       isShuffling = false;
-    }, 6800);
+    }, 7750);
   }
 
 
@@ -2359,6 +2222,24 @@
     }
   }
 
+  // 按国家代码把城市归入大洲（供地图过滤与"换一扇窗"跨洲抽取共用）
+  function getContinent(loc) {
+    const cc = ((loc && loc.countryCode) || "").toLowerCase();
+    if (["us", "ca", "mx", "br", "ar", "pe", "cl", "co", "ec", "ve", "bo", "py", "uy", "gt", "cu", "do", "hn", "ni", "cr", "pa", "jm", "tt", "ht", "sv", "bz", "sr", "gy"].includes(cc)) {
+      return "americas";
+    }
+    if (["fr", "no", "ch", "it", "gr", "gb", "fi", "is", "ru", "de", "at", "nl", "be", "dk", "se", "pl", "cz", "hu", "hr", "ro", "ie", "es", "pt", "ua", "by", "lt", "lv", "ee", "sk", "si", "rs", "bg", "al", "mk", "ba", "me", "xk", "md", "lu", "mt", "cy", "tr", "ge", "am", "az"].includes(cc)) {
+      return "europe";
+    }
+    if (["eg", "ma", "za", "ke", "tz", "tn", "dz", "mg", "ng", "gh", "et", "sd", "ss", "cd", "cg", "cm", "ci", "sn", "ml", "bf", "ne", "td", "so", "ug", "mz", "zw", "zm", "bw", "na", "ao", "ga", "gq", "lr", "sl", "gn", "gw", "gm", "tg", "bj", "mu", "rw", "bi", "ly", "er", "dj", "st", "cv", "sc", "km"].includes(cc)) {
+      return "africa";
+    }
+    if (["au", "nz", "fj", "pg", "sb", "vu", "ws", "to", "ki", "fm", "pw", "mh", "tv", "nr"].includes(cc)) {
+      return "oceania";
+    }
+    return "asia";
+  }
+
   function renderMapPins() {
     const svgElement = document.querySelector("#worldMapContainer svg");
     if (!svgElement) return;
@@ -2388,8 +2269,9 @@
       }
     });
     
-    // 渲染所有城市的坐标点
-    LOCATIONS.forEach((loc, index) => {
+    // 渲染全部 300 座城市的坐标点（使用 ALL_LOCATIONS）
+    const mapSource = ALL_LOCATIONS.length > 0 ? ALL_LOCATIONS : LOCATIONS;
+    mapSource.forEach((loc) => {
       let x, y;
       if (typeof loc.mapX === "number" && typeof loc.mapY === "number") {
         x = loc.mapX;
@@ -2399,33 +2281,22 @@
         x = c.x;
         y = c.y;
       }
-      
+
       const visitedEntries = history.filter(entry => entry.location === loc.name);
       const isVisited = visitedEntries.length > 0;
-      
+      const hasCustom = loc.hasCustomImages === true;
+
       const pinG = document.createElementNS("http://www.w3.org/2000/svg", "g");
       pinG.setAttribute("class", `map-pin ${isVisited ? 'visited' : ''}`);
       pinG.setAttribute("data-name", loc.name);
-      pinG.setAttribute("data-index", index);
-      
+
       // 大洲分类属性 (用于检索过滤)
-      let continent = "asia";
-      const cc = (loc.countryCode || "").toLowerCase();
-      if (["us", "ca", "mx", "br", "ar", "pe", "cl", "co"].includes(cc)) {
-        continent = "americas";
-      } else if (["fr", "no", "ch", "it", "gr", "gb", "fi", "is", "ru", "de", "at", "nl", "be", "dk", "se", "pl", "cz", "hu", "hr", "ro", "ie", "es", "pt"].includes(cc)) {
-        continent = "europe";
-      } else if (["eg", "ma", "za", "ke", "tz", "tn", "dz", "mg"].includes(cc)) {
-        continent = "africa";
-      } else if (["au", "nz", "fj"].includes(cc)) {
-        continent = "oceania";
-      }
-      pinG.setAttribute("data-continent", continent);
-      
+      pinG.setAttribute("data-continent", getContinent(loc));
+
       if (isVisited) {
         pinG.style.setProperty('--stamp-color', loc.stampColor);
       }
-      
+
       // 呼吸外圈
       const glow = document.createElementNS("http://www.w3.org/2000/svg", "circle");
       glow.setAttribute("class", "pin-glow");
@@ -2433,7 +2304,7 @@
       glow.setAttribute("cy", y);
       glow.setAttribute("r", isVisited ? "12" : "5");
       pinG.appendChild(glow);
-      
+
       // 实心内圈
       const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
       dot.setAttribute("class", "pin-dot");
@@ -2441,22 +2312,24 @@
       dot.setAttribute("cy", y);
       dot.setAttribute("r", "4.5");
       pinG.appendChild(dot);
-      
-      // 悬停气泡提示逻辑
+
+      // 悬停气泡提示逻辑（使用 escapeHtml 防止 XSS）
       pinG.addEventListener("mouseenter", (e) => {
         const tooltip = document.getElementById("mapTooltip");
         if (tooltip) {
-          let text = `<strong>${loc.name}</strong>`;
+          let text = `<strong>${escapeHtml(loc.name)}</strong>`;
           if (isVisited) {
-            text += `<br/><span style="font-size: 10px; opacity: 0.95;">已探访 ${visitedEntries.length} 次<br/>上次于: ${visitedEntries[0].date}</span>`;
-          } else {
+            text += `<br/><span style="font-size: 10px; opacity: 0.95;">已探访 ${visitedEntries.length} 次<br/>上次于: ${escapeHtml(visitedEntries[0].date)}</span>`;
+          } else if (hasCustom) {
             text += `<br/><span style="font-size: 10px; opacity: 0.65;">点击快捷切换并推窗开启探索</span>`;
+          } else {
+            text += `<br/><span style="font-size: 10px; opacity: 0.45;">尚未开放，敬请期待</span>`;
           }
           tooltip.innerHTML = text;
           tooltip.style.opacity = "1";
         }
       });
-      
+
       pinG.addEventListener("mousemove", (e) => {
         const tooltip = document.getElementById("mapTooltip");
         const container = document.getElementById("worldMapContainer");
@@ -2464,41 +2337,45 @@
           const rect = container.getBoundingClientRect();
           const tooltipWidth = tooltip.offsetWidth;
           const tooltipHeight = tooltip.offsetHeight;
-          
+
           let left = e.clientX - rect.left + 10;
           let top = e.clientY - rect.top - tooltipHeight - 10;
-          
+
           if (left + tooltipWidth > rect.width) {
             left = e.clientX - rect.left - tooltipWidth - 10;
           }
           if (top < 0) {
             top = e.clientY - rect.top + 15;
           }
-          
+
           tooltip.style.left = left + "px";
           tooltip.style.top = top + "px";
         }
       });
-      
+
       pinG.addEventListener("mouseleave", () => {
         const tooltip = document.getElementById("mapTooltip");
         if (tooltip) tooltip.style.opacity = "0";
       });
-      
+
       pinG.addEventListener("click", () => {
         if (isVisited) {
           reviewPastTrip(visitedEntries[0].id);
-        } else {
-          // 快捷切换主界面的城市，并关闭抽屉
-          currentLocationIndex = index;
-          applyLocationSettings(currentLocationIndex);
-          try {
-            localStorage.setItem("breathe:currentLocationIndex", currentLocationIndex);
-          } catch (e) {}
-          toggleDrawer(false);
+        } else if (hasCustom) {
+          // 快捷切换主界面的城市（仅限有插画的城市），并关闭抽屉
+          const locIdx = LOCATIONS.findIndex(l => l.name === loc.name);
+          if (locIdx !== -1) {
+            currentLocationIndex = locIdx;
+            applyLocationSettings(currentLocationIndex);
+            try {
+              localStorage.setItem(KEY_LOCATION_NAME, loc.name);
+            } catch (e) {}
+            toggleDrawer(false);
+          }
         }
+        // 无插画的城市点击无操作（tooltip 已提示"尚未开放"）
       });
-      
+
       pinsGroup.appendChild(pinG);
     });
   }
@@ -2550,7 +2427,7 @@
 
   function getHistory() {
     try {
-      const h = localStorage.getItem("breathe:history");
+      const h = localStorage.getItem(KEY_HISTORY);
       return h ? JSON.parse(h) : [];
     } catch (e) {
       return [];
@@ -2561,7 +2438,7 @@
     const history = getHistory();
     history.unshift(entry); // Add newest first
     try {
-      localStorage.setItem("breathe:history", JSON.stringify(history));
+      localStorage.setItem(KEY_HISTORY, JSON.stringify(history));
       updateImprintsCount();
     } catch(e) {}
   }
@@ -2649,7 +2526,7 @@
   function confirmClearHistory() {
     if (confirm("确定要清空您的所有旅行历史印迹吗？清空后收集进度将被重置，无法恢复。")) {
       try {
-        localStorage.removeItem("breathe:history");
+        localStorage.removeItem(KEY_HISTORY);
         localStorage.removeItem(KEY_IS_OPEN);
         localStorage.removeItem(KEY_ITEMS);
         localStorage.removeItem(KEY_SLIDE_INDEX);
@@ -2752,14 +2629,15 @@
       ? `<button class="nav-btn" onclick="changeSlide(${index - 1})">上一扇</button>`
       : `<button class="nav-btn" disabled>上一扇</button>`;
 
-    const nextBtn = index < 4
+    const totalSlides = globalItems.length;
+    const nextBtn = index < totalSlides - 1
       ? `<button class="nav-btn primary" onclick="changeSlide(${index + 1})">下一扇</button>`
-      : (isReviewMode 
+      : (isReviewMode
           ? `<button class="nav-btn primary" onclick="exitReviewMode()">返回手账</button>`
           : `<button class="nav-btn primary" onclick="closeWindowInteractive()">关 上 窗</button>`);
 
     let dotsHtml = '<div class="nav-dots">';
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < totalSlides; i++) {
       dotsHtml += `<span class="dot ${i === index ? 'active' : ''}"></span>`;
     }
     dotsHtml += '</div>';
@@ -2905,7 +2783,7 @@
       const response = await fetch("/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ dateLabel: today, location: loc })
+        body: JSON.stringify({ location: loc })
       });
       if (response.ok) {
         const data = await response.json();
@@ -3083,8 +2961,9 @@
 
     try {
       localStorage.setItem(KEY_IS_OPEN, "true");
+      localStorage.setItem(KEY_OPEN_DATE, todayLabelShort());
       localStorage.setItem(KEY_ITEMS, JSON.stringify(items));
-      localStorage.setItem(KEY_SLIDE_INDEX, "0"); 
+      localStorage.setItem(KEY_SLIDE_INDEX, "0");
     } catch (e) {}
 
     preloadAllImages(items);
@@ -3131,29 +3010,35 @@
       exitReviewMode();
       return;
     }
-    
+
+    // 立即标记窗口已关闭，防止动画期间用户关闭浏览器后下次打开产生重复历史
+    try {
+      localStorage.removeItem(KEY_IS_OPEN);
+      localStorage.removeItem(KEY_OPEN_DATE);
+      localStorage.removeItem(KEY_ITEMS);
+      localStorage.removeItem(KEY_SLIDE_INDEX);
+    } catch (e) {}
+
     // Trigger stamping ceremony
     const overlay = document.getElementById("stampOverlayScreen");
     const stamp = document.getElementById("ceremonyStamp");
-    const woodStamp = document.getElementById("woodenStamp");
-    const pWrapper = document.getElementById("postcardWrapper");
-    
+
     const loc = LOCATIONS[currentLocationIndex];
     const today = new Date();
     const timeStr = formatTime(today);
     const dateStrShort = todayLabelShort();
-    
+
     const history = getHistory();
     const serialNum = history.length + 1;
     const serialStr = "第 " + String(serialNum).padStart(3, '0') + " 次开窗";
-    
+
     // Save to localStorage history
     const entry = {
       id: "trip_" + Date.now(),
       date: dateStrShort,
       time: timeStr,
       location: loc.name,
-      locationIndex: currentLocationIndex,
+      locationName: loc.name,
       items: globalItems
     };
     saveHistory(entry);
@@ -3164,7 +3049,7 @@
     stamp.style.setProperty('--stamp-rotate', rotDeg);
     
     document.getElementById("ceremonyStampEmblem").textContent = loc.emblem;
-    document.getElementById("ceremonyStampName").textContent = loc.name.split(' · ')[1];
+    document.getElementById("ceremonyStampName").textContent = loc.name.split(' · ')[1] || loc.name;
     document.getElementById("ceremonyStampDate").textContent = (today.getMonth() + 1) + "." + today.getDate();
     
     document.getElementById("postcardTag").textContent = "📍 " + loc.name;
@@ -3212,12 +3097,6 @@
 
     setTimeout(() => {
       feed.classList.add("hidden");
-
-      try {
-        localStorage.removeItem(KEY_IS_OPEN);
-        localStorage.removeItem(KEY_ITEMS);
-        localStorage.removeItem(KEY_SLIDE_INDEX);
-      } catch (e) {}
 
       const gate = document.getElementById("gate");
       const wrapper = document.getElementById("windowWrapper");
@@ -3349,7 +3228,7 @@
       
       this.isPlaying = true;
       this.updateUI();
-      try { localStorage.setItem('breathe_window_bgm', 'enabled'); } catch(e) {}
+      try { localStorage.setItem(KEY_BGM, 'enabled'); } catch(e) {}
 
       // 0.1 秒秒开流式播放
       if (this.bgmElement) {
@@ -3368,7 +3247,7 @@
     disable() {
       this.isPlaying = false;
       this.updateUI();
-      try { localStorage.setItem('breathe_window_bgm', 'disabled'); } catch(e) {}
+      try { localStorage.setItem(KEY_BGM, 'disabled'); } catch(e) {}
 
       if (!this.ctx) return;
       // 平滑 1.0 秒渐出
@@ -3461,7 +3340,7 @@
     document.getElementById("loadingWord").style.transition = "opacity 0.3s ease";
 
     try {
-      if (localStorage.getItem('breathe_window_bgm') === 'enabled') {
+      if (localStorage.getItem(KEY_BGM) === 'enabled') {
         const unlock = () => {
           AudioEngine.enable();
           window.removeEventListener('click', unlock);
@@ -3478,38 +3357,25 @@
       if (response.ok) {
         const rawData = await response.json();
         
-        // 备份并恢复上次保存的城市名称以防止过滤后索引错位
+        // 读取上次保存的城市名称（按名称恢复，避免过滤后索引错位）
         let savedCityName = null;
         try {
-          const savedLoc = localStorage.getItem("breathe:currentLocationIndex");
-          if (savedLoc !== null) {
-            const savedIdx = parseInt(savedLoc) || 0;
-            if (savedIdx >= 0 && savedIdx < rawData.length) {
-              savedCityName = rawData[savedIdx].name;
-            }
-          }
+          savedCityName = localStorage.getItem(KEY_LOCATION_NAME);
         } catch(e) {}
-        
-        // 只保留具有全部专属插画的城市
+
+        // 保存全部城市（用于地图展示 300 个坐标点）
+        ALL_LOCATIONS.length = 0;
+        ALL_LOCATIONS.push(...rawData);
+
+        // 只保留具有全部专属插画的城市（用于开窗选择）
         const data = rawData.filter(loc => loc.hasCustomImages === true);
-        
-        // 排序（虽然都是 true，仍保留以防万一）
-        data.sort((a, b) => {
-          const aHas = a.hasCustomImages === true ? 1 : 0;
-          const bHas = b.hasCustomImages === true ? 1 : 0;
-          return bHas - aHas;
-        });
-        
+
         LOCATIONS.length = 0;
         LOCATIONS.push(...data);
-        
+
         if (savedCityName) {
           const newIdx = LOCATIONS.findIndex(l => l.name === savedCityName);
-          if (newIdx !== -1) {
-            currentLocationIndex = newIdx;
-          } else {
-            currentLocationIndex = 0;
-          }
+          currentLocationIndex = (newIdx !== -1) ? newIdx : 0;
         }
       } else {
         console.error("加载 locations.json 失败:", response.statusText);
@@ -3527,51 +3393,63 @@
       await initHomeGlobe();
       applyLocationSettings(currentLocationIndex, true);
     }
+
+    // 城市定位完成，门槛页统一揭幕：用户第一眼看到的就是上次选择的那扇窗，
+    // 不再有"默认城市闪一下再跳走"的割裂感（加载失败时也揭幕，展示静态兜底窗）
+    document.getElementById("gate").classList.remove("pre-boot");
     updateImprintsCount();
 
     try {
       const isOpen = localStorage.getItem(KEY_IS_OPEN);
       if (isOpen === "true") {
-        const savedItems = localStorage.getItem(KEY_ITEMS);
-        if (savedItems) {
-          const items = JSON.parse(savedItems);
-          
-          const hasFallbackImage = items.some(item => 
-            item.image && (
-              item.image.includes("world_corner.png") ||
-              item.image.includes("science_nature.png") ||
-              item.image.includes("others_present.png") ||
-              item.image.includes("spark_of_thought.png") ||
-              item.image.includes("old_knowledge.png")
-            )
-          );
-          const loc = LOCATIONS[currentLocationIndex];
-          const isOutdatedCache = loc && loc.hasCustomImages && hasFallbackImage;
+        // 日期校验：如果开窗日期不是今天，自动重置（新的一天可以重新开窗）
+        const openDate = localStorage.getItem(KEY_OPEN_DATE);
+        const isStaleOpen = openDate !== todayLabelShort();
+        if (isStaleOpen) {
+          localStorage.removeItem(KEY_IS_OPEN);
+          localStorage.removeItem(KEY_OPEN_DATE);
+          localStorage.removeItem(KEY_ITEMS);
+          localStorage.removeItem(KEY_SLIDE_INDEX);
+        } else {
+          const savedItems = localStorage.getItem(KEY_ITEMS);
+          if (savedItems) {
+            const items = JSON.parse(savedItems);
 
-          const isOldFormat = !Array.isArray(items) || 
-                              items.some(item => !item.image || item.image.startsWith('http') || item.image.includes('picsum')) ||
-                              isOutdatedCache;
-          if (isOldFormat) {
-            localStorage.removeItem(KEY_IS_OPEN);
-            localStorage.removeItem(KEY_ITEMS);
-            localStorage.removeItem(KEY_SLIDE_INDEX);
-            try {
-              localStorage.removeItem("breathe:demo");
-            } catch (e) {}
-          } else {
-            document.getElementById("btnGroup").classList.add("fade-out");
-            document.getElementById("locBadgeWrapper").classList.add("fade-out");
-            document.getElementById("gate").classList.add("hidden");
-            const globeWrapper = document.getElementById("homeGlobeWrapper");
-            if (globeWrapper) globeWrapper.classList.add("hidden");
+            const hasFallbackImage = items.some(item =>
+              item.image && (
+                item.image.includes("world_corner.png") ||
+                item.image.includes("science_nature.png") ||
+                item.image.includes("others_present.png") ||
+                item.image.includes("spark_of_thought.png") ||
+                item.image.includes("old_knowledge.png")
+              )
+            );
+            const loc = LOCATIONS[currentLocationIndex];
+            const isOutdatedCache = loc && loc.hasCustomImages && hasFallbackImage;
 
-            renderCards(items);
-            
-            const feed = document.getElementById("feed");
-            feed.classList.remove("hidden");
-            feed.style.opacity = 1;
-            feed.style.transform = "translateY(0)";
-            return;
+            const isOldFormat = !Array.isArray(items) ||
+                                items.some(item => !item.image || item.image.startsWith('http') || item.image.includes('picsum')) ||
+                                isOutdatedCache;
+            if (isOldFormat) {
+              localStorage.removeItem(KEY_IS_OPEN);
+              localStorage.removeItem(KEY_OPEN_DATE);
+              localStorage.removeItem(KEY_ITEMS);
+              localStorage.removeItem(KEY_SLIDE_INDEX);
+            } else {
+              document.getElementById("btnGroup").classList.add("fade-out");
+              document.getElementById("locBadgeWrapper").classList.add("fade-out");
+              document.getElementById("gate").classList.add("hidden");
+              const globeWrapper = document.getElementById("homeGlobeWrapper");
+              if (globeWrapper) globeWrapper.classList.add("hidden");
+
+              renderCards(items);
+
+              const feed = document.getElementById("feed");
+              feed.classList.remove("hidden");
+              feed.style.opacity = 1;
+              feed.style.transform = "translateY(0)";
+              return;
+            }
           }
         }
       }
