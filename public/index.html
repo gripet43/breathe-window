@@ -3437,8 +3437,12 @@
   const AudioEngine = {
     ctx: null,
     bgmGain: null,
-    bgmElement: null,
-    bgmMediaNode: null,
+    bgmURL: './assets/audio/healing_bgm.m4a',
+    FADE_SECONDS: 2.0,
+    voices: [],
+    activeVoice: 0,
+    degraded: false,
+    loopTimer: null,
     sfxBuffer: null,
     isPlaying: false,
 
@@ -3450,19 +3454,77 @@
       this.bgmGain = this.ctx.createGain();
       this.bgmGain.gain.value = 0;
       this.bgmGain.connect(this.ctx.destination);
-      
-      // 创建 HTML5 Audio 元素进行 HTTP Range 渐进式秒开流式加载
-      this.bgmElement = new Audio();
-      this.bgmElement.src = './assets/audio/healing_bgm.m4a';
-      this.bgmElement.loop = true;
-      this.bgmElement.preload = 'auto';
 
-      try {
-        this.bgmMediaNode = this.ctx.createMediaElementSource(this.bgmElement);
-        this.bgmMediaNode.connect(this.bgmGain);
-      } catch(e) {}
+      // 双声道交叉淡化循环：音乐文件末尾 2 秒与开头 2 秒是同一段乐句，
+      // 原生 loop 在接缝处会出现可闻的淡出/淡入断档。改为距结尾 2 秒时
+      // 让另一声道从 0 起播并交叉淡化——两声道同乐句同相位，叠加振幅恒定，接缝不可闻。
+      this.voices = [this.createVoice(), this.createVoice()];
+      this.degraded = this.voices.some(v => !v.gain);
+      if (this.degraded) this.voices.length = 1;
 
       this.loadSfx();
+    },
+
+    createVoice() {
+      const el = new Audio();
+      el.src = this.bgmURL;
+      el.preload = 'auto';
+      const voice = { el, gain: null };
+      try {
+        const node = this.ctx.createMediaElementSource(el);
+        voice.gain = this.ctx.createGain();
+        voice.gain.gain.value = 0;
+        node.connect(voice.gain);
+        voice.gain.connect(this.bgmGain);
+        el.addEventListener('ended', () => this.onVoiceEnded(voice));
+      } catch(e) {
+        el.loop = true; // 音频图无法构建时退回原生循环
+      }
+      return voice;
+    },
+
+    onVoiceEnded(voice) {
+      // 兜底：若调度器错过交接时机（如后台标签页节流），立即让另一声道接管
+      if (!this.isPlaying || this.degraded) return;
+      if (this.voices[this.activeVoice] !== voice) return;
+      this.crossfadeTo(this.voices[1 - this.activeVoice], 0.3);
+    },
+
+    crossfadeTo(next, fadeSec) {
+      if (this.degraded || !this.ctx) return;
+      const prev = this.voices[this.activeVoice];
+      const now = this.ctx.currentTime;
+
+      next.gain.gain.cancelScheduledValues(now);
+      next.gain.gain.setValueAtTime(0, now);
+      next.gain.gain.linearRampToValueAtTime(1, now + fadeSec);
+      try { next.el.currentTime = 0; } catch(e) {}
+      next.el.play().catch(e => console.log('BGM voice blocked:', e));
+
+      prev.gain.gain.cancelScheduledValues(now);
+      prev.gain.gain.setValueAtTime(prev.gain.gain.value, now);
+      prev.gain.gain.linearRampToValueAtTime(0, now + fadeSec);
+      setTimeout(() => {
+        if (this.voices[this.activeVoice] !== prev) prev.el.pause();
+      }, fadeSec * 1000 + 80);
+
+      this.activeVoice = this.voices.indexOf(next);
+      this.scheduleHandoff();
+    },
+
+    scheduleHandoff() {
+      clearInterval(this.loopTimer);
+      if (this.degraded) return;
+      this.loopTimer = setInterval(() => {
+        if (!this.isPlaying || !this.ctx) return;
+        const v = this.voices[this.activeVoice];
+        const d = v.el.duration;
+        if (!d || isNaN(d) || !isFinite(d)) return;
+        const fade = Math.min(this.FADE_SECONDS, d / 3);
+        if (v.el.currentTime >= d - fade) {
+          this.crossfadeTo(this.voices[1 - this.activeVoice], fade);
+        }
+      }, 200);
     },
 
     async loadSfx() {
@@ -3492,14 +3554,26 @@
       if (this.ctx && this.ctx.state === 'suspended') {
         await this.ctx.resume();
       }
-      
+
       this.isPlaying = true;
       this.updateUI();
       try { localStorage.setItem(KEY_BGM, 'enabled'); } catch(e) {}
 
-      // 0.1 秒秒开流式播放
-      if (this.bgmElement) {
-        this.bgmElement.play().catch(e => console.log('Autoplay blocked:', e));
+      const v = this.voices[this.activeVoice];
+      if (v) {
+        if (!this.degraded && v.gain) {
+          const other = this.voices[1 - this.activeVoice];
+          const now = this.ctx.currentTime;
+          v.gain.gain.cancelScheduledValues(now);
+          v.gain.gain.setValueAtTime(1, now);
+          if (other && other.gain) {
+            other.gain.gain.cancelScheduledValues(now);
+            other.gain.gain.setValueAtTime(0, now);
+            other.el.pause();
+          }
+        }
+        v.el.play().catch(e => console.log('Autoplay blocked:', e));
+        this.scheduleHandoff();
       }
 
       // 平滑 1.5 秒渐入
@@ -3516,16 +3590,17 @@
       this.updateUI();
       try { localStorage.setItem(KEY_BGM, 'disabled'); } catch(e) {}
 
+      clearInterval(this.loopTimer);
       if (!this.ctx) return;
       // 平滑 1.0 秒渐出
       const now = this.ctx.currentTime;
       this.bgmGain.gain.cancelScheduledValues(now);
       this.bgmGain.gain.setValueAtTime(this.bgmGain.gain.value, now);
       this.bgmGain.gain.linearRampToValueAtTime(0.0, now + 1.0);
-      
+
       setTimeout(() => {
-        if (!this.isPlaying && this.bgmElement) {
-          this.bgmElement.pause();
+        if (!this.isPlaying) {
+          this.voices.forEach(voice => voice.el.pause());
         }
       }, 1000);
     },
