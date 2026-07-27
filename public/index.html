@@ -2562,33 +2562,28 @@
     return "./assets/images/world_corner.png";
   }
 
-  function preloadAllImages(items) {
-    loadedImages = {};
-    items.forEach((it, index) => {
-      const imageUrl = fixUrl(it.image) || getFallbackImage(it.bucket);
-      
-      const img = new Image();
-      img.src = imageUrl;
-      img.onload = () => {
-        loadedImages[index] = true;
-        if (waitingForSlideIndex === index) {
-          waitingForSlideIndex = null;
-          performSlideTransition(index);
-        }
-      };
-      img.onerror = () => {
-        loadedImages[index] = true;
-        if (waitingForSlideIndex === index) {
-          waitingForSlideIndex = null;
-          performSlideTransition(index);
-        }
-      };
-    });
+  function preloadSlide(index) {
+    if (!globalItems || index < 0 || index >= globalItems.length) return;
+    if (loadedImages[index]) return;
+    const it = globalItems[index];
+    const imageUrl = fixUrl(it.image) || getFallbackImage(it.bucket);
+    const img = new Image();
+    img.onload = () => {
+      loadedImages[index] = true;
+      if (waitingForSlideIndex === index) {
+        waitingForSlideIndex = null;
+        performSlideTransition(index);
+      }
+    };
+    img.onerror = img.onload;
+    img.src = imageUrl;
   }
 
   function renderCards(items) {
-    globalItems = items;
-    preloadAllImages(items);
+    if (globalItems !== items) {
+      globalItems = items;
+      loadedImages = {};
+    }
 
     try {
       const savedIndex = localStorage.getItem(KEY_SLIDE_INDEX);
@@ -2600,7 +2595,11 @@
     } catch (e) {
       currentSlideIndex = 0;
     }
-    
+
+    // 懒加载：仅预载当前与下一张，其余切换时按需加载，显著降低单次开窗流量
+    preloadSlide(currentSlideIndex);
+    preloadSlide(currentSlideIndex + 1);
+
     if (loadedImages[currentSlideIndex]) {
       showSlide(currentSlideIndex);
     } else {
@@ -2669,6 +2668,9 @@
       </div>
     `;
     wrap.appendChild(card);
+    // 预载相邻卡片，使下一次滑动几乎瞬时
+    preloadSlide(index + 1);
+    preloadSlide(index - 1);
   }
 
   function renderSkeleton() {
@@ -3233,7 +3235,11 @@
       localStorage.setItem(KEY_SLIDE_INDEX, "0");
     } catch (e) {}
 
-    preloadAllImages(items);
+    // 开窗动画期间即开始加载首张+下一张（懒加载：不再一次性拉满 5 张）
+    globalItems = items;
+    loadedImages = {};
+    preloadSlide(0);
+    preloadSlide(1);
 
     setTimeout(() => {
       const wrapper = document.getElementById("windowWrapper");
