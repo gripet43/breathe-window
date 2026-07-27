@@ -3,12 +3,14 @@ import os
 import re
 
 project_dir = "/Users/gripet/.gemini/antigravity/scratch/breathe-window"
-locations_path = os.path.join(project_dir, "public", "assets", "data", "locations.json")
-catalog_path = os.path.join(project_dir, "public", "assets", "data", "catalog.json")
+public_dir = os.path.join(project_dir, "public")
+locations_path = os.path.join(public_dir, "assets", "data", "locations.json")
+catalog_path = os.path.join(public_dir, "assets", "data", "catalog.json")
 
 def verify_data():
     errors = []
-    
+    warnings = []
+
     # 1. Load files
     if not os.path.exists(locations_path):
         errors.append(f"Missing locations.json at {locations_path}")
@@ -16,7 +18,7 @@ def verify_data():
     if not os.path.exists(catalog_path):
         errors.append(f"Missing catalog.json at {catalog_path}")
         return errors
-        
+
     with open(locations_path, "r", encoding="utf-8") as f:
         locations = json.load(f)
     with open(catalog_path, "r", encoding="utf-8") as f:
@@ -24,7 +26,10 @@ def verify_data():
         
     print(f"Loaded {len(locations)} locations from locations.json.")
     print(f"Loaded {len(catalog)} cities from catalog.json.")
-    
+
+    # Build name -> location lookup for image existence checks
+    loc_by_name = {l["name"]: l for l in locations}
+
     # 2. Count verification
     if len(locations) != 300:
         errors.append(f"locations.json count is {len(locations)}, expected 300")
@@ -95,10 +100,21 @@ def verify_data():
                 if ponder:
                     errors.append(f"City '{city}' - '{actual_bucket}' has non-empty ponder: '{ponder}', expected empty")
                     
-            # Check image path
+            # Check image path format
             image = card.get("image", "")
             if not image.startswith("/assets/images/loc_"):
                 errors.append(f"City '{city}' - '{actual_bucket}' image path is invalid: '{image}'")
+
+            # Check image file existence on disk
+            if image.startswith("/"):
+                image_disk_path = os.path.join(public_dir, image.lstrip("/"))
+                if not os.path.isfile(image_disk_path):
+                    # Only flag as error if the city has custom images enabled
+                    loc_entry = loc_by_name.get(city)
+                    if loc_entry and loc_entry.get("hasCustomImages"):
+                        errors.append(f"City '{city}' - '{actual_bucket}' references missing image file: '{image}'")
+                    else:
+                        warnings.append(f"City '{city}' - '{actual_bucket}' references non-existent image (non-custom city): '{image}'")
                 
     if not errors:
         print("✓ All 300 cities successfully validated! No errors found.")
@@ -108,14 +124,25 @@ def verify_data():
             print(f"  - {err}")
         if len(errors) > 20:
             print(f"  ... and {len(errors) - 20} more errors.")
-            
-    # Save all errors to scratch/errors.txt
+
+    if warnings:
+        print(f"\n⚠ Found {len(warnings)} warnings (non-blocking):")
+        for warn in warnings[:10]:
+            print(f"  - {warn}")
+        if len(warnings) > 10:
+            print(f"  ... and {len(warnings) - 10} more warnings.")
+
+    # Save all errors and warnings to scratch/errors.txt
     os.makedirs(os.path.join(project_dir, "scratch"), exist_ok=True)
     errors_path = os.path.join(project_dir, "scratch", "errors.txt")
     with open(errors_path, "w", encoding="utf-8") as f:
+        f.write(f"=== ERRORS ({len(errors)}) ===\n")
         for err in errors:
             f.write(err + "\n")
-    print(f"All errors written to {errors_path}")
+        f.write(f"\n=== WARNINGS ({len(warnings)}) ===\n")
+        for warn in warnings:
+            f.write(warn + "\n")
+    print(f"All errors and warnings written to {errors_path}")
             
     return errors
 

@@ -1,8 +1,9 @@
 import os
 import json
-from http.server import SimpleHTTPRequestHandler, HTTPServer
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 PORT = 3000
+MAX_BODY_SIZE = 100 * 1024  # 100KB request body limit
 
 # Helper to read .env file for custom PORT
 def load_port():
@@ -22,9 +23,14 @@ def load_port():
 
 PORT = load_port()
 
-CATALOG_PATH = os.path.join(os.path.dirname(__file__), 'assets', 'data', 'catalog.json')
+# Serve from public/ directory (not project root) to avoid exposing .git/, .env, source code
+PUBLIC_DIR = os.path.join(os.path.dirname(__file__), 'public')
+if not os.path.isdir(PUBLIC_DIR):
+    PUBLIC_DIR = os.path.dirname(__file__)  # fallback if public/ doesn't exist
+
+CATALOG_PATH = os.path.join(PUBLIC_DIR, 'assets', 'data', 'catalog.json')
 if not os.path.exists(CATALOG_PATH):
-    CATALOG_PATH = os.path.join(os.path.dirname(__file__), 'public', 'assets', 'data', 'catalog.json')
+    CATALOG_PATH = os.path.join(os.path.dirname(__file__), 'assets', 'data', 'catalog.json')
 CATALOG_DATA = {}
 
 def load_catalog():
@@ -46,6 +52,10 @@ def handle_generate(location=None):
     if not CATALOG_DATA:
         load_catalog()
 
+    # Validate input: location must be a string
+    if not isinstance(location, str):
+        location = None
+
     items = []
     if location and location in CATALOG_DATA:
         items = CATALOG_DATA[location]
@@ -60,7 +70,7 @@ def handle_generate(location=None):
                 {
                     "bucket": "世界一角",
                     "title": "静谧的世界一角",
-                    "body": "窗外风景正静静上演，时光在这里慢了起来。",
+                    "body": "窗外风景正静静上演，时光在这里慢了下来。",
                     "image": "./assets/images/science_nature.png",
                     "ponder": ""
                 }
@@ -74,37 +84,51 @@ def handle_generate(location=None):
 
 class BreatheRequestHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
-        root_dir = os.path.dirname(__file__)
-        super().__init__(*args, directory=root_dir, **kwargs)
+        super().__init__(*args, directory=PUBLIC_DIR, **kwargs)
 
     def do_POST(self):
-        if self.path == '/api/generate':
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
+        if self.path.split('?')[0] == '/api/generate':
+            try:
+                content_length = int(self.headers.get('Content-Length', 0))
+            except (ValueError, TypeError):
+                content_length = 0
+
+            if content_length > MAX_BODY_SIZE:
+                self.send_response(413)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': '请求体过大'}).encode('utf-8'))
+                return
+
+            post_data = self.rfile.read(content_length) if content_length > 0 else b'{}'
             try:
                 req_body = json.loads(post_data.decode('utf-8'))
             except Exception:
                 req_body = {}
-            
+
             try:
                 response_data = handle_generate(req_body.get('location', None))
-                
+
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                
+
                 self.wfile.write(json.dumps(response_data).encode('utf-8'))
             except Exception as e:
+                print(f"[推开世界的窗] API 错误: {e}")
                 self.send_response(500)
                 self.send_header('Content-Type', 'application/json')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                
-                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+
+                self.wfile.write(json.dumps({'error': '服务器内部错误'}).encode('utf-8'))
         else:
             self.send_response(404)
+            self.send_header('Content-Type', 'application/json')
             self.end_headers()
+            self.wfile.write(json.dumps({'error': 'Not found'}).encode('utf-8'))
 
     def do_OPTIONS(self):
         self.send_response(200)
@@ -115,8 +139,8 @@ class BreatheRequestHandler(SimpleHTTPRequestHandler):
 
 
 def run():
-    server_address = ('', PORT)
-    httpd = HTTPServer(server_address, BreatheRequestHandler)
+    server_address = ('127.0.0.1', PORT)
+    httpd = ThreadingHTTPServer(server_address, BreatheRequestHandler)
     print("==================================================")
     print("推开世界的窗 (Open World Window) 本地 Python 服务已启动！")
     print(f"访问地址: http://localhost:{PORT}")
