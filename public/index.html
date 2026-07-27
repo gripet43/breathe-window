@@ -1819,19 +1819,17 @@
 
     // 红点原地不动，先让元素们"回家"；坠入瞬间脉冲放大，像在这枚坐标点上盖了枚邮戳
     if (pinAtStart) {
-      pinAtStart.style.transition = "transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.45s ease, opacity 0.3s ease";
+      pinAtStart.style.transition = "transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease";
       pinAtStart.style.opacity = "1";
     }
     setTimeout(() => {
       const pin = document.getElementById("homeGlobePin");
       if (!pin) return;
       pin.style.transform = "scale(2.1)";
-      pin.style.boxShadow = "0 0 26px 6px var(--stamp-color, #d45d54)";
       setTimeout(() => {
         // 升起阶段的 panGlobeToCity 会覆写红点 transition，这里先还回平滑过渡再收回脉冲
-        pin.style.transition = "transform 0.4s ease-out, box-shadow 0.4s ease-out";
+        pin.style.transition = "transform 0.4s ease-out";
         pin.style.transform = "scale(1)";
-        pin.style.boxShadow = "";
       }, 420);
     }, 620);
 
@@ -1936,7 +1934,6 @@
       if (pin) {
         pin.style.transition = "";
         pin.style.transform = "";
-        pin.style.boxShadow = "";
       }
       if (openBtn) openBtn.disabled = false;
       if (shuffleBtn) shuffleBtn.disabled = false;
