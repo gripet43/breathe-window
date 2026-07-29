@@ -180,19 +180,22 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 6px;
-    text-align: right;
+    gap: 7px;
     opacity: 0.72;
     cursor: default;
     animation: noteIn 0.9s ease 1.15s backwards;
     transition: opacity 0.35s ease;
   }
   .ai-note:hover { opacity: 1; }
+  /* 两行字是一个整块（对仗落款），行距只由行高决定；flex 的 gap 只管"字块↔印" */
+  .ai-note-text {
+    text-align: right;
+    line-height: 1.7;
+  }
   .ai-note-line {
     display: block;
     font-family: var(--serif);
     font-size: 11px;
-    line-height: 1.85;
     letter-spacing: 0.08em;
     color: #8F8B7D;
     text-shadow: 0 0 6px var(--paper), 0 0 2px var(--paper);
@@ -200,11 +203,11 @@
   }
   .ai-note:hover .ai-note-line { color: #5B5748; }
   .ai-note-seal {
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     border-radius: 2px;
     background: #d45d54;
-    box-shadow: 0 1px 3px rgba(180, 80, 70, 0.35);
+    box-shadow: 0 1px 2px rgba(180, 80, 70, 0.28);
     transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
   .ai-note:hover .ai-note-seal { transform: scale(1.25) rotate(-4deg); }
@@ -1646,8 +1649,10 @@
 
   <!-- 落款：AI 生成内容声明（body 直属，fixed 钉在视口右下角；显隐由脚本跟随门廊同步） -->
   <div class="ai-note" id="aiNote">
-    <span class="ai-note-line">代码与画面由 AI 生成，</span>
-    <span class="ai-note-line">但创造的思考属于你自己。</span>
+    <div class="ai-note-text">
+      <span class="ai-note-line">代码与画面由 AI 生成，</span>
+      <span class="ai-note-line">但创造的思考属于你自己。</span>
+    </div>
     <span class="ai-note-seal" aria-hidden="true"></span>
   </div>
 
