@@ -169,9 +169,11 @@
     margin-bottom: 0;
   }
 
-  /* 落款：AI 生成内容声明（右下角，像画上题款，随门廊一起退场） */
+  /* 落款：AI 生成内容声明（body 直属、fixed 钉在视口右下角，像画上题款；
+     因门廊带 rise 动画的残留 transform，fixed 子元素会被其"抓住"，故置于 body 直属，
+     显隐由脚本跟随门廊 .hidden 同步） */
   .ai-note {
-    position: absolute;
+    position: fixed;
     right: 26px;
     bottom: 20px;
     z-index: 5;
@@ -1624,13 +1626,6 @@
           <div class="home-globe-overlay"></div>
         </div>
       </div>
-
-      <!-- 落款：AI 生成内容声明 -->
-      <div class="ai-note">
-        <span class="ai-note-line">代码与画面由 AI 生成，</span>
-        <span class="ai-note-line">但创造的思考属于你自己。</span>
-        <span class="ai-note-seal" aria-hidden="true"></span>
-      </div>
     </section>
 
     <!-- 内容 -->
@@ -1647,6 +1642,13 @@
       <div class="fail-reason" id="failReason"></div>
       <button class="retry-btn" onclick="startDecompression()">再试一次</button>
     </section>
+  </div>
+
+  <!-- 落款：AI 生成内容声明（body 直属，fixed 钉在视口右下角；显隐由脚本跟随门廊同步） -->
+  <div class="ai-note" id="aiNote">
+    <span class="ai-note-line">代码与画面由 AI 生成，</span>
+    <span class="ai-note-line">但创造的思考属于你自己。</span>
+    <span class="ai-note-seal" aria-hidden="true"></span>
   </div>
 
   <!-- 抽屉底色遮罩 -->
@@ -3856,6 +3858,18 @@
   }
 
   boot();
+
+  // 落款（#aiNote）置于 body 直属、fixed 于视口右下角；
+  // 门廊的 .hidden 在多处被切换，这里用 MutationObserver 统一兜住，
+  // 保证落款只在首页（门廊可见时）出现。
+  (function syncAiNoteWithGate() {
+    const gate = document.getElementById("gate");
+    const note = document.getElementById("aiNote");
+    if (!gate || !note) return;
+    const sync = () => note.classList.toggle("hidden", gate.classList.contains("hidden"));
+    sync();
+    new MutationObserver(sync).observe(gate, { attributes: true, attributeFilter: ["class"] });
+  })();
 </script>
 </body>
 </html>
