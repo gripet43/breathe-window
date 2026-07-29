@@ -3277,6 +3277,17 @@
       localStorage.setItem(KEY_SLIDE_INDEX, "0");
     } catch (e) {}
 
+    // 推开窗的一刻即已抵达：立刻写入印章手账。
+    // 不再依赖用户之后走完"关上窗"仪式——直接关页面、跨日再访，这趟都不会丢。
+    saveHistory({
+      id: "trip_" + Date.now(),
+      date: todayLabelShort(),
+      time: formatTime(new Date()),
+      location: LOCATIONS[currentLocationIndex].name,
+      locationName: LOCATIONS[currentLocationIndex].name,
+      items: items
+    });
+
     // 开窗动画期间即开始加载首张+下一张（懒加载：不再一次性拉满 5 张）
     globalItems = items;
     loadedImages = {};
@@ -3340,24 +3351,12 @@
 
     const loc = LOCATIONS[currentLocationIndex];
     const today = new Date();
-    const timeStr = formatTime(today);
-    const dateStrShort = todayLabelShort();
 
-    const history = getHistory();
-    const serialNum = history.length + 1;
+    // 到访记录在推窗时已写入手账（见 executeWindowOpen），
+    // 关窗仪式只负责盖下这枚邮票，不再重复记账。
+    const serialNum = Math.max(1, getHistory().length);
     const serialStr = "第 " + String(serialNum).padStart(3, '0') + " 次开窗";
 
-    // Save to localStorage history
-    const entry = {
-      id: "trip_" + Date.now(),
-      date: dateStrShort,
-      time: timeStr,
-      location: loc.name,
-      locationName: loc.name,
-      items: globalItems
-    };
-    saveHistory(entry);
-    
     // Set stamp design properties
     stamp.style.setProperty('--stamp-color', loc.stampColor);
     const rotDeg = (Math.random() * 8 - 4).toFixed(1) + "deg";
