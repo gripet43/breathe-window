@@ -2488,37 +2488,41 @@
   }
 
   function renderTravelLog() {
-    const history = getHistory();
     const grid = document.getElementById("stampGrid");
     const empty = document.getElementById("stampEmpty");
-    
+    if (!grid || !empty) return;
+
     grid.innerHTML = "";
-    
-    if (history.length === 0) {
-      empty.classList.remove("hidden");
-      return;
-    }
-    empty.classList.add("hidden");
-    
-    history.forEach((entry, idx) => {
-      const loc = LOCATIONS.find(l => l.name === entry.location) || LOCATIONS[entry.locationIndex || 0];
-      const card = document.createElement("div");
-      card.className = "stamp-card";
-      card.onclick = () => reviewPastTrip(entry.id);
-      
-      const stampRot = (Math.sin(idx) * 6).toFixed(1) + "deg"; // Consistent random-looking rotation
-      
-      card.innerHTML = `
-        <div class="ink-stamp" style="--stamp-color: ${loc.stampColor}; --stamp-rotate: ${stampRot}">
-          <span class="ink-stamp-emblem">${loc.emblem}</span>
-          <span class="ink-stamp-name">${loc.name.split(' · ')[1] || loc.name}</span>
-          <span class="ink-stamp-sub">${entry.date.substring(5)}</span>
-        </div>
-        <div class="stamp-date">${entry.date}</div>
-        <div class="stamp-time">${entry.time}</div>
-      `;
-      grid.appendChild(card);
+
+    // 注意：stampGrid 在 HTML 里默认带 hidden，切到本标签时必须显式揭开，
+    // 否则即使有卡片也会因 display:none 而整片空白（这正是之前的 bug）。
+    let rendered = 0;
+    getHistory().forEach((entry, idx) => {
+      try {
+        const loc = (entry && LOCATIONS.find(l => l.name === entry.location)) || LOCATIONS[0];
+        if (!entry || !loc) return;
+        const card = document.createElement("div");
+        card.className = "stamp-card";
+        card.onclick = () => reviewPastTrip(entry.id);
+        const stampRot = (Math.sin(idx) * 6).toFixed(1) + "deg"; // 稳定的"随机"倾斜
+        const sub = typeof entry.date === "string" && entry.date.length >= 5 ? entry.date.substring(5) : "";
+        card.innerHTML = `
+          <div class="ink-stamp" style="--stamp-color: ${loc.stampColor || 'var(--mist)'}; --stamp-rotate: ${stampRot}">
+            <span class="ink-stamp-emblem">${loc.emblem || ''}</span>
+            <span class="ink-stamp-name">${(loc.name || '').split(' · ')[1] || loc.name || ''}</span>
+            <span class="ink-stamp-sub">${sub}</span>
+          </div>
+          <div class="stamp-date">${entry.date || ''}</div>
+          <div class="stamp-time">${entry.time || ''}</div>
+        `;
+        grid.appendChild(card);
+        rendered++;
+      } catch (e) { /* 跳过单条坏记录，绝不让整页手账空白 */ }
     });
+
+    const showEmpty = rendered === 0;
+    grid.classList.toggle("hidden", showEmpty);
+    empty.classList.toggle("hidden", !showEmpty);
   }
 
   function reviewPastTrip(id) {
