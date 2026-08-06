@@ -836,7 +836,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F8C471 100%)",
     "stampColor": "#CA6F1E",
     "locClass": "loc-bagan",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "老挝 · 琅勃拉邦",
@@ -849,7 +849,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #FCF3CF 100%)",
     "stampColor": "#D4AC0D",
     "locClass": "loc-luangprabang",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "印度 · 新德里",
@@ -862,7 +862,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F5CBA7 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-newdelhi",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "印度 · 泰姬陵",
@@ -875,7 +875,7 @@
     "glow": "radial-gradient(circle at center, #FFFFF0 20%, #F4F6F7 100%)",
     "stampColor": "#8B864E",
     "locClass": "loc-tajmahal",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "印度 · 瓦拉纳西",
@@ -888,7 +888,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #F5B041 100%)",
     "stampColor": "#CB4335",
     "locClass": "loc-varanasi",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "印度 · 斋浦尔",
@@ -901,7 +901,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #FADBD8 100%)",
     "stampColor": "#E74C3C",
     "locClass": "loc-jaipur",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "斯里兰卡 · 锡吉里耶",
@@ -914,7 +914,7 @@
     "glow": "radial-gradient(circle at center, #EAF2F8 20%, #F5CBA7 100%)",
     "stampColor": "#A04000",
     "locClass": "loc-sigiriya",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "尼泊尔 · 加德满都",
@@ -927,7 +927,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #E5D3B3 100%)",
     "stampColor": "#78281F",
     "locClass": "loc-kathmandu",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "马尔代夫 · 马累",

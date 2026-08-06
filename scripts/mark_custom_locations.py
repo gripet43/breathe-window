@@ -35,10 +35,13 @@ def main():
 
         has_all_custom = True
         for card in cards:
-            img_rel_path = card.get("image")
-            img_name = os.path.basename(img_rel_path)
-            img_abs_path = os.path.join(images_dir, img_name)
-            if is_placeholder(img_abs_path):
+            img_rel_path = card.get("image", "")
+            base_stem = os.path.splitext(os.path.basename(img_rel_path))[0]
+            webp_path = os.path.join(images_dir, f"{base_stem}.webp")
+            png_path = os.path.join(project_dir, "assets", "images", f"{base_stem}.png")
+            
+            target_img = webp_path if os.path.exists(webp_path) else png_path
+            if is_placeholder(target_img):
                 has_all_custom = False
                 break
 
