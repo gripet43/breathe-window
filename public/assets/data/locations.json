@@ -940,7 +940,7 @@
     "glow": "radial-gradient(circle at center, #E0FFFF 20%, #A3E4D7 100%)",
     "stampColor": "#16A085",
     "locClass": "loc-male",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "土耳其 · 伊斯坦布尔",
@@ -953,7 +953,7 @@
     "glow": "radial-gradient(circle at center, #FBEEF0 20%, #ECCAD0 100%)",
     "stampColor": "#900C3F",
     "locClass": "loc-istanbul",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "土耳其 · 卡帕多奇亚",
