@@ -966,7 +966,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #EDBB99 100%)",
     "stampColor": "#D35400",
     "locClass": "loc-cappadocia",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "阿联酋 · 迪拜",
