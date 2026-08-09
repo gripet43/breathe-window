@@ -979,7 +979,7 @@
     "glow": "radial-gradient(circle at center, #EAEDED 20%, #D6DBDF 100%)",
     "stampColor": "#1B4F72",
     "locClass": "loc-dubai",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "沙特阿拉伯 · 利雅得",
@@ -2946,7 +2946,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #F5B041 100%)",
     "stampColor": "#CB4335",
     "locClass": "loc-lahore",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "巴基斯坦 · 卡拉奇",
