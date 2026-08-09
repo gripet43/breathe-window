@@ -11098,5 +11098,37 @@
       "image": "/assets/images/loc_asuncion_old.png",
       "ponder": ""
     }
+  ],
+  "乌兹别克斯坦 · 布哈拉": [
+    {
+      "bucket": "世界一角",
+      "title": "千顶之城的土坯圆顶",
+      "image": "/assets/images/loc_bukhara.png",
+      "body": "从卡扬宣礼塔旁古老风塔木窗望去，夕阳洒在浩瀚的泥砖集市圆顶上。"
+    },
+    {
+      "bucket": "科学自然",
+      "title": "红沙漠绿洲绿洲",
+      "image": "/assets/images/loc_bukhara_nature.png",
+      "body": "克孜勒库姆沙漠红沙丘边缘，沙枣树环绕着平静的绿洲水池。"
+    },
+    {
+      "bucket": "他人在场",
+      "title": "穹顶大集市打铜声",
+      "image": "/assets/images/loc_bukhara_people.png",
+      "body": "老集市拱顶下，铜匠在昏黄油灯旁一锤一锤打磨着黄铜茶壶的花纹。"
+    },
+    {
+      "bucket": "思想火花",
+      "title": "雅克城堡黄昏墙",
+      "image": "/assets/images/loc_bukhara_spark.png",
+      "body": "雅克要塞巨大的泥砖城墙在落日余晖中发出金黄光芒。"
+    },
+    {
+      "bucket": "旧物新看",
+      "title": "印饼木章的齿痕",
+      "image": "/assets/images/loc_bukhara_old.png",
+      "body": "传统手工刻印木章Chekich在金黄烤饼上留下古老星芒纹路。"
+    }
   ]
 }

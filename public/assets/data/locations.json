@@ -1018,7 +1018,7 @@
     "glow": "radial-gradient(circle at center, #EAF2F8 20%, #AED6F1 100%)",
     "stampColor": "#2980B9",
     "locClass": "loc-samarkand",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "约旦 · 佩特拉",
@@ -2985,7 +2985,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #D5DBDB 100%)",
     "stampColor": "#5D6D7E",
     "locClass": "loc-almaty",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "吉尔吉斯斯坦 · 比什凯克",
@@ -4022,5 +4022,16 @@
     "stampColor": "#5D6D7E",
     "locClass": "loc-luanda",
     "hasCustomImages": false
+  },
+  {
+    "id": "loc_bukhara",
+    "name": "乌兹别克斯坦 · 布哈拉",
+    "desc": "古丝绸之路上的沙漠明珠与千顶之城。",
+    "coordinates": [
+      64.42,
+      39.77
+    ],
+    "country": "乌兹别克斯坦",
+    "hasCustomImages": true
   }
 ]

@@ -4,35 +4,35 @@
       "bucket": "世界一角",
       "title": "京都鸭川边的纳凉床已搭好",
       "body": "六月傍晚，京都鸭川沿岸的店铺在河面上搭起木质露台。人们坐在这里喝啤酒，看流水发呆。",
-      "image": "/assets/images/loc_kyoto.png",
+      "image": "/assets/images/loc_kyoto.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "鸭川中生存的大鲵",
       "body": "鸭川清澈的水流下隐藏着日本大鲵，这种古老的两栖动物已经在此繁衍了数百万年。",
-      "image": "/assets/images/loc_kyoto_nature.png",
+      "image": "/assets/images/loc_kyoto_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "西阵织作坊里的丝线声",
       "body": "细雨中的老街坊里，织工正操纵着古老织机，将染好色的金银丝线织成华丽的绸缎。",
-      "image": "/assets/images/loc_kyoto_people.png",
+      "image": "/assets/images/loc_kyoto_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "一期一会的心照不宣",
       "body": "每次相遇都是此生唯一的一次。把这杯茶当作最后一杯来喝，你会看到什么？",
-      "image": "/assets/images/loc_kyoto_spark.png",
+      "image": "/assets/images/loc_kyoto_spark.webp",
       "ponder": "如果时间不再循环，当下的这一秒值不值得你全神贯注？"
     },
     {
       "bucket": "旧物新看",
       "title": "团扇背后的竹木工序",
       "body": "京都的京团扇由一根竹子劈成数十根细骨制成，曾是古代宫廷女子遮面的夏日雅器。",
-      "image": "/assets/images/loc_kyoto_old.png",
+      "image": "/assets/images/loc_kyoto_old.webp",
       "ponder": ""
     }
   ],
@@ -41,35 +41,35 @@
       "bucket": "世界一角",
       "title": "雷克雅未克午夜的极昼微光",
       "body": "夏至将至，冰岛雷克雅未克的午夜依然亮如白昼。粉蓝色的晚霞悬在海湾上方，远处积雪的山峰泛着银光。",
-      "image": "/assets/images/loc_reykjavik.png",
+      "image": "/assets/images/loc_reykjavik.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "冰岛地热温泉与苔藓",
       "body": "冰岛黑色的火山岩上覆盖着厚厚一层绿苔，它们依靠微弱的地热与冰雪融水在极地生长。",
-      "image": "/assets/images/loc_reykjavik_nature.png",
+      "image": "/assets/images/loc_reykjavik_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "温室里的西红柿种植员",
       "body": "在雷克雅未克郊外，种植员正利用地热温室在寒带培育鲜红的西红柿，温室里亮着暖光。",
-      "image": "/assets/images/loc_reykjavik_people.png",
+      "image": "/assets/images/loc_reykjavik_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "极昼里的静止时光",
       "body": "当太阳不再落下，时间的流动似乎失去了刻度。如果一天没有终点，你会想停在哪里？",
-      "image": "/assets/images/loc_reykjavik_spark.png",
+      "image": "/assets/images/loc_reykjavik_spark.webp",
       "ponder": "当黑夜被无限推迟，你是感到自由，还是感到迷失？"
     },
     {
       "bucket": "旧物新看",
       "title": "羊毛衣Lopapeysa起源",
       "body": "冰岛传统羊毛衣使用未梳理的粗羊毛织成，自带天然油脂，防风防水，是渔民的避寒铠甲。",
-      "image": "/assets/images/loc_reykjavik_old.png",
+      "image": "/assets/images/loc_reykjavik_old.webp",
       "ponder": ""
     }
   ],
@@ -78,35 +78,35 @@
       "bucket": "世界一角",
       "title": "晨雾弥漫的蜀南竹海翠色",
       "body": "清晨的四川竹海，万亩毛竹在翠绿的晨雾中随风摇曳。绿叶上挂着露珠，空气中弥漫着竹香。",
-      "image": "/assets/images/loc_bamboo.png",
+      "image": "/assets/images/loc_bamboo.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "竹子令人惊叹的生长速度",
       "body": "竹子是世界上生长最快的植物之一，在雨季，它的笋一天可以拔高一米多，发出沙沙声。",
-      "image": "/assets/images/loc_bamboo_nature.png",
+      "image": "/assets/images/loc_bamboo_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "编制青竹箩筐的老匠人",
       "body": "茂密的竹林旁边，匠人正用锋利的篾刀劈开翠绿的青竹，手指翻飞间编出一只小巧的竹箩。",
-      "image": "/assets/images/loc_bamboo_people.png",
+      "image": "/assets/images/loc_bamboo_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "竹子空心与弯而不折",
       "body": "竹子因为内部空心而轻盈，因为竹节而坚韧。适当的留白与节制，是否能让人走得更远？",
-      "image": "/assets/images/loc_bamboo_spark.png",
+      "image": "/assets/images/loc_bamboo_spark.webp",
       "ponder": "弯曲是一种妥协，还是一种积蓄力量的生存艺术？"
     },
     {
       "bucket": "旧物新看",
       "title": "历史悠久的竹纸制作",
       "body": "两千年前古人便用嫩竹造纸。将竹料在石池中漂洗、打浆，最终凝结成一张温润的宣纸。",
-      "image": "/assets/images/loc_bamboo_old.png",
+      "image": "/assets/images/loc_bamboo_old.webp",
       "ponder": ""
     }
   ],
@@ -115,35 +115,35 @@
       "bucket": "世界一角",
       "title": "塞纳河畔的旧书摊与夕阳",
       "body": "傍晚，巴黎塞纳河畔的绿色旧书摊前，人们正翻阅画册。金色的夕阳洒在波光粼粼的水面。",
-      "image": "/assets/images/loc_paris.png",
+      "image": "/assets/images/loc_paris.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "巴黎地下石灰石矿脉",
       "body": "巴黎优雅的奥斯曼建筑外墙均采用本地出产的米黄色石灰石，这种石头来自地下的远古浅海沉积。",
-      "image": "/assets/images/loc_paris_nature.png",
+      "image": "/assets/images/loc_paris_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "巴黎甜点工坊里的黄油香",
       "body": "凌晨四点，甜点师正将发酵好的面团折叠压平，烤箱里散发出起酥可颂的浓郁奶香。",
-      "image": "/assets/images/loc_paris_people.png",
+      "image": "/assets/images/loc_paris_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "街头漫步者的艺术",
       "body": "巴黎人推崇“Flânerie”（闲逛）——漫无目的地行走，去观察、去感受。你上一次闲逛是什么时候？",
-      "image": "/assets/images/loc_paris_spark.png",
+      "image": "/assets/images/loc_paris_spark.webp",
       "ponder": "当行走不为了到达任何目的地，它是否变成了一种纯粹的体验？"
     },
     {
       "bucket": "旧物新看",
       "title": "巴黎莫里斯广告柱的历史",
       "body": "街头墨绿色的圆形铁柱建于1868年，最初用于张贴剧院海报，也是环卫工存放工具的秘密仓库。",
-      "image": "/assets/images/loc_paris_old.png",
+      "image": "/assets/images/loc_paris_old.webp",
       "ponder": ""
     }
   ],
@@ -152,35 +152,35 @@
       "bucket": "世界一角",
       "title": "马拉喀什红土老巷的香料香",
       "body": "午后的马拉喀什老城，阳光穿过竹编顶棚洒在红陶墙壁上。街角小贩堆起彩色的香料山。",
-      "image": "/assets/images/loc_marrakech.png",
+      "image": "/assets/images/loc_marrakech.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "撒哈拉边缘的坚果仙境",
       "body": "摩洛哥独有的阿甘树根系极其深广，能牢牢抓住荒漠黄沙，果实能榨出极其珍贵的黄金护肤油。",
-      "image": "/assets/images/loc_marrakech_nature.png",
+      "image": "/assets/images/loc_marrakech_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "织造摩洛哥地毯的女工",
       "body": "在老城深处的庭院里，妇女正用手工织机穿梭彩色羊毛线，将古老的游牧图腾编入厚地毯。",
-      "image": "/assets/images/loc_marrakech_people.png",
+      "image": "/assets/images/loc_marrakech_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "沙漠绿洲的静谧哲学",
       "body": "在滚烫的荒漠中建起阴凉的庭院。我们的内心，是否也需要这样一处隔绝嘈杂的“内里绿洲”？",
-      "image": "/assets/images/loc_marrakech_spark.png",
+      "image": "/assets/images/loc_marrakech_spark.webp",
       "ponder": "为了保持内心的平静，你需要将什么阻挡在你的院墙之外？"
     },
     {
       "bucket": "旧物新看",
       "title": "薄荷茶里的待客之道",
       "body": "摩洛哥人把薄荷茶称为“摩洛哥威士忌”。从高处倒茶能产生细腻泡沫，代表对客人的无限敬意。",
-      "image": "/assets/images/loc_marrakech_old.png",
+      "image": "/assets/images/loc_marrakech_old.webp",
       "ponder": ""
     }
   ],
@@ -189,35 +189,35 @@
       "bucket": "世界一角",
       "title": "特罗姆瑟北极光下的静谧木屋",
       "body": "特罗姆瑟的冬夜，一抹幽绿的极光在深邃星空下悄然起舞。彩色木屋亮着橘黄炉光，温暖着雪夜。",
-      "image": "/assets/images/loc_tromso.png",
+      "image": "/assets/images/loc_tromso.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "极地水域的鲸鱼歌声",
       "body": "每年冬季，成群的座头鲸会游入特罗姆瑟寒冷的海湾捕食鲱鱼，它们悠长的鸣叫在水中回荡。",
-      "image": "/assets/images/loc_tromso_nature.png",
+      "image": "/assets/images/loc_tromso_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "极夜里驾驶铲雪车的司机",
       "body": "漫天大雪中，铲雪车正闪烁着警示灯前行，将厚厚积雪推向路边，为早晨的车辆开辟通道。",
-      "image": "/assets/images/loc_tromso_people.png",
+      "image": "/assets/images/loc_tromso_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "黑暗中的自我凝视",
       "body": "北极的极夜会持续数月。当外部世界长久陷入黑暗，人会更容易听见内心最细微的声音吗？",
-      "image": "/assets/images/loc_tromso_spark.png",
+      "image": "/assets/images/loc_tromso_spark.webp",
       "ponder": "如果世界失去了光照，你用来标识自己存在的是什么？"
     },
     {
       "bucket": "旧物新看",
       "title": "古老的木质教堂萨米鼓",
       "body": "特罗姆瑟保留着萨米人的萨米鼓，鼓面用驯鹿皮制成，画有极光与星象，是远古萨满沟通神灵的媒介。",
-      "image": "/assets/images/loc_tromso_old.png",
+      "image": "/assets/images/loc_tromso_old.webp",
       "ponder": ""
     }
   ],
@@ -226,35 +226,35 @@
       "bucket": "世界一角",
       "title": "阿尔卑斯山木屋窗外的雪山顶",
       "body": "清晨，阳光洒在阿尔卑斯山白雪皑皑的山尖上。木栏挂着红色天竺葵，山谷中传来悠扬的牛铃声。",
-      "image": "/assets/images/loc_alps.png",
+      "image": "/assets/images/loc_alps.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "冰川融水与高山花卉",
       "body": "冰川在夏季融化成清澈的溪流，灌溉着海拔两千米以上的草甸，孕育出雪白罕见的雪绒花。",
-      "image": "/assets/images/loc_alps_nature.png",
+      "image": "/assets/images/loc_alps_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "木屋里的雕刻手艺人",
       "body": "炭火熊熊的作坊里，手艺人手持刻刀，将一块散发着松香的瑞士松木雕刻成一只木牛。",
-      "image": "/assets/images/loc_alps_people.png",
+      "image": "/assets/images/loc_alps_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "群山面前的渺小与平静",
       "body": "巍峨的雪山已经在那里矗立了千万年。相比之下，眼前的烦恼是不是只像山间一抹转瞬即逝的云雾？",
-      "image": "/assets/images/loc_alps_spark.png",
+      "image": "/assets/images/loc_alps_spark.webp",
       "ponder": "当面对比人更长久、宏大的自然时，你感到的是被轻视，还是释怀？"
     },
     {
       "bucket": "旧物新看",
       "title": "瑞士阿尔卑斯长号的历史",
       "body": "这种长达数米的松木喇叭最初并不是乐器，而是牧羊人在寂静山谷中呼唤羊群、向对山传信的工具。",
-      "image": "/assets/images/loc_alps_old.png",
+      "image": "/assets/images/loc_alps_old.webp",
       "ponder": ""
     }
   ],
@@ -263,35 +263,35 @@
       "bucket": "世界一角",
       "title": "威尼斯水巷的船桨与波光",
       "body": "午后，一艘黑色贡多拉划破碧绿的水面，在古老的红砖墙上留下一圈圈水波。对面的花窗下垂挂着紫藤。",
-      "image": "/assets/images/loc_venice.png",
+      "image": "/assets/images/loc_venice.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "威尼斯海水的潮汐涨落",
       "body": "威尼斯潟湖的海水每天会有两次高低潮汐涨落，古老水城依靠这种潮汐来稀释和净化河道水质。",
-      "image": "/assets/images/loc_venice_nature.png",
+      "image": "/assets/images/loc_venice_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "吹制彩色玻璃的穆拉诺工匠",
       "body": "炽热的熔炉旁，老工匠正鼓起双腮，通过长铁管吹制一个红黄相间的彩色玻璃花瓶。",
-      "image": "/assets/images/loc_venice_people.png",
+      "image": "/assets/images/loc_venice_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在流动的世界里寻找立足点",
       "body": "威尼斯是一座建在水上的奇迹之城。当身下的基础总在流动变化，我们该如何保持内心的平衡？",
-      "image": "/assets/images/loc_venice_spark.png",
+      "image": "/assets/images/loc_venice_spark.webp",
       "ponder": "如果变化是世间唯一的常量，那么建造在变化之上的“奇迹”是什么？"
     },
     {
       "bucket": "旧物新看",
       "title": "贡多拉船头的金属饰物",
       "body": "贡多拉船头那块像齿冠的金属板称为“Ferro”，上面的六个金属齿代表威尼斯的六个历史街区。",
-      "image": "/assets/images/loc_venice_old.png",
+      "image": "/assets/images/loc_venice_old.webp",
       "ponder": ""
     }
   ],
@@ -300,35 +300,35 @@
       "bucket": "世界一角",
       "title": "圣托里尼蓝顶教堂与爱琴海",
       "body": "傍晚，阳光斜照着雪白的拱门与湛蓝的穹顶。远处的爱琴海泛着宝石般的深蓝，几只白鸽在微风中掠过。",
-      "image": "/assets/images/loc_santorini.png",
+      "image": "/assets/images/loc_santorini.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "火山灰土质与特种葡萄",
       "body": "圣托里尼覆盖着肥沃的火山灰土壤，当地人将葡萄藤编织成“鸟巢”状贴地生长以御海风。",
-      "image": "/assets/images/loc_santorini_nature.png",
+      "image": "/assets/images/loc_santorini_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "白墙刷漆的粉刷工",
       "body": "蔚蓝海天之间，粉刷工正手持刷子，将一层新鲜石灰乳涂在白色拱墙上以御烈日炙烤。",
-      "image": "/assets/images/loc_santorini_people.png",
+      "image": "/assets/images/loc_santorini_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "极简色彩带来的纯净感",
       "body": "只有白与蓝，为什么能让人感到心灵的宁静？去掉繁琐的修饰，我们的生活还剩下什么？",
-      "image": "/assets/images/loc_santorini_spark.png",
+      "image": "/assets/images/loc_santorini_spark.webp",
       "ponder": "做减法是让你的生活变得匮乏，还是变得专注？"
     },
     {
       "bucket": "旧物新看",
       "title": "圣托里尼传统洞穴屋",
       "body": "当地著名的白墙洞穴屋最初是渔民的避难所。它们深嵌入岩壁，具有冬暖夏凉的天然温控效果。",
-      "image": "/assets/images/loc_santorini_old.png",
+      "image": "/assets/images/loc_santorini_old.webp",
       "ponder": ""
     }
   ],
@@ -337,35 +337,35 @@
       "bucket": "世界一角",
       "title": "伦敦迷雾街头的红邮筒与雨丝",
       "body": "黄昏，细雨打湿了黑色石板路。街角那座标志性的红邮筒前，撑着黑伞的行人行色匆匆，红巴士正驶过。",
-      "image": "/assets/images/loc_london.png",
+      "image": "/assets/images/loc_london.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "伦敦泰晤士河的生命复苏",
       "body": "泰晤士河看起来虽浑浊，但因潮汐带来了丰富的浮游生物，河口处近年来发现了海马与海豹的踪迹。",
-      "image": "/assets/images/loc_london_nature.png",
+      "image": "/assets/images/loc_london_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "萨维尔街裁缝的精准量体",
       "body": "在百年老店的柔和灯光下，裁缝正用皮尺精准测量客人的肩宽与袖长，并在羊毛料上画下粉笔线。",
-      "image": "/assets/images/loc_london_people.png",
+      "image": "/assets/images/loc_london_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "雾气与距离感的朦胧美",
       "body": "大雾模糊了建筑的轮廓，让一切变得遥远而诗意。人与人之间，是否也需要留出一些朦胧的雾气？",
-      "image": "/assets/images/loc_london_spark.png",
+      "image": "/assets/images/loc_london_spark.webp",
       "ponder": "清晰的边界带来了效率，模糊的过渡带来了什么？"
     },
     {
       "bucket": "旧物新看",
       "title": "伦敦红色电话亭的起源",
       "body": "标志性的红色电话亭由设计师简·斯科特于1935年设计，为纪念乔治五世登基，采用了亮红色以防大雾遮挡。",
-      "image": "/assets/images/loc_london_old.png",
+      "image": "/assets/images/loc_london_old.webp",
       "ponder": ""
     }
   ],
@@ -374,35 +374,35 @@
       "bucket": "世界一角",
       "title": "魁北克枫林木屋外的秋叶",
       "body": "深秋时节，圣劳伦斯河畔的枫林一片火红与金黄。秋风吹过，片片枫叶飘落在木质阳台上。",
-      "image": "/assets/images/loc_quebec.png",
+      "image": "/assets/images/loc_quebec.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "枫糖浆的秘密流速",
       "body": "春寒料峭时，枫树体内的淀粉转化为糖分，随着树液在冷热交替的夜间缓慢流动，汇集成甜美的枫糖。",
-      "image": "/assets/images/loc_quebec_nature.png",
+      "image": "/assets/images/loc_quebec_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "熬制枫糖浆的林中工人",
       "body": "冒着白汽的木屋里，工人正翻滚着大锅里的枫树汁。随水分蒸发，空气中飘散着甜腻温润的焦糖香。",
-      "image": "/assets/images/loc_quebec_people.png",
+      "image": "/assets/images/loc_quebec_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "树木在冬眠前的盛装",
       "body": "枫叶变红是为了在落叶前回收叶片中的养分。生命在谢幕前的绚丽，是为了更好地度过寒冬。",
-      "image": "/assets/images/loc_quebec_spark.png",
+      "image": "/assets/images/loc_quebec_spark.webp",
       "ponder": "在繁华褪去之前，你会以什么样的方式做最后的展示？"
     },
     {
       "bucket": "旧物新看",
       "title": "魁北克皮毛贸易的冰雪道路",
       "body": "早期毛皮商人在结冰的河道上驾驶雪橇，将木柴与皮毛运往各地，这些冰路是冬季唯一的交通干线。",
-      "image": "/assets/images/loc_quebec_old.png",
+      "image": "/assets/images/loc_quebec_old.webp",
       "ponder": ""
     }
   ],
@@ -411,35 +411,35 @@
       "bucket": "世界一角",
       "title": "开罗老城集市的铜器与斜阳",
       "body": "落日余晖洒在开罗古老市集的拱门上，手艺人打磨铜盘的声音清脆而有节奏。红茶的香气升腾。",
-      "image": "/assets/images/loc_cairo.png",
+      "image": "/assets/images/loc_cairo.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "尼罗河畔的纸莎草生长",
       "body": "尼罗河三角洲生长的纸莎草有着坚韧的纤维。古埃及人将其剖成薄片、层层压实，做成最早的纸张。",
-      "image": "/assets/images/loc_cairo_nature.png",
+      "image": "/assets/images/loc_cairo_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "煮着埃及红茶的街角小贩",
       "body": "狭窄的街巷旁，小贩正用铜壶在炭火上煮着浓郁的红茶，丢入几片新鲜薄荷叶，端给熟识的街坊。",
-      "image": "/assets/images/loc_cairo_people.png",
+      "image": "/assets/images/loc_cairo_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在风沙与岁月中凝固的时光",
       "body": "金字塔矗立在荒漠中已逾四千年。在变化如此剧烈的世界里，有什么是值得我们用一生去坚守的？",
-      "image": "/assets/images/loc_cairo_spark.png",
+      "image": "/assets/images/loc_cairo_spark.webp",
       "ponder": "当所有的事物都在飞速更迭，什么样的事物才能被称为永恒？"
     },
     {
       "bucket": "旧物新看",
       "title": "埃及阿拉巴斯特石灯的历史",
       "body": "古埃及人使用半透明的雪花石膏（Alabaster）雕刻空心灯笼，点燃后散发出如月光般柔和的乳白光晕。",
-      "image": "/assets/images/loc_cairo_old.png",
+      "image": "/assets/images/loc_cairo_old.webp",
       "ponder": ""
     }
   ],
@@ -448,35 +448,35 @@
       "bucket": "世界一角",
       "title": "罗瓦涅米圣诞村的林间小雪",
       "body": "冬夜，森林里的松树披上了厚厚的积雪。彩色小木屋的烟囱冒出袅袅烟雾，驯鹿在雪地留下一串足迹。",
-      "image": "/assets/images/loc_finland.png",
+      "image": "/assets/images/loc_finland.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "北极针叶林抗寒机制",
       "body": "芬兰森林中的欧洲赤松具有厚韧的蜡质针叶，内部含有天然抗冻糖分，使其在零下四十度仍能常青。",
-      "image": "/assets/images/loc_finland_nature.png",
+      "image": "/assets/images/loc_finland_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "准备桑拿浴室木柴的村民",
       "body": "冰天雪地中，村民正用斧头将桦木劈成整齐的木条，堆放在桑拿房旁，准备为晚上的蒸汽浴加热。",
-      "image": "/assets/images/loc_finland_people.png",
+      "image": "/assets/images/loc_finland_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "严寒之中的温暖火光",
       "body": "外界越是冰天雪地，屋内的炉火和热汤就越显得温暖珍贵。在逆境中，我们该如何守护内心的温度？",
-      "image": "/assets/images/loc_finland_spark.png",
+      "image": "/assets/images/loc_finland_spark.webp",
       "ponder": "外部的风雪是否能折射出你内心本不自知的顽强生命力？"
     },
     {
       "bucket": "旧物新看",
       "title": "芬兰传统木杯Kuksa",
       "body": "芬兰人用桦木瘿（树干结瘤）手工雕刻成木杯，自带木香，是猎人随身携带的防冻饮水器。",
-      "image": "/assets/images/loc_finland_old.png",
+      "image": "/assets/images/loc_finland_old.webp",
       "ponder": ""
     }
   ],
@@ -485,35 +485,35 @@
       "bucket": "世界一角",
       "title": "霍比屯翠绿草坡与圆木门",
       "body": "春日，霍比屯翠绿的草坡上开满了明黄色的雏菊。圆形的绿色木门敞开，窗台上晾着刚烤好的面包。",
-      "image": "/assets/images/loc_hobbiton.png",
+      "image": "/assets/images/loc_hobbiton.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "肥沃黑土与蚯蚓的翻耕",
       "body": "霍比屯平缓的山丘下覆盖着几万年火山灰沉积而成的黑色腐殖土，数以亿计的蚯蚓日夜不停地翻耕土地。",
-      "image": "/assets/images/loc_hobbiton_nature.png",
+      "image": "/assets/images/loc_hobbiton_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "修剪霍比屯花园的园丁",
       "body": "晨光中，园丁正用剪刀细心修剪木屋门前的迷迭香。篱笆下，几只蜜蜂在花丛里忙碌着。",
-      "image": "/assets/images/loc_hobbiton_people.png",
+      "image": "/assets/images/loc_hobbiton_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "托尔金式的田园静谧感",
       "body": "矮小的木屋、壁炉、一壶茶、一亩三分地。在追求宏大叙事的时代，这种退守生活日常的幸福算不算奢侈？",
-      "image": "/assets/images/loc_hobbiton_spark.png",
+      "image": "/assets/images/loc_hobbiton_spark.webp",
       "ponder": "平凡生活里的温存细节，与高远广阔的雄心，哪一个更难维持？"
     },
     {
       "bucket": "旧物新看",
       "title": "传统茅草屋顶的编织工艺",
       "body": "当地小木屋的屋顶由厚厚的干水芦苇手工层层铺设而成，防风御寒，雨水落下时会自动顺着坡面滑走。",
-      "image": "/assets/images/loc_hobbiton_old.png",
+      "image": "/assets/images/loc_hobbiton_old.webp",
       "ponder": ""
     }
   ],
@@ -522,35 +522,35 @@
       "bucket": "世界一角",
       "title": "苏州园林花窗下的芭蕉雨滴",
       "body": "初夏微雨，雨水顺着漏窗青瓦滴落在新翠的芭蕉叶上，发出沙沙轻响。池塘中红鲤游动，荡起一圈涟漪。",
-      "image": "/assets/images/loc_suzhou.png",
+      "image": "/assets/images/loc_suzhou.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "太湖石的漏透瘦皱美学",
       "body": "园林中著名的太湖石因长期受太湖水波冲刷溶蚀，形成了大量孔洞。它们看似柔弱，内部结构却坚固无比。",
-      "image": "/assets/images/loc_suzhou_nature.png",
+      "image": "/assets/images/loc_suzhou_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "刺绣作坊里的苏绣绣娘",
       "body": "木架花绷前，绣娘正用细如发丝的蚕丝线，以乱针法在半透明的纱罗上织出一只活灵活现的猫咪。",
-      "image": "/assets/images/loc_suzhou_people.png",
+      "image": "/assets/images/loc_suzhou_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "借景与漏窗的视觉哲学",
       "body": "墙壁隔绝了视线，但开一扇透光的花窗，就把墙外的竹影借了进来。局限之中，如何借出无限的风景？",
-      "image": "/assets/images/loc_suzhou_spark.png",
+      "image": "/assets/images/loc_suzhou_spark.webp",
       "ponder": "当条件受限时，你是看到一堵无法逾越的墙，还是看到借景的机会？"
     },
     {
       "bucket": "旧物新看",
       "title": "园林香几与香道的历史",
       "body": "园林书房中常设高挑香几，上置青铜香炉，点一炷香，古人用消逝的香气来度量悠闲的时间。",
-      "image": "/assets/images/loc_suzhou_old.png",
+      "image": "/assets/images/loc_suzhou_old.webp",
       "ponder": ""
     }
   ],
@@ -559,35 +559,35 @@
       "bucket": "世界一角",
       "title": "红墙落日",
       "body": "傍晚的故宫渐渐安静下来。夕阳将金红色的光晕洒在重重殿宇之上，琉璃瓦折射出温润的光泽。站在太和殿广场前，风穿过高耸的红墙，送来落日余晖里古老而悠长的叹息。",
-      "image": "/assets/images/loc_beijing.png",
+      "image": "/assets/images/loc_beijing.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "宫墙燕影",
       "body": "每年春天，成群的北京雨燕便会飞回故宫。它们在红墙黄瓦的斗拱缝隙里筑巢繁衍。这种神奇的候鸟一生大半时间都在飞翔，以古建上的飞虫为食，构成了独特的生态景观。",
-      "image": "/assets/images/loc_beijing_nature.png",
+      "image": "/assets/images/loc_beijing_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "钟表修复师",
       "body": "在清冷的钟表馆一隅，老修复师戴着放大镜，用细针轻轻拨动齿轮。时间在他的指尖仿佛放慢了脚步，清脆的滴答声与金属碰撞的微响，在安静的殿堂里谱写着光阴的旋律。",
-      "image": "/assets/images/loc_beijing_people.png",
+      "image": "/assets/images/loc_beijing_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "岁月的留白",
       "body": "走在朱红色的宫墙夹道中，两旁是望不到尽头的红墙与湛蓝的天空。高墙限制了视线，却让人的心神不自觉地往高处去。当你被繁杂的世俗所困时，是否也需要给心灵留出一片天空？",
-      "image": "/assets/images/loc_beijing_spark.png",
+      "image": "/assets/images/loc_beijing_spark.webp",
       "ponder": "你的生活里，有哪些看似局限的墙，正指引你仰望天空？"
     },
     {
       "bucket": "旧物新看",
       "title": "瑞兽的守望",
       "body": "殿脊上排列的小兽，不仅是避雷防雨的实用构件，更寄托了古人消灾避祸的美好期盼。它们历经数百年风雨，依旧静静伫立在檐角，在无声中守护着这片土地的四季祥和。",
-      "image": "/assets/images/loc_beijing_old.png",
+      "image": "/assets/images/loc_beijing_old.webp",
       "ponder": ""
     }
   ],
@@ -596,35 +596,35 @@
       "bucket": "世界一角",
       "title": "城墙上的晚风",
       "body": "暮色降临，古老的城墙笼罩在温柔的暖光中。骑行在青砖铺就的宽阔通道上，晚风掠过耳畔。城墙内是安静的四合院，城墙外是闪烁的霓虹，新旧时光在此刻悄然重叠。",
-      "image": "/assets/images/loc_xian.png",
+      "image": "/assets/images/loc_xian.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "终南山的雾气",
       "body": "终南山巍峨耸立于城南，湿润的秦岭山风遇冷在山谷凝结成袅袅云雾。这片天然屏障不仅阻挡了北方的寒潮，也孕育了丰富的药草与奇花异草，为古城带来自然的灵气与庇护。",
-      "image": "/assets/images/loc_xian_nature.png",
+      "image": "/assets/images/loc_xian_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "拓印老匠人",
       "body": "碑林旁的小巷里，老匠人正用棕刷轻柔地捶打着覆在石碑上的宣纸。沾满墨汁的拓包一次次落下，黑白之间，千年前的笔墨风骨便跃然纸上，沉淀着手工的温度与专注。",
-      "image": "/assets/images/loc_xian_people.png",
+      "image": "/assets/images/loc_xian_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "厚重与轻盈",
       "body": "沉重的青砖堆砌成坚固的城防，但当微风吹过砖缝里的野草，生命又展现出极致的轻盈。历史或许是沉重的，但我们可以学着像青砖上的小草一样，在岁月的夹缝里温柔生长。",
-      "image": "/assets/images/loc_xian_spark.png",
+      "image": "/assets/images/loc_xian_spark.webp",
       "ponder": "在你感到生活沉重时，有哪些微小的事物能带给你轻盈？"
     },
     {
       "bucket": "旧物新看",
       "title": "终南隐逸",
       "body": "古人将隐居终南山视为修身养性的最高境界。时至今日，这份“采菊东篱下”的向往化作了现代人对片刻安宁的追寻。隐逸不再是逃离，而是在繁华中留住内心的宁静。",
-      "image": "/assets/images/loc_xian_old.png",
+      "image": "/assets/images/loc_xian_old.webp",
       "ponder": ""
     }
   ],
@@ -633,35 +633,35 @@
       "bucket": "世界一角",
       "title": "晨雾里的断桥",
       "body": "清晨的西湖被一层薄纱般的晨雾笼罩，远处的雷峰塔若隐若现。轻舟在平静的湖面划出一道微澜，折断的残荷静静立在水面，水墨画般的淡雅中流淌着江南独有的宁静与诗意。",
-      "image": "/assets/images/loc_hangzhou.png",
+      "image": "/assets/images/loc_hangzhou.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "龙井茶园的露水",
       "body": "西湖畔的群山起伏，红壤与温润多雨的亚热带气候孕育了龙井茶树。清晨，茶蓬上挂满了晶莹的露珠，湿润的泥土与清新的茶香在空气中交融，是自然的呼吸在山谷中回响。",
-      "image": "/assets/images/loc_hangzhou_nature.png",
+      "image": "/assets/images/loc_hangzhou_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "摇橹船夫的桨声",
       "body": "摇橹船夫站在船尾，随着身子的起伏，手中的木桨有节奏地拨动着水面。他的目光温和，掠过岸边的垂柳，偶尔用吴侬软语向游客低吟几句苏堤的旧事，将时光摇得极慢。",
-      "image": "/assets/images/loc_hangzhou_people.png",
+      "image": "/assets/images/loc_hangzhou_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "涟漪的温柔",
       "body": "投一颗石子入水，湖面便荡开一圈圈温柔的涟漪，最终归于平静。心境亦如这湖水，外界的纷扰只是暂时的波澜。学着接纳每一个起伏，坚信内心终会恢复如水般的宁静。",
-      "image": "/assets/images/loc_hangzhou_spark.png",
+      "image": "/assets/images/loc_hangzhou_spark.webp",
       "ponder": "面对生活中的波动，你如何帮助自己重拾内心的平静？"
     },
     {
       "bucket": "旧物新看",
       "title": "团扇上的江南",
       "body": "江南女子自古喜爱手执半透明的团扇。扇面摇曳间，不仅摇出了凉爽的清风，更含蓄地遮掩着笑靥。如今，那一柄缂丝团扇化为案头的雅玩，提醒我们保留一份东方留白的雅致。",
-      "image": "/assets/images/loc_hangzhou_old.png",
+      "image": "/assets/images/loc_hangzhou_old.webp",
       "ponder": ""
     }
   ],
@@ -670,35 +670,35 @@
       "bucket": "世界一角",
       "title": "蓝天下的红白宫殿",
       "body": "晨光照亮了玛布日山，红白相间的布达拉宫在藏青色的天空下显得格外静穆。金顶在第一缕阳光中熠熠生辉，转经人的脚步声在山脚下轻缓响起，古老的城池正在暖意中苏醒。",
-      "image": "/assets/images/loc_lhasa.png",
+      "image": "/assets/images/loc_lhasa.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "高原的纯净日光",
       "body": "拉萨地处海拔三千六百多米的高原，稀薄的空气让这里的阳光格外明澈与炽热。刺破云层的光线毫无阻拦地洒在岩石与河谷间，赋予了这片高原独特而纯净的生态与色彩。",
-      "image": "/assets/images/loc_lhasa_nature.png",
+      "image": "/assets/images/loc_lhasa_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "酥油灯前的守护者",
       "body": "昏暗的殿堂里，老阿妈手捧干干净净的铜质灯盏，小心翼翼地往里添加金黄色的酥油。微弱的火光映照着她刻满风霜却无比平和的面庞，仿佛世间所有繁杂都与她无关。",
-      "image": "/assets/images/loc_lhasa_people.png",
+      "image": "/assets/images/loc_lhasa_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "信仰的步履",
       "body": "漫步在拉萨的街头，总能看见磕长头的朝圣者。他们用身体丈量着土地，每一步都沉稳而坚定。在追逐速度的时代里，或许我们也需要这样一种笃定，慢慢走，走稳每一步。",
-      "image": "/assets/images/loc_lhasa_spark.png",
+      "image": "/assets/images/loc_lhasa_spark.webp",
       "ponder": "在快节奏的日常里，什么事情值得你慢下来、坚定地走下去？"
     },
     {
       "bucket": "旧物新看",
       "title": "八廓街的唐卡",
       "body": "用松石、孔雀石等天然矿物研磨上色的唐卡，历经数百年依旧色彩鲜艳。一笔一画的勾勒中，融合了画师一生的虔诚。如今，这抹高原色彩让我们在喧嚣中寻得一份内心的安详。",
-      "image": "/assets/images/loc_lhasa_old.png",
+      "image": "/assets/images/loc_lhasa_old.webp",
       "ponder": ""
     }
   ],
@@ -707,35 +707,35 @@
       "bucket": "世界一角",
       "title": "大漠黄昏的石窟",
       "body": "暮色如水，夕阳将鸣沙山染成一片金黄，安静的莫高窟九层楼前挂着的风铃在微风中叮当作响。大漠的风沙里，古老的石窟静静矗立，守护着千年来斑驳而绚烂的尘封岁月。",
-      "image": "/assets/images/loc_dunhuang.png",
+      "image": "/assets/images/loc_dunhuang.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "风沙中的绿洲",
       "body": "敦煌处于极端干旱的荒漠包围中，但党河的雪水滋养了这片绿洲。特有的干旱气候保护了石窟内的壁画与彩塑免受潮湿侵蚀，形成了荒原与文明奇迹共生的自然奇观。",
-      "image": "/assets/images/loc_dunhuang_nature.png",
+      "image": "/assets/images/loc_dunhuang_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "壁画修复师的画笔",
       "body": "幽暗的洞窟中，修复师手持细弱的毛笔，用特制的粘合剂一点点加固起皮脱落的壁画边缘。他屏息凝神，极力保持着手部的稳定，在微光中赋予千年前的飞天以新的生命。",
-      "image": "/assets/images/loc_dunhuang_people.png",
+      "image": "/assets/images/loc_dunhuang_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "尘埃与不朽",
       "body": "泥土与稻草混合做成的胎骨，经历了千年的风沙磨砺，依然保留着慈悲的微笑。这世间没有什么是永恒不变的，但那些融入了爱与虔诚的创作，总能在时间的长河中熠熠生辉。",
-      "image": "/assets/images/loc_dunhuang_spark.png",
+      "image": "/assets/images/loc_dunhuang_spark.webp",
       "ponder": "在不断变化的生活中，有哪些美好的品质让你感到它是永恒的？"
     },
     {
       "bucket": "旧物新看",
       "title": "飞天的飘带",
       "body": "莫高窟壁画上的飞天并没有翅膀，而是凭借着一根轻盈的飘带在空中翱翔。这种化繁为简的艺术构思，告诉现代的我们，摆脱多余的累赘与重负，心灵才能获得真正的自由。",
-      "image": "/assets/images/loc_dunhuang_old.png",
+      "image": "/assets/images/loc_dunhuang_old.webp",
       "ponder": ""
     }
   ],
@@ -744,35 +744,35 @@
       "bucket": "世界一角",
       "title": "烟雨漓江",
       "body": "细雨霏霏，如黛的群山在雨雾中层层叠叠。一条竹筏在碧绿的江面上缓缓漂过，撑篙的渔翁划破了平静的水面，荡开的波纹里，是一幅流动的、安静到极致的江南山水画卷。",
-      "image": "/assets/images/loc_guilin.png",
+      "image": "/assets/images/loc_guilin.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "喀斯特的造化",
       "body": "亿万年前的海底在漫长的地壳运动中抬升，雨水不断溶蚀碳酸盐岩，雕琢出峰林、峰丛与幽深的溶洞。这片神奇的喀斯特地貌，是流水与时间在地球表面留下的最温柔诗篇。",
-      "image": "/assets/images/loc_guilin_nature.png",
+      "image": "/assets/images/loc_guilin_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "驯鸬鹚的老渔翁",
       "body": "黄昏时分，江畔的老渔翁点亮竹筏上的小渔灯。他轻轻抚摸着站在筏头的鸬鹚，发出温和的哨音。微弱的火光在江面晃动，人、鸟与绿水，在此刻达成了一种相伴相依的默契。",
-      "image": "/assets/images/loc_guilin_people.png",
+      "image": "/assets/images/loc_guilin_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "水的包容与雕刻",
       "body": "坚硬的石灰岩终究被柔软的江水雕琢成了奇峰异洞。生活中许多难以逾越的障碍，或许不需要我们用强硬去对抗。像水一样温柔而坚持，时间自然会帮我们开辟出新的道路。",
-      "image": "/assets/images/loc_guilin_spark.png",
+      "image": "/assets/images/loc_guilin_spark.webp",
       "ponder": "面对当前的困境，你是否能尝试用“如水般的温柔”去包容和化解？"
     },
     {
       "bucket": "旧物新看",
       "title": "蓑衣下的风雨",
       "body": "棕榈树皮编织而成的蓑衣，曾是渔翁防雨的必备之物。它防风避雨，天然环保，散发着草木的清香。虽然如今已被雨衣取代，但它那朴拙的设计依然传递着人与自然的和谐。",
-      "image": "/assets/images/loc_guilin_old.png",
+      "image": "/assets/images/loc_guilin_old.webp",
       "ponder": ""
     }
   ],
@@ -781,35 +781,35 @@
       "bucket": "世界一角",
       "title": "石板路上的夜雨",
       "body": "夜雨过后，古城光滑的五花石板路上倒映着红灯笼温柔的光影。曲折的小溪在房前屋后静静流淌，送来远方雪山的清凉。沿着空无一人的小巷漫步，心神也随之安顿下来。",
-      "image": "/assets/images/loc_lijiang.png",
+      "image": "/assets/images/loc_lijiang.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "玉龙雪山的融水",
       "body": "巍峨的玉龙雪山冰川融水汇集成玉河，流至古城后分流为三条主支流，再穿街过巷流入千家万户。这天然的高山水源，不仅滋养着古城的绿植，更带走了喧嚣，留下了清凉。",
-      "image": "/assets/images/loc_lijiang_nature.png",
+      "image": "/assets/images/loc_lijiang_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "纳西老奶奶的披星戴月",
       "body": "清晨的街角，纳西族老奶奶穿着传统的“披星戴月”服饰，在摊位前摆放自家种的新鲜浆果。她脸上的皱纹像干花一样舒展，微笑着向路人点头，散发着安详与宁静的气息。",
-      "image": "/assets/images/loc_lijiang_people.png",
+      "image": "/assets/images/loc_lijiang_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "流水的去向",
       "body": "古城里的溪流无论怎样曲折弯绕，最终都会顺着地势流向远方。生命也是如此，眼前的迷茫与弯路或许只是沿途的风景，只要内心的方向明确，我们终会抵达属于自己的终点。",
-      "image": "/assets/images/loc_lijiang_spark.png",
+      "image": "/assets/images/loc_lijiang_spark.webp",
       "ponder": "回看过去走过的弯路，它们怎样塑造了现在的你？"
     },
     {
       "bucket": "旧物新看",
       "title": "纳西东巴文",
       "body": "作为世上唯一活着的象形文字，东巴文用简单的线条画出风雨、草木与鸟兽。每一个字都是一幅画，它用最直观的视觉符号提醒我们，重拾对自然万物的敬畏与敏锐感知。",
-      "image": "/assets/images/loc_lijiang_old.png",
+      "image": "/assets/images/loc_lijiang_old.webp",
       "ponder": ""
     }
   ],
@@ -818,35 +818,35 @@
       "bucket": "世界一角",
       "title": "雪夜里的中央大街",
       "body": "鹅毛大雪在夜空中静静飘落，金黄色的路灯将百年老街的欧式建筑勾勒得如梦似幻。踩在松软的积雪上，发出沙沙的声响，冰糖葫芦的酸甜伴着哈出的白气，温暖了寒冷的夜。",
-      "image": "/assets/images/loc_harbin.png",
+      "image": "/assets/images/loc_harbin.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "松花江的结冰期",
       "body": "寒冬的松花江封冻成平整的冰面，厚达数尺的冰层在阳光下呈现出纯净的淡蓝色。冷空气在江面上雕琢出奇妙的冰花与裂纹，展示着北方冬季独有的冷冽、壮阔与纯粹。",
-      "image": "/assets/images/loc_harbin_nature.png",
+      "image": "/assets/images/loc_harbin_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "采冰人的冬日歌谣",
       "body": "零下二十度的严寒里，采冰人穿着厚重的棉袄，用钢锯锯开坚硬的江冰。他们合力将巨大的冰块拉出水面，虽然睫毛上挂满了白霜，但嘹亮的号子声却在空旷的江面上回荡。",
-      "image": "/assets/images/loc_harbin_people.png",
+      "image": "/assets/images/loc_harbin_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "融化的冰雪与时间",
       "body": "冰雪城堡虽然壮丽，却注定要在春暖时分化为春水。这种转瞬即逝的美丽提醒我们，无需为事物的消逝而过度悲伤。珍视当下的纯粹与美好，便是对生命最温柔的敬意。",
-      "image": "/assets/images/loc_harbin_spark.png",
+      "image": "/assets/images/loc_harbin_spark.webp",
       "ponder": "在生命的无常与变化中，你该如何更好地活在当下的这一刻？"
     },
     {
       "bucket": "旧物新看",
       "title": "东北铁皮烤炉",
       "body": "街角的老烤炉散发着红薯与大板栗的焦甜香气。在寒风中，围在炉火旁等待美食的片刻，成了北方人冬日里最朴素的仪式。这小小的铁炉，用最简单的方式温暖着朴实的生活。",
-      "image": "/assets/images/loc_harbin_old.png",
+      "image": "/assets/images/loc_harbin_old.webp",
       "ponder": ""
     }
   ],
@@ -855,35 +855,35 @@
       "bucket": "世界一角",
       "title": "迷雾中的轻轨",
       "body": "清晨的山城被一层轻雾笼罩，红黄相间的单轨列车在错落的居民楼与绿树间穿行。站在江边台阶上仰望，楼房与桥梁交织在层叠的半空中，透出一份赛博朋克式的魔幻与安静。",
-      "image": "/assets/images/loc_chongqing.png",
+      "image": "/assets/images/loc_chongqing.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "两江交汇的色彩",
       "body": "长江与嘉陵江在朝天门相遇，一侧是泥沙浑浊的黄，一侧是清澈深邃的绿。冷暖两色江水交融却界限分明，配合着山城多雾的气候，构成了这片盆地边缘独特的河谷水文景观。",
-      "image": "/assets/images/loc_chongqing_nature.png",
+      "image": "/assets/images/loc_chongqing_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "梯坎上的挑山工",
       "body": "阳光洒在石梯坎上，满面红光的“棒棒”挑着两个沉甸甸的纸箱，拄着竹棒稳步向上攀爬。他走走停停，不时用搭在肩上的毛巾擦去汗水，向路过的熟人爽朗地打个招呼。",
-      "image": "/assets/images/loc_chongqing_people.png",
+      "image": "/assets/images/loc_chongqing_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "起伏的道路",
       "body": "在重庆，地图上的直线距离毫无意义，你必须顺着台阶上下起伏。人生也如这山城的路，没有绝对的平坦，起伏才是常态。只要一步步踏实地走，终能领略不同高度的风光。",
-      "image": "/assets/images/loc_chongqing_spark.png",
+      "image": "/assets/images/loc_chongqing_spark.webp",
       "ponder": "当你处于生活的“低谷”时，如何积蓄力量走向下一个“高点”？"
     },
     {
       "bucket": "旧物新看",
       "title": "防空洞里的烟火",
       "body": "战时留下的防空洞，如今被改造成了清凉的火锅店、加油站或书店。厚重的石墙隔绝了外界的热浪与喧嚣，将昔日的避难所化为今日的休闲港湾，折射出山城人民坚韧的生命力。",
-      "image": "/assets/images/loc_chongqing_old.png",
+      "image": "/assets/images/loc_chongqing_old.webp",
       "ponder": ""
     }
   ],
@@ -892,35 +892,35 @@
       "bucket": "世界一角",
       "title": "椰林落日",
       "body": "傍晚，粉红色的晚霞铺满了整片天空，海浪轻柔地拍打着金黄的沙滩。椰子树纤细的叶片在微风中沙沙作响，几只海鸥掠过渐渐暗下来的海面，带走了白日里所有的炽热。",
-      "image": "/assets/images/loc_sanya.png",
+      "image": "/assets/images/loc_sanya.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "珊瑚礁的静谧世界",
       "body": "三亚拥有温暖清澈的海水与充足的阳光，为珊瑚虫提供了绝佳的生存环境。五彩缤纷的造礁珊瑚在海底静静生长，吸引了无数热带鱼类筑巢，共同构建了奇妙的海底热带雨林。",
-      "image": "/assets/images/loc_sanya_nature.png",
+      "image": "/assets/images/loc_sanya_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "织黎锦的老阿婆",
       "body": "椰子树荫下，阿婆席地而坐，双腿伸直绷紧腰机，双手灵活地用骨针挑引彩线。随着木刀一下下砸紧纬线，古老的祥云与图腾在指尖慢慢显现，伴随着时间的静静流淌。",
-      "image": "/assets/images/loc_sanya_people.png",
+      "image": "/assets/images/loc_sanya_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "潮汐的起落",
       "body": "蔚蓝的大海日复一日地潮起潮落，带走沙滩上的脚印，留下美丽的贝壳。人生的得失也如这潮汐，没有什么是真正能被占有的。试着以宽容的心态，接纳生命中的来来去去。",
-      "image": "/assets/images/loc_sanya_spark.png",
+      "image": "/assets/images/loc_sanya_spark.webp",
       "ponder": "在你的生活中，有什么是你一直试图抓住、却需要学会放手的事情？"
     },
     {
       "bucket": "旧物新看",
       "title": "疍家人的水上棚屋",
       "body": "世代生活在海上的疍家人，用木头和塑料浮筒在港湾搭起漂浮的家。这种独特的“水上吉普赛”生活方式，透露着古人对海洋的依附与适应，也给现代人展示了生活的另一种可能。",
-      "image": "/assets/images/loc_sanya_old.png",
+      "image": "/assets/images/loc_sanya_old.webp",
       "ponder": ""
     }
   ],
@@ -929,35 +929,35 @@
       "bucket": "世界一角",
       "title": "湖畔的油菜花海",
       "body": "湛蓝如镜的青海湖边，金黄色的油菜花盛开得漫无边际。微风吹过，花海与湖水交织出大自然最明净的色彩。远处的雪山沉静而庄严，牛羊像散落的珍珠，在草地上缓缓移动。",
-      "image": "/assets/images/loc_qinghai.png",
+      "image": "/assets/images/loc_qinghai.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "高原微咸的生态",
       "body": "作为中国最大的内陆咸水湖，青海湖水温低、盐度适中，孕育了特有的湟鱼。这种无鳞鱼每到夏季便会溯流而上产卵，成千上万的飞鸟在海心山栖息繁衍，构成壮丽的生态圈。",
-      "image": "/assets/images/loc_qinghai_nature.png",
+      "image": "/assets/images/loc_qinghai_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "帐篷旁的牧羊姑娘",
       "body": "清晨，年轻的藏族姑娘从白色的帐篷里走出，手里拿着长长的牧鞭。她用柔和的藏语呼唤着羊群，解开木栅栏的绳索。清晨的阳光洒在她红润的脸庞上，散发着草木般的质朴。",
-      "image": "/assets/images/loc_qinghai_people.png",
+      "image": "/assets/images/loc_qinghai_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "寂静的力量",
       "body": "站在这片辽阔的天地间，耳畔只有风声和偶尔的鸟鸣。尘世的嘈杂在巨大的空旷里瞬间消散。只有当我们愿意面对生命中的“空无”时，才能在宁静中重新听见自己内心的声音。",
-      "image": "/assets/images/loc_qinghai_spark.png",
+      "image": "/assets/images/loc_qinghai_spark.webp",
       "ponder": "上一次你让自己彻底安静下来、什么都不想，是什么时候？"
     },
     {
       "bucket": "旧物新看",
       "title": "玛尼堆的祈愿",
       "body": "湖畔高高低低的玛尼石堆，是路人用一颗颗石子叠加而成的虔诚祈祷。每一次弯腰放置，都是对自然与生命的致敬。这种简单而长久的仪式，无声地连接着人与脚下的土地。",
-      "image": "/assets/images/loc_qinghai_old.png",
+      "image": "/assets/images/loc_qinghai_old.webp",
       "ponder": ""
     }
   ],
@@ -966,35 +966,35 @@
       "bucket": "世界一角",
       "title": "洱海边的黄昏",
       "body": "苍山渐渐隐没在黛青色的暮色中，洱海的水面折射出粉紫色的晚霞。几只水鸟掠过枯树斜入水中的枝干，漾起细碎的波澜。坐在水畔木椅上，听着微弱的涛声，心也变得柔软。",
-      "image": "/assets/images/loc_dali.png",
+      "image": "/assets/images/loc_dali.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "苍山冰川遗迹",
       "body": "苍山十九峰巍峨起伏，发育了独特的第四纪冰川地貌。山顶终年积雪的融水化作十八条清溪，穿过肥沃的坝子源源不断流入洱海，形成了苍山洱海间完美的自然水循环系统。",
-      "image": "/assets/images/loc_dali_nature.png",
+      "image": "/assets/images/loc_dali_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "扎染坊里的白族阿妈",
       "body": "洒满阳光的庭院里，阿妈正用细绳在雪白的棉布上熟练地打结。随后将布料浸入温热的板蓝根靛蓝染缸中。反复漂洗晾晒后，一朵朵白色的祥云在蓝布上绽放，那是时光的手艺。",
-      "image": "/assets/images/loc_dali_people.png",
+      "image": "/assets/images/loc_dali_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "风花雪月的真义",
       "body": "下关风、上关花、苍山雪、洱海月，大理人用这四个字概括了最美的一生。自然的美好其实从不收费，也无须争抢。静下心来，你会发现最好的风景一直就在我们身边。",
-      "image": "/assets/images/loc_dali_spark.png",
+      "image": "/assets/images/loc_dali_spark.webp",
       "ponder": "在你的日常生活中，有哪些不需要花钱却能让你感到幸福的小事？"
     },
     {
       "bucket": "旧物新看",
       "title": "甲马纸上的神祇",
       "body": "作为古老民间木刻版画的甲马纸，用粗犷的线条雕刻着自然神灵与美好祈愿。这略显粗糙的木刻红纸，记录了白族人对万物有灵的朴素信仰，也提醒着我们要保持对万物的敏感。",
-      "image": "/assets/images/loc_dali_old.png",
+      "image": "/assets/images/loc_dali_old.webp",
       "ponder": ""
     }
   ],
@@ -1003,35 +1003,35 @@
       "bucket": "世界一角",
       "title": "云海中的奇峰",
       "body": "破晓时分，白色的云海在奇峰怪石间翻滚，宛如波涛汹涌的仙境之海。挺拔的黄山松在云雾中若隐若现，朝阳洒下万道金光，将怪石的轮廓勾勒成一幅绝妙的泼墨写意画作。",
-      "image": "/assets/images/loc_huangshan.png",
+      "image": "/assets/images/loc_huangshan.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "破岩而出的黄山松",
       "body": "黄山松生长在海拔八百米以上的花岗岩裂隙中。由于土壤贫瘠，它们根系分泌有机酸来溶解岩石以汲取微量养分，生长极其缓慢，展现了植物在严苛自然中令人赞叹的生命力。",
-      "image": "/assets/images/loc_huangshan_nature.png",
+      "image": "/assets/images/loc_huangshan_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "挑山工的坚韧步伐",
       "body": "陡峭的石阶上，挑山工挑着沉甸甸的蔬菜与补给，一步步稳健地向上挪动。扁担压弯了他们的肩膀，木杖在石阶上敲击出规律的声响。他们布满老茧的脚掌，丈量着大山的脊梁。",
-      "image": "/assets/images/loc_huangshan_people.png",
+      "image": "/assets/images/loc_huangshan_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "坚硬与苍翠",
       "body": "挺拔的青松在最陡峭的岩石缝中生根发芽，迎风冒雪却依然苍翠。生命所处的环境或许无法选择，但我们可以像黄山松一样，将根深深扎入生活的岩缝，在逆境中开出苍翠的花。",
-      "image": "/assets/images/loc_huangshan_spark.png",
+      "image": "/assets/images/loc_huangshan_spark.webp",
       "ponder": "当你感到环境严苛、资源匮乏时，你该如何汲取力量、顽强生长？"
     },
     {
       "bucket": "旧物新看",
       "title": "徽州砖雕的细致",
       "body": "徽州古民居门罩上的砖雕，以质地细腻的青砖为材料，刻画出精细的山水人物。这种在易碎材质上进行的艺术创作，体现了匠人极致的耐心，也提醒我们在浮躁中保留一份沉静。",
-      "image": "/assets/images/loc_huangshan_old.png",
+      "image": "/assets/images/loc_huangshan_old.webp",
       "ponder": ""
     }
   ],
@@ -1040,35 +1040,35 @@
       "bucket": "世界一角",
       "title": "雨夜的红灯笼",
       "body": "细雨绵绵的傍晚，依山而建的窄小石阶两旁，红灯笼一盏接一盏地亮起。朦胧的灯火倒映在湿漉漉的石板路上，远方的深澳湾海面风平浪静，古老山城在雨声里显得温柔而怀旧。",
-      "image": "/assets/images/loc_jiufen.png",
+      "image": "/assets/images/loc_jiufen.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "山海交汇的季风",
       "body": "九份面临太平洋，背靠基隆山，湿润的海风遇山受阻，凝结成绵绵的细雨。这里独特的亚热带山地气候，带来了变幻莫测的雾气与丰沛的雨水，赋予山城湿润、多雾的忧郁气质。",
-      "image": "/assets/images/loc_jiufen_nature.png",
+      "image": "/assets/images/loc_jiufen_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "阿妹茶楼的司茶人",
       "body": "在幽暗的茶楼木窗边，司茶人熟练地烫洗着茶具。沸水冲入茶壶，滚烫的水汽带着乌龙茶的浓郁香气在空气中弥漫。他温和地为客人斟茶，用轻柔的声音讲述着这座老金矿的往事。",
-      "image": "/assets/images/loc_jiufen_people.png",
+      "image": "/assets/images/loc_jiufen_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "灯火与归途",
       "body": "站在石阶高处俯瞰，错落的灯火在雨雾里闪烁，像夜空里的繁星。每一个窗口下都承载着一个平凡的故事。即使外面的世界风雨交加，心中有那一盏灯火，我们便不会迷失归途。",
-      "image": "/assets/images/loc_jiufen_spark.png",
+      "image": "/assets/images/loc_jiufen_spark.webp",
       "ponder": "在你的内心深处，那盏无论何时都指引着你、温暖着你的灯火是什么？"
     },
     {
       "bucket": "旧物新看",
       "title": "选矿斗的记忆",
       "body": "曾经车水马龙的淘金旧道，如今只剩下锈迹斑斑的轻便铁轨与选矿斗。这沧桑的遗迹默默诉说着往昔的喧嚣与繁华，也提醒我们：生命的繁华终将退去，唯有内心的安宁会长留。",
-      "image": "/assets/images/loc_jiufen_old.png",
+      "image": "/assets/images/loc_jiufen_old.webp",
       "ponder": ""
     }
   ],
@@ -1077,35 +1077,35 @@
       "bucket": "世界一角",
       "title": "霓虹闪烁的街角",
       "body": "暮色初升，高耸的居民楼间，层层叠叠的霓虹招牌相继亮起。红绿相间的微光洒在喧嚣的街道上，绿色的双层巴士缓缓驶过，在都市的喧嚣深处，藏着一抹独属于老香港的烟火气。",
-      "image": "/assets/images/loc_hongkong.png",
+      "image": "/assets/images/loc_hongkong.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "夹缝里的细叶榕",
       "body": "在旺角钢筋水泥的缝隙里，生命力顽强的细叶榕顺着古老的砖墙和护坡石缝生根。它的气生根如丝线般垂落，汲取着空气中的水汽，在狭窄的城市夹缝里撑起了一片翠绿的绿荫。",
-      "image": "/assets/images/loc_hongkong_nature.png",
+      "image": "/assets/images/loc_hongkong_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "报摊老伯的守望",
       "body": "喧闹的街角，老伯在狭小的铁皮报摊前忙碌着。他熟练地整理着报纸，把彩色的杂志挂在铁丝上。虽然街上人来人往、脚步匆匆，他却神色悠然，用淡定的目光注视着这个城市。",
-      "image": "/assets/images/loc_hongkong_people.png",
+      "image": "/assets/images/loc_hongkong_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "喧嚣中的寂静",
       "body": "旺角是世界上人口密度最高的地方之一，嘈杂的声音从不间断。但在汹涌的人潮中，若能守住心中的那一分安静，身处闹市亦如深山。心若不动，风又奈何？",
-      "image": "/assets/images/loc_hongkong_spark.png",
+      "image": "/assets/images/loc_hongkong_spark.webp",
       "ponder": "在纷繁复杂的嘈杂环境中，你用什么方式为自己构筑内心的防空洞？"
     },
     {
       "bucket": "旧物新看",
       "title": "叮叮车的慢时光",
       "body": "在繁华的港岛街头，百年历史的叮叮车依然不紧不慢地在铁轨上行驶。它那复古的造型与缓慢的速度，在追求高效的现代都市里，像是一个温柔的提醒：慢一点，才能看清风景。",
-      "image": "/assets/images/loc_hongkong_old.png",
+      "image": "/assets/images/loc_hongkong_old.webp",
       "ponder": ""
     }
   ],
@@ -1114,35 +1114,35 @@
       "bucket": "世界一角",
       "title": "牌坊前的斜阳",
       "body": "傍晚的阳光斜斜地照在大三巴牌坊上，精美的石雕在暖橘色的光晕中显得分外立体。微风吹过石板广场，白鸽在湛蓝的天空下低低飞过，在东西方时光的交汇点，留下一抹安静。",
-      "image": "/assets/images/loc_macau.png",
+      "image": "/assets/images/loc_macau.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "海岛的湿润气候",
       "body": "澳门地处珠江口西侧，典型的海洋性季风气候带来温和多雨的四季。空气中常年弥漫着淡淡的微咸海风，海浪拍打着岩石，滋养着马尾松与簕杜鹃，构成了湿润而生动的海岛景观。",
-      "image": "/assets/images/loc_macau_nature.png",
+      "image": "/assets/images/loc_macau_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "手工蛋卷的老匠人",
       "body": "大三巴下的小巷里，老匠人熟练地用特制的铁板压平蛋浆。随着刺啦一声，浓郁的奶香在空气中散开。他戴着棉布手套，用细铁棒轻巧一卷，金黄香脆的蛋卷便成了时光的赠礼。",
-      "image": "/assets/images/loc_macau_people.png",
+      "image": "/assets/images/loc_macau_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "残缺的完整",
       "body": "宏伟的教堂如今只留下一面精美的石壁，却依然震撼人心。生命中的残缺与遗憾，有时也是一种独特的美丽。接纳那些不完美，它们反而会成为你生命里最坚韧、最动人的底色。",
-      "image": "/assets/images/loc_macau_spark.png",
+      "image": "/assets/images/loc_macau_spark.webp",
       "ponder": "面对生活中的某些遗憾，你是否能试着从中发现它带给你的独特成长？"
     },
     {
       "bucket": "旧物新看",
       "title": "葡式碎石路的优雅",
       "body": "澳门街头黑白相间、用小石块手工铺就的葡式波浪碎石路，既防滑又美观。黑白线条在脚下如波浪般起伏，将古老的航海记忆融入日常的步履，让行走的每一步都充满了韵律。",
-      "image": "/assets/images/loc_macau_old.png",
+      "image": "/assets/images/loc_macau_old.webp",
       "ponder": ""
     }
   ],
@@ -1151,35 +1151,35 @@
       "bucket": "世界一角",
       "title": "风吹草低见牛羊",
       "body": "碧绿的草原像一块无边无际的厚地毯，铺向遥远的地平线。清晨的阳光洒在弯弯曲曲的莫日格勒河上，河水如银色的飘带闪闪发光。马群在草地上奔跑，风里满是青草的芬芳。",
-      "image": "/assets/images/loc_hulunbuir.png",
+      "image": "/assets/images/loc_hulunbuir.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "黑土地与针叶林",
       "body": "呼伦贝尔地处大兴安岭向草原的过渡带，拥有肥沃的黑土地与大片落叶松针叶林。独特的寒温带气候孕育了驯鹿与珍稀的百草，在漫长的冬季过后，爆发出惊人的绿色生命力。",
-      "image": "/assets/images/loc_hulunbuir_nature.png",
+      "image": "/assets/images/loc_hulunbuir_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "驯鹿鄂温克人",
       "body": "在白桦林深处，鄂温克族的老猎人正用桦树皮编织的小盆盛装盐巴。他发出长长的呼唤，几只头戴巨大鹿角的驯鹿便温顺地从林间走来，亲昵地舔舐着他满是老茧的手掌。",
-      "image": "/assets/images/loc_hulunbuir_people.png",
+      "image": "/assets/images/loc_hulunbuir_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "地平线的宽广",
       "body": "站在辽阔的草原中央，地平线在各个方向都伸展到极致。在这样宏大的自然面前，我们的小小烦恼似乎也变得微不足道。放宽心胸，让心像这片草原一样，接纳所有的起伏。",
-      "image": "/assets/images/loc_hulunbuir_spark.png",
+      "image": "/assets/images/loc_hulunbuir_spark.webp",
       "ponder": "当你被局限在狭窄的日常中时，该如何给自己的心灵撑开一片辽阔的草原？"
     },
     {
       "bucket": "旧物新看",
       "title": "毡房里的炉火",
       "body": "传统的蒙古包用羊毛毡制成，既保暖又易于拆装移动。圆顶的结构能有效抵御暴风雨。夜幕降临，火炉里燃烧的干牛粪散发出温暖的烟火气，那是游牧民族对自然最聪明的适应。",
-      "image": "/assets/images/loc_hulunbuir_old.png",
+      "image": "/assets/images/loc_hulunbuir_old.webp",
       "ponder": ""
     }
   ],
@@ -1188,35 +1188,35 @@
       "bucket": "世界一角",
       "title": "晨雾中的神仙湾",
       "body": "清晨，薄薄的晨雾如白纱般漂浮在如翡翠般的喀纳斯河面上。两岸的白桦林和落叶松层林尽染，倒映在静止的水中。微风吹过，落叶无声飘落，整个山谷静谧得如同童话世界。",
-      "image": "/assets/images/loc_kanas.png",
+      "image": "/assets/images/loc_kanas.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "变色湖的奥秘",
       "body": "喀纳斯湖是深藏在阿尔泰山中的冰川堰塞湖。湖水颜色会随着季节和天气的变化而改变，这是因为上游冰川融水携带了大量花岗岩细微矿物颗粒，在光线折射下产生奇妙魔力。",
-      "image": "/assets/images/loc_kanas_nature.png",
+      "image": "/assets/images/loc_kanas_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "图瓦老人的苏尔笛声",
       "body": "在木质的尖顶小木屋里，图瓦族老人手持一根用当地芦苇制成的三孔苏尔笛。他微微合眼，用丹田之气吹奏出低沉、悠扬的旋律，笛声中夹杂着风声与鸟鸣，回荡在空旷的山谷。",
-      "image": "/assets/images/loc_kanas_people.png",
+      "image": "/assets/images/loc_kanas_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "随四季流转的色彩",
       "body": "喀纳斯的森林在春天翠绿，秋天金黄，冬天雪白。它们从不抗拒季节的更替，而是顺应自然，展现出每个阶段最极致的美。学着顺应生命的节奏，去享受当下的每一个季节。",
-      "image": "/assets/images/loc_kanas_spark.png",
+      "image": "/assets/images/loc_kanas_spark.webp",
       "ponder": "在你生命目前的阶段中，你该如何去发现和欣赏属于这个时期的美好？"
     },
     {
       "bucket": "旧物新看",
       "title": "榫卯相扣的图瓦木屋",
       "body": "图瓦人居住的木屋，全部用原木通过榫卯结构搭建而成，不使用一颗铁钉。屋顶覆以泥土和干草，既保暖又防风。这种就地取材的建筑，展现了人与大山最质朴的共生智慧。",
-      "image": "/assets/images/loc_kanas_old.png",
+      "image": "/assets/images/loc_kanas_old.webp",
       "ponder": ""
     }
   ],
@@ -1225,35 +1225,35 @@
       "bucket": "世界一角",
       "title": "苗寨的万家灯火",
       "body": "夜幕低垂，依山而建的千户苗寨逐渐亮起星星点点的灯火。吊脚楼重重叠叠，如同一座闪烁着暖光的小金山。风雨桥在静静的白水河上映出倒影，送来吊脚楼里悠扬的芦笙声。",
-      "image": "/assets/images/loc_miaocheng.png",
+      "image": "/assets/images/loc_miaocheng.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "喀斯特的茂密植被",
       "body": "苗寨坐落在雷公山麓的谷地中，典型的中亚热带湿润季风气候孕育了茂密的阔叶林与高山草甸。湿润的空气与频繁的降水，使得山谷间常年云雾缭绕，流水潺潺，生态极为丰富。",
-      "image": "/assets/images/loc_miaocheng_nature.png",
+      "image": "/assets/images/loc_miaocheng_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "苗族银匠的锤打声",
       "body": "阁楼的灯光下，年轻的银匠手持小锤，在特制的铅砧上细细锤打着一块银片。随着清脆的叮当声，精致的蝴蝶与雀鸟图案在银片上跃然而出，这叮咚声回荡在安静的夜空里。",
-      "image": "/assets/images/loc_miaocheng_people.png",
+      "image": "/assets/images/loc_miaocheng_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "聚沙成塔的温暖",
       "body": "一栋栋小小的吊脚木楼，顺着山势紧紧相依，最终汇聚成了蔚为壮观的千户苗寨。每个人的力量或许是微小的，但当我们的爱与善意相连，就能在这世间筑起最温暖的港湾。",
-      "image": "/assets/images/loc_miaocheng_spark.png",
+      "image": "/assets/images/loc_miaocheng_spark.webp",
       "ponder": "环顾四周，有哪些看似微小却温暖的人际连接，正支撑着你的生活？"
     },
     {
       "bucket": "旧物新看",
       "title": "苗族蜡染的蓝白之美",
       "body": "苗家姑娘用铜刀蘸取熔化的蜂蜡，在白布上绘出花鸟。蓝草染色的蓝与蜂蜡覆盖的白，交织出质朴的图案。这抹洗尽铅华的蓝白，用最单纯的色彩展示着人对自然的深情表达。",
-      "image": "/assets/images/loc_miaocheng_old.png",
+      "image": "/assets/images/loc_miaocheng_old.webp",
       "ponder": ""
     }
   ],
@@ -1262,35 +1262,35 @@
       "bucket": "世界一角",
       "title": "大山深处的同心圆",
       "body": "阳光斜照进翠绿的山谷，几座巨大的圆形土楼如飞碟般静静卧在溪水旁。高大厚实的黄土墙在夕阳中呈现出温暖的色调，缕缕炊烟从屋顶的瓦片缝隙里飘出，透出无比的安详。",
-      "image": "/assets/images/loc_tulou.png",
+      "image": "/assets/images/loc_tulou.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "依山傍水的选址",
       "body": "福建土楼多分布在闽西南丘陵地带。古人在选址时依循风水，多选在背山临水、避风向阳的谷地。肥沃的红壤不仅滋养了竹林与水稻，更为建造土楼提供了最坚固的原料。",
-      "image": "/assets/images/loc_tulou_nature.png",
+      "image": "/assets/images/loc_tulou_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "土楼天井旁的泡茶人",
       "body": "在土楼宽敞的天井中央，阿公在石桌上摆开茶具，冲泡一壶刚采摘的铁观音。滚烫的茶水注入杯中，清香在天井里飘散。他笑呵呵地招呼着路过的邻居，递上一杯温暖的茶水。",
-      "image": "/assets/images/loc_tulou_people.png",
+      "image": "/assets/images/loc_tulou_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "圆融的包容",
       "body": "土楼圆形的结构让所有房间都朝向中心的天井，无分尊卑，象征着族群的平等与团结。在繁杂的社交世界中，或许我们也需要这样一份“圆融”，用平等与包容去对待身边的每个人。",
-      "image": "/assets/images/loc_tulou_spark.png",
+      "image": "/assets/images/loc_tulou_spark.webp",
       "ponder": "在你与人交往的过程中，该如何放下偏见，多一份“圆融”的理解与包容？"
     },
     {
       "bucket": "旧物新看",
       "title": "夯土墙的呼吸",
       "body": "用生土、竹片与红糖糯米浆混合夯筑的土楼外墙，厚达数米。这面神奇的泥土墙不仅冬暖夏凉，还具有极强的防震功能。它像有生命一样在空气中呼吸，默默守护了数百年。",
-      "image": "/assets/images/loc_tulou_old.png",
+      "image": "/assets/images/loc_tulou_old.webp",
       "ponder": ""
     }
   ],
@@ -1299,35 +1299,35 @@
       "bucket": "世界一角",
       "title": "暮色中的东京塔",
       "body": "傍晚的东京塔在浅粉色暮光中亮起温暖的橘色。白日里喧嚣的都市，在这一刻仿佛按下了静音键，只有天际线处的云彩缓缓流动，陪伴着晚归者的脚步。",
-      "image": "/assets/images/loc_tokyo.png",
+      "image": "/assets/images/loc_tokyo.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "明治神宫的古木",
       "body": "隐匿在繁华都市中心的明治神宫拥有一片茂密的温带常绿阔叶林。清晨，微风穿过古老的樟树与栎树，带走城市的喧闹，只留下湿润的泥土气息和清脆的鸟鸣。",
-      "image": "/assets/images/loc_tokyo_nature.png",
+      "image": "/assets/images/loc_tokyo_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "江户切子工坊的匠人",
       "body": "谷中老街的小作坊里，年迈的匠人正专注地在红色玻璃杯上雕刻出精细的几何纹样。砂轮摩擦的沙沙声中，飞溅的水花在晨光里折射出彩虹般的光芒，安静而温暖。",
-      "image": "/assets/images/loc_tokyo_people.png",
+      "image": "/assets/images/loc_tokyo_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "繁华深处的角落",
       "body": "在世界上最繁忙的十字路口旁，总有一条寂静的窄巷与一盏微弱的石灯笼。当生活被按快进键时，不妨学着在一朵路边野花前停下，寻找属于你自己的慢半拍。",
-      "image": "/assets/images/loc_tokyo_spark.png",
+      "image": "/assets/images/loc_tokyo_spark.webp",
       "ponder": "在快节奏的日常里，有什么事是你想慢慢完成的？"
     },
     {
       "bucket": "旧物新看",
       "title": "招财猫的百年守护",
       "body": "豪德寺里成千上万只白色招财猫静静伫立。这一源自江户时代的风俗，最初只是人们对平安与丰收的质朴祈愿。如今，它们用举起的右爪，继续守护着人世间的宁静。",
-      "image": "/assets/images/loc_tokyo_old.png",
+      "image": "/assets/images/loc_tokyo_old.webp",
       "ponder": ""
     }
   ],
@@ -1336,35 +1336,35 @@
       "bucket": "世界一角",
       "title": "晨光微熹的道顿堀",
       "body": "清晨的道顿堀褪去了夜晚的斑斓霓虹，运河水面平静得如同一面镜子。只有早起的环卫工人在静静清扫街道，朝阳给巨大的广告牌镀上一层温柔的浅金色。",
-      "image": "/assets/images/loc_osaka.png",
+      "image": "/assets/images/loc_osaka.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "淀川河畔的候鸟",
       "body": "贯穿大阪的淀川拥有一片丰茂的芦苇湿地。每逢春秋两季，来自西伯利亚的候鸟会在此短暂停歇，在水草间筑巢觅食，为这座钢铁城市注入大自然的灵动与生机。",
-      "image": "/assets/images/loc_osaka_nature.png",
+      "image": "/assets/images/loc_osaka_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "巷弄里的章鱼烧店主",
       "body": "狭窄的小巷里，铁板上正散发着浓郁的柴鱼香气。胖乎乎的店主大叔手持竹签，快速翻转着滚圆 of 章鱼烧，脸上洋溢着温暖的笑容，热情地向每一位过客问好。",
-      "image": "/assets/images/loc_osaka_people.png",
+      "image": "/assets/images/loc_osaka_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "喧嚣落幕后的温热",
       "body": "大阪的烟火气里总带着一丝质朴的幽默。当热闹的宴席散去，深夜路灯下的影子被拉得很长。生活或许并不完美，但那些藏在市井深处的笑声，总能治愈疲惫的灵魂。",
-      "image": "/assets/images/loc_osaka_spark.png",
+      "image": "/assets/images/loc_osaka_spark.webp",
       "ponder": "身边哪位朋友的笑声最让你感到放松？"
     },
     {
       "bucket": "旧物新看",
       "title": "丰臣秀吉的千成葫芦",
       "body": "在大阪的传统徽记中，常能见到成串的葫芦图案。这源于战国时期丰臣秀吉的军旗标识。如今，这枚曾经象征权力的图腾，已化作百姓祈求子孙繁衍、家庭和睦的吉祥物。",
-      "image": "/assets/images/loc_osaka_old.png",
+      "image": "/assets/images/loc_osaka_old.webp",
       "ponder": ""
     }
   ],
@@ -1373,35 +1373,35 @@
       "bucket": "世界一角",
       "title": "晨雾迷蒙的奈良公园",
       "body": "清晨的奈良公园笼罩在淡淡的薄雾中。几只小鹿轻盈地穿过落满红枫的草地，春日大社的石灯笼在古木的阴影下静默着，仿佛时间在这里千百年来从未移动。",
-      "image": "/assets/images/loc_nara.png",
+      "image": "/assets/images/loc_nara.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "春日山原始森林",
       "body": "奈良城东的春日山原始森林，自公元九世纪起便被严禁砍伐。古老的常绿栎树遮天蔽日，苔藓在潮湿的树干上静静蔓延，保留着日本古代最纯粹的自然神韵。",
-      "image": "/assets/images/loc_nara_nature.png",
+      "image": "/assets/images/loc_nara_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "奈良墨坊的老手艺人",
       "body": "昏暗的作坊里弥漫着淡淡的松香与冰片味。老手艺人正用双手揉捏着温热的墨团，反复捶打，将其压入精美的木模中。这门安静的指尖手艺，已在墨香中传了数代。",
-      "image": "/assets/images/loc_nara_people.png",
+      "image": "/assets/images/loc_nara_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "与生灵同行的默契",
       "body": "走在奈良，小鹿会向你微微鞠躬，期待一块鹿仙贝。在这个没有围栏的世界里，人类与野生动物共享一片树荫。学会与自然分享空间，我们的心也会变得宽广开阔。",
-      "image": "/assets/images/loc_nara_spark.png",
+      "image": "/assets/images/loc_nara_spark.webp",
       "ponder": "在日常生活中，你有多久没有认真观察过一只小动物了？"
     },
     {
       "bucket": "旧物新看",
       "title": "奈良一刀雕的朴拙",
       "body": "奈良传统的一刀雕用简单的刀法刻出人偶与小鹿，不求精细却保留了木材天然的粗粝感。这种诞生于古代祭祀的小玩偶，至今仍用它拙朴的姿态传递着匠心的温度。",
-      "image": "/assets/images/loc_nara_old.png",
+      "image": "/assets/images/loc_nara_old.webp",
       "ponder": ""
     }
   ],
@@ -1410,35 +1410,35 @@
       "bucket": "世界一角",
       "title": "大通公园的冬夜雪景",
       "body": "暮色降临，漫天飞雪将大通公园染成一片纯白。暖黄色的街灯在雪地上投下柔和的光晕，远处的电视塔闪烁着红绿相间的光芒，整座城市像被装进了水晶音乐盒。",
-      "image": "/assets/images/loc_sapporo.png",
+      "image": "/assets/images/loc_sapporo.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "北海道的轻盈粉雪",
       "body": "札幌的冬天拥有世界上最干燥、最轻盈的粉雪。来自西伯利亚的寒冷季风越过海面，在北海道凝结成含水量极低的雪花。落在手心里，只需轻轻一吹便会消散如风。",
-      "image": "/assets/images/loc_sapporo_nature.png",
+      "image": "/assets/images/loc_sapporo_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "温暖玻璃工坊的学徒",
       "body": "在雪地环绕的工坊内，火炉喷吐着橘红的火舌。年轻的玻璃学徒用吹管吹出一个红热的玻璃泡，在旋转中慢慢塑成一只冰蓝色的风铃，为寒冬注入一丝清脆的温度。",
-      "image": "/assets/images/loc_sapporo_people.png",
+      "image": "/assets/images/loc_sapporo_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "大雪之下的寂静",
       "body": "当厚雪覆盖大地，世界仿佛失去了所有的回音，变得无比安静。在这片白茫茫的寂静中，呼吸也变得缓慢而清晰。或许，心灵也需要这样一场大雪，掩盖昨日的繁杂。",
-      "image": "/assets/images/loc_sapporo_spark.png",
+      "image": "/assets/images/loc_sapporo_spark.webp",
       "ponder": "在喧嚣的世界中，你如何为自己营造一片内心的寂静？"
     },
     {
       "bucket": "旧物新看",
       "title": "雪祭的温情起源",
       "body": "札幌雪祭如今是举世闻名的盛会，然而它最初只是在1950年，由几名当地高中生在大通公园制作的六座雪雕。这种在寒冬中寻找乐趣的简单初心，延续至今未变。",
-      "image": "/assets/images/loc_sapporo_old.png",
+      "image": "/assets/images/loc_sapporo_old.webp",
       "ponder": ""
     }
   ],
@@ -1447,35 +1447,35 @@
       "bucket": "世界一角",
       "title": "万座毛的落日晚霞",
       "body": "傍晚，夕阳缓缓坠入清澈的海平线，将万座毛的象鼻状悬崖染成深黛色。海浪温柔地拍打着下方的珊瑚礁，碎成白色的泡沫，整片天空化作温柔的橘红色和紫色。",
-      "image": "/assets/images/loc_okinawa.png",
+      "image": "/assets/images/loc_okinawa.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "星砂湾的奇妙沙滩",
       "body": "冲绳离岛的竹富岛上有一片神奇的沙滩。这里的沙粒呈完美的五角或六角星形。其实它们并非真正的沙子，而是古代有孔虫类留下的钙质外壳，见证着生命的奇妙。",
-      "image": "/assets/images/loc_okinawa_nature.png",
+      "image": "/assets/images/loc_okinawa_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "编织八重山织的阿嬷",
       "body": "木质阁楼里，年迈的阿嬷坐在古老的织布机前。梭子在五彩的棉线间来回穿梭，发出规律的吱呀声。她正在织造有着五格和四格花纹的传统腰带，寄托着永恒的爱意。",
-      "image": "/assets/images/loc_okinawa_people.png",
+      "image": "/assets/images/loc_okinawa_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "顺应海潮的漫时光",
       "body": "在冲绳，人们有着独特的慢节奏。海浪退去又会回来，花朵谢了又会再开。生命不需要总是紧绷前行，试着像海边的椰子树一样，在海风中放松地摆动，任时光静静流逝。",
-      "image": "/assets/images/loc_okinawa_spark.png",
+      "image": "/assets/images/loc_okinawa_spark.webp",
       "ponder": "如果不考虑时间的约束，你今天最想在哪里发呆？"
     },
     {
       "bucket": "旧物新看",
       "title": "守护屋顶的石狮子",
       "body": "冲绳民居红瓦屋顶上，总能看到一尊泥塑的石狮子。这种受中国影响而诞生的吉祥物，张着口迎接福气，闭着口守住财富，在海风吹拂的蓝天之下，默默守护着一方家园。",
-      "image": "/assets/images/loc_okinawa_old.png",
+      "image": "/assets/images/loc_okinawa_old.webp",
       "ponder": ""
     }
   ],
@@ -1484,35 +1484,35 @@
       "bucket": "世界一角",
       "title": "江之电与海的交会",
       "body": "傍晚时分，一列绿皮的江之电电车缓缓驶过路口，前方就是泛着金色波光的太平洋。海风吹动着铁道口旁的野草，下课的少年骑着单车经过，青春在这一刻定格成画。",
-      "image": "/assets/images/loc_kamakura.png",
+      "image": "/assets/images/loc_kamakura.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "明月院的雨后绣球",
       "body": "六月梅雨季节，明月院的千株绣球花在雨中静静绽放。这种植物的花色会随着土壤酸碱度的改变而变化，从淡绿到蔚蓝，在湿润的空气中晕染出深邃而温柔的禅意。",
-      "image": "/assets/images/loc_kamakura_nature.png",
+      "image": "/assets/images/loc_kamakura_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "镰仓雕刻工坊的刀声",
       "body": "幽静的院落里传来笃笃的雕刻声。匠人正在桂木托盘上刻出灵动的牡丹花纹，随后再涂上层层红漆。指关节上的厚茧，记录着他与木头交谈了数十年的寂静时光。",
-      "image": "/assets/images/loc_kamakura_people.png",
+      "image": "/assets/images/loc_kamakura_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "听海潮抚平心绪",
       "body": "坐在湘南海岸 of 沙滩上，看着潮水一波波涌来，又一波波退去。世间万物都处于这种永恒的交替中。那些让我们焦虑的烦恼，最终也会像沙滩上的脚印，被海水轻柔抹平。",
-      "image": "/assets/images/loc_kamakura_spark.png",
+      "image": "/assets/images/loc_kamakura_spark.webp",
       "ponder": "听着海浪的呼吸，你内心的波澜是否也渐渐平息？"
     },
     {
       "bucket": "旧物新看",
       "title": "镰仓雕漆器的传承",
       "body": "镰仓雕源于南宋时期传入日本的雕漆工艺。当时日本僧人为了模仿漆雕器物，便在木头上雕刻再涂漆。如今，这项古老的寺院工艺已化作茶几上的精美茶托，日臻温润。",
-      "image": "/assets/images/loc_kamakura_old.png",
+      "image": "/assets/images/loc_kamakura_old.webp",
       "ponder": ""
     }
   ],
@@ -1521,35 +1521,35 @@
       "bucket": "世界一角",
       "title": "兼六园的雪中吊绳",
       "body": "冬日将至，兼六园的古松被系上了放射状的伞形吊绳，用以承受沉重的积雪。雪花落在绳索与松针之间，宛如一件巨大的白色几何织物，在暮色里散发着清冷而寂静的美。",
-      "image": "/assets/images/loc_kanazawa.png",
+      "image": "/assets/images/loc_kanazawa.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "北陆湿雪的独特重量",
       "body": "金泽地处日本海沿岸，冬季的空气富含水分，降雪比内陆地区更加沉重而湿润。这种湿雪挂在枝头，压弯了竹枝，也促使当地植物演化出更加坚韧、富有弹性的枝干。",
-      "image": "/assets/images/loc_kanazawa_nature.png",
+      "image": "/assets/images/loc_kanazawa_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "铺展金箔的安静指尖",
       "body": "寂静的工坊内，女工用竹夹屏住呼吸，小心翼翼地夹起一片薄如蝉翼的黄金，将其平铺在和纸上。微风在这一刻也被阻挡在门外，只留下金属光芒在指尖安静地流动。",
-      "image": "/assets/images/loc_kanazawa_people.png",
+      "image": "/assets/images/loc_kanazawa_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "为生活系上保护绳",
       "body": "兼六园的松树在入冬前就会系上吊绳，预防大雪压折枝干。人的一生也会遇到属于自己的严冬，在晴朗的日子里，为心灵做一些温和的准备，便能从容面对未来的风雪。",
-      "image": "/assets/images/loc_kanazawa_spark.png",
+      "image": "/assets/images/loc_kanazawa_spark.webp",
       "ponder": "在生活中，你有哪些方式能为疲惫的心灵提供支撑？"
     },
     {
       "bucket": "旧物新看",
       "title": "加贺友禅的色彩秘密",
       "body": "加贺友禅是金泽著名的染色技艺，其特点是在手绘花纹中加入独创的草绿色与胭脂红。这种诞生于茶道盛行时期的工艺，将自然的四季流转永久封存在了丝绸的经纬之中。",
-      "image": "/assets/images/loc_kanazawa_old.png",
+      "image": "/assets/images/loc_kanazawa_old.webp",
       "ponder": ""
     }
   ],
@@ -1558,35 +1558,35 @@
       "bucket": "世界一角",
       "title": "芦之湖畔的水中鸟居",
       "body": "清晨的芦之湖上升起一层薄薄的水雾。箱根神社红色的鸟居静静伫立在清澈的湖水之中。远处的富士山在晨曦中展露身姿，山顶积雪泛着粉红，宛如一幅流动的浮世绘。",
-      "image": "/assets/images/loc_hakone.png",
+      "image": "/assets/images/loc_hakone.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "大涌谷的地热吐息",
       "body": "约三千年前的火山喷发，造就了如今箱根大涌谷的奇特景观。地底深处的泉水被岩浆加热，混合着硫磺气体喷涌而出。乳白色的蒸汽袅袅升起，展示着地球深处的律动。",
-      "image": "/assets/images/loc_hakone_nature.png",
+      "image": "/assets/images/loc_hakone_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "寄木细工手艺人的木片",
       "body": "阳光洒在木屑上，手艺人正把胡桃木、樱花木等不同颜色的木条拼粘成规则的几何图案。他用刨刀刨下一片片比纸还薄的彩色木皮，拼贴在木盒上，神情专注而安宁。",
-      "image": "/assets/images/loc_hakone_people.png",
+      "image": "/assets/images/loc_hakone_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "借地热温暖凡尘",
       "body": "冰冷的雨水渗入地下，经过岩浆的抚摸，最终以温暖的温泉重回地表。当你在生活中感到寒冷无力时，不妨相信，那些沉淀在心底的经历，也正在为你悄悄积攒着温度。",
-      "image": "/assets/images/loc_hakone_spark.png",
+      "image": "/assets/images/loc_hakone_spark.webp",
       "ponder": "当你感到疲惫时，什么样的一杯热饮最能让你释怀？"
     },
     {
       "bucket": "旧物新看",
       "title": "寄木细工木纹的融合",
       "body": "寄木细工木工技艺，利用箱根山中丰富的树木资源，不使用任何颜料，全凭不同木材的天然色差拼出花纹。这门古老手艺，将自然界多样的木质完美融于一体。",
-      "image": "/assets/images/loc_hakone_old.png",
+      "image": "/assets/images/loc_hakone_old.webp",
       "ponder": ""
     }
   ],
@@ -1595,35 +1595,35 @@
       "bucket": "世界一角",
       "title": "北村韩屋的金色晨曦",
       "body": "清晨，第一缕阳光洒在北村韩屋瓦片层叠的屋顶上。浅灰色的砖墙与远处的现代高楼交织在晨雾中。踩在有些年头的青石板路上，能听见风吹过院落中松针的细碎声响。",
-      "image": "/assets/images/loc_seoul.png",
+      "image": "/assets/images/loc_seoul.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "北汉山的坚韧花岗岩",
       "body": "拱卫着首尔的北汉山，是一座由巨大花岗岩构成的天然屏障。岩石缝隙中，坚韧的迎客松顽强地扎根生长。每到秋季，满山枫叶将灰白的花岗岩山体点缀得如诗如画。",
-      "image": "/assets/images/loc_seoul_nature.png",
+      "image": "/assets/images/loc_seoul_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "仁寺洞茶室的温茶阿姨",
       "body": "掩映在竹帘后的老茶室里，阿姨正用铜壶冲泡着五味子茶。红亮的水流倾注进白色瓷杯，升腾起酸甜的蒸汽。她细心地擦拭着老木桌，用轻柔的语调向常客道一声安好。",
-      "image": "/assets/images/loc_seoul_people.png",
+      "image": "/assets/images/loc_seoul_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "瓦檐与霓虹的对话",
       "body": "站在韩屋的院子里抬起头，视线越过古朴的木屋顶，就能看见高耸的现代大楼。过去与未来在同一个空间里并存。在快速奔跑的世界里，为心保留一处古朴的角落吧。",
-      "image": "/assets/images/loc_seoul_spark.png",
+      "image": "/assets/images/loc_seoul_spark.webp",
       "ponder": "在快节奏的城市里，哪里是你最能获得平静的安全屋？"
     },
     {
       "bucket": "旧物新看",
       "title": "韩纸隔扇的温润呼吸",
       "body": "传统韩屋的门窗通常糊有厚实的传统韩纸。这种用桑树皮制成的纸张，能调节室内湿度并过滤光线。古人借由这张纸，让屋子与四季的风一同温柔地呼吸。",
-      "image": "/assets/images/loc_seoul_old.png",
+      "image": "/assets/images/loc_seoul_old.webp",
       "ponder": ""
     }
   ],
@@ -1632,35 +1632,35 @@
       "bucket": "世界一角",
       "title": "城山日出峰下的浪花",
       "body": "晨光初照，巨大的火山遗迹城山日出峰傲然伫立在海边。金黄色的油菜花在黑色的火山石墙旁随风摇曳，清澈的海浪一次次拍打着黑沙滩，发出规律而治愈的沙沙声。",
-      "image": "/assets/images/loc_jeju.png",
+      "image": "/assets/images/loc_jeju.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "黑色的玄武岩地貌",
       "body": "济州岛是由火山活动形成的岛屿，岛上随处可见多孔的黑色玄武岩。这些岩石内部的微孔可以储存空气与水分，在夏日里为岛上的植物和微生物提供着温润的微生态环境。",
-      "image": "/assets/images/loc_jeju_nature.png",
+      "image": "/assets/images/loc_jeju_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "准备下海的硬朗海女",
       "body": "晨雾退去的礁石上，年近古稀的海女阿嬷正仔细检查着潜水镜和浮力球。她只凭一口气，便能潜入冰冷的海水中采集海参。她向晚辈笑笑，眼中闪烁着如海浪般的坚毅。",
-      "image": "/assets/images/loc_jeju_people.png",
+      "image": "/assets/images/loc_jeju_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "像海风一样穿过礁石",
       "body": "济州岛的玄武岩墙上布满了缝隙。大风吹过时，风会从这些细孔中穿过，因此石墙历经百年暴风雨也不会倒塌。在逆境中，试着给心灵留一点空隙，让坚硬的烦恼随风而去。",
-      "image": "/assets/images/loc_jeju_spark.png",
+      "image": "/assets/images/loc_jeju_spark.webp",
       "ponder": "当你感到压抑时，你的心是否留有可供风穿过的间隙？"
     },
     {
       "bucket": "旧物新看",
       "title": "守护村落的石头爷爷",
       "body": "济州岛的村口静静伫立着用玄武岩雕刻的“石头爷爷”。它们有着圆圆的眼睛和温和的微笑。这一古老的石雕习俗，原本是为了划分村界并辟邪，如今已成为岛上温暖的象征。",
-      "image": "/assets/images/loc_jeju_old.png",
+      "image": "/assets/images/loc_jeju_old.webp",
       "ponder": ""
     }
   ],
@@ -1669,35 +1669,35 @@
       "bucket": "世界一角",
       "title": "大陵苑的起伏绿浪",
       "body": "黄昏时分，大陵苑中巨大的新罗古墓草丘在紫色的晚霞下呈现出柔和的曲线。这些覆满绿草的圆丘如同大地长出的波浪，在落日余晖中散发着一种神圣而祥和的永恒感。",
-      "image": "/assets/images/loc_gyeongju.png",
+      "image": "/assets/images/loc_gyeongju.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "普门湖畔的樱雪纷飞",
       "body": "庆州普门湖畔栽满了古老的樱花树。每到暮春，湖风吹拂，千万片粉白的花瓣如雪般落在平静的湖面上。这些落花化作水中的养分，滋养着湖里的游鱼与岸边的草木。",
-      "image": "/assets/images/loc_gyeongju_nature.png",
+      "image": "/assets/images/loc_gyeongju_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "雕刻微型石塔的匠人",
       "body": "临街的小木屋里，匠人戴着老花镜，用刻刀在花岗岩上细细雕琢着新罗风格的七层小石塔。指尖的石粉在阳光下飘散，他每一次敲击都极轻极慢，仿佛在与沉睡的石头对话。",
-      "image": "/assets/images/loc_gyeongju_people.png",
+      "image": "/assets/images/loc_gyeongju_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "把岁月还给泥土",
       "body": "庆州的古墓没有高耸的碑石，而是化作了一座座起伏的草丘，与自然融为一体。逝去的生命最终以绿草的形态重回大地的怀抱。当懂得生命的终点是融入自然，便不再抗拒逝去。",
-      "image": "/assets/images/loc_gyeongju_spark.png",
+      "image": "/assets/images/loc_gyeongju_spark.webp",
       "ponder": "看着葱绿的草丘，你是否也感受到生命生生不息的力量？"
     },
     {
       "bucket": "旧物新看",
       "title": "瞻星台的数字密码",
       "body": "瞻星台是亚洲现存最古老的天文台。它由362块花岗岩堆砌而成，象征着一年的阴历天数。这座看似古朴的瓶状石塔，是古人对星空的深情凝望，用石头的重量记录着时光。",
-      "image": "/assets/images/loc_gyeongju_old.png",
+      "image": "/assets/images/loc_gyeongju_old.webp",
       "ponder": ""
     }
   ],
@@ -1706,35 +1706,35 @@
       "bucket": "世界一角",
       "title": "甘川文化村错落彩房",
       "body": "傍晚，海风吹拂着甘川文化村的彩色小屋。这些像积木一样层叠在山坡上的房子渐渐亮起暖黄的灯火，与山脚下深蓝色的海面交织在一起，宛如星河坠落在了人间。",
-      "image": "/assets/images/loc_busan.png",
+      "image": "/assets/images/loc_busan.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "太宗台的千层岩壁",
       "body": "位于釜山最南端的太宗台，拥有被海浪拍打千万年而形成的断崖峭壁。不同年代的沉积岩层层叠叠，展示着海陆变迁的刻痕。松树在崖顶迎风招展，展现着生命的坚韧。",
-      "image": "/assets/images/loc_busan_nature.png",
+      "image": "/assets/images/loc_busan_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "札嘎其鱼市的拾网人",
       "body": "喧嚣的札嘎其鱼市旁，年迈的船长在海风中整理着蓝色的渔网。他的双手布满老茧，却敏捷地打着结。咸湿的海味中，他抬头看着海鸥飞过，脸上泛起平静的笑意。",
-      "image": "/assets/images/loc_busan_people.png",
+      "image": "/assets/images/loc_busan_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在海天交界处眺望",
       "body": "站在海边，看着海水在远方与蓝天连成一线。海洋从不为自己设限，它接纳每一条河流，平息每一次风浪。让自己的心也变得像大海一样宽广吧，包容所有的喜怒哀乐。",
-      "image": "/assets/images/loc_busan_spark.png",
+      "image": "/assets/images/loc_busan_spark.webp",
       "ponder": "当你感到压抑时，哪一种心事最容易被海风带走？"
     },
     {
       "bucket": "旧物新看",
       "title": "釜山鱼饼的温暖记忆",
       "body": "釜山著名的传统鱼饼最早源于渔民为了保存吃不完的杂鱼，将其剁碎油炸。这道平民美食如今已成为冬日街头最温暖的慰藉，用热汤温暖着无数行人的双手。",
-      "image": "/assets/images/loc_busan_old.png",
+      "image": "/assets/images/loc_busan_old.webp",
       "ponder": ""
     }
   ],
@@ -1743,35 +1743,35 @@
       "bucket": "世界一角",
       "title": "湄南河畔的黎明寺",
       "body": "傍晚的湄南河水平静流淌，夕阳将黎明寺高耸的尖塔染成一抹华丽的深金色。白色的瓷片与贝壳在落日下折射出温柔的光芒，伴着河水温柔的拍岸声，城市渐渐入眠。",
-      "image": "/assets/images/loc_bangkok.png",
+      "image": "/assets/images/loc_bangkok.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "附生树干的热带兰",
       "body": "曼谷潮湿温暖 of 季风气候，为附生植物提供了绝佳的家园。运河两岸的古老凤凰木上，常能见到野生石斛兰在树干上扎根。它们不需要泥土，仅凭空气中的水雾便能盛开。",
-      "image": "/assets/images/loc_bangkok_nature.png",
+      "image": "/assets/images/loc_bangkok_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "敲击僧钵的古街匠人",
       "body": "寂静的古老社区里，传出规律的手工敲击声。匠人正用铁锤塑造着僧侣化缘用的铜钵。每一次敲击都专注而平稳，将浮躁的空气也锤炼得像铜器表面一样，沉静而透亮。",
-      "image": "/assets/images/loc_bangkok_people.png",
+      "image": "/assets/images/loc_bangkok_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "随流水寻找方向",
       "body": "湄南河里漂浮着一团团绿色的水葫芦，它们随着潮汐静静漂流。生活有时也需要一点顺水推舟的智慧，不必总是逆流而上。随遇而安，或许能带你发现不一样的风景。",
-      "image": "/assets/images/loc_bangkok_spark.png",
+      "image": "/assets/images/loc_bangkok_spark.webp",
       "ponder": "如果不跟生活较劲，你现在的状态会发生什么改变？"
     },
     {
       "bucket": "旧物新看",
       "title": "街角神龛的繁花祈愿",
       "body": "曼谷街头随处可见精美的小神龛，每日都有新鲜的万寿菊与茉莉花串供奉其上。这种将古老信仰融于日常的习俗，表达了普通人对生活的敬畏，让繁忙的街道多了一份温情。",
-      "image": "/assets/images/loc_bangkok_old.png",
+      "image": "/assets/images/loc_bangkok_old.webp",
       "ponder": ""
     }
   ],
@@ -1780,35 +1780,35 @@
       "bucket": "世界一角",
       "title": "塔佩门的晨光布施",
       "body": "清晨的清迈红砖古城墙下，晨雾尚未散尽。身着橙色僧袍的僧侣们赤脚走过松软的草地，安静地接受信众的食物布施。没有喧哗，只有鸟鸣与落叶的细碎声，温润而虔诚。",
-      "image": "/assets/images/loc_chiangmai.png",
+      "image": "/assets/images/loc_chiangmai.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "双龙山的云雾雨林",
       "body": "环抱清迈的双龙山常年被云雾缭绕。这里的常绿季雨林中生长着巨大的树蕨与厚厚的苔藓。湿润的山风穿过竹林，带来了泥土的清香和野生睡莲在清晨悄悄绽放的气息。",
-      "image": "/assets/images/loc_chiangmai_nature.png",
+      "image": "/assets/images/loc_chiangmai_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "手绘花卉的油纸伞工",
       "body": "博桑村的工坊里，姑娘正手持细笔，在竹制油纸伞上描绘彩色的木槿花。颜料在粗糙的桑皮纸上慢慢晕开，她的眼神专注而温柔，仿佛将整个北国的春天都画进了伞里。",
-      "image": "/assets/images/loc_chiangmai_people.png",
+      "image": "/assets/images/loc_chiangmai_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在慢时光中看细微",
       "body": "清迈的节奏是松弛的。当你把脚步放慢，才会注意到砖缝里长出的小草，和落在木桌上的阳光。生命的美好往往不在于终点的辉煌，而在于这些被我们忽略的日常瞬间。",
-      "image": "/assets/images/loc_chiangmai_spark.png",
+      "image": "/assets/images/loc_chiangmai_spark.webp",
       "ponder": "慢下来的一天里，你最先注意到的是什么细微的美好？"
     },
     {
       "bucket": "旧物新看",
       "title": "兰纳木寺的自然融合",
       "body": "传统兰纳风格的寺庙拥有高耸的陡峭屋顶和低矮的飞檐，几乎要贴近地面。这种设计不仅能遮蔽热带的暴雨，也表达了古人将建筑融入自然、向大地低头致敬的谦逊哲学。",
-      "image": "/assets/images/loc_chiangmai_old.png",
+      "image": "/assets/images/loc_chiangmai_old.webp",
       "ponder": ""
     }
   ],
@@ -1817,35 +1817,35 @@
       "bucket": "世界一角",
       "title": "神仙半岛的金色晚霞",
       "body": "傍晚，站在神仙半岛的悬崖上，看着夕阳渐渐没入安达曼海。余晖将海面铺上一层细碎的碎金，高大的糖棕树在粉紫色的晚霞中留下剪影，海风带来了远方海水的温热。",
-      "image": "/assets/images/loc_phuket.png",
+      "image": "/assets/images/loc_phuket.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "守护海岸的红树林",
       "body": "普吉岛潮间带分布着繁茂的红树林。这些神奇的植物演化出盘根错节的呼吸根，不仅能过滤海盐，还能在潮起潮落间牢牢锁住泥沙，成为幼小鱼虾最安全的避风港湾。",
-      "image": "/assets/images/loc_phuket_nature.png",
+      "image": "/assets/images/loc_phuket_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "系扎彩带的木船水手",
       "body": "沙滩上，老水手正在给停泊的长尾船系上新的红绿彩带。这是泰南渔民的传统，用以祈求掌管水域的神明保佑平安。他轻抚着木制船头，嘴里念念有词，眼神真挚而平和。",
-      "image": "/assets/images/loc_phuket_people.png",
+      "image": "/assets/images/loc_phuket_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "随潮汐吐纳的情绪",
       "body": "看着海潮退去，露出湿润的沙滩与彩色的贝壳；不久之后，潮水又会重新盈满海岸。心里的情绪也是如此。允许自己有低谷，因为每一次退潮，都是为了下一次蓄力前行。",
-      "image": "/assets/images/loc_phuket_spark.png",
+      "image": "/assets/images/loc_phuket_spark.webp",
       "ponder": "当你感到空虚时，这是否只是你生命中的一次温柔退潮？"
     },
     {
       "bucket": "旧物新看",
       "title": "中葡老街的骑楼回廊",
       "body": "普吉老镇保留着独特的锡兰中葡风格骑楼。宽敞的回廊既能为行人遮阳避雨，又连接着街坊邻里的温情。这一融合了中西方智慧的古老建筑，用斑驳的墙面诉说着昔日的宽容。",
-      "image": "/assets/images/loc_phuket_old.png",
+      "image": "/assets/images/loc_phuket_old.webp",
       "ponder": ""
     }
   ],
@@ -1854,35 +1854,35 @@
       "bucket": "世界一角",
       "title": "晨雾笼罩的还剑湖",
       "body": "清晨的还剑湖水平静如镜，古老的龟塔隐没在淡淡的晨雾里。湖畔的百年柳树垂下柔软的枝条，几位老人在树下安静地打着太极，时间仿佛在这片绿意中放慢了脚步。",
-      "image": "/assets/images/loc_hanoi.png",
+      "image": "/assets/images/loc_hanoi.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "攀附古墙的巨大榕树",
       "body": "河内湿润的热带季风气候滋养了巨大的无花果树与榕树。它们粗壮的气生根如巨大的手掌，牢牢抓着古老的黄色法式建筑老墙，形成了植物与人造物共生相融的独特奇观。",
-      "image": "/assets/images/loc_hanoi_nature.png",
+      "image": "/assets/images/loc_hanoi_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "晨光中整理荷花的妈",
       "body": "湖边小巷里，阿妈正在自行车后座的竹筐里整理刚采摘的粉红荷花。她用宽大的绿荷叶小心包裹着花蕾，动作轻柔得像是在抚摸沉睡的婴儿，空气中弥漫着清雅的荷香。",
-      "image": "/assets/images/loc_hanoi_people.png",
+      "image": "/assets/images/loc_hanoi_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "闹市中心的安静湖水",
       "body": "还剑湖四周是川流不息的摩托车洪流，然而只要走到湖边，喧嚣便被水面化解。我们的内心也需要这样一片湖水，任凭外界如何纷扰嘈杂，深处依然能保持平静与清澈。",
-      "image": "/assets/images/loc_hanoi_spark.png",
+      "image": "/assets/images/loc_hanoi_spark.webp",
       "ponder": "在外界杂音环绕时，你有什么方法可以立刻回到内心的湖畔？"
     },
     {
       "bucket": "旧物新看",
       "title": "稻田里的水上木偶戏",
       "body": "越南传统的水上木偶戏起源于红河三角洲的农闲时期。古人将泛滥的稻田当作舞台，操控木偶表达对丰收的喜悦。这种与水共生的民间艺术，至今仍保留着泥土的温香。",
-      "image": "/assets/images/loc_hanoi_old.png",
+      "image": "/assets/images/loc_hanoi_old.webp",
       "ponder": ""
     }
   ],
@@ -1891,35 +1891,35 @@
       "bucket": "世界一角",
       "title": "秋盆河畔的提灯之夜",
       "body": "入夜，会安古城熄灭了现代电灯。成千上万盏色彩斑斓的丝绸灯笼将古街照得如梦似幻。人们将许愿的小纸船灯送入秋盆河中，点点烛光在微波中摇曳，铺展出温柔的星河。",
-      "image": "/assets/images/loc_hoian.png",
+      "image": "/assets/images/loc_hoian.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "潮汐交汇的水椰林",
       "body": "坐落在秋盆河出海口的会安，拥有一片茂密的水椰林。这些独特的半水生植物根植于咸淡水交界的泥滩中，叶片宽大如桨，不仅稳固了海岸，还孕育了丰富的小型蟹类。",
-      "image": "/assets/images/loc_hoian_nature.png",
+      "image": "/assets/images/loc_hoian_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "制作竹胎丝灯的工匠",
       "body": "临河的木屋里，工匠正在将五彩的真丝绸缎绷在削好的竹片胎骨上。他用胶水细细抹平边缘的褶皱，手法熟练而温柔。一盏灯笼在他的手中成型，等待点亮某人的归途。",
-      "image": "/assets/images/loc_hoian_people.png",
+      "image": "/assets/images/loc_hoian_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "柔光之下的夜色",
       "body": "会安的夜不用强光照亮，而是交给了丝绸灯笼的柔光。这种光芒不刺眼，却能让人的神情变得温柔。生活有时也不必追求过于直白的坦露，朦胧的善意更能让人感到心安。",
-      "image": "/assets/images/loc_hoian_spark.png",
+      "image": "/assets/images/loc_hoian_spark.webp",
       "ponder": "在与人相处时，你是否也曾体会过朦胧而点到即止的温柔？"
     },
     {
       "bucket": "旧物新看",
       "title": "桥寺合一的日本桥",
       "body": "横跨小溪的日本桥建于十七世纪。这座带有屋顶的木桥不仅供行人避雨，其内部还设有一座小小的神庙以平息传说中的地动之龙。它以独特的桥寺结构，默默守护着两岸。",
-      "image": "/assets/images/loc_hoian_old.png",
+      "image": "/assets/images/loc_hoian_old.webp",
       "ponder": ""
     }
   ],
@@ -1928,35 +1928,35 @@
       "bucket": "世界一角",
       "title": "晨雾缭绕奇峰绿水",
       "body": "清晨的下龙湾被一层淡淡的乳白色晨雾笼罩。千万座形态各异的石灰岩岛屿若隐若现地浮在翠绿的海面上，一艘红帆木船静静驶过平静的水面，宛如游走在水墨画卷中。",
-      "image": "/assets/images/loc_halong.png",
+      "image": "/assets/images/loc_halong.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "沉没海中的喀斯特",
       "body": "下龙湾是地球历经数亿年地质运动形成的喀斯特地貌。原本耸立在陆地上的石灰岩山峰，随着地壳下沉和海水上升，最终演变成千百座海中翠岛，展示着大自然的鬼斧神工。",
-      "image": "/assets/images/loc_halong_nature.png",
+      "image": "/assets/images/loc_halong_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "浮村网箱的喂鱼渔民",
       "body": "漂浮在海面上的木屋旁，渔民正从网箱里舀出饵料喂食石斑鱼。清澈见底的海水里，鱼儿抢食溅起碎金般的水花。他用草帽扇着风，看着在波浪中摇晃的家，神情安详。",
-      "image": "/assets/images/loc_halong_people.png",
+      "image": "/assets/images/loc_halong_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "水滴穿石静水流深",
       "body": "坚硬的石灰岩巨石，在千万年雨水与海浪的冲刷下，最终被雕刻出空心的溶洞与奇特的姿态。柔软的力量同样可以穿透坚硬的障碍。在困境中，请保持温柔而持久的坚持。",
-      "image": "/assets/images/loc_halong_spark.png",
+      "image": "/assets/images/loc_halong_spark.webp",
       "ponder": "面对生活中看似难以动摇的困难，你是否愿意尝试温柔的坚持？"
     },
     {
       "bucket": "旧物新看",
       "title": "神龙吐珠的群岛传说",
       "body": "传说古时有神龙在此降临，口中吐出无数翡翠珠宝化作千座岛屿，用以阻挡外敌的入侵。这一美丽的古老传说，表达了当地百姓对这片奇特自然山水最深沉的崇敬与热爱。",
-      "image": "/assets/images/loc_halong_old.png",
+      "image": "/assets/images/loc_halong_old.webp",
       "ponder": ""
     }
   ],
@@ -1965,35 +1965,35 @@
       "bucket": "世界一角",
       "title": "滨海湾的超级树暮色",
       "body": "傍晚，滨海湾 of 巨型超级树在粉紫色晚霞中渐渐亮起蓝色与紫色的灯光。垂直花园藤蔓随风轻摆，与远处的摩天轮交相辉映，仿佛是一处属于未来的奇幻热带雨林。",
-      "image": "/assets/images/loc_singapore.png",
+      "image": "/assets/images/loc_singapore.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "钢筋骨架垂直生态",
       "body": "滨海湾的超级树并非只是艺术品，它们是活的生态系统。巨大的钢架上附生着来自世界各地的数万株凤梨、蕨类与兰花，收集雨水并利用太阳能发电，展现着科技与自然的融合。",
-      "image": "/assets/images/loc_singapore_nature.png",
+      "image": "/assets/images/loc_singapore_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "云雾林里照料兰花师",
       "body": "在巨大的玻璃冷室里，人工瀑布洒下漫天水雾。园艺师正站在脚手架上，用软刷轻轻清理一株珍稀石斛兰叶片上的微尘。他的身边烟雾缭绕，眼神像照看孩子般温柔专注。",
-      "image": "/assets/images/loc_singapore_people.png",
+      "image": "/assets/images/loc_singapore_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在水泥缝隙中开花",
       "body": "在这座由钢筋水泥构成的超级大都市里，绿色藤蔓顺着高楼的外墙肆意攀爬。生命总能找到属于自己的缝隙去生长。无论生活环境多么坚硬，都不要放弃寻找阳光和绽放的机会。",
-      "image": "/assets/images/loc_singapore_spark.png",
+      "image": "/assets/images/loc_singapore_spark.webp",
       "ponder": "在琐碎紧绷的日常里，你如何为自己开辟一小片生机勃勃的绿洲？"
     },
     {
       "bucket": "旧物新看",
       "title": "鱼尾狮的昔日渔歌",
       "body": "伫立在海口的鱼尾狮雕像，其鱼身代表着新加坡昔日作为一个小渔村的起点，狮头则象征着传说中的“狮子城”。这一现代徽记，用它喷涌的水流，诉说着对海洋的质朴感恩。",
-      "image": "/assets/images/loc_singapore_old.png",
+      "image": "/assets/images/loc_singapore_old.webp",
       "ponder": ""
     }
   ],
@@ -2002,35 +2002,35 @@
       "bucket": "世界一角",
       "title": "双子塔下的蓝调时刻",
       "body": "黄昏时分，吉隆坡的钢筋水泥丛林被染上深沉的蓝调。双子塔亮起璀璨的银白色冷光，直插云霄。而在它脚下，热带椰子树的叶片在温热的夜风中低语，碰撞出温柔的沙沙声。",
-      "image": "/assets/images/loc_kualalumpur.png",
+      "image": "/assets/images/loc_kualalumpur.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "城市心脏的古老雨林",
       "body": "坐落在市中心的吉隆坡森林生态公园，是一片被摩天大楼环抱的原始热带雨林。巨大的龙脑香树高耸入云，野生银叶猴在树冠间轻盈跳跃，保留着亿万年前大地的绿色呼吸。",
-      "image": "/assets/images/loc_kualalumpur_nature.png",
+      "image": "/assets/images/loc_kualalumpur_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "描绘蜡染布的老艺人",
       "body": "充满樟脑味的工坊里，老艺人手持装满热蜡的铜漏斗，在白色棉布上勾勒出灵动的兰花线条。蜡液迅速凝固，锁住了花朵的轮廓。他动作沉稳，在沉寂中编织着斑斓的梦境。",
-      "image": "/assets/images/loc_kualalumpur_people.png",
+      "image": "/assets/images/loc_kualalumpur_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "俯视世间的万家灯火",
       "body": "从高处俯瞰这座繁忙的都市，千万道车灯汇聚成流动的金线。每一盏亮起的窗户后，都藏着一个独特的人生故事。在这个宏大的世间，我们都是微光，却都在用力温暖着某人。",
-      "image": "/assets/images/loc_kualalumpur_spark.png",
+      "image": "/assets/images/loc_kualalumpur_spark.webp",
       "ponder": "看着远处亮起的点点窗光，你是否也想起了那个在等你回家的人？"
     },
     {
       "bucket": "旧物新看",
       "title": "铜顶建筑的多元交融",
       "body": "苏丹阿都沙末大厦闪耀着古铜色的圆顶，它巧妙融合了摩尔式、莫卧儿式与哥特式风格。这座见证了吉隆坡起步的历史地标，用它多元的线条诉说着包容与和合共生的智慧。",
-      "image": "/assets/images/loc_kualalumpur_old.png",
+      "image": "/assets/images/loc_kualalumpur_old.webp",
       "ponder": ""
     }
   ],
@@ -2039,35 +2039,35 @@
       "bucket": "世界一角",
       "title": "姓氏桥的落日余晖",
       "body": "傍晚的槟城姓氏桥，木板路在海浪声中吱呀作响。落日把海水染成温暖的橘红色，远处的渔船缓缓归航，炊烟从木屋顶袅袅升起，带走了一整天的喧嚣与疲惫。",
-      "image": "/assets/images/loc_penang.png",
+      "image": "/assets/images/loc_penang.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "升旗山的雨林晨雾",
       "body": "槟城升旗山在晨光中苏醒，湿润的空气里弥漫着泥土的清香。这里生长着奇特的野生猪笼草，它们在湿热的微气候中静静蓄水，折射着叶尖滑落的露珠，展现着自然的精巧。",
-      "image": "/assets/images/loc_penang_nature.png",
+      "image": "/assets/images/loc_penang_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "街角飘香的娘惹糕",
       "body": "在乔治城的一隅，老阿嬷正用斑兰叶和小椰丝制作传统的娘惹糕。她熟练地将糯米浆倒入蒸笼，蒸气升腾间，椰香与斑兰的清甜在小巷弥漫，温暖了早起路人的胃。",
-      "image": "/assets/images/loc_penang_people.png",
+      "image": "/assets/images/loc_penang_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "墙壁上的时光慢递",
       "body": "斑驳的古墙上，骑自行车的少年壁画已有些剥落。岁月在砖石上刻下痕迹，却也让一切变得柔和。我们都在与时间同行，或许不必走得太快，慢慢走，才能看清路边的风景。",
-      "image": "/assets/images/loc_penang_spark.png",
+      "image": "/assets/images/loc_penang_spark.webp",
       "ponder": "现在的你，能听到自己均匀的呼吸声吗？"
     },
     {
       "bucket": "旧物新看",
       "title": "极乐寺的百年灯火",
       "body": "依山而建的极乐寺，在每年的岁末年初都会亮起万盏明灯。这不仅是祈福的传统，更是漂泊游子归乡的指路明灯。万千灯火交织成一片温暖的光海，照亮了古老而宁静的夜。",
-      "image": "/assets/images/loc_penang_old.png",
+      "image": "/assets/images/loc_penang_old.webp",
       "ponder": ""
     }
   ],
@@ -2076,35 +2076,35 @@
       "bucket": "世界一角",
       "title": "晨光亲吻的绿色梯田",
       "body": "清晨的德格拉朗梯田被薄雾笼罩，椰子树在微风中轻轻摇曳。当第一缕阳光穿透树梢，洒在层层叠叠的嫩绿稻田上，每一颗露珠都闪烁着光芒，仿佛大地在静静呼吸。",
-      "image": "/assets/images/loc_bali.png",
+      "image": "/assets/images/loc_bali.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "火山孕育的鸡蛋花",
       "body": "阿贡火山的肥沃土壤，滋养了岛上繁茂的生命。随处可见的鸡蛋花在湿润的热带微风中绽放，白瓣黄心，散发着淡淡的清香，它们随风飘落，归于大地，完成静默的生命循环。",
-      "image": "/assets/images/loc_bali_nature.png",
+      "image": "/assets/images/loc_bali_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "编织清晨的虔诚心意",
       "body": "坐在家庙门前，巴厘岛的妇女用椰子叶熟练地编织着祭祀用的花盒。她将新鲜的鸡蛋花、金盏花与几滴圣水放入其中，神情专注而宁静，用双手开启了小岛充满敬意的一天。",
-      "image": "/assets/images/loc_bali_people.png",
+      "image": "/assets/images/loc_bali_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "随潮水退去的繁杂",
       "body": "乌鲁瓦图的悬崖下，海浪一次次拍打着沙滩，又悄然退去。潮水带走了沙滩上的脚印，也带走了内心的浮躁。我们的心如这沙滩，适时地清空，才能容纳下一次温柔的潮起。",
-      "image": "/assets/images/loc_bali_spark.png",
+      "image": "/assets/images/loc_bali_spark.webp",
       "ponder": "有什么事情，是你现在可以试着放下的？"
     },
     {
       "bucket": "旧物新看",
       "title": "竹林深处的甘美兰",
       "body": "古老的甘美兰乐器由竹与铜手工制成，音色如雨滴落在荷叶上般清脆。在巴厘岛的传统祭典中，村民们敲击着乐器，清澈的乐音在林间回荡，将古老的自然崇拜代代相传。",
-      "image": "/assets/images/loc_bali_old.png",
+      "image": "/assets/images/loc_bali_old.webp",
       "ponder": ""
     }
   ],
@@ -2113,35 +2113,35 @@
       "bucket": "世界一角",
       "title": "普兰巴南的落日剪影",
       "body": "暮色降临，普兰巴南古老的湿婆神庙在金色的晚霞中显得格外庄严。高耸的石塔在夜色中化作黑色的剪影，微风吹过空旷的庭院，带走白日的余温，留下千年古迹的宁静。",
-      "image": "/assets/images/loc_yogyakarta.png",
+      "image": "/assets/images/loc_yogyakarta.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "默拉皮的沉默力量",
       "body": "默拉皮火山常年吐着白烟，黑色的火山岩散落在山谷之中。这种看似毁灭的力量，却为周边的土地带来了无与伦比的养分，让稀有的高山兰花在此静静盛开，诉说生命的顽强。",
-      "image": "/assets/images/loc_yogyakarta_nature.png",
+      "image": "/assets/images/loc_yogyakarta_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "铜壶指尖的蜡染时光",
       "body": "在日惹的老街坊里，手艺人手持小铜壶，在白布上画下细密的蜡线。她神情专注，温热的石蜡随着笔尖缓缓流淌，勾勒出传承千年的图腾，时光仿佛在她的指尖慢了下来。",
-      "image": "/assets/images/loc_yogyakarta_people.png",
+      "image": "/assets/images/loc_yogyakarta_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "婆罗浮屠的静心漫步",
       "body": "顺着回廊缓缓向上，石壁上的浮雕记录着古老的智慧。当走到塔顶，面对四周连绵的群山与佛像，内心的杂音渐渐消失。人生亦如登塔，走好当下的每一步，终会看见辽阔。",
-      "image": "/assets/images/loc_yogyakarta_spark.png",
+      "image": "/assets/images/loc_yogyakarta_spark.webp",
       "ponder": "在你心中，哪一片角落此刻最需要安静？"
     },
     {
       "bucket": "旧物新看",
       "title": "光影错落的皮影戏",
       "body": "用水牛皮雕刻而成的哇扬皮影，在油灯的照射下，在白幕上投射出古老神话的影子。这门流传千年的光影艺术，不仅是娱乐，更是古人将哲学与道德寓于戏中的智慧结晶。",
-      "image": "/assets/images/loc_yogyakarta_old.png",
+      "image": "/assets/images/loc_yogyakarta_old.webp",
       "ponder": ""
     }
   ],
@@ -2150,35 +2150,35 @@
       "bucket": "世界一角",
       "title": "帆影摇曳的白沙滩",
       "body": "傍晚的长滩岛白沙滩，细沙如面粉般温柔地包裹着双脚。橘红色的夕阳将天空染透，无动力帆船在海平线上静静漂流，海浪温柔地拍打着海岸，送来湿润而温热的晚风。",
-      "image": "/assets/images/loc_boracay.png",
+      "image": "/assets/images/loc_boracay.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "珊瑚化作的温柔细沙",
       "body": "这里的白沙之所以细密冰凉，是因为它们由珊瑚碎屑历经千万年冲刷而成。在清澈的海水下，五彩斑斓的珊瑚礁是海洋生物的温床，用无声的包容维持着这片海的纯净。",
-      "image": "/assets/images/loc_boracay_nature.png",
+      "image": "/assets/images/loc_boracay_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "清晨沙滩的守护者",
       "body": "天刚蒙蒙亮，当地的阿叔便拿着竹扫帚，沿着白沙滩细心扫去落叶与杂物。海风吹拂着他的草帽，扫帚在沙滩上留下一道道整齐的弧线，为醒来的游客准备好最纯净的晨光。",
-      "image": "/assets/images/loc_boracay_people.png",
+      "image": "/assets/images/loc_boracay_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "顺风而行的小船",
       "body": "无动力帆船没有引擎的轰鸣，只靠风与舵在海面滑行。有时，生活也需要我们收起急躁的马达，顺应风的方向，学会等待和借力，在起伏的波浪中找到最舒适的平衡。",
-      "image": "/assets/images/loc_boracay_spark.png",
+      "image": "/assets/images/loc_boracay_spark.webp",
       "ponder": "现在的你，是在迎风坚持还是在顺风前行？"
     },
     {
       "bucket": "旧物新看",
       "title": "螃蟹船的平衡智慧",
       "body": "这种两侧带有竹翅的螃蟹船，是菲律宾人世代相传的航海工具。竹翅不仅能在风浪中保持平衡，还能让船只平稳地靠近浅滩，展现了古人因地制宜、与风浪和谐共处的智慧。",
-      "image": "/assets/images/loc_boracay_old.png",
+      "image": "/assets/images/loc_boracay_old.webp",
       "ponder": ""
     }
   ],
@@ -2187,35 +2187,35 @@
       "bucket": "世界一角",
       "title": "莲花池畔的吴哥晨曦",
       "body": "天空从深紫渐变为温暖的橙黄，吴哥寺标志性的五座石塔倒映在静谧的莲花池中。当第一缕曙光照亮古老的石雕，整座遗迹仿佛从千年的沉睡中醒来，美得让人屏住呼吸。",
-      "image": "/assets/images/loc_angkor.png",
+      "image": "/assets/images/loc_angkor.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "石缝中生长的巨树",
       "body": "塔普伦寺的石庙被巨大的绞杀榕根系紧紧缠绕，树根如巨蟒般深入石缝。这种植物与建筑的共生，展现了热带雨林惊人的生命力，在岁月的流逝中，将人工与自然融为一体。",
-      "image": "/assets/images/loc_angkor_nature.png",
+      "image": "/assets/images/loc_angkor_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "唤醒石刻的修复师",
       "body": "在幽暗的回廊里，修复师拿着细小的刷子和软布，轻柔地清理着石雕上的青苔。他的动作缓慢而专注，仿佛在与千年前的雕刻匠人低声对话，用双手延续着古老石刻的生命。",
-      "image": "/assets/images/loc_angkor_people.png",
+      "image": "/assets/images/loc_angkor_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "青苔写给岁月的诗",
       "body": "斑驳的石块上覆满了绿色的青苔，那是时光流逝的温和印记。废墟并不代表消亡，而是生命与时间的另一种和解。接受残缺与变化，我们的内心也会变得如磐石般平静。",
-      "image": "/assets/images/loc_angkor_spark.png",
+      "image": "/assets/images/loc_angkor_spark.webp",
       "ponder": "你能接受生命中那些意料之外的改变吗？"
     },
     {
       "bucket": "旧物新看",
       "title": "指尖绽放的仙女之舞",
       "body": "墙壁上刻画的阿帕萨拉仙女，其舞蹈手势有着丰富的含义：手指微弯代表花蕾，伸展代表绽放。这种源自印度教神话的舞蹈，用无声的手势，诉说着生命花开花落的循环。",
-      "image": "/assets/images/loc_angkor_old.png",
+      "image": "/assets/images/loc_angkor_old.webp",
       "ponder": ""
     }
   ],
@@ -2224,14 +2224,14 @@
       "bucket": "世界一角",
       "title": "万塔之城的晨曦梦境",
       "body": "清晨，数以千计的古老佛塔散落在金色的蒲甘平原上。当红色的热气球在晨雾中缓缓升起，阳光洒在红砖佛塔的塔尖上，整片大地仿佛被罩上一层温暖的面纱，宁静而神圣。",
-      "image": "/assets/images/loc_bagan.png",
+      "image": "/assets/images/loc_bagan.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "沙地上的金合欢树",
       "body": "蒲甘地处缅甸中部的干燥地带，干涸的红土上生长着耐旱的金合欢树。它们用细小的叶片抵御炎热，在伊洛瓦底江畔的微风中，静静守护着这片红土，展现着对干旱的适应。",
-      "image": "/assets/images/loc_bagan_nature.png",
+      "image": "/assets/images/loc_bagan_nature.webp",
       "ponder": ""
     },
     {
@@ -11097,6 +11097,38 @@
       "body": "绣架上，手艺人正用斑斓细线织着传统蕾丝（意为蜘蛛网）。这些极其密集的同心圆图案，曾是先民对自然蜘蛛网的摹写，如今织入了阳光与微风，成为南美最温柔的手艺花朵。",
       "image": "/assets/images/loc_asuncion_old.png",
       "ponder": ""
+    }
+  ],
+  "乌兹别克斯坦 · 布哈拉": [
+    {
+      "bucket": "世界一角",
+      "title": "千顶之城的土坯圆顶",
+      "image": "/assets/images/loc_bukhara.png",
+      "body": "从卡扬宣礼塔旁古老风塔木窗望去，夕阳洒在浩瀚的泥砖集市圆顶上。"
+    },
+    {
+      "bucket": "科学自然",
+      "title": "红沙漠绿洲绿洲",
+      "image": "/assets/images/loc_bukhara_nature.png",
+      "body": "克孜勒库姆沙漠红沙丘边缘，沙枣树环绕着平静的绿洲水池。"
+    },
+    {
+      "bucket": "他人在场",
+      "title": "穹顶大集市打铜声",
+      "image": "/assets/images/loc_bukhara_people.png",
+      "body": "老集市拱顶下，铜匠在昏黄油灯旁一锤一锤打磨着黄铜茶壶的花纹。"
+    },
+    {
+      "bucket": "思想火花",
+      "title": "雅克城堡黄昏墙",
+      "image": "/assets/images/loc_bukhara_spark.png",
+      "body": "雅克要塞巨大的泥砖城墙在落日余晖中发出金黄光芒。"
+    },
+    {
+      "bucket": "旧物新看",
+      "title": "印饼木章的齿痕",
+      "image": "/assets/images/loc_bukhara_old.png",
+      "body": "传统手工刻印木章Chekich在金黄烤饼上留下古老星芒纹路。"
     }
   ]
 }
