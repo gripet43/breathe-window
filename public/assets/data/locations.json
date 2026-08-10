@@ -1057,7 +1057,7 @@
     "glow": "radial-gradient(circle at center, #FFFFF0 20%, #EBEDEF 100%)",
     "stampColor": "#7F8C8D",
     "locClass": "loc-tbilisi",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "亚美尼亚 · 埃里温",
@@ -4030,6 +4030,17 @@
     "coordinates": [
       64.42,
       39.77
+    ],
+    "country": "乌兹别克斯坦",
+    "hasCustomImages": true
+  },
+  {
+    "id": "loc_tashkent",
+    "name": "乌兹别克斯坦 · 塔什干",
+    "desc": "古丝绸之路上的绿洲名城与蓝穹穹顶圆顶市集。",
+    "coordinates": [
+      69.24,
+      41.3
     ],
     "country": "乌兹别克斯坦",
     "hasCustomImages": true

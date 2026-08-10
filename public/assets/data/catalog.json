@@ -2851,38 +2851,33 @@
   "格鲁吉亚 · 第比利斯": [
     {
       "bucket": "世界一角",
-      "title": "老城硫磺浴池的雾气",
-      "body": "清晨的老城区弥漫着淡淡的硫磺香气，砖红色的圆顶浴池半埋在地下。阳光穿过淡蓝色的晨雾，照亮了雕花木阳台上挂着的雏菊，整座城市宛如一幅晕染开的水彩画。",
+      "title": "第比利斯老城木阳台",
       "image": "/assets/images/loc_tbilisi.png",
-      "ponder": ""
+      "body": "从老城复古雕花木阳台望去，圣三一大教堂的金顶与要塞在落日中交相辉映。"
     },
     {
       "bucket": "科学自然",
-      "title": "库拉河谷的植物温床",
-      "body": "第比利斯坐落在库拉河谷中，四周环绕着起伏的丘陵。这里地热资源丰富，温暖的矿泉顺着山势流淌，独特的谷地微气候让野生无花果和石榴树在石缝间肆意生长。",
+      "title": "卡兹别克雪山与库拉河",
       "image": "/assets/images/loc_tbilisi_nature.png",
-      "ponder": ""
+      "body": "库拉河静静流过高加索山谷，远方卡兹别克雪峰在晨霞中染成粉红色。"
     },
     {
       "bucket": "他人在场",
-      "title": "跳蚤市场的时光旅人",
-      "body": "在干桥跳蚤市场上，一位老爷爷正在用干布擦拭着一张古旧的黑胶唱片。他调试好手摇唱机，当手风琴的声音在阳光下流淌时，他闭上眼睛，随着旋律轻轻晃动身体。",
+      "title": "泥炉里的烤面包香",
       "image": "/assets/images/loc_tbilisi_people.png",
-      "ponder": ""
+      "body": "老城师傅从深邃的Tone泥炉中取出刚刚烘烤出炉的普里面包（Puri）。"
     },
     {
       "bucket": "思想火花",
-      "title": "像格鲁吉亚红酒般沉淀",
-      "body": "这里的葡萄酒是在黏土罐中埋入地下静静发酵的。生活有时候也需要这样一段“埋藏”的时光，在黑暗中避开外界的喧嚣，默默积蓄力量，直到酿出属于自己的醇香。",
+      "title": "硫磺浴室的砖石圆顶",
       "image": "/assets/images/loc_tbilisi_spark.png",
-      "ponder": "在快节奏的日常里，你是否愿意留给自己一段静静沉淀的“埋藏时光”？"
+      "body": "阿巴诺图巴尼硫磺浴室的圆顶蒸腾着热气，在晚霞中沉淀着时光。"
     },
     {
       "bucket": "旧物新看",
-      "title": "斜塔背后的木偶剧场",
-      "body": "街角那座歪歪扭扭、仿佛随时会倒塌的钟楼，是艺术家用旧砖石拼贴而成的木偶剧场。它以一种幽默而诗意的方式告诉人们，生活中的不完美，也能变成最迷人的童话。",
+      "title": "饮酒角与陶土酒瓮",
       "image": "/assets/images/loc_tbilisi_old.png",
-      "ponder": ""
+      "body": "雕刻精美的Kantsi饮酒角与古老Qvevri陶土酒瓮静静诉说着万年酒乡底蕴。"
     }
   ],
   "亚美尼亚 · 埃里温": [
@@ -11129,6 +11124,38 @@
       "title": "印饼木章的齿痕",
       "image": "/assets/images/loc_bukhara_old.png",
       "body": "传统手工刻印木章Chekich在金黄烤饼上留下古老星芒纹路。"
+    }
+  ],
+  "乌兹别克斯坦 · 塔什干": [
+    {
+      "bucket": "世界一角",
+      "title": "楚苏大集市的蓝穹顶",
+      "image": "/assets/images/loc_tashkent.png",
+      "body": "从老城木雕花窗望去，晨光洒在楚苏集市庞大而耀眼的蓝色穹顶上。"
+    },
+    {
+      "bucket": "科学自然",
+      "title": "恰尔瓦克高山湖泊",
+      "image": "/assets/images/loc_tashkent_nature.png",
+      "body": "晨曦下的恰尔瓦克湖，天山山脉环抱着透亮如宝石般的湛蓝水面。"
+    },
+    {
+      "bucket": "他人在场",
+      "title": "大铜锅抓饭的香气",
+      "image": "/assets/images/loc_tashkent_people.png",
+      "body": "集市大铜锅旁，大厨正用长木勺翻炒着香气四溢的乌兹别克羊肉抓饭。"
+    },
+    {
+      "bucket": "思想火花",
+      "title": "哈兹拉特伊玛姆黄昏影",
+      "image": "/assets/images/loc_tashkent_spark.png",
+      "body": "哈兹拉特伊玛姆建筑群在紫罗兰色的夜空中散发着庄严柔和的光芒。"
+    },
+    {
+      "bucket": "旧物新看",
+      "title": "艾特莱斯扎染彩绸",
+      "image": "/assets/images/loc_tashkent_old.png",
+      "body": "如流云般绚丽的手工Ikat彩绸与古朴陶瓷茶杯静置在木桌上。"
     }
   ]
 }
