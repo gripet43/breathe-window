@@ -836,7 +836,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F8C471 100%)",
     "stampColor": "#CA6F1E",
     "locClass": "loc-bagan",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "老挝 · 琅勃拉邦",
@@ -849,7 +849,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #FCF3CF 100%)",
     "stampColor": "#D4AC0D",
     "locClass": "loc-luangprabang",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "印度 · 新德里",
@@ -862,7 +862,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F5CBA7 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-newdelhi",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "印度 · 泰姬陵",
@@ -875,7 +875,7 @@
     "glow": "radial-gradient(circle at center, #FFFFF0 20%, #F4F6F7 100%)",
     "stampColor": "#8B864E",
     "locClass": "loc-tajmahal",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "印度 · 瓦拉纳西",
@@ -888,7 +888,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #F5B041 100%)",
     "stampColor": "#CB4335",
     "locClass": "loc-varanasi",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "印度 · 斋浦尔",
@@ -901,7 +901,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #FADBD8 100%)",
     "stampColor": "#E74C3C",
     "locClass": "loc-jaipur",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "斯里兰卡 · 锡吉里耶",
@@ -914,7 +914,7 @@
     "glow": "radial-gradient(circle at center, #EAF2F8 20%, #F5CBA7 100%)",
     "stampColor": "#A04000",
     "locClass": "loc-sigiriya",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "尼泊尔 · 加德满都",
@@ -927,7 +927,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #E5D3B3 100%)",
     "stampColor": "#78281F",
     "locClass": "loc-kathmandu",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "马尔代夫 · 马累",
@@ -940,7 +940,7 @@
     "glow": "radial-gradient(circle at center, #E0FFFF 20%, #A3E4D7 100%)",
     "stampColor": "#16A085",
     "locClass": "loc-male",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "土耳其 · 伊斯坦布尔",
@@ -953,7 +953,7 @@
     "glow": "radial-gradient(circle at center, #FBEEF0 20%, #ECCAD0 100%)",
     "stampColor": "#900C3F",
     "locClass": "loc-istanbul",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "土耳其 · 卡帕多奇亚",
@@ -966,7 +966,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #EDBB99 100%)",
     "stampColor": "#D35400",
     "locClass": "loc-cappadocia",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "阿联酋 · 迪拜",
@@ -979,7 +979,7 @@
     "glow": "radial-gradient(circle at center, #EAEDED 20%, #D6DBDF 100%)",
     "stampColor": "#1B4F72",
     "locClass": "loc-dubai",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "沙特阿拉伯 · 利雅得",
@@ -1018,7 +1018,7 @@
     "glow": "radial-gradient(circle at center, #EAF2F8 20%, #AED6F1 100%)",
     "stampColor": "#2980B9",
     "locClass": "loc-samarkand",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "约旦 · 佩特拉",
@@ -1057,7 +1057,7 @@
     "glow": "radial-gradient(circle at center, #FFFFF0 20%, #EBEDEF 100%)",
     "stampColor": "#7F8C8D",
     "locClass": "loc-tbilisi",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "亚美尼亚 · 埃里温",
@@ -1070,7 +1070,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #D5DBDB 100%)",
     "stampColor": "#5D6D7E",
     "locClass": "loc-yerevan",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "阿塞拜疆 · 巴库",
@@ -1083,7 +1083,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #FADBD8 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-baku",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "英国 · 爱丁堡",
@@ -2946,7 +2946,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #F5B041 100%)",
     "stampColor": "#CB4335",
     "locClass": "loc-lahore",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "巴基斯坦 · 卡拉奇",
@@ -2985,7 +2985,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #D5DBDB 100%)",
     "stampColor": "#5D6D7E",
     "locClass": "loc-almaty",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "吉尔吉斯斯坦 · 比什凯克",
@@ -4032,7 +4032,7 @@
       39.77
     ],
     "country": "乌兹别克斯坦",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "id": "loc_tashkent",
@@ -4043,6 +4043,6 @@
       41.3
     ],
     "country": "乌兹别克斯坦",
-    "hasCustomImages": true
+    "hasCustomImages": false
   }
 ]
