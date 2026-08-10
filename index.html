@@ -2614,6 +2614,7 @@
     const it = globalItems[index];
     const imageUrl = fixUrl(it.image) || getFallbackImage(it.bucket);
     const img = new Image();
+    img.fetchPriority = (index === 0) ? "high" : "low";
     img.onload = () => {
       loadedImages[index] = true;
       if (waitingForSlideIndex === index) {
@@ -2695,7 +2696,7 @@
     card.innerHTML = `
       <div class="image-box">
         <div class="image-paper-overlay"></div>
-        <img src="${imageUrl}" class="slide-image" alt="${escapeHtml(it.bucket)}" onerror="this.onerror=null; this.src=getFallbackImage('${escapeHtml(it.bucket)}');">
+        <img src="${imageUrl}" class="slide-image" alt="${escapeHtml(it.bucket)}" width="800" height="800" fetchpriority="${index === 0 ? 'high' : 'auto'}" loading="${index === 0 ? 'eager' : 'lazy'}" onerror="this.onerror=null; this.src=getFallbackImage('${escapeHtml(it.bucket)}');">
       </div>
       <div class="slide-content">
         <span class="bucket">${escapeHtml(it.bucket || "")}</span>
