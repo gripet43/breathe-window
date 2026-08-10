@@ -2591,6 +2591,7 @@
   let currentSlideIndex = 0;
   
   let loadedImages = {};
+  let imageCache = {}; // 强制持有 Image 对象，防止预载中途被垃圾回收
   let waitingForSlideIndex = null;
 
   function fixUrl(url) {
@@ -2613,8 +2614,11 @@
     if (loadedImages[index]) return;
     const it = globalItems[index];
     const imageUrl = fixUrl(it.image) || getFallbackImage(it.bucket);
+    
     const img = new Image();
-    img.fetchPriority = (index === 0) ? "high" : "low";
+    imageCache[index] = img; // 保存引用
+    img.fetchPriority = "auto"; // 移除 low 优先级，确保浏览器积极预载
+    
     img.onload = () => {
       loadedImages[index] = true;
       if (waitingForSlideIndex === index) {
@@ -2622,7 +2626,13 @@
         performSlideTransition(index);
       }
     };
-    img.onerror = img.onload;
+    img.onerror = () => {
+      loadedImages[index] = true; // 即使出错也标记为完成，靠 onerror 后备图兜底
+      if (waitingForSlideIndex === index) {
+        waitingForSlideIndex = null;
+        performSlideTransition(index);
+      }
+    };
     img.src = imageUrl;
   }
 
@@ -2696,7 +2706,7 @@
     card.innerHTML = `
       <div class="image-box">
         <div class="image-paper-overlay"></div>
-        <img src="${imageUrl}" class="slide-image" alt="${escapeHtml(it.bucket)}" width="800" height="800" fetchpriority="${index === 0 ? 'high' : 'auto'}" loading="${index === 0 ? 'eager' : 'lazy'}" onerror="this.onerror=null; this.src=getFallbackImage('${escapeHtml(it.bucket)}');">
+        <img src="${imageUrl}" class="slide-image" alt="${escapeHtml(it.bucket)}" width="800" height="800" fetchpriority="high" loading="eager" onerror="this.onerror=null; this.src=getFallbackImage('${escapeHtml(it.bucket)}');">
       </div>
       <div class="slide-content">
         <span class="bucket">${escapeHtml(it.bucket || "")}</span>
