@@ -1070,7 +1070,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #D5DBDB 100%)",
     "stampColor": "#5D6D7E",
     "locClass": "loc-yerevan",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "阿塞拜疆 · 巴库",
@@ -1083,7 +1083,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #FADBD8 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-baku",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "英国 · 爱丁堡",
