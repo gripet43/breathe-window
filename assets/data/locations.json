@@ -51,7 +51,7 @@
     "glow": "radial-gradient(circle at center, #FFF9E6 20%, #E6C280 100%)",
     "stampColor": "#B8860B",
     "locClass": "loc-paris",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "摩洛哥 · 马拉喀什",
@@ -77,7 +77,7 @@
     "glow": "radial-gradient(circle at center, #E0FFE0 20%, #A9DFBF 100%)",
     "stampColor": "#2F4F4F",
     "locClass": "loc-tromso",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "瑞士 · 阿尔卑斯山小镇",
@@ -90,7 +90,7 @@
     "glow": "radial-gradient(circle at center, #FFFFFF 20%, #E0F2FE 100%)",
     "stampColor": "#0284C7",
     "locClass": "loc-alps",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "意大利 · 威尼斯",
@@ -103,7 +103,7 @@
     "glow": "radial-gradient(circle at center, #FFF4E0 20%, #A5D6A7 100%)",
     "stampColor": "#C71585",
     "locClass": "loc-venice",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "希腊 · 圣托里尼",
@@ -116,7 +116,7 @@
     "glow": "radial-gradient(circle at center, #FFFFFF 20%, #FFFBEB 100%)",
     "stampColor": "#0284C7",
     "locClass": "loc-santorini",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "英国 · 伦敦",
@@ -129,7 +129,7 @@
     "glow": "radial-gradient(circle at center, #FEF3C7 20%, #D4D4D8 100%)",
     "stampColor": "#DC2626",
     "locClass": "loc-london",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "加拿大 · 魁北克枫林",
@@ -142,7 +142,7 @@
     "glow": "radial-gradient(circle at center, #FFFBEB 20%, #FDE047 100%)",
     "stampColor": "#B91C1C",
     "locClass": "loc-quebec",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 253.655,
     "mapY": 396.152
   },
@@ -256,7 +256,7 @@
     "glow": "radial-gradient(circle at center, #FFF8DC 20%, #DAA520 100%)",
     "stampColor": "#A52A2A",
     "locClass": "loc-lhasa",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 614.018,
     "mapY": 446.537
   },
@@ -301,7 +301,7 @@
     "glow": "radial-gradient(circle at center, #FFF5EE 20%, #FFD39B 100%)",
     "stampColor": "#CD5C5C",
     "locClass": "loc-lijiang",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 634.244,
     "mapY": 454.7
   },
@@ -316,7 +316,7 @@
     "glow": "radial-gradient(circle at center, #F0FFFF 20%, #D1EEEE 100%)",
     "stampColor": "#4682B4",
     "locClass": "loc-harbin",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 692.884,
     "mapY": 399.256
   },
@@ -361,7 +361,7 @@
     "glow": "radial-gradient(circle at center, #FFF68F 20%, #87CEFA 100%)",
     "stampColor": "#1C86EE",
     "locClass": "loc-qinghai",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 634.28,
     "mapY": 426.089
   },
@@ -376,7 +376,7 @@
     "glow": "radial-gradient(circle at center, #F4F8FA 20%, #BFEFFF 100%)",
     "stampColor": "#4A708B",
     "locClass": "loc-dali",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 634.332,
     "mapY": 458.416
   },
@@ -391,7 +391,7 @@
     "glow": "radial-gradient(circle at center, #F5F5DC 20%, #E6E6FA 100%)",
     "stampColor": "#556B2F",
     "locClass": "loc-huangshan",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 674.086,
     "mapY": 445.137
   },
@@ -406,7 +406,7 @@
     "glow": "radial-gradient(circle at center, #FFF0E0 20%, #FFC1A1 100%)",
     "stampColor": "#A32D2D",
     "locClass": "loc-jiufen",
-    "hasCustomImages": false,
+    "hasCustomImages": true,
     "mapX": 682.231,
     "mapY": 459.874
   },
@@ -423,7 +423,7 @@
     "locClass": "loc-hongkong",
     "mapX": 665.194,
     "mapY": 468.067,
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "中国 · 澳门大三巴",
@@ -468,7 +468,7 @@
     "locClass": "loc-kanas",
     "mapX": 604.891,
     "mapY": 390.623,
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "中国 · 贵州西江苗寨",
@@ -524,7 +524,7 @@
     "glow": "radial-gradient(circle at center, #FFF8EF 20%, #F5DEB3 100%)",
     "stampColor": "#8B5A2B",
     "locClass": "loc-osaka",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "日本 · 奈良",
@@ -537,7 +537,7 @@
     "glow": "radial-gradient(circle at center, #FAF0E6 20%, #EEDC82 100%)",
     "stampColor": "#CD853F",
     "locClass": "loc-nara",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "日本 · 札幌",
@@ -550,7 +550,7 @@
     "glow": "radial-gradient(circle at center, #F9F9F9 20%, #E4F1FE 100%)",
     "stampColor": "#3A539B",
     "locClass": "loc-sapporo",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "日本 · 冲绳",
@@ -576,7 +576,7 @@
     "glow": "radial-gradient(circle at center, #FFFDF0 20%, #C2D6C4 100%)",
     "stampColor": "#2E6930",
     "locClass": "loc-kamakura",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "日本 · 金泽",
@@ -602,7 +602,7 @@
     "glow": "radial-gradient(circle at center, #FFF5EE 20%, #D2B48C 100%)",
     "stampColor": "#8B4500",
     "locClass": "loc-hakone",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "韩国 · 首尔",
@@ -615,7 +615,7 @@
     "glow": "radial-gradient(circle at center, #F4F6F7 20%, #D5DBDB 100%)",
     "stampColor": "#E74C3C",
     "locClass": "loc-seoul",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "韩国 · 济州岛",
@@ -641,7 +641,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F9E79F 100%)",
     "stampColor": "#D35400",
     "locClass": "loc-gyeongju",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "韩国 · 釜山",
@@ -654,7 +654,7 @@
     "glow": "radial-gradient(circle at center, #EBF5FB 20%, #AED6F1 100%)",
     "stampColor": "#1F618D",
     "locClass": "loc-busan",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "泰国 · 曼谷",
@@ -667,7 +667,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F7DC6F 100%)",
     "stampColor": "#B7950B",
     "locClass": "loc-bangkok",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "泰国 · 清迈",
@@ -680,7 +680,7 @@
     "glow": "radial-gradient(circle at center, #FAF9F6 20%, #F5CBA7 100%)",
     "stampColor": "#CA6F1E",
     "locClass": "loc-chiangmai",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "泰国 · 普吉岛",
@@ -693,7 +693,7 @@
     "glow": "radial-gradient(circle at center, #E8F8F5 20%, #76D7C4 100%)",
     "stampColor": "#148F77",
     "locClass": "loc-phuket",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "越南 · 河内",
@@ -745,7 +745,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #E5E8E8 100%)",
     "stampColor": "#E74C3C",
     "locClass": "loc-singapore",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "马来西亚 · 吉隆坡",
@@ -810,7 +810,7 @@
     "glow": "radial-gradient(circle at center, #EBF5FB 20%, #AED6F1 100%)",
     "stampColor": "#2874A6",
     "locClass": "loc-boracay",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "柬埔寨 · 吴哥窟",
@@ -823,7 +823,7 @@
     "glow": "radial-gradient(circle at center, #FAF9F6 20%, #F5CBA7 100%)",
     "stampColor": "#B7950B",
     "locClass": "loc-angkor",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "缅甸 · 蒲甘",
@@ -901,7 +901,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #FADBD8 100%)",
     "stampColor": "#E74C3C",
     "locClass": "loc-jaipur",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "斯里兰卡 · 锡吉里耶",
@@ -927,7 +927,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #E5D3B3 100%)",
     "stampColor": "#78281F",
     "locClass": "loc-kathmandu",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "马尔代夫 · 马累",
@@ -1083,7 +1083,7 @@
     "glow": "radial-gradient(circle at center, #FDEDEC 20%, #FADBD8 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-baku",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "英国 · 爱丁堡",
@@ -4032,7 +4032,7 @@
       39.77
     ],
     "country": "乌兹别克斯坦",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "id": "loc_tashkent",
@@ -4043,6 +4043,6 @@
       41.3
     ],
     "country": "乌兹别克斯坦",
-    "hasCustomImages": false
+    "hasCustomImages": true
   }
 ]
