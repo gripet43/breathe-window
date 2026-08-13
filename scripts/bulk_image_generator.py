@@ -70,7 +70,7 @@ def is_placeholder(img_path):
 
 def generate_via_sd(prompt, save_path):
     # 针对水彩画风做出的 Prompt 微调
-    kaiti_prompt = f"{prompt}, warm watercolor style illustration, warm tones, soft colors, cozy and peaceful, cream paper texture, hand-drawn vector elements, minimal lineart"
+    kaiti_prompt = f"{prompt}, warm watercolor style illustration, warm tones, soft colors, cozy and peaceful, cream paper texture, hand-drawn vector elements, minimal lineart, NO TEXT, NO LETTERS, NO WORDS, NO SIGNBOARDS, NO LABELS, NO WATERMARK, NO SIGNATURE, NO HIEROGLYPHICS, NO LOGO"
     
     payload = {
         "prompt": kaiti_prompt,
@@ -155,8 +155,8 @@ def generate_via_gemini(prompt, save_path):
         "Content-Type": "application/json"
     }
     
-    # 针对水彩画风做出的 Prompt 微调
-    kaiti_prompt = f"{prompt}, warm watercolor style illustration, warm tones, soft colors, cozy and peaceful, cream paper texture, hand-drawn vector elements, minimal lineart"
+    # 针对水彩画风做出的 Prompt 微调，并增加强力去文字过滤约束
+    kaiti_prompt = f"{prompt}, warm watercolor style illustration, warm tones, soft colors, cozy and peaceful, cream paper texture, hand-drawn vector elements, minimal lineart, NO TEXT, NO LETTERS, NO WORDS, NO SIGNBOARDS, NO LABELS, NO WATERMARK, NO SIGNATURE, NO HIEROGLYPHICS, NO LOGO"
     
     payload = {
         "contents": [

@@ -2315,7 +2315,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F5CBA7 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-luxor",
-    "hasCustomImages": true
+    "hasCustomImages": false
   },
   {
     "name": "埃及 · 阿斯旺",
@@ -4024,25 +4024,29 @@
     "hasCustomImages": false
   },
   {
-    "id": "loc_bukhara",
     "name": "乌兹别克斯坦 · 布哈拉",
-    "desc": "古丝绸之路上的沙漠明珠与千顶之城。",
-    "coordinates": [
-      64.42,
-      39.77
-    ],
-    "country": "乌兹别克斯坦",
+    "countryCode": "uz",
+    "lat": 39.77,
+    "lng": 64.42,
+    "emblem": "🕌",
+    "wood": "#873600",
+    "woodDark": "#5C2500",
+    "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F5CBA7 100%)",
+    "stampColor": "#D35400",
+    "locClass": "loc-bukhara",
     "hasCustomImages": true
   },
   {
-    "id": "loc_tashkent",
     "name": "乌兹别克斯坦 · 塔什干",
-    "desc": "古丝绸之路上的绿洲名城与蓝穹穹顶圆顶市集。",
-    "coordinates": [
-      69.24,
-      41.3
-    ],
-    "country": "乌兹别克斯坦",
+    "countryCode": "uz",
+    "lat": 41.3,
+    "lng": 69.24,
+    "emblem": "🏛️",
+    "wood": "#1A5276",
+    "woodDark": "#10354D",
+    "glow": "radial-gradient(circle at center, #EAF2F8 20%, #AED6F1 100%)",
+    "stampColor": "#2980B9",
+    "locClass": "loc-tashkent",
     "hasCustomImages": true
   }
 ]
