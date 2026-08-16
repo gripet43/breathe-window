@@ -305,7 +305,7 @@ def run_tests():
     # Check JS syntax via Node.js
     scripts = re.findall(r"<script>([\s\S]*?)</script>", html)
     for i, s in enumerate(scripts):
-        tmp_js = os.path.join("/tmp", f"test_script_{i}.js")
+        tmp_js = f"test_script_{i}.js"
         with open(tmp_js, "w", encoding="utf-8") as f:
             f.write(s)
         try:
@@ -317,6 +317,12 @@ def run_tests():
                 print_fail(f"Inline script #{i} syntax error: {res.stderr.strip()}")
         except Exception as e:
             warnings.append(f"Node.js check skipped: {e}")
+        finally:
+            if os.path.exists(tmp_js):
+                try:
+                    os.remove(tmp_js)
+                except Exception:
+                    pass
 
     # ---------------------------------------------------------
     # SUMMARY & REPORT

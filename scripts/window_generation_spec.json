@@ -9,6 +9,20 @@
     "identity": "佛塔如林的金色平原",
     "items": [
       {
+        "bucket": "世界一角",
+        "filename": "loc_bagan.png",
+        "path": "/assets/images/loc_bagan.png",
+        "zh": "世界一角栏目：从古老佛塔的砖石拱窗望出去，万千座砖红与金黄塔尖散落在晨雾弥漫的蒲甘平原上，远方几只热气球迎着朝阳缓缓升空，明信片视角，主色赭金与砖红，柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: view through the arched brick window of an ancient temple, thousands of brick-red and gilded pagoda spires scattered across the misty plain of Bagan, hot air balloons rising slowly in the dawn sun beyond, postcard view, palette of ochre gold and brick red, soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_bagan_nature.png",
+        "path": "/assets/images/loc_bagan_nature.png",
+        "zh": "科学自然栏目：蒲甘干旱红土地貌生态切面，耐旱的金合欢树(acacia)与沙地仙人掌，伊洛瓦底江在远处流过，带原来如此的知识感，主色赭红与沙黄，柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: the arid red-earth ecology of Bagan, drought-resistant acacia trees and sandy soil, the Irrawaddy river flowing in the distance, an aha-moment of dry-zone natural knowledge, palette of ochre red and sand yellow, soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
         "bucket": "他人在场",
         "filename": "loc_bagan_people.png",
         "path": "/assets/images/loc_bagan_people.png",
@@ -11022,6 +11036,2858 @@
         "path": "/assets/images/loc_asuncion_old.png",
         "zh": "呼应巴拉圭手艺的旧物特写，Itauguá 的 ñandutí 蛛网蕾丝，圆形的放射状编织在木框上呈现鲜艳的几何花纹，主色以暖赭褐呼应窗框，缀以蕾丝的冷蓝与品红，是 distinctive 的巴拉圭织艺凝缩，柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
         "en": "a close-up of a Paraguay craft object, the nanduti spiderweb lace of Itaugua, a circular radial weave on a wooden frame in vivid geometric patterns, warm ochre brown echoing the frame, with cool blue and magenta in the lace, a condensation of distinctive Paraguayan weaving, soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 京都": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "💮",
+    "wood": "#4A3E3D",
+    "stampColor": "#8B3A3A",
+    "hasCustomImages": true,
+    "identity": "京都鸭川边的纳凉床已搭好",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_kyoto.png",
+        "path": "/assets/images/loc_kyoto.png",
+        "zh": "世界一角栏目：京都鸭川边的纳凉床已搭好。六月傍晚，京都鸭川沿岸的店铺在河面上搭起木质露台。人们坐在这里喝啤酒，看流水发呆。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 京都鸭川边的纳凉床已搭好. 六月傍晚，京都鸭川沿岸的店铺在河面上搭起木质露台。人们坐在这里喝啤酒，看流水发呆。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_kyoto_nature.png",
+        "path": "/assets/images/loc_kyoto_nature.png",
+        "zh": "科学自然栏目：鸭川中生存的大鲵。鸭川清澈的水流下隐藏着日本大鲵，这种古老的两栖动物已经在此繁衍了数百万年。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 鸭川中生存的大鲵. 鸭川清澈的水流下隐藏着日本大鲵，这种古老的两栖动物已经在此繁衍了数百万年。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_kyoto_people.png",
+        "path": "/assets/images/loc_kyoto_people.png",
+        "zh": "他人在场栏目：西阵织作坊里的丝线声。细雨中的老街坊里，织工正操纵着古老织机，将染好色的金银丝线织成华丽的绸缎。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 西阵织作坊里的丝线声. 细雨中的老街坊里，织工正操纵着古老织机，将染好色的金银丝线织成华丽的绸缎。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_kyoto_spark.png",
+        "path": "/assets/images/loc_kyoto_spark.png",
+        "zh": "思想火花栏目：一期一会的心照不宣。每次相遇都是此生唯一的一次。把这杯茶当作最后一杯来喝，你会看到什么？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 一期一会的心照不宣. 每次相遇都是此生唯一的一次。把这杯茶当作最后一杯来喝，你会看到什么？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_kyoto_old.png",
+        "path": "/assets/images/loc_kyoto_old.png",
+        "zh": "旧物新看栏目：团扇背后的竹木工序。京都的京团扇由一根竹子劈成数十根细骨制成，曾是古代宫廷女子遮面的夏日雅器。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 团扇背后的竹木工序. 京都的京团扇由一根竹子劈成数十根细骨制成，曾是古代宫廷女子遮面的夏日雅器。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "冰岛 · 雷克雅未克": {
+    "countryCode": "is",
+    "continent": "亚洲",
+    "emblem": "❄️",
+    "wood": "#8F9CAE",
+    "stampColor": "#4682B4",
+    "hasCustomImages": true,
+    "identity": "雷克雅未克午夜的极昼微光",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_reykjavik.png",
+        "path": "/assets/images/loc_reykjavik.png",
+        "zh": "世界一角栏目：雷克雅未克午夜的极昼微光。夏至将至，冰岛雷克雅未克的午夜依然亮如白昼。粉蓝色的晚霞悬在海湾上方，远处积雪的山峰泛着银光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 雷克雅未克午夜的极昼微光. 夏至将至，冰岛雷克雅未克的午夜依然亮如白昼。粉蓝色的晚霞悬在海湾上方，远处积雪的山峰泛着银光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_reykjavik_nature.png",
+        "path": "/assets/images/loc_reykjavik_nature.png",
+        "zh": "科学自然栏目：冰岛地热温泉与苔藓。冰岛黑色的火山岩上覆盖着厚厚一层绿苔，它们依靠微弱的地热与冰雪融水在极地生长。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 冰岛地热温泉与苔藓. 冰岛黑色的火山岩上覆盖着厚厚一层绿苔，它们依靠微弱的地热与冰雪融水在极地生长。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_reykjavik_people.png",
+        "path": "/assets/images/loc_reykjavik_people.png",
+        "zh": "他人在场栏目：温室里的西红柿种植员。在雷克雅未克郊外，种植员正利用地热温室在寒带培育鲜红的西红柿，温室里亮着暖光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 温室里的西红柿种植员. 在雷克雅未克郊外，种植员正利用地热温室在寒带培育鲜红的西红柿，温室里亮着暖光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_reykjavik_spark.png",
+        "path": "/assets/images/loc_reykjavik_spark.png",
+        "zh": "思想火花栏目：极昼里的静止时光。当太阳不再落下，时间的流动似乎失去了刻度。如果一天没有终点，你会想停在哪里？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 极昼里的静止时光. 当太阳不再落下，时间的流动似乎失去了刻度。如果一天没有终点，你会想停在哪里？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_reykjavik_old.png",
+        "path": "/assets/images/loc_reykjavik_old.png",
+        "zh": "旧物新看栏目：羊毛衣Lopapeysa起源。冰岛传统羊毛衣使用未梳理的粗羊毛织成，自带天然油脂，防风防水，是渔民的避寒铠甲。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 羊毛衣Lopapeysa起源. 冰岛传统羊毛衣使用未梳理的粗羊毛织成，自带天然油脂，防风防水，是渔民的避寒铠甲。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 四川竹海": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🎋",
+    "wood": "#769E76",
+    "stampColor": "#2E8B57",
+    "hasCustomImages": true,
+    "identity": "晨雾弥漫的蜀南竹海翠色",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_bamboo.png",
+        "path": "/assets/images/loc_bamboo.png",
+        "zh": "世界一角栏目：晨雾弥漫的蜀南竹海翠色。清晨的四川竹海，万亩毛竹在翠绿的晨雾中随风摇曳。绿叶上挂着露珠，空气中弥漫着竹香。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨雾弥漫的蜀南竹海翠色. 清晨的四川竹海，万亩毛竹在翠绿的晨雾中随风摇曳。绿叶上挂着露珠，空气中弥漫着竹香。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_bamboo_nature.png",
+        "path": "/assets/images/loc_bamboo_nature.png",
+        "zh": "科学自然栏目：竹子令人惊叹的生长速度。竹子是世界上生长最快的植物之一，在雨季，它的笋一天可以拔高一米多，发出沙沙声。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 竹子令人惊叹的生长速度. 竹子是世界上生长最快的植物之一，在雨季，它的笋一天可以拔高一米多，发出沙沙声。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_bamboo_people.png",
+        "path": "/assets/images/loc_bamboo_people.png",
+        "zh": "他人在场栏目：编制青竹箩筐的老匠人。茂密的竹林旁边，匠人正用锋利的篾刀劈开翠绿的青竹，手指翻飞间编出一只小巧的竹箩。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 编制青竹箩筐的老匠人. 茂密的竹林旁边，匠人正用锋利的篾刀劈开翠绿的青竹，手指翻飞间编出一只小巧的竹箩。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_bamboo_spark.png",
+        "path": "/assets/images/loc_bamboo_spark.png",
+        "zh": "思想火花栏目：竹子空心与弯而不折。竹子因为内部空心而轻盈，因为竹节而坚韧。适当的留白与节制，是否能让人走得更远？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 竹子空心与弯而不折. 竹子因为内部空心而轻盈，因为竹节而坚韧。适当的留白与节制，是否能让人走得更远？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_bamboo_old.png",
+        "path": "/assets/images/loc_bamboo_old.png",
+        "zh": "旧物新看栏目：历史悠久的竹纸制作。两千年前古人便用嫩竹造纸。将竹料在石池中漂洗、打浆，最终凝结成一张温润的宣纸。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 历史悠久的竹纸制作. 两千年前古人便用嫩竹造纸。将竹料在石池中漂洗、打浆，最终凝结成一张温润的宣纸。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "法国 · 巴黎": {
+    "countryCode": "fr",
+    "continent": "亚洲",
+    "emblem": "🗼",
+    "wood": "#E1DACF",
+    "stampColor": "#B8860B",
+    "hasCustomImages": true,
+    "identity": "塞纳河畔的旧书摊与夕阳",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_paris.png",
+        "path": "/assets/images/loc_paris.png",
+        "zh": "世界一角栏目：塞纳河畔的旧书摊与夕阳。傍晚，巴黎塞纳河畔的绿色旧书摊前，人们正翻阅画册。金色的夕阳洒在波光粼粼的水面。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 塞纳河畔的旧书摊与夕阳. 傍晚，巴黎塞纳河畔的绿色旧书摊前，人们正翻阅画册。金色的夕阳洒在波光粼粼的水面。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_paris_nature.png",
+        "path": "/assets/images/loc_paris_nature.png",
+        "zh": "科学自然栏目：巴黎地下石灰石矿脉。巴黎优雅的奥斯曼建筑外墙均采用本地出产的米黄色石灰石，这种石头来自地下的远古浅海沉积。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 巴黎地下石灰石矿脉. 巴黎优雅的奥斯曼建筑外墙均采用本地出产的米黄色石灰石，这种石头来自地下的远古浅海沉积。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_paris_people.png",
+        "path": "/assets/images/loc_paris_people.png",
+        "zh": "他人在场栏目：巴黎甜点工坊里的黄油香。凌晨四点，甜点师正将发酵好的面团折叠压平，烤箱里散发出起酥可颂的浓郁奶香。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 巴黎甜点工坊里的黄油香. 凌晨四点，甜点师正将发酵好的面团折叠压平，烤箱里散发出起酥可颂的浓郁奶香。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_paris_spark.png",
+        "path": "/assets/images/loc_paris_spark.png",
+        "zh": "思想火花栏目：街头漫步者的艺术。巴黎人推崇“Flânerie”（闲逛）——漫无目的地行走，去观察、去感受。你上一次闲逛是什么时候？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 街头漫步者的艺术. 巴黎人推崇“Flânerie”（闲逛）——漫无目的地行走，去观察、去感受。你上一次闲逛是什么时候？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_paris_old.png",
+        "path": "/assets/images/loc_paris_old.png",
+        "zh": "旧物新看栏目：巴黎莫里斯广告柱的历史。街头墨绿色的圆形铁柱建于1868年，最初用于张贴剧院海报，也是环卫工存放工具的秘密仓库。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 巴黎莫里斯广告柱的历史. 街头墨绿色的圆形铁柱建于1868年，最初用于张贴剧院海报，也是环卫工存放工具的秘密仓库。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "摩洛哥 · 马拉喀什": {
+    "countryCode": "ma",
+    "continent": "亚洲",
+    "emblem": "🐪",
+    "wood": "#C67850",
+    "stampColor": "#D2691E",
+    "hasCustomImages": true,
+    "identity": "马拉喀什红土老巷的香料香",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_marrakech.png",
+        "path": "/assets/images/loc_marrakech.png",
+        "zh": "世界一角栏目：马拉喀什红土老巷的香料香。午后的马拉喀什老城，阳光穿过竹编顶棚洒在红陶墙壁上。街角小贩堆起彩色的香料山。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 马拉喀什红土老巷的香料香. 午后的马拉喀什老城，阳光穿过竹编顶棚洒在红陶墙壁上。街角小贩堆起彩色的香料山。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_marrakech_nature.png",
+        "path": "/assets/images/loc_marrakech_nature.png",
+        "zh": "科学自然栏目：撒哈拉边缘的坚果仙境。摩洛哥独有的阿甘树根系极其深广，能牢牢抓住荒漠黄沙，果实能榨出极其珍贵的黄金护肤油。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 撒哈拉边缘的坚果仙境. 摩洛哥独有的阿甘树根系极其深广，能牢牢抓住荒漠黄沙，果实能榨出极其珍贵的黄金护肤油。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_marrakech_people.png",
+        "path": "/assets/images/loc_marrakech_people.png",
+        "zh": "他人在场栏目：织造摩洛哥地毯的女工。在老城深处的庭院里，妇女正用手工织机穿梭彩色羊毛线，将古老的游牧图腾编入厚地毯。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 织造摩洛哥地毯的女工. 在老城深处的庭院里，妇女正用手工织机穿梭彩色羊毛线，将古老的游牧图腾编入厚地毯。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_marrakech_spark.png",
+        "path": "/assets/images/loc_marrakech_spark.png",
+        "zh": "思想火花栏目：沙漠绿洲的静谧哲学。在滚烫的荒漠中建起阴凉的庭院。我们的内心，是否也需要这样一处隔绝嘈杂的“内里绿洲”？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 沙漠绿洲的静谧哲学. 在滚烫的荒漠中建起阴凉的庭院。我们的内心，是否也需要这样一处隔绝嘈杂的“内里绿洲”？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_marrakech_old.png",
+        "path": "/assets/images/loc_marrakech_old.png",
+        "zh": "旧物新看栏目：薄荷茶里的待客之道。摩洛哥人把薄荷茶称为“摩洛哥威士忌”。从高处倒茶能产生细腻泡沫，代表对客人的无限敬意。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 薄荷茶里的待客之道. 摩洛哥人把薄荷茶称为“摩洛哥威士忌”。从高处倒茶能产生细腻泡沫，代表对客人的无限敬意。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "挪威 · 特罗姆瑟": {
+    "countryCode": "no",
+    "continent": "亚洲",
+    "emblem": "🌌",
+    "wood": "#3A444C",
+    "stampColor": "#2F4F4F",
+    "hasCustomImages": true,
+    "identity": "特罗姆瑟北极光下的静谧木屋",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_tromso.png",
+        "path": "/assets/images/loc_tromso.png",
+        "zh": "世界一角栏目：特罗姆瑟北极光下的静谧木屋。特罗姆瑟的冬夜，一抹幽绿的极光在深邃星空下悄然起舞。彩色木屋亮着橘黄炉光，温暖着雪夜。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 特罗姆瑟北极光下的静谧木屋. 特罗姆瑟的冬夜，一抹幽绿的极光在深邃星空下悄然起舞。彩色木屋亮着橘黄炉光，温暖着雪夜。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_tromso_nature.png",
+        "path": "/assets/images/loc_tromso_nature.png",
+        "zh": "科学自然栏目：极地水域的鲸鱼歌声。每年冬季，成群的座头鲸会游入特罗姆瑟寒冷的海湾捕食鲱鱼，它们悠长的鸣叫在水中回荡。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 极地水域的鲸鱼歌声. 每年冬季，成群的座头鲸会游入特罗姆瑟寒冷的海湾捕食鲱鱼，它们悠长的鸣叫在水中回荡。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_tromso_people.png",
+        "path": "/assets/images/loc_tromso_people.png",
+        "zh": "他人在场栏目：极夜里驾驶铲雪车的司机。漫天大雪中，铲雪车正闪烁着警示灯前行，将厚厚积雪推向路边，为早晨的车辆开辟通道。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 极夜里驾驶铲雪车的司机. 漫天大雪中，铲雪车正闪烁着警示灯前行，将厚厚积雪推向路边，为早晨的车辆开辟通道。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_tromso_spark.png",
+        "path": "/assets/images/loc_tromso_spark.png",
+        "zh": "思想火花栏目：黑暗中的自我凝视。北极的极夜会持续数月。当外部世界长久陷入黑暗，人会更容易听见内心最细微的声音吗？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 黑暗中的自我凝视. 北极的极夜会持续数月。当外部世界长久陷入黑暗，人会更容易听见内心最细微的声音吗？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_tromso_old.png",
+        "path": "/assets/images/loc_tromso_old.png",
+        "zh": "旧物新看栏目：古老的木质教堂萨米鼓。特罗姆瑟保留着萨米人的萨米鼓，鼓面用驯鹿皮制成，画有极光与星象，是远古萨满沟通神灵的媒介。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 古老的木质教堂萨米鼓. 特罗姆瑟保留着萨米人的萨米鼓，鼓面用驯鹿皮制成，画有极光与星象，是远古萨满沟通神灵的媒介。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "瑞士 · 阿尔卑斯山小镇": {
+    "countryCode": "ch",
+    "continent": "亚洲",
+    "emblem": "🏔️",
+    "wood": "#C5B49C",
+    "stampColor": "#0284C7",
+    "hasCustomImages": true,
+    "identity": "阿尔卑斯山木屋窗外的雪山顶",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_alps.png",
+        "path": "/assets/images/loc_alps.png",
+        "zh": "世界一角栏目：阿尔卑斯山木屋窗外的雪山顶。清晨，阳光洒在阿尔卑斯山白雪皑皑的山尖上。木栏挂着红色天竺葵，山谷中传来悠扬的牛铃声。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 阿尔卑斯山木屋窗外的雪山顶. 清晨，阳光洒在阿尔卑斯山白雪皑皑的山尖上。木栏挂着红色天竺葵，山谷中传来悠扬的牛铃声。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_alps_nature.png",
+        "path": "/assets/images/loc_alps_nature.png",
+        "zh": "科学自然栏目：冰川融水与高山花卉。冰川在夏季融化成清澈的溪流，灌溉着海拔两千米以上的草甸，孕育出雪白罕见的雪绒花。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 冰川融水与高山花卉. 冰川在夏季融化成清澈的溪流，灌溉着海拔两千米以上的草甸，孕育出雪白罕见的雪绒花。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_alps_people.png",
+        "path": "/assets/images/loc_alps_people.png",
+        "zh": "他人在场栏目：木屋里的雕刻手艺人。炭火熊熊的作坊里，手艺人手持刻刀，将一块散发着松香的瑞士松木雕刻成一只木牛。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 木屋里的雕刻手艺人. 炭火熊熊的作坊里，手艺人手持刻刀，将一块散发着松香的瑞士松木雕刻成一只木牛。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_alps_spark.png",
+        "path": "/assets/images/loc_alps_spark.png",
+        "zh": "思想火花栏目：群山面前的渺小与平静。巍峨的雪山已经在那里矗立了千万年。相比之下，眼前的烦恼是不是只像山间一抹转瞬即逝的云雾？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 群山面前的渺小与平静. 巍峨的雪山已经在那里矗立了千万年。相比之下，眼前的烦恼是不是只像山间一抹转瞬即逝的云雾？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_alps_old.png",
+        "path": "/assets/images/loc_alps_old.png",
+        "zh": "旧物新看栏目：瑞士阿尔卑斯长号的历史。这种长达数米的松木喇叭最初并不是乐器，而是牧羊人在寂静山谷中呼唤羊群、向对山传信的工具。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 瑞士阿尔卑斯长号的历史. 这种长达数米的松木喇叭最初并不是乐器，而是牧羊人在寂静山谷中呼唤羊群、向对山传信的工具。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "意大利 · 威尼斯": {
+    "countryCode": "it",
+    "continent": "亚洲",
+    "emblem": "🛶",
+    "wood": "#8B4513",
+    "stampColor": "#C71585",
+    "hasCustomImages": true,
+    "identity": "威尼斯水巷的船桨与波光",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_venice.png",
+        "path": "/assets/images/loc_venice.png",
+        "zh": "世界一角栏目：威尼斯水巷的船桨与波光。午后，一艘黑色贡多拉划破碧绿的水面，在古老的红砖墙上留下一圈圈水波。对面的花窗下垂挂着紫藤。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 威尼斯水巷的船桨与波光. 午后，一艘黑色贡多拉划破碧绿的水面，在古老的红砖墙上留下一圈圈水波。对面的花窗下垂挂着紫藤。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_venice_nature.png",
+        "path": "/assets/images/loc_venice_nature.png",
+        "zh": "科学自然栏目：威尼斯海水的潮汐涨落。威尼斯潟湖的海水每天会有两次高低潮汐涨落，古老水城依靠这种潮汐来稀释和净化河道水质。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 威尼斯海水的潮汐涨落. 威尼斯潟湖的海水每天会有两次高低潮汐涨落，古老水城依靠这种潮汐来稀释和净化河道水质。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_venice_people.png",
+        "path": "/assets/images/loc_venice_people.png",
+        "zh": "他人在场栏目：吹制彩色玻璃的穆拉诺工匠。炽热的熔炉旁，老工匠正鼓起双腮，通过长铁管吹制一个红黄相间的彩色玻璃花瓶。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 吹制彩色玻璃的穆拉诺工匠. 炽热的熔炉旁，老工匠正鼓起双腮，通过长铁管吹制一个红黄相间的彩色玻璃花瓶。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_venice_spark.png",
+        "path": "/assets/images/loc_venice_spark.png",
+        "zh": "思想火花栏目：在流动的世界里寻找立足点。威尼斯是一座建在水上的奇迹之城。当身下的基础总在流动变化，我们该如何保持内心的平衡？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 在流动的世界里寻找立足点. 威尼斯是一座建在水上的奇迹之城。当身下的基础总在流动变化，我们该如何保持内心的平衡？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_venice_old.png",
+        "path": "/assets/images/loc_venice_old.png",
+        "zh": "旧物新看栏目：贡多拉船头的金属饰物。贡多拉船头那块像齿冠的金属板称为“Ferro”，上面的六个金属齿代表威尼斯的六个历史街区。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 贡多拉船头的金属饰物. 贡多拉船头那块像齿冠的金属板称为“Ferro”，上面的六个金属齿代表威尼斯的六个历史街区。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "希腊 · 圣托里尼": {
+    "countryCode": "gr",
+    "continent": "亚洲",
+    "emblem": "⛪",
+    "wood": "#0284C7",
+    "stampColor": "#0284C7",
+    "hasCustomImages": true,
+    "identity": "圣托里尼蓝顶教堂与爱琴海",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_santorini.png",
+        "path": "/assets/images/loc_santorini.png",
+        "zh": "世界一角栏目：圣托里尼蓝顶教堂与爱琴海。傍晚，阳光斜照着雪白的拱门与湛蓝的穹顶。远处的爱琴海泛着宝石般的深蓝，几只白鸽在微风中掠过。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 圣托里尼蓝顶教堂与爱琴海. 傍晚，阳光斜照着雪白的拱门与湛蓝的穹顶。远处的爱琴海泛着宝石般的深蓝，几只白鸽在微风中掠过。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_santorini_nature.png",
+        "path": "/assets/images/loc_santorini_nature.png",
+        "zh": "科学自然栏目：火山灰土质与特种葡萄。圣托里尼覆盖着肥沃的火山灰土壤，当地人将葡萄藤编织成“鸟巢”状贴地生长以御海风。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 火山灰土质与特种葡萄. 圣托里尼覆盖着肥沃的火山灰土壤，当地人将葡萄藤编织成“鸟巢”状贴地生长以御海风。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_santorini_people.png",
+        "path": "/assets/images/loc_santorini_people.png",
+        "zh": "他人在场栏目：白墙刷漆的粉刷工。蔚蓝海天之间，粉刷工正手持刷子，将一层新鲜石灰乳涂在白色拱墙上以御烈日炙烤。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 白墙刷漆的粉刷工. 蔚蓝海天之间，粉刷工正手持刷子，将一层新鲜石灰乳涂在白色拱墙上以御烈日炙烤。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_santorini_spark.png",
+        "path": "/assets/images/loc_santorini_spark.png",
+        "zh": "思想火花栏目：极简色彩带来的纯净感。只有白与蓝，为什么能让人感到心灵的宁静？去掉繁琐的修饰，我们的生活还剩下什么？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 极简色彩带来的纯净感. 只有白与蓝，为什么能让人感到心灵的宁静？去掉繁琐的修饰，我们的生活还剩下什么？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_santorini_old.png",
+        "path": "/assets/images/loc_santorini_old.png",
+        "zh": "旧物新看栏目：圣托里尼传统洞穴屋。当地著名的白墙洞穴屋最初是渔民的避难所。它们深嵌入岩壁，具有冬暖夏凉的天然温控效果。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 圣托里尼传统洞穴屋. 当地著名的白墙洞穴屋最初是渔民的避难所。它们深嵌入岩壁，具有冬暖夏凉的天然温控效果。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "英国 · 伦敦": {
+    "countryCode": "gb",
+    "continent": "亚洲",
+    "emblem": "💂",
+    "wood": "#52525B",
+    "stampColor": "#DC2626",
+    "hasCustomImages": true,
+    "identity": "伦敦迷雾街头的红邮筒与雨丝",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_london.png",
+        "path": "/assets/images/loc_london.png",
+        "zh": "世界一角栏目：伦敦迷雾街头的红邮筒与雨丝。黄昏，细雨打湿了黑色石板路。街角那座标志性的红邮筒前，撑着黑伞的行人行色匆匆，红巴士正驶过。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 伦敦迷雾街头的红邮筒与雨丝. 黄昏，细雨打湿了黑色石板路。街角那座标志性的红邮筒前，撑着黑伞的行人行色匆匆，红巴士正驶过。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_london_nature.png",
+        "path": "/assets/images/loc_london_nature.png",
+        "zh": "科学自然栏目：伦敦泰晤士河的生命复苏。泰晤士河看起来虽浑浊，但因潮汐带来了丰富的浮游生物，河口处近年来发现了海马与海豹的踪迹。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 伦敦泰晤士河的生命复苏. 泰晤士河看起来虽浑浊，但因潮汐带来了丰富的浮游生物，河口处近年来发现了海马与海豹的踪迹。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_london_people.png",
+        "path": "/assets/images/loc_london_people.png",
+        "zh": "他人在场栏目：萨维尔街裁缝的精准量体。在百年老店的柔和灯光下，裁缝正用皮尺精准测量客人的肩宽与袖长，并在羊毛料上画下粉笔线。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 萨维尔街裁缝的精准量体. 在百年老店的柔和灯光下，裁缝正用皮尺精准测量客人的肩宽与袖长，并在羊毛料上画下粉笔线。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_london_spark.png",
+        "path": "/assets/images/loc_london_spark.png",
+        "zh": "思想火花栏目：雾气与距离感的朦胧美。大雾模糊了建筑的轮廓，让一切变得遥远而诗意。人与人之间，是否也需要留出一些朦胧的雾气？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 雾气与距离感的朦胧美. 大雾模糊了建筑的轮廓，让一切变得遥远而诗意。人与人之间，是否也需要留出一些朦胧的雾气？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_london_old.png",
+        "path": "/assets/images/loc_london_old.png",
+        "zh": "旧物新看栏目：伦敦红色电话亭的起源。标志性的红色电话亭由设计师简·斯科特于1935年设计，为纪念乔治五世登基，采用了亮红色以防大雾遮挡。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 伦敦红色电话亭的起源. 标志性的红色电话亭由设计师简·斯科特于1935年设计，为纪念乔治五世登基，采用了亮红色以防大雾遮挡。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "加拿大 · 魁北克枫林": {
+    "countryCode": "ca",
+    "continent": "亚洲",
+    "emblem": "🍁",
+    "wood": "#B45309",
+    "stampColor": "#B91C1C",
+    "hasCustomImages": true,
+    "identity": "魁北克枫林木屋外的秋叶",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_quebec.png",
+        "path": "/assets/images/loc_quebec.png",
+        "zh": "世界一角栏目：魁北克枫林木屋外的秋叶。深秋时节，圣劳伦斯河畔的枫林一片火红与金黄。秋风吹过，片片枫叶飘落在木质阳台上。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 魁北克枫林木屋外的秋叶. 深秋时节，圣劳伦斯河畔的枫林一片火红与金黄。秋风吹过，片片枫叶飘落在木质阳台上。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_quebec_nature.png",
+        "path": "/assets/images/loc_quebec_nature.png",
+        "zh": "科学自然栏目：枫糖浆的秘密流速。春寒料峭时，枫树体内的淀粉转化为糖分，随着树液在冷热交替的夜间缓慢流动，汇集成甜美的枫糖。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 枫糖浆的秘密流速. 春寒料峭时，枫树体内的淀粉转化为糖分，随着树液在冷热交替的夜间缓慢流动，汇集成甜美的枫糖。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_quebec_people.png",
+        "path": "/assets/images/loc_quebec_people.png",
+        "zh": "他人在场栏目：熬制枫糖浆的林中工人。冒着白汽的木屋里，工人正翻滚着大锅里的枫树汁。随水分蒸发，空气中飘散着甜腻温润的焦糖香。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 熬制枫糖浆的林中工人. 冒着白汽的木屋里，工人正翻滚着大锅里的枫树汁。随水分蒸发，空气中飘散着甜腻温润的焦糖香。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_quebec_spark.png",
+        "path": "/assets/images/loc_quebec_spark.png",
+        "zh": "思想火花栏目：树木在冬眠前的盛装。枫叶变红是为了在落叶前回收叶片中的养分。生命在谢幕前的绚丽，是为了更好地度过寒冬。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 树木在冬眠前的盛装. 枫叶变红是为了在落叶前回收叶片中的养分。生命在谢幕前的绚丽，是为了更好地度过寒冬。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_quebec_old.png",
+        "path": "/assets/images/loc_quebec_old.png",
+        "zh": "旧物新看栏目：魁北克皮毛贸易的冰雪道路。早期毛皮商人在结冰的河道上驾驶雪橇，将木柴与皮毛运往各地，这些冰路是冬季唯一的交通干线。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 魁北克皮毛贸易的冰雪道路. 早期毛皮商人在结冰的河道上驾驶雪橇，将木柴与皮毛运往各地，这些冰路是冬季唯一的交通干线。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "埃及 · 开罗": {
+    "countryCode": "eg",
+    "continent": "亚洲",
+    "emblem": "🐫",
+    "wood": "#D97706",
+    "stampColor": "#9A3412",
+    "hasCustomImages": true,
+    "identity": "开罗老城集市的铜器与斜阳",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_cairo.png",
+        "path": "/assets/images/loc_cairo.png",
+        "zh": "世界一角栏目：开罗老城集市的铜器与斜阳。落日余晖洒在开罗古老市集的拱门上，手艺人打磨铜盘的声音清脆而有节奏。红茶的香气升腾。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 开罗老城集市的铜器与斜阳. 落日余晖洒在开罗古老市集的拱门上，手艺人打磨铜盘的声音清脆而有节奏。红茶的香气升腾。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_cairo_nature.png",
+        "path": "/assets/images/loc_cairo_nature.png",
+        "zh": "科学自然栏目：尼罗河畔的纸莎草生长。尼罗河三角洲生长的纸莎草有着坚韧的纤维。古埃及人将其剖成薄片、层层压实，做成最早的纸张。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 尼罗河畔的纸莎草生长. 尼罗河三角洲生长的纸莎草有着坚韧的纤维。古埃及人将其剖成薄片、层层压实，做成最早的纸张。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_cairo_people.png",
+        "path": "/assets/images/loc_cairo_people.png",
+        "zh": "他人在场栏目：煮着埃及红茶的街角小贩。狭窄的街巷旁，小贩正用铜壶在炭火上煮着浓郁的红茶，丢入几片新鲜薄荷叶，端给熟识的街坊。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 煮着埃及红茶的街角小贩. 狭窄的街巷旁，小贩正用铜壶在炭火上煮着浓郁的红茶，丢入几片新鲜薄荷叶，端给熟识的街坊。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_cairo_spark.png",
+        "path": "/assets/images/loc_cairo_spark.png",
+        "zh": "思想火花栏目：在风沙与岁月中凝固的时光。金字塔矗立在荒漠中已逾四千年。在变化如此剧烈的世界里，有什么是值得我们用一生去坚守的？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 在风沙与岁月中凝固的时光. 金字塔矗立在荒漠中已逾四千年。在变化如此剧烈的世界里，有什么是值得我们用一生去坚守的？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_cairo_old.png",
+        "path": "/assets/images/loc_cairo_old.png",
+        "zh": "旧物新看栏目：埃及阿拉巴斯特石灯的历史。古埃及人使用半透明的雪花石膏（Alabaster）雕刻空心灯笼，点燃后散发出如月光般柔和的乳白光晕。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 埃及阿拉巴斯特石灯的历史. 古埃及人使用半透明的雪花石膏（Alabaster）雕刻空心灯笼，点燃后散发出如月光般柔和的乳白光晕。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "芬兰 · 罗瓦涅米": {
+    "countryCode": "fi",
+    "continent": "亚洲",
+    "emblem": "🎅",
+    "wood": "#991B1B",
+    "stampColor": "#991B1B",
+    "hasCustomImages": true,
+    "identity": "罗瓦涅米圣诞村的林间小雪",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_finland.png",
+        "path": "/assets/images/loc_finland.png",
+        "zh": "世界一角栏目：罗瓦涅米圣诞村的林间小雪。冬夜，森林里的松树披上了厚厚的积雪。彩色小木屋的烟囱冒出袅袅烟雾，驯鹿在雪地留下一串足迹。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 罗瓦涅米圣诞村的林间小雪. 冬夜，森林里的松树披上了厚厚的积雪。彩色小木屋的烟囱冒出袅袅烟雾，驯鹿在雪地留下一串足迹。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_finland_nature.png",
+        "path": "/assets/images/loc_finland_nature.png",
+        "zh": "科学自然栏目：北极针叶林抗寒机制。芬兰森林中的欧洲赤松具有厚韧的蜡质针叶，内部含有天然抗冻糖分，使其在零下四十度仍能常青。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 北极针叶林抗寒机制. 芬兰森林中的欧洲赤松具有厚韧的蜡质针叶，内部含有天然抗冻糖分，使其在零下四十度仍能常青。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_finland_people.png",
+        "path": "/assets/images/loc_finland_people.png",
+        "zh": "他人在场栏目：准备桑拿浴室木柴的村民。冰天雪地中，村民正用斧头将桦木劈成整齐的木条，堆放在桑拿房旁，准备为晚上的蒸汽浴加热。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 准备桑拿浴室木柴的村民. 冰天雪地中，村民正用斧头将桦木劈成整齐的木条，堆放在桑拿房旁，准备为晚上的蒸汽浴加热。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_finland_spark.png",
+        "path": "/assets/images/loc_finland_spark.png",
+        "zh": "思想火花栏目：严寒之中的温暖火光。外界越是冰天雪地，屋内的炉火和热汤就越显得温暖珍贵。在逆境中，我们该如何守护内心的温度？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 严寒之中的温暖火光. 外界越是冰天雪地，屋内的炉火和热汤就越显得温暖珍贵。在逆境中，我们该如何守护内心的温度？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_finland_old.png",
+        "path": "/assets/images/loc_finland_old.png",
+        "zh": "旧物新看栏目：芬兰传统木杯Kuksa。芬兰人用桦木瘿（树干结瘤）手工雕刻成木杯，自带木香，是猎人随身携带的防冻饮水器。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 芬兰传统木杯Kuksa. 芬兰人用桦木瘿（树干结瘤）手工雕刻成木杯，自带木香，是猎人随身携带的防冻饮水器。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "新西兰 · 霍比屯": {
+    "countryCode": "nz",
+    "continent": "亚洲",
+    "emblem": "🌻",
+    "wood": "#15803D",
+    "stampColor": "#15803D",
+    "hasCustomImages": true,
+    "identity": "霍比屯翠绿草坡与圆木门",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hobbiton.png",
+        "path": "/assets/images/loc_hobbiton.png",
+        "zh": "世界一角栏目：霍比屯翠绿草坡与圆木门。春日，霍比屯翠绿的草坡上开满了明黄色的雏菊。圆形的绿色木门敞开，窗台上晾着刚烤好的面包。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 霍比屯翠绿草坡与圆木门. 春日，霍比屯翠绿的草坡上开满了明黄色的雏菊。圆形的绿色木门敞开，窗台上晾着刚烤好的面包。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hobbiton_nature.png",
+        "path": "/assets/images/loc_hobbiton_nature.png",
+        "zh": "科学自然栏目：肥沃黑土与蚯蚓的翻耕。霍比屯平缓的山丘下覆盖着几万年火山灰沉积而成的黑色腐殖土，数以亿计的蚯蚓日夜不停地翻耕土地。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 肥沃黑土与蚯蚓的翻耕. 霍比屯平缓的山丘下覆盖着几万年火山灰沉积而成的黑色腐殖土，数以亿计的蚯蚓日夜不停地翻耕土地。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hobbiton_people.png",
+        "path": "/assets/images/loc_hobbiton_people.png",
+        "zh": "他人在场栏目：修剪霍比屯花园的园丁。晨光中，园丁正用剪刀细心修剪木屋门前的迷迭香。篱笆下，几只蜜蜂在花丛里忙碌着。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 修剪霍比屯花园的园丁. 晨光中，园丁正用剪刀细心修剪木屋门前的迷迭香。篱笆下，几只蜜蜂在花丛里忙碌着。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hobbiton_spark.png",
+        "path": "/assets/images/loc_hobbiton_spark.png",
+        "zh": "思想火花栏目：托尔金式的田园静谧感。矮小的木屋、壁炉、一壶茶、一亩三分地。在追求宏大叙事的时代，这种退守生活日常的幸福算不算奢侈？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 托尔金式的田园静谧感. 矮小的木屋、壁炉、一壶茶、一亩三分地。在追求宏大叙事的时代，这种退守生活日常的幸福算不算奢侈？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hobbiton_old.png",
+        "path": "/assets/images/loc_hobbiton_old.png",
+        "zh": "旧物新看栏目：传统茅草屋顶的编织工艺。当地小木屋的屋顶由厚厚的干水芦苇手工层层铺设而成，防风御寒，雨水落下时会自动顺着坡面滑走。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 传统茅草屋顶的编织工艺. 当地小木屋的屋顶由厚厚的干水芦苇手工层层铺设而成，防风御寒，雨水落下时会自动顺着坡面滑走。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 苏州园林": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🪟",
+    "wood": "#1E1E1E",
+    "stampColor": "#065F46",
+    "hasCustomImages": true,
+    "identity": "苏州园林花窗下的芭蕉雨滴",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_suzhou.png",
+        "path": "/assets/images/loc_suzhou.png",
+        "zh": "世界一角栏目：苏州园林花窗下的芭蕉雨滴。初夏微雨，雨水顺着漏窗青瓦滴落在新翠的芭蕉叶上，发出沙沙轻响。池塘中红鲤游动，荡起一圈涟漪。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 苏州园林花窗下的芭蕉雨滴. 初夏微雨，雨水顺着漏窗青瓦滴落在新翠的芭蕉叶上，发出沙沙轻响。池塘中红鲤游动，荡起一圈涟漪。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_suzhou_nature.png",
+        "path": "/assets/images/loc_suzhou_nature.png",
+        "zh": "科学自然栏目：太湖石的漏透瘦皱美学。园林中著名的太湖石因长期受太湖水波冲刷溶蚀，形成了大量孔洞。它们看似柔弱，内部结构却坚固无比。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 太湖石的漏透瘦皱美学. 园林中著名的太湖石因长期受太湖水波冲刷溶蚀，形成了大量孔洞。它们看似柔弱，内部结构却坚固无比。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_suzhou_people.png",
+        "path": "/assets/images/loc_suzhou_people.png",
+        "zh": "他人在场栏目：刺绣作坊里的苏绣绣娘。木架花绷前，绣娘正用细如发丝的蚕丝线，以乱针法在半透明的纱罗上织出一只活灵活现的猫咪。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 刺绣作坊里的苏绣绣娘. 木架花绷前，绣娘正用细如发丝的蚕丝线，以乱针法在半透明的纱罗上织出一只活灵活现的猫咪。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_suzhou_spark.png",
+        "path": "/assets/images/loc_suzhou_spark.png",
+        "zh": "思想火花栏目：借景与漏窗的视觉哲学。墙壁隔绝了视线，但开一扇透光的花窗，就把墙外的竹影借了进来。局限之中，如何借出无限的风景？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 借景与漏窗的视觉哲学. 墙壁隔绝了视线，但开一扇透光的花窗，就把墙外的竹影借了进来。局限之中，如何借出无限的风景？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_suzhou_old.png",
+        "path": "/assets/images/loc_suzhou_old.png",
+        "zh": "旧物新看栏目：园林香几与香道的历史。园林书房中常设高挑香几，上置青铜香炉，点一炷香，古人用消逝的香气来度量悠闲的时间。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 园林香几与香道的历史. 园林书房中常设高挑香几，上置青铜香炉，点一炷香，古人用消逝的香气来度量悠闲的时间。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 北京故宫": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "⛩️",
+    "wood": "#5A1816",
+    "stampColor": "#8B0000",
+    "hasCustomImages": true,
+    "identity": "红墙落日",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_beijing.png",
+        "path": "/assets/images/loc_beijing.png",
+        "zh": "世界一角栏目：红墙落日。傍晚的故宫渐渐安静下来。夕阳将金红色的光晕洒在重重殿宇之上，琉璃瓦折射出温润的光泽。站在太和殿广场前，风穿过高耸的红墙，送来落日余晖里古老而悠长的叹息。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 红墙落日. 傍晚的故宫渐渐安静下来。夕阳将金红色的光晕洒在重重殿宇之上，琉璃瓦折射出温润的光泽。站在太和殿广场前，风穿过高耸的红墙，送来落日余晖里古老而悠长的叹息。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_beijing_nature.png",
+        "path": "/assets/images/loc_beijing_nature.png",
+        "zh": "科学自然栏目：宫墙燕影。每年春天，成群的北京雨燕便会飞回故宫。它们在红墙黄瓦的斗拱缝隙里筑巢繁衍。这种神奇的候鸟一生大半时间都在飞翔，以古建上的飞虫为食，构成了独特的生态景观。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 宫墙燕影. 每年春天，成群的北京雨燕便会飞回故宫。它们在红墙黄瓦的斗拱缝隙里筑巢繁衍。这种神奇的候鸟一生大半时间都在飞翔，以古建上的飞虫为食，构成了独特的生态景观。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_beijing_people.png",
+        "path": "/assets/images/loc_beijing_people.png",
+        "zh": "他人在场栏目：钟表修复师。在清冷的钟表馆一隅，老修复师戴着放大镜，用细针轻轻拨动齿轮。时间在他的指尖仿佛放慢了脚步，清脆的滴答声与金属碰撞的微响，在安静的殿堂里谱写着光阴的旋律。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 钟表修复师. 在清冷的钟表馆一隅，老修复师戴着放大镜，用细针轻轻拨动齿轮。时间在他的指尖仿佛放慢了脚步，清脆的滴答声与金属碰撞的微响，在安静的殿堂里谱写着光阴的旋律。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_beijing_spark.png",
+        "path": "/assets/images/loc_beijing_spark.png",
+        "zh": "思想火花栏目：岁月的留白。走在朱红色的宫墙夹道中，两旁是望不到尽头的红墙与湛蓝的天空。高墙限制了视线，却让人的心神不自觉地往高处去。当你被繁杂的世俗所困时，是否也需要给心灵留出一片天空？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 岁月的留白. 走在朱红色的宫墙夹道中，两旁是望不到尽头的红墙与湛蓝的天空。高墙限制了视线，却让人的心神不自觉地往高处去。当你被繁杂的世俗所困时，是否也需要给心灵留出一片天空？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_beijing_old.png",
+        "path": "/assets/images/loc_beijing_old.png",
+        "zh": "旧物新看栏目：瑞兽的守望。殿脊上排列的小兽，不仅是避雷防雨的实用构件，更寄托了古人消灾避祸的美好期盼。它们历经数百年风雨，依旧静静伫立在檐角，在无声中守护着这片土地的四季祥和。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 瑞兽的守望. 殿脊上排列的小兽，不仅是避雷防雨的实用构件，更寄托了古人消灾避祸的美好期盼。它们历经数百年风雨，依旧静静伫立在檐角，在无声中守护着这片土地的四季祥和。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 西安古城": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🧱",
+    "wood": "#6E5B4F",
+    "stampColor": "#8B4513",
+    "hasCustomImages": true,
+    "identity": "城墙上的晚风",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_xian.png",
+        "path": "/assets/images/loc_xian.png",
+        "zh": "世界一角栏目：城墙上的晚风。暮色降临，古老的城墙笼罩在温柔的暖光中。骑行在青砖铺就的宽阔通道上，晚风掠过耳畔。城墙内是安静的四合院，城墙外是闪烁的霓虹，新旧时光在此刻悄然重叠。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 城墙上的晚风. 暮色降临，古老的城墙笼罩在温柔的暖光中。骑行在青砖铺就的宽阔通道上，晚风掠过耳畔。城墙内是安静的四合院，城墙外是闪烁的霓虹，新旧时光在此刻悄然重叠。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_xian_nature.png",
+        "path": "/assets/images/loc_xian_nature.png",
+        "zh": "科学自然栏目：终南山的雾气。终南山巍峨耸立于城南，湿润的秦岭山风遇冷在山谷凝结成袅袅云雾。这片天然屏障不仅阻挡了北方的寒潮，也孕育了丰富的药草与奇花异草，为古城带来自然的灵气与庇护。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 终南山的雾气. 终南山巍峨耸立于城南，湿润的秦岭山风遇冷在山谷凝结成袅袅云雾。这片天然屏障不仅阻挡了北方的寒潮，也孕育了丰富的药草与奇花异草，为古城带来自然的灵气与庇护。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_xian_people.png",
+        "path": "/assets/images/loc_xian_people.png",
+        "zh": "他人在场栏目：拓印老匠人。碑林旁的小巷里，老匠人正用棕刷轻柔地捶打着覆在石碑上的宣纸。沾满墨汁的拓包一次次落下，黑白之间，千年前的笔墨风骨便跃然纸上，沉淀着手工的温度与专注。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 拓印老匠人. 碑林旁的小巷里，老匠人正用棕刷轻柔地捶打着覆在石碑上的宣纸。沾满墨汁的拓包一次次落下，黑白之间，千年前的笔墨风骨便跃然纸上，沉淀着手工的温度与专注。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_xian_spark.png",
+        "path": "/assets/images/loc_xian_spark.png",
+        "zh": "思想火花栏目：厚重与轻盈。沉重的青砖堆砌成坚固的城防，但当微风吹过砖缝里的野草，生命又展现出极致的轻盈。历史或许是沉重的，但我们可以学着像青砖上的小草一样，在岁月的夹缝里温柔生长。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 厚重与轻盈. 沉重的青砖堆砌成坚固的城防，但当微风吹过砖缝里的野草，生命又展现出极致的轻盈。历史或许是沉重的，但我们可以学着像青砖上的小草一样，在岁月的夹缝里温柔生长。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_xian_old.png",
+        "path": "/assets/images/loc_xian_old.png",
+        "zh": "旧物新看栏目：古石碑上的金石拓印。西安碑林的一方古碑在斜光下显露出沧桑的石质肌理与风化刻痕。一旁的木案上放着墨色温润的拓包与半揭的宣纸拓片，墨香与金石气韵交融，将千百年的翰墨风骨永远定格在黑白纸卷之上。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 古石碑上的金石拓印. 西安碑林的一方古碑在斜光下显露出沧桑的石质肌理与风化刻痕。一旁的木案上放着墨色温润的拓包与半揭的宣纸拓片，墨香与金石气韵交融，将千百年的翰墨风骨永远定格在黑白纸卷之上。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 杭州西湖": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🍵",
+    "wood": "#556B2F",
+    "stampColor": "#2E8B57",
+    "hasCustomImages": true,
+    "identity": "晨雾里的断桥",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hangzhou.png",
+        "path": "/assets/images/loc_hangzhou.png",
+        "zh": "世界一角栏目：晨雾里的断桥。清晨的西湖被一层薄纱般的晨雾笼罩，远处的雷峰塔若隐若现。轻舟在平静的湖面划出一道微澜，折断的残荷静静立在水面，水墨画般的淡雅中流淌着江南独有的宁静与诗意。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨雾里的断桥. 清晨的西湖被一层薄纱般的晨雾笼罩，远处的雷峰塔若隐若现。轻舟在平静的湖面划出一道微澜，折断的残荷静静立在水面，水墨画般的淡雅中流淌着江南独有的宁静与诗意。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hangzhou_nature.png",
+        "path": "/assets/images/loc_hangzhou_nature.png",
+        "zh": "科学自然栏目：龙井茶园的露水。西湖畔的群山起伏，红壤与温润多雨的亚热带气候孕育了龙井茶树。清晨，茶蓬上挂满了晶莹的露珠，湿润的泥土与清新的茶香在空气中交融，是自然的呼吸在山谷中回响。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 龙井茶园的露水. 西湖畔的群山起伏，红壤与温润多雨的亚热带气候孕育了龙井茶树。清晨，茶蓬上挂满了晶莹的露珠，湿润的泥土与清新的茶香在空气中交融，是自然的呼吸在山谷中回响。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hangzhou_people.png",
+        "path": "/assets/images/loc_hangzhou_people.png",
+        "zh": "他人在场栏目：摇橹船夫的桨声。摇橹船夫站在船尾，随着身子的起伏，手中的木桨有节奏地拨动着水面。他的目光温和，掠过岸边的垂柳，偶尔用吴侬软语向游客低吟几句苏堤的旧事，将时光摇得极慢。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 摇橹船夫的桨声. 摇橹船夫站在船尾，随着身子的起伏，手中的木桨有节奏地拨动着水面。他的目光温和，掠过岸边的垂柳，偶尔用吴侬软语向游客低吟几句苏堤的旧事，将时光摇得极慢。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hangzhou_spark.png",
+        "path": "/assets/images/loc_hangzhou_spark.png",
+        "zh": "思想火花栏目：涟漪的温柔。投一颗石子入水，湖面便荡开一圈圈温柔的涟漪，最终归于平静。心境亦如这湖水，外界的纷扰只是暂时的波澜。学着接纳每一个起伏，坚信内心终会恢复如水般的宁静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 涟漪的温柔. 投一颗石子入水，湖面便荡开一圈圈温柔的涟漪，最终归于平静。心境亦如这湖水，外界的纷扰只是暂时的波澜。学着接纳每一个起伏，坚信内心终会恢复如水般的宁静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hangzhou_old.png",
+        "path": "/assets/images/loc_hangzhou_old.png",
+        "zh": "旧物新看栏目：团扇上的江南。江南女子自古喜爱手执半透明的团扇。扇面摇曳间，不仅摇出了凉爽的清风，更含蓄地遮掩着笑靥。如今，那一柄缂丝团扇化为案头的雅玩，提醒我们保留一份东方留白的雅致。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 团扇上的江南. 江南女子自古喜爱手执半透明的团扇。扇面摇曳间，不仅摇出了凉爽的清风，更含蓄地遮掩着笑靥。如今，那一柄缂丝团扇化为案头的雅玩，提醒我们保留一份东方留白的雅致。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 拉萨布达拉宫": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🪘",
+    "wood": "#800000",
+    "stampColor": "#A52A2A",
+    "hasCustomImages": true,
+    "identity": "蓝天下的红白宫殿",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_lhasa.png",
+        "path": "/assets/images/loc_lhasa.png",
+        "zh": "世界一角栏目：蓝天下的红白宫殿。晨光照亮了玛布日山，红白相间的布达拉宫在藏青色的天空下显得格外静穆。金顶在第一缕阳光中熠熠生辉，转经人的脚步声在山脚下轻缓响起，古老的城池正在暖意中苏醒。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 蓝天下的红白宫殿. 晨光照亮了玛布日山，红白相间的布达拉宫在藏青色的天空下显得格外静穆。金顶在第一缕阳光中熠熠生辉，转经人的脚步声在山脚下轻缓响起，古老的城池正在暖意中苏醒。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_lhasa_nature.png",
+        "path": "/assets/images/loc_lhasa_nature.png",
+        "zh": "科学自然栏目：高原的纯净日光。拉萨地处海拔三千六百多米的高原，稀薄的空气让这里的阳光格外明澈与炽热。刺破云层的光线毫无阻拦地洒在岩石与河谷间，赋予了这片高原独特而纯净的生态与色彩。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 高原的纯净日光. 拉萨地处海拔三千六百多米的高原，稀薄的空气让这里的阳光格外明澈与炽热。刺破云层的光线毫无阻拦地洒在岩石与河谷间，赋予了这片高原独特而纯净的生态与色彩。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_lhasa_people.png",
+        "path": "/assets/images/loc_lhasa_people.png",
+        "zh": "他人在场栏目：酥油灯前的守护者。昏暗的殿堂里，老阿妈手捧干干净净的铜质灯盏，小心翼翼地往里添加金黄色的酥油。微弱的火光映照着她刻满风霜却无比平和的面庞，仿佛世间所有繁杂都与她无关。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 酥油灯前的守护者. 昏暗的殿堂里，老阿妈手捧干干净净的铜质灯盏，小心翼翼地往里添加金黄色的酥油。微弱的火光映照着她刻满风霜却无比平和的面庞，仿佛世间所有繁杂都与她无关。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_lhasa_spark.png",
+        "path": "/assets/images/loc_lhasa_spark.png",
+        "zh": "思想火花栏目：信仰的步履。漫步在拉萨的街头，总能看见磕长头的朝圣者。他们用身体丈量着土地，每一步都沉稳而坚定。在追逐速度的时代里，或许我们也需要这样一种笃定，慢慢走，走稳每一步。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 信仰的步履. 漫步在拉萨的街头，总能看见磕长头的朝圣者。他们用身体丈量着土地，每一步都沉稳而坚定。在追逐速度的时代里，或许我们也需要这样一种笃定，慢慢走，走稳每一步。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_lhasa_old.png",
+        "path": "/assets/images/loc_lhasa_old.png",
+        "zh": "旧物新看栏目：八廓街的唐卡。用松石、孔雀石等天然矿物研磨上色的唐卡，历经数百年依旧色彩鲜艳。一笔一画的勾勒中，融合了画师一生的虔诚。如今，这抹高原色彩让我们在喧嚣中寻得一份内心的安详。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 八廓街的唐卡. 用松石、孔雀石等天然矿物研磨上色的唐卡，历经数百年依旧色彩鲜艳。一笔一画的勾勒中，融合了画师一生的虔诚。如今，这抹高原色彩让我们在喧嚣中寻得一份内心的安详。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 敦煌莫高窟": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🐫",
+    "wood": "#8B6508",
+    "stampColor": "#CD853F",
+    "hasCustomImages": true,
+    "identity": "大漠黄昏的石窟",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_dunhuang.png",
+        "path": "/assets/images/loc_dunhuang.png",
+        "zh": "世界一角栏目：大漠黄昏的石窟。暮色如水，夕阳将鸣沙山染成一片金黄，安静的莫高窟九层楼前挂着的风铃在微风中叮当作响。大漠的风沙里，古老的石窟静静矗立，守护着千年来斑驳而绚烂的尘封岁月。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 大漠黄昏的石窟. 暮色如水，夕阳将鸣沙山染成一片金黄，安静的莫高窟九层楼前挂着的风铃在微风中叮当作响。大漠的风沙里，古老的石窟静静矗立，守护着千年来斑驳而绚烂的尘封岁月。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_dunhuang_nature.png",
+        "path": "/assets/images/loc_dunhuang_nature.png",
+        "zh": "科学自然栏目：风沙中的绿洲。敦煌处于极端干旱的荒漠包围中，但党河的雪水滋养了这片绿洲。特有的干旱气候保护了石窟内的壁画与彩塑免受潮湿侵蚀，形成了荒原与文明奇迹共生的自然奇观。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 风沙中的绿洲. 敦煌处于极端干旱的荒漠包围中，但党河的雪水滋养了这片绿洲。特有的干旱气候保护了石窟内的壁画与彩塑免受潮湿侵蚀，形成了荒原与文明奇迹共生的自然奇观。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_dunhuang_people.png",
+        "path": "/assets/images/loc_dunhuang_people.png",
+        "zh": "他人在场栏目：壁画修复师的画笔。幽暗的洞窟中，修复师手持细弱的毛笔，用特制的粘合剂一点点加固起皮脱落的壁画边缘。他屏息凝神，极力保持着手部的稳定，在微光中赋予千年前的飞天以新的生命。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 壁画修复师的画笔. 幽暗的洞窟中，修复师手持细弱的毛笔，用特制的粘合剂一点点加固起皮脱落的壁画边缘。他屏息凝神，极力保持着手部的稳定，在微光中赋予千年前的飞天以新的生命。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_dunhuang_spark.png",
+        "path": "/assets/images/loc_dunhuang_spark.png",
+        "zh": "思想火花栏目：尘埃与不朽。泥土与稻草混合做成的胎骨，经历了千年的风沙磨砺，依然保留着慈悲的微笑。这世间没有什么是永恒不变的，但那些融入了爱与虔诚的创作，总能在时间的长河中熠熠生辉。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 尘埃与不朽. 泥土与稻草混合做成的胎骨，经历了千年的风沙磨砺，依然保留着慈悲的微笑。这世间没有什么是永恒不变的，但那些融入了爱与虔诚的创作，总能在时间的长河中熠熠生辉。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_dunhuang_old.png",
+        "path": "/assets/images/loc_dunhuang_old.png",
+        "zh": "旧物新看栏目：飞天的飘带。莫高窟壁画上的飞天并没有翅膀，而是凭借着一根轻盈的飘带在空中翱翔。这种化繁为简的艺术构思，告诉现代的我们，摆脱多余的累赘与重负，心灵才能获得真正的自由。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 飞天的飘带. 莫高窟壁画上的飞天并没有翅膀，而是凭借着一根轻盈的飘带在空中翱翔。这种化繁为简的艺术构思，告诉现代的我们，摆脱多余的累赘与重负，心灵才能获得真正的自由。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 桂林山水": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🛶",
+    "wood": "#4E6B5A",
+    "stampColor": "#196F3D",
+    "hasCustomImages": true,
+    "identity": "烟雨漓江",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_guilin.png",
+        "path": "/assets/images/loc_guilin.png",
+        "zh": "世界一角栏目：烟雨漓江。细雨霏霏，如黛的群山在雨雾中层层叠叠。一条竹筏在碧绿的江面上缓缓漂过，撑篙的渔翁划破了平静的水面，荡开的波纹里，是一幅流动的、安静到极致的江南山水画卷。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 烟雨漓江. 细雨霏霏，如黛的群山在雨雾中层层叠叠。一条竹筏在碧绿的江面上缓缓漂过，撑篙的渔翁划破了平静的水面，荡开的波纹里，是一幅流动的、安静到极致的江南山水画卷。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_guilin_nature.png",
+        "path": "/assets/images/loc_guilin_nature.png",
+        "zh": "科学自然栏目：喀斯特的造化。亿万年前的海底在漫长的地壳运动中抬升，雨水不断溶蚀碳酸盐岩，雕琢出峰林、峰丛与幽深的溶洞。这片神奇的喀斯特地貌，是流水与时间在地球表面留下的最温柔诗篇。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 喀斯特的造化. 亿万年前的海底在漫长的地壳运动中抬升，雨水不断溶蚀碳酸盐岩，雕琢出峰林、峰丛与幽深的溶洞。这片神奇的喀斯特地貌，是流水与时间在地球表面留下的最温柔诗篇。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_guilin_people.png",
+        "path": "/assets/images/loc_guilin_people.png",
+        "zh": "他人在场栏目：驯鸬鹚的老渔翁。黄昏时分，江畔的老渔翁点亮竹筏上的小渔灯。他轻轻抚摸着站在筏头的鸬鹚，发出温和的哨音。微弱的火光在江面晃动，人、鸟与绿水，在此刻达成了一种相伴相依的默契。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 驯鸬鹚的老渔翁. 黄昏时分，江畔的老渔翁点亮竹筏上的小渔灯。他轻轻抚摸着站在筏头的鸬鹚，发出温和的哨音。微弱的火光在江面晃动，人、鸟与绿水，在此刻达成了一种相伴相依的默契。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_guilin_spark.png",
+        "path": "/assets/images/loc_guilin_spark.png",
+        "zh": "思想火花栏目：水的包容与雕刻。坚硬的石灰岩终究被柔软的江水雕琢成了奇峰异洞。生活中许多难以逾越的障碍，或许不需要我们用强硬去对抗。像水一样温柔而坚持，时间自然会帮我们开辟出新的道路。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 水的包容与雕刻. 坚硬的石灰岩终究被柔软的江水雕琢成了奇峰异洞。生活中许多难以逾越的障碍，或许不需要我们用强硬去对抗。像水一样温柔而坚持，时间自然会帮我们开辟出新的道路。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_guilin_old.png",
+        "path": "/assets/images/loc_guilin_old.png",
+        "zh": "旧物新看栏目：蓑衣下的风雨。棕榈树皮编织而成的蓑衣，曾是渔翁防雨的必备之物。它防风避雨，天然环保，散发着草木的清香。虽然如今已被雨衣取代，但它那朴拙的设计依然传递着人与自然的和谐。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 蓑衣下的风雨. 棕榈树皮编织而成的蓑衣，曾是渔翁防雨的必备之物。它防风避雨，天然环保，散发着草木的清香。虽然如今已被雨衣取代，但它那朴拙的设计依然传递着人与自然的和谐。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 丽江古城": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🏮",
+    "wood": "#8B3E2F",
+    "stampColor": "#CD5C5C",
+    "hasCustomImages": true,
+    "identity": "石板路上的夜雨",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_lijiang.png",
+        "path": "/assets/images/loc_lijiang.png",
+        "zh": "世界一角栏目：石板路上的夜雨。夜雨过后，古城光滑的五花石板路上倒映着红灯笼温柔的光影。曲折的小溪在房前屋后静静流淌，送来远方雪山的清凉。沿着空无一人的小巷漫步，心神也随之安顿下来。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 石板路上的夜雨. 夜雨过后，古城光滑的五花石板路上倒映着红灯笼温柔的光影。曲折的小溪在房前屋后静静流淌，送来远方雪山的清凉。沿着空无一人的小巷漫步，心神也随之安顿下来。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_lijiang_nature.png",
+        "path": "/assets/images/loc_lijiang_nature.png",
+        "zh": "科学自然栏目：玉龙雪山的融水。巍峨的玉龙雪山冰川融水汇集成玉河，流至古城后分流为三条主支流，再穿街过巷流入千家万户。这天然的高山水源，不仅滋养着古城的绿植，更带走了喧嚣，留下了清凉。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 玉龙雪山的融水. 巍峨的玉龙雪山冰川融水汇集成玉河，流至古城后分流为三条主支流，再穿街过巷流入千家万户。这天然的高山水源，不仅滋养着古城的绿植，更带走了喧嚣，留下了清凉。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_lijiang_people.png",
+        "path": "/assets/images/loc_lijiang_people.png",
+        "zh": "他人在场栏目：纳西老奶奶的披星戴月。清晨的街角，纳西族老奶奶穿着传统的“披星戴月”服饰，在摊位前摆放自家种的新鲜浆果。她脸上的皱纹像干花一样舒展，微笑着向路人点头，散发着安详与宁静的气息。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 纳西老奶奶的披星戴月. 清晨的街角，纳西族老奶奶穿着传统的“披星戴月”服饰，在摊位前摆放自家种的新鲜浆果。她脸上的皱纹像干花一样舒展，微笑着向路人点头，散发着安详与宁静的气息。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_lijiang_spark.png",
+        "path": "/assets/images/loc_lijiang_spark.png",
+        "zh": "思想火花栏目：流水的去向。古城里的溪流无论怎样曲折弯绕，最终都会顺着地势流向远方。生命也是如此，眼前的迷茫与弯路或许只是沿途的风景，只要内心的方向明确，我们终会抵达属于自己的终点。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 流水的去向. 古城里的溪流无论怎样曲折弯绕，最终都会顺着地势流向远方。生命也是如此，眼前的迷茫与弯路或许只是沿途的风景，只要内心的方向明确，我们终会抵达属于自己的终点。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_lijiang_old.png",
+        "path": "/assets/images/loc_lijiang_old.png",
+        "zh": "旧物新看栏目：纳西东巴文。作为世上唯一活着的象形文字，东巴文用简单的线条画出风雨、草木与鸟兽。每一个字都是一幅画，它用最直观的视觉符号提醒我们，重拾对自然万物的敬畏与敏锐感知。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 纳西东巴文. 作为世上唯一活着的象形文字，东巴文用简单的线条画出风雨、草木与鸟兽。每一个字都是一幅画，它用最直观的视觉符号提醒我们，重拾对自然万物的敬畏与敏锐感知。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 哈尔滨冰雪": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🏰",
+    "wood": "#68838B",
+    "stampColor": "#4682B4",
+    "hasCustomImages": true,
+    "identity": "雪夜里的中央大街",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_harbin.png",
+        "path": "/assets/images/loc_harbin.png",
+        "zh": "世界一角栏目：雪夜里的中央大街。鹅毛大雪在夜空中静静飘落，金黄色的路灯将百年老街的欧式建筑勾勒得如梦似幻。踩在松软的积雪上，发出沙沙的声响，冰糖葫芦的酸甜伴着哈出的白气，温暖了寒冷的夜。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 雪夜里的中央大街. 鹅毛大雪在夜空中静静飘落，金黄色的路灯将百年老街的欧式建筑勾勒得如梦似幻。踩在松软的积雪上，发出沙沙的声响，冰糖葫芦的酸甜伴着哈出的白气，温暖了寒冷的夜。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_harbin_nature.png",
+        "path": "/assets/images/loc_harbin_nature.png",
+        "zh": "科学自然栏目：松花江的结冰期。寒冬的松花江封冻成平整的冰面，厚达数尺的冰层在阳光下呈现出纯净的淡蓝色。冷空气在江面上雕琢出奇妙的冰花与裂纹，展示着北方冬季独有的冷冽、壮阔与纯粹。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 松花江的结冰期. 寒冬的松花江封冻成平整的冰面，厚达数尺的冰层在阳光下呈现出纯净的淡蓝色。冷空气在江面上雕琢出奇妙的冰花与裂纹，展示着北方冬季独有的冷冽、壮阔与纯粹。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_harbin_people.png",
+        "path": "/assets/images/loc_harbin_people.png",
+        "zh": "他人在场栏目：采冰人的冬日歌谣。零下二十度的严寒里，采冰人穿着厚重的棉袄，用钢锯锯开坚硬的江冰。他们合力将巨大的冰块拉出水面，虽然睫毛上挂满了白霜，但嘹亮的号子声却在空旷的江面上回荡。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 采冰人的冬日歌谣. 零下二十度的严寒里，采冰人穿着厚重的棉袄，用钢锯锯开坚硬的江冰。他们合力将巨大的冰块拉出水面，虽然睫毛上挂满了白霜，但嘹亮的号子声却在空旷的江面上回荡。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_harbin_spark.png",
+        "path": "/assets/images/loc_harbin_spark.png",
+        "zh": "思想火花栏目：融化的冰雪与时间。冰雪城堡虽然壮丽，却注定要在春暖时分化为春水。这种转瞬即逝的美丽提醒我们，无需为事物的消逝而过度悲伤。珍视当下的纯粹与美好，便是对生命最温柔的敬意。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 融化的冰雪与时间. 冰雪城堡虽然壮丽，却注定要在春暖时分化为春水。这种转瞬即逝的美丽提醒我们，无需为事物的消逝而过度悲伤。珍视当下的纯粹与美好，便是对生命最温柔的敬意。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_harbin_old.png",
+        "path": "/assets/images/loc_harbin_old.png",
+        "zh": "旧物新看栏目：东北铁皮烤炉。街角的老烤炉散发着红薯与大板栗的焦甜香气。在寒风中，围在炉火旁等待美食的片刻，成了北方人冬日里最朴素的仪式。这小小的铁炉，用最简单的方式温暖着朴实的生活。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 东北铁皮烤炉. 街角的老烤炉散发着红薯与大板栗的焦甜香气。在寒风中，围在炉火旁等待美食的片刻，成了北方人冬日里最朴素的仪式。这小小的铁炉，用最简单的方式温暖着朴实的生活。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 重庆山城": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🌶️",
+    "wood": "#8B1A1A",
+    "stampColor": "#FF4500",
+    "hasCustomImages": true,
+    "identity": "迷雾中的轻轨",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_chongqing.png",
+        "path": "/assets/images/loc_chongqing.png",
+        "zh": "世界一角栏目：迷雾中的轻轨。清晨的山城被一层轻雾笼罩，红黄相间的单轨列车在错落的居民楼与绿树间穿行。站在江边台阶上仰望，楼房与桥梁交织在层叠的半空中，透出一份赛博朋克式的魔幻与安静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 迷雾中的轻轨. 清晨的山城被一层轻雾笼罩，红黄相间的单轨列车在错落的居民楼与绿树间穿行。站在江边台阶上仰望，楼房与桥梁交织在层叠的半空中，透出一份赛博朋克式的魔幻与安静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_chongqing_nature.png",
+        "path": "/assets/images/loc_chongqing_nature.png",
+        "zh": "科学自然栏目：两江交汇的色彩。长江与嘉陵江在朝天门相遇，一侧是泥沙浑浊的黄，一侧是清澈深邃的绿。冷暖两色江水交融却界限分明，配合着山城多雾的气候，构成了这片盆地边缘独特的河谷水文景观。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 两江交汇的色彩. 长江与嘉陵江在朝天门相遇，一侧是泥沙浑浊的黄，一侧是清澈深邃的绿。冷暖两色江水交融却界限分明，配合着山城多雾的气候，构成了这片盆地边缘独特的河谷水文景观。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_chongqing_people.png",
+        "path": "/assets/images/loc_chongqing_people.png",
+        "zh": "他人在场栏目：梯坎上的挑山工。阳光洒在石梯坎上，满面红光的“棒棒”挑着两个沉甸甸的纸箱，拄着竹棒稳步向上攀爬。他走走停停，不时用搭在肩上的毛巾擦去汗水，向路过的熟人爽朗地打个招呼。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 梯坎上的挑山工. 阳光洒在石梯坎上，满面红光的“棒棒”挑着两个沉甸甸的纸箱，拄着竹棒稳步向上攀爬。他走走停停，不时用搭在肩上的毛巾擦去汗水，向路过的熟人爽朗地打个招呼。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_chongqing_spark.png",
+        "path": "/assets/images/loc_chongqing_spark.png",
+        "zh": "思想火花栏目：起伏的道路。在重庆，地图上的直线距离毫无意义，你必须顺着台阶上下起伏。人生也如这山城的路，没有绝对的平坦，起伏才是常态。只要一步步踏实地走，终能领略不同高度的风光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 起伏的道路. 在重庆，地图上的直线距离毫无意义，你必须顺着台阶上下起伏。人生也如这山城的路，没有绝对的平坦，起伏才是常态。只要一步步踏实地走，终能领略不同高度的风光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_chongqing_old.png",
+        "path": "/assets/images/loc_chongqing_old.png",
+        "zh": "旧物新看栏目：防空洞里的烟火。战时留下的防空洞，如今被改造成了清凉的火锅店、加油站或书店。厚重的石墙隔绝了外界的热浪与喧嚣，将昔日的避难所化为今日的休闲港湾，折射出山城人民坚韧的生命力。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 防空洞里的烟火. 战时留下的防空洞，如今被改造成了清凉的火锅店、加油站或书店。厚重的石墙隔绝了外界的热浪与喧嚣，将昔日的避难所化为今日的休闲港湾，折射出山城人民坚韧的生命力。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 三亚天涯": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🥥",
+    "wood": "#008B8B",
+    "stampColor": "#00868B",
+    "hasCustomImages": true,
+    "identity": "椰林落日",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_sanya.png",
+        "path": "/assets/images/loc_sanya.png",
+        "zh": "世界一角栏目：椰林落日。傍晚，粉红色的晚霞铺满了整片天空，海浪轻柔地拍打着金黄的沙滩。椰子树纤细的叶片在微风中沙沙作响，几只海鸥掠过渐渐暗下来的海面，带走了白日里所有的炽热。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 椰林落日. 傍晚，粉红色的晚霞铺满了整片天空，海浪轻柔地拍打着金黄的沙滩。椰子树纤细的叶片在微风中沙沙作响，几只海鸥掠过渐渐暗下来的海面，带走了白日里所有的炽热。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_sanya_nature.png",
+        "path": "/assets/images/loc_sanya_nature.png",
+        "zh": "科学自然栏目：珊瑚礁的静谧世界。三亚拥有温暖清澈的海水与充足的阳光，为珊瑚虫提供了绝佳的生存环境。五彩缤纷的造礁珊瑚在海底静静生长，吸引了无数热带鱼类筑巢，共同构建了奇妙的海底热带雨林。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 珊瑚礁的静谧世界. 三亚拥有温暖清澈的海水与充足的阳光，为珊瑚虫提供了绝佳的生存环境。五彩缤纷的造礁珊瑚在海底静静生长，吸引了无数热带鱼类筑巢，共同构建了奇妙的海底热带雨林。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_sanya_people.png",
+        "path": "/assets/images/loc_sanya_people.png",
+        "zh": "他人在场栏目：织黎锦的老阿婆。椰子树荫下，阿婆席地而坐，双腿伸直绷紧腰机，双手灵活地用骨针挑引彩线。随着木刀一下下砸紧纬线，古老的祥云与图腾在指尖慢慢显现，伴随着时间的静静流淌。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 织黎锦的老阿婆. 椰子树荫下，阿婆席地而坐，双腿伸直绷紧腰机，双手灵活地用骨针挑引彩线。随着木刀一下下砸紧纬线，古老的祥云与图腾在指尖慢慢显现，伴随着时间的静静流淌。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_sanya_spark.png",
+        "path": "/assets/images/loc_sanya_spark.png",
+        "zh": "思想火花栏目：潮汐的起落。蔚蓝的大海日复一日地潮起潮落，带走沙滩上的脚印，留下美丽的贝壳。人生的得失也如这潮汐，没有什么是真正能被占有的。试着以宽容的心态，接纳生命中的来来去去。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 潮汐的起落. 蔚蓝的大海日复一日地潮起潮落，带走沙滩上的脚印，留下美丽的贝壳。人生的得失也如这潮汐，没有什么是真正能被占有的。试着以宽容的心态，接纳生命中的来来去去。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_sanya_old.png",
+        "path": "/assets/images/loc_sanya_old.png",
+        "zh": "旧物新看栏目：疍家人的水上棚屋。世代生活在海上的疍家人，用木头和塑料浮筒在港湾搭起漂浮的家。这种独特的“水上吉普赛”生活方式，透露着古人对海洋的依附与适应，也给现代人展示了生活的另一种可能。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 疍家人的水上棚屋. 世代生活在海上的疍家人，用木头和塑料浮筒在港湾搭起漂浮的家。这种独特的“水上吉普赛”生活方式，透露着古人对海洋的依附与适应，也给现代人展示了生活的另一种可能。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 青海湖畔": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🌾",
+    "wood": "#104E8B",
+    "stampColor": "#1C86EE",
+    "hasCustomImages": true,
+    "identity": "湖畔的油菜花海",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_qinghai.png",
+        "path": "/assets/images/loc_qinghai.png",
+        "zh": "世界一角栏目：湖畔的油菜花海。湛蓝如镜的青海湖边，金黄色的油菜花盛开得漫无边际。微风吹过，花海与湖水交织出大自然最明净的色彩。远处的雪山沉静而庄严，牛羊像散落的珍珠，在草地上缓缓移动。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 湖畔的油菜花海. 湛蓝如镜的青海湖边，金黄色的油菜花盛开得漫无边际。微风吹过，花海与湖水交织出大自然最明净的色彩。远处的雪山沉静而庄严，牛羊像散落的珍珠，在草地上缓缓移动。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_qinghai_nature.png",
+        "path": "/assets/images/loc_qinghai_nature.png",
+        "zh": "科学自然栏目：高原微咸的生态。作为中国最大的内陆咸水湖，青海湖水温低、盐度适中，孕育了特有的湟鱼。这种无鳞鱼每到夏季便会溯流而上产卵，成千上万的飞鸟在海心山栖息繁衍，构成壮丽的生态圈。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 高原微咸的生态. 作为中国最大的内陆咸水湖，青海湖水温低、盐度适中，孕育了特有的湟鱼。这种无鳞鱼每到夏季便会溯流而上产卵，成千上万的飞鸟在海心山栖息繁衍，构成壮丽的生态圈。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_qinghai_people.png",
+        "path": "/assets/images/loc_qinghai_people.png",
+        "zh": "他人在场栏目：帐篷旁的牧羊姑娘。清晨，年轻的藏族姑娘从白色的帐篷里走出，手里拿着长长的牧鞭。她用柔和的藏语呼唤着羊群，解开木栅栏的绳索。清晨的阳光洒在她红润的脸庞上，散发着草木般的质朴。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 帐篷旁的牧羊姑娘. 清晨，年轻的藏族姑娘从白色的帐篷里走出，手里拿着长长的牧鞭。她用柔和的藏语呼唤着羊群，解开木栅栏的绳索。清晨的阳光洒在她红润的脸庞上，散发着草木般的质朴。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_qinghai_spark.png",
+        "path": "/assets/images/loc_qinghai_spark.png",
+        "zh": "思想火花栏目：寂静的力量。站在这片辽阔的天地间，耳畔只有风声和偶尔的鸟鸣。尘世的嘈杂在巨大的空旷里瞬间消散。只有当我们愿意面对生命中的“空无”时，才能在宁静中重新听见自己内心的声音。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 寂静的力量. 站在这片辽阔的天地间，耳畔只有风声和偶尔的鸟鸣。尘世的嘈杂在巨大的空旷里瞬间消散。只有当我们愿意面对生命中的“空无”时，才能在宁静中重新听见自己内心的声音。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_qinghai_old.png",
+        "path": "/assets/images/loc_qinghai_old.png",
+        "zh": "旧物新看栏目：玛尼堆的祈愿。湖畔高高低低的玛尼石堆，是路人用一颗颗石子叠加而成的虔诚祈祷。每一次弯腰放置，都是对自然与生命的致敬。这种简单而长久的仪式，无声地连接着人与脚下的土地。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 玛尼堆的祈愿. 湖畔高高低低的玛尼石堆，是路人用一颗颗石子叠加而成的虔诚祈祷。每一次弯腰放置，都是对自然与生命的致敬。这种简单而长久的仪式，无声地连接着人与脚下的土地。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 大理洱海": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "⛵",
+    "wood": "#2E5C6E",
+    "stampColor": "#4A708B",
+    "hasCustomImages": true,
+    "identity": "洱海边的黄昏",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_dali.png",
+        "path": "/assets/images/loc_dali.png",
+        "zh": "世界一角栏目：洱海边的黄昏。苍山渐渐隐没在黛青色的暮色中，洱海的水面折射出粉紫色的晚霞。几只水鸟掠过枯树斜入水中的枝干，漾起细碎的波澜。坐在水畔木椅上，听着微弱的涛声，心也变得柔软。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 洱海边的黄昏. 苍山渐渐隐没在黛青色的暮色中，洱海的水面折射出粉紫色的晚霞。几只水鸟掠过枯树斜入水中的枝干，漾起细碎的波澜。坐在水畔木椅上，听着微弱的涛声，心也变得柔软。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_dali_nature.png",
+        "path": "/assets/images/loc_dali_nature.png",
+        "zh": "科学自然栏目：苍山冰川遗迹。苍山十九峰巍峨起伏，发育了独特的第四纪冰川地貌。山顶终年积雪的融水化作十八条清溪，穿过肥沃的坝子源源不断流入洱海，形成了苍山洱海间完美的自然水循环系统。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 苍山冰川遗迹. 苍山十九峰巍峨起伏，发育了独特的第四纪冰川地貌。山顶终年积雪的融水化作十八条清溪，穿过肥沃的坝子源源不断流入洱海，形成了苍山洱海间完美的自然水循环系统。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_dali_people.png",
+        "path": "/assets/images/loc_dali_people.png",
+        "zh": "他人在场栏目：扎染坊里的白族阿妈。洒满阳光的庭院里，阿妈正用细绳在雪白的棉布上熟练地打结。随后将布料浸入温热的板蓝根靛蓝染缸中。反复漂洗晾晒后，一朵朵白色的祥云在蓝布上绽放，那是时光的手艺。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 扎染坊里的白族阿妈. 洒满阳光的庭院里，阿妈正用细绳在雪白的棉布上熟练地打结。随后将布料浸入温热的板蓝根靛蓝染缸中。反复漂洗晾晒后，一朵朵白色的祥云在蓝布上绽放，那是时光的手艺。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_dali_spark.png",
+        "path": "/assets/images/loc_dali_spark.png",
+        "zh": "思想火花栏目：风花雪月的真义。下关风、上关花、苍山雪、洱海月，大理人用这四个字概括了最美的一生。自然的美好其实从不收费，也无须争抢。静下心来，你会发现最好的风景一直就在我们身边。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 风花雪月的真义. 下关风、上关花、苍山雪、洱海月，大理人用这四个字概括了最美的一生。自然的美好其实从不收费，也无须争抢。静下心来，你会发现最好的风景一直就在我们身边。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_dali_old.png",
+        "path": "/assets/images/loc_dali_old.png",
+        "zh": "旧物新看栏目：甲马纸上的神祇。作为古老民间木刻版画的甲马纸，用粗犷的线条雕刻着自然神灵与美好祈愿。这略显粗糙的木刻红纸，记录了白族人对万物有灵的朴素信仰，也提醒着我们要保持对万物的敏感。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 甲马纸上的神祇. 作为古老民间木刻版画的甲马纸，用粗犷的线条雕刻着自然神灵与美好祈愿。这略显粗糙的木刻红纸，记录了白族人对万物有灵的朴素信仰，也提醒着我们要保持对万物的敏感。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 黄山松云": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🌲",
+    "wood": "#2F4F4F",
+    "stampColor": "#556B2F",
+    "hasCustomImages": true,
+    "identity": "云海中的奇峰",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_huangshan.png",
+        "path": "/assets/images/loc_huangshan.png",
+        "zh": "世界一角栏目：云海中的奇峰。破晓时分，白色的云海在奇峰怪石间翻滚，宛如波涛汹涌的仙境之海。挺拔的黄山松在云雾中若隐若现，朝阳洒下万道金光，将怪石的轮廓勾勒成一幅绝妙的泼墨写意画作。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 云海中的奇峰. 破晓时分，白色的云海在奇峰怪石间翻滚，宛如波涛汹涌的仙境之海。挺拔的黄山松在云雾中若隐若现，朝阳洒下万道金光，将怪石的轮廓勾勒成一幅绝妙的泼墨写意画作。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_huangshan_nature.png",
+        "path": "/assets/images/loc_huangshan_nature.png",
+        "zh": "科学自然栏目：破岩而出的黄山松。黄山松生长在海拔八百米以上的花岗岩裂隙中。由于土壤贫瘠，它们根系分泌有机酸来溶解岩石以汲取微量养分，生长极其缓慢，展现了植物在严苛自然中令人赞叹的生命力。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 破岩而出的黄山松. 黄山松生长在海拔八百米以上的花岗岩裂隙中。由于土壤贫瘠，它们根系分泌有机酸来溶解岩石以汲取微量养分，生长极其缓慢，展现了植物在严苛自然中令人赞叹的生命力。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_huangshan_people.png",
+        "path": "/assets/images/loc_huangshan_people.png",
+        "zh": "他人在场栏目：挑山工的坚韧步伐。陡峭的石阶上，挑山工挑着沉甸甸的蔬菜与补给，一步步稳健地向上挪动。扁担压弯了他们的肩膀，木杖在石阶上敲击出规律的声响。他们布满老茧的脚掌，丈量着大山的脊梁。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 挑山工的坚韧步伐. 陡峭的石阶上，挑山工挑着沉甸甸的蔬菜与补给，一步步稳健地向上挪动。扁担压弯了他们的肩膀，木杖在石阶上敲击出规律的声响。他们布满老茧的脚掌，丈量着大山的脊梁。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_huangshan_spark.png",
+        "path": "/assets/images/loc_huangshan_spark.png",
+        "zh": "思想火花栏目：坚硬与苍翠。挺拔的青松在最陡峭的岩石缝中生根发芽，迎风冒雪却依然苍翠。生命所处的环境或许无法选择，但我们可以像黄山松一样，将根深深扎入生活的岩缝，在逆境中开出苍翠的花。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 坚硬与苍翠. 挺拔的青松在最陡峭的岩石缝中生根发芽，迎风冒雪却依然苍翠。生命所处的环境或许无法选择，但我们可以像黄山松一样，将根深深扎入生活的岩缝，在逆境中开出苍翠的花。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_huangshan_old.png",
+        "path": "/assets/images/loc_huangshan_old.png",
+        "zh": "旧物新看栏目：徽州砖雕的细致。徽州古民居门罩上的砖雕，以质地细腻的青砖为材料，刻画出精细的山水人物。这种在易碎材质上进行的艺术创作，体现了匠人极致的耐心，也提醒我们在浮躁中保留一份沉静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 徽州砖雕的细致. 徽州古民居门罩上的砖雕，以质地细腻的青砖为材料，刻画出精细的山水人物。这种在易碎材质上进行的艺术创作，体现了匠人极致的耐心，也提醒我们在浮躁中保留一份沉静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 台湾九份": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🏮",
+    "wood": "#832F2F",
+    "stampColor": "#A32D2D",
+    "hasCustomImages": true,
+    "identity": "雨夜的红灯笼",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_jiufen.png",
+        "path": "/assets/images/loc_jiufen.png",
+        "zh": "世界一角栏目：雨夜的红灯笼。细雨绵绵的傍晚，依山而建的窄小石阶两旁，红灯笼一盏接一盏地亮起。朦胧的灯火倒映在湿漉漉的石板路上，远方的深澳湾海面风平浪静，古老山城在雨声里显得温柔而怀旧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 雨夜的红灯笼. 细雨绵绵的傍晚，依山而建的窄小石阶两旁，红灯笼一盏接一盏地亮起。朦胧的灯火倒映在湿漉漉的石板路上，远方的深澳湾海面风平浪静，古老山城在雨声里显得温柔而怀旧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_jiufen_nature.png",
+        "path": "/assets/images/loc_jiufen_nature.png",
+        "zh": "科学自然栏目：山海交汇的季风。九份面临太平洋，背靠基隆山，湿润的海风遇山受阻，凝结成绵绵的细雨。这里独特的亚热带山地气候，带来了变幻莫测的雾气与丰沛的雨水，赋予山城湿润、多雾的忧郁气质。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 山海交汇的季风. 九份面临太平洋，背靠基隆山，湿润的海风遇山受阻，凝结成绵绵的细雨。这里独特的亚热带山地气候，带来了变幻莫测的雾气与丰沛的雨水，赋予山城湿润、多雾的忧郁气质。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_jiufen_people.png",
+        "path": "/assets/images/loc_jiufen_people.png",
+        "zh": "他人在场栏目：阿妹茶楼的司茶人。在幽暗的茶楼木窗边，司茶人熟练地烫洗着茶具。沸水冲入茶壶，滚烫的水汽带着乌龙茶的浓郁香气在空气中弥漫。他温和地为客人斟茶，用轻柔的声音讲述着这座老金矿的往事。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 阿妹茶楼的司茶人. 在幽暗的茶楼木窗边，司茶人熟练地烫洗着茶具。沸水冲入茶壶，滚烫的水汽带着乌龙茶的浓郁香气在空气中弥漫。他温和地为客人斟茶，用轻柔的声音讲述着这座老金矿的往事。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_jiufen_spark.png",
+        "path": "/assets/images/loc_jiufen_spark.png",
+        "zh": "思想火花栏目：灯火与归途。站在石阶高处俯瞰，错落的灯火在雨雾里闪烁，像夜空里的繁星。每一个窗口下都承载着一个平凡的故事。即使外面的世界风雨交加，心中有那一盏灯火，我们便不会迷失归途。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 灯火与归途. 站在石阶高处俯瞰，错落的灯火在雨雾里闪烁，像夜空里的繁星。每一个窗口下都承载着一个平凡的故事。即使外面的世界风雨交加，心中有那一盏灯火，我们便不会迷失归途。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_jiufen_old.png",
+        "path": "/assets/images/loc_jiufen_old.png",
+        "zh": "旧物新看栏目：选矿斗的记忆。曾经车水马龙的淘金旧道，如今只剩下锈迹斑斑的轻便铁轨与选矿斗。这沧桑的遗迹默默诉说着往昔的喧嚣与繁华，也提醒我们：生命的繁华终将退去，唯有内心的安宁会长留。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 选矿斗的记忆. 曾经车水马龙的淘金旧道，如今只剩下锈迹斑斑的轻便铁轨与选矿斗。这沧桑的遗迹默默诉说着往昔的喧嚣与繁华，也提醒我们：生命的繁华终将退去，唯有内心的安宁会长留。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 香港旺角": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🏙️",
+    "wood": "#3D3D3D",
+    "stampColor": "#C71585",
+    "hasCustomImages": true,
+    "identity": "霓虹闪烁的街角",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hongkong.png",
+        "path": "/assets/images/loc_hongkong.png",
+        "zh": "世界一角栏目：霓虹闪烁的街角。暮色初升，高耸的居民楼间，层层叠叠的霓虹招牌相继亮起。红绿相间的微光洒在喧嚣的街道上，绿色的双层巴士缓缓驶过，在都市的喧嚣深处，藏着一抹独属于老香港的烟火气。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 霓虹闪烁的街角. 暮色初升，高耸的居民楼间，层层叠叠的霓虹招牌相继亮起。红绿相间的微光洒在喧嚣的街道上，绿色的双层巴士缓缓驶过，在都市的喧嚣深处，藏着一抹独属于老香港的烟火气。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hongkong_nature.png",
+        "path": "/assets/images/loc_hongkong_nature.png",
+        "zh": "科学自然栏目：夹缝里的细叶榕。在旺角钢筋水泥的缝隙里，生命力顽强的细叶榕顺着古老的砖墙和护坡石缝生根。它的气生根如丝线般垂落，汲取着空气中的水汽，在狭窄的城市夹缝里撑起了一片翠绿的绿荫。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 夹缝里的细叶榕. 在旺角钢筋水泥的缝隙里，生命力顽强的细叶榕顺着古老的砖墙和护坡石缝生根。它的气生根如丝线般垂落，汲取着空气中的水汽，在狭窄的城市夹缝里撑起了一片翠绿的绿荫。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hongkong_people.png",
+        "path": "/assets/images/loc_hongkong_people.png",
+        "zh": "他人在场栏目：报摊老伯的守望。喧闹的街角，老伯在狭小的铁皮报摊前忙碌着。他熟练地整理着报纸，把彩色的杂志挂在铁丝上。虽然街上人来人往、脚步匆匆，他却神色悠然，用淡定的目光注视着这个城市。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 报摊老伯的守望. 喧闹的街角，老伯在狭小的铁皮报摊前忙碌着。他熟练地整理着报纸，把彩色的杂志挂在铁丝上。虽然街上人来人往、脚步匆匆，他却神色悠然，用淡定的目光注视着这个城市。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hongkong_spark.png",
+        "path": "/assets/images/loc_hongkong_spark.png",
+        "zh": "思想火花栏目：喧嚣中的寂静。旺角是世界上人口密度最高的地方之一，嘈杂的声音从不间断。但在汹涌的人潮中，若能守住心中的那一分安静，身处闹市亦如深山。心若不动，风又奈何？柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 喧嚣中的寂静. 旺角是世界上人口密度最高的地方之一，嘈杂的声音从不间断。但在汹涌的人潮中，若能守住心中的那一分安静，身处闹市亦如深山。心若不动，风又奈何？ soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hongkong_old.png",
+        "path": "/assets/images/loc_hongkong_old.png",
+        "zh": "旧物新看栏目：旧唐楼下的霓虹与报摊。在旺角的街头巷弄里，密集的旧式唐楼伸出斑驳的霓虹招牌与晾衫竹竿。骑楼下一间经营数十载的旧报摊摆满画报，九龙双层巴士从身旁驶过，浓缩了九龙老街最地道也最市井的港味时光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 旧唐楼下的霓虹与报摊. 在旺角的街头巷弄里，密集的旧式唐楼伸出斑驳的霓虹招牌与晾衫竹竿。骑楼下一间经营数十载的旧报摊摆满画报，九龙双层巴士从身旁驶过，浓缩了九龙老街最地道也最市井的港味时光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 澳门大三巴": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "⛪",
+    "wood": "#8B7D6B",
+    "stampColor": "#8B864E",
+    "hasCustomImages": true,
+    "identity": "牌坊前的斜阳",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_macau.png",
+        "path": "/assets/images/loc_macau.png",
+        "zh": "世界一角栏目：牌坊前的斜阳。傍晚的阳光斜斜地照在大三巴牌坊上，精美的石雕在暖橘色的光晕中显得分外立体。微风吹过石板广场，白鸽在湛蓝的天空下低低飞过，在东西方时光的交汇点，留下一抹安静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 牌坊前的斜阳. 傍晚的阳光斜斜地照在大三巴牌坊上，精美的石雕在暖橘色的光晕中显得分外立体。微风吹过石板广场，白鸽在湛蓝的天空下低低飞过，在东西方时光的交汇点，留下一抹安静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_macau_nature.png",
+        "path": "/assets/images/loc_macau_nature.png",
+        "zh": "科学自然栏目：海岛的湿润气候。澳门地处珠江口西侧，典型的海洋性季风气候带来温和多雨的四季。空气中常年弥漫着淡淡的微咸海风，海浪拍打着岩石，滋养着马尾松与簕杜鹃，构成了湿润而生动的海岛景观。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 海岛的湿润气候. 澳门地处珠江口西侧，典型的海洋性季风气候带来温和多雨的四季。空气中常年弥漫着淡淡的微咸海风，海浪拍打着岩石，滋养着马尾松与簕杜鹃，构成了湿润而生动的海岛景观。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_macau_people.png",
+        "path": "/assets/images/loc_macau_people.png",
+        "zh": "他人在场栏目：手工蛋卷的老匠人。大三巴下的小巷里，老匠人熟练地用特制的铁板压平蛋浆。随着刺啦一声，浓郁的奶香在空气中散开。他戴着棉布手套，用细铁棒轻巧一卷，金黄香脆的蛋卷便成了时光的赠礼。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 手工蛋卷的老匠人. 大三巴下的小巷里，老匠人熟练地用特制的铁板压平蛋浆。随着刺啦一声，浓郁的奶香在空气中散开。他戴着棉布手套，用细铁棒轻巧一卷，金黄香脆的蛋卷便成了时光的赠礼。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_macau_spark.png",
+        "path": "/assets/images/loc_macau_spark.png",
+        "zh": "思想火花栏目：残缺的完整。宏伟的教堂如今只留下一面精美的石壁，却依然震撼人心。生命中的残缺与遗憾，有时也是一种独特的美丽。接纳那些不完美，它们反而会成为你生命里最坚韧、最动人的底色。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 残缺的完整. 宏伟的教堂如今只留下一面精美的石壁，却依然震撼人心。生命中的残缺与遗憾，有时也是一种独特的美丽。接纳那些不完美，它们反而会成为你生命里最坚韧、最动人的底色。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_macau_old.png",
+        "path": "/assets/images/loc_macau_old.png",
+        "zh": "旧物新看栏目：葡式碎石路的优雅。澳门街头黑白相间、用小石块手工铺就的葡式波浪碎石路，既防滑又美观。黑白线条在脚下如波浪般起伏，将古老的航海记忆融入日常的步履，让行走的每一步都充满了韵律。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 葡式碎石路的优雅. 澳门街头黑白相间、用小石块手工铺就的葡式波浪碎石路，既防滑又美观。黑白线条在脚下如波浪般起伏，将古老的航海记忆融入日常的步履，让行走的每一步都充满了韵律。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 内蒙古呼伦贝尔": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🐎",
+    "wood": "#556B2F",
+    "stampColor": "#2E8B57",
+    "hasCustomImages": true,
+    "identity": "风吹草低见牛羊",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hulunbuir.png",
+        "path": "/assets/images/loc_hulunbuir.png",
+        "zh": "世界一角栏目：风吹草低见牛羊。碧绿的草原像一块无边无际的厚地毯，铺向遥远的地平线。清晨的阳光洒在弯弯曲曲的莫日格勒河上，河水如银色的飘带闪闪发光。马群在草地上奔跑，风里满是青草的芬芳。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 风吹草低见牛羊. 碧绿的草原像一块无边无际的厚地毯，铺向遥远的地平线。清晨的阳光洒在弯弯曲曲的莫日格勒河上，河水如银色的飘带闪闪发光。马群在草地上奔跑，风里满是青草的芬芳。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hulunbuir_nature.png",
+        "path": "/assets/images/loc_hulunbuir_nature.png",
+        "zh": "科学自然栏目：黑土地与针叶林。呼伦贝尔地处大兴安岭向草原的过渡带，拥有肥沃的黑土地与大片落叶松针叶林。独特的寒温带气候孕育了驯鹿与珍稀的百草，在漫长的冬季过后，爆发出惊人的绿色生命力。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 黑土地与针叶林. 呼伦贝尔地处大兴安岭向草原的过渡带，拥有肥沃的黑土地与大片落叶松针叶林。独特的寒温带气候孕育了驯鹿与珍稀的百草，在漫长的冬季过后，爆发出惊人的绿色生命力。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hulunbuir_people.png",
+        "path": "/assets/images/loc_hulunbuir_people.png",
+        "zh": "他人在场栏目：驯鹿鄂温克人。在白桦林深处，鄂温克族的老猎人正用桦树皮编织的小盆盛装盐巴。他发出长长的呼唤，几只头戴巨大鹿角的驯鹿便温顺地从林间走来，亲昵地舔舐着他满是老茧的手掌。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 驯鹿鄂温克人. 在白桦林深处，鄂温克族的老猎人正用桦树皮编织的小盆盛装盐巴。他发出长长的呼唤，几只头戴巨大鹿角的驯鹿便温顺地从林间走来，亲昵地舔舐着他满是老茧的手掌。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hulunbuir_spark.png",
+        "path": "/assets/images/loc_hulunbuir_spark.png",
+        "zh": "思想火花栏目：地平线的宽广。站在辽阔的草原中央，地平线在各个方向都伸展到极致。在这样宏大的自然面前，我们的小小烦恼似乎也变得微不足道。放宽心胸，让心像这片草原一样，接纳所有的起伏。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 地平线的宽广. 站在辽阔的草原中央，地平线在各个方向都伸展到极致。在这样宏大的自然面前，我们的小小烦恼似乎也变得微不足道。放宽心胸，让心像这片草原一样，接纳所有的起伏。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hulunbuir_old.png",
+        "path": "/assets/images/loc_hulunbuir_old.png",
+        "zh": "旧物新看栏目：毡房里的炉火。传统的蒙古包用羊毛毡制成，既保暖又易于拆装移动。圆顶的结构能有效抵御暴风雨。夜幕降临，火炉里燃烧的干牛粪散发出温暖的烟火气，那是游牧民族对自然最聪明的适应。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 毡房里的炉火. 传统的蒙古包用羊毛毡制成，既保暖又易于拆装移动。圆顶的结构能有效抵御暴风雨。夜幕降临，火炉里燃烧的干牛粪散发出温暖的烟火气，那是游牧民族对自然最聪明的适应。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 新疆喀纳斯": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🌲",
+    "wood": "#1E3F20",
+    "stampColor": "#2E7D32",
+    "hasCustomImages": true,
+    "identity": "晨雾中的神仙湾",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_kanas.png",
+        "path": "/assets/images/loc_kanas.png",
+        "zh": "世界一角栏目：晨雾中的神仙湾。清晨，薄薄的晨雾如白纱般漂浮在如翡翠般的喀纳斯河面上。两岸的白桦林和落叶松层林尽染，倒映在静止的水中。微风吹过，落叶无声飘落，整个山谷静谧得如同童话世界。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨雾中的神仙湾. 清晨，薄薄的晨雾如白纱般漂浮在如翡翠般的喀纳斯河面上。两岸的白桦林和落叶松层林尽染，倒映在静止的水中。微风吹过，落叶无声飘落，整个山谷静谧得如同童话世界。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_kanas_nature.png",
+        "path": "/assets/images/loc_kanas_nature.png",
+        "zh": "科学自然栏目：变色湖的奥秘。喀纳斯湖是深藏在阿尔泰山中的冰川堰塞湖。湖水颜色会随着季节和天气的变化而改变，这是因为上游冰川融水携带了大量花岗岩细微矿物颗粒，在光线折射下产生奇妙魔力。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 变色湖的奥秘. 喀纳斯湖是深藏在阿尔泰山中的冰川堰塞湖。湖水颜色会随着季节和天气的变化而改变，这是因为上游冰川融水携带了大量花岗岩细微矿物颗粒，在光线折射下产生奇妙魔力。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_kanas_people.png",
+        "path": "/assets/images/loc_kanas_people.png",
+        "zh": "他人在场栏目：图瓦老人的苏尔笛声。在木质的尖顶小木屋里，图瓦族老人手持一根用当地芦苇制成的三孔苏尔笛。他微微合眼，用丹田之气吹奏出低沉、悠扬的旋律，笛声中夹杂着风声与鸟鸣，回荡在空旷的山谷。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 图瓦老人的苏尔笛声. 在木质的尖顶小木屋里，图瓦族老人手持一根用当地芦苇制成的三孔苏尔笛。他微微合眼，用丹田之气吹奏出低沉、悠扬的旋律，笛声中夹杂着风声与鸟鸣，回荡在空旷的山谷。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_kanas_spark.png",
+        "path": "/assets/images/loc_kanas_spark.png",
+        "zh": "思想火花栏目：随四季流转的色彩。喀纳斯的森林在春天翠绿，秋天金黄，冬天雪白。它们从不抗拒季节的更替，而是顺应自然，展现出每个阶段最极致的美。学着顺应生命的节奏，去享受当下的每一个季节。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 随四季流转的色彩. 喀纳斯的森林在春天翠绿，秋天金黄，冬天雪白。它们从不抗拒季节的更替，而是顺应自然，展现出每个阶段最极致的美。学着顺应生命的节奏，去享受当下的每一个季节。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_kanas_old.png",
+        "path": "/assets/images/loc_kanas_old.png",
+        "zh": "旧物新看栏目：榫卯相扣的图瓦木屋。图瓦人居住的木屋，全部用原木通过榫卯结构搭建而成，不使用一颗铁钉。屋顶覆以泥土和干草，既保暖又防风。这种就地取材的建筑，展现了人与大山最质朴的共生智慧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 榫卯相扣的图瓦木屋. 图瓦人居住的木屋，全部用原木通过榫卯结构搭建而成，不使用一颗铁钉。屋顶覆以泥土和干草，既保暖又防风。这种就地取材的建筑，展现了人与大山最质朴的共生智慧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 贵州西江苗寨": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🪙",
+    "wood": "#5C4033",
+    "stampColor": "#8B5A2B",
+    "hasCustomImages": true,
+    "identity": "苗寨的万家灯火",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_miaocheng.png",
+        "path": "/assets/images/loc_miaocheng.png",
+        "zh": "世界一角栏目：苗寨的万家灯火。夜幕低垂，依山而建的千户苗寨逐渐亮起星星点点的灯火。吊脚楼重重叠叠，如同一座闪烁着暖光的小金山。风雨桥在静静的白水河上映出倒影，送来吊脚楼里悠扬的芦笙声。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 苗寨的万家灯火. 夜幕低垂，依山而建的千户苗寨逐渐亮起星星点点的灯火。吊脚楼重重叠叠，如同一座闪烁着暖光的小金山。风雨桥在静静的白水河上映出倒影，送来吊脚楼里悠扬的芦笙声。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_miaocheng_nature.png",
+        "path": "/assets/images/loc_miaocheng_nature.png",
+        "zh": "科学自然栏目：喀斯特的茂密植被。苗寨坐落在雷公山麓的谷地中，典型的中亚热带湿润季风气候孕育了茂密的阔叶林与高山草甸。湿润的空气与频繁的降水，使得山谷间常年云雾缭绕，流水潺潺，生态极为丰富。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 喀斯特的茂密植被. 苗寨坐落在雷公山麓的谷地中，典型的中亚热带湿润季风气候孕育了茂密的阔叶林与高山草甸。湿润的空气与频繁的降水，使得山谷间常年云雾缭绕，流水潺潺，生态极为丰富。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_miaocheng_people.png",
+        "path": "/assets/images/loc_miaocheng_people.png",
+        "zh": "他人在场栏目：苗族银匠的锤打声。阁楼的灯光下，年轻的银匠手持小锤，在特制的铅砧上细细锤打着一块银片。随着清脆的叮当声，精致的蝴蝶与雀鸟图案在银片上跃然而出，这叮咚声回荡在安静的夜空里。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 苗族银匠的锤打声. 阁楼的灯光下，年轻的银匠手持小锤，在特制的铅砧上细细锤打着一块银片。随着清脆的叮当声，精致的蝴蝶与雀鸟图案在银片上跃然而出，这叮咚声回荡在安静的夜空里。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_miaocheng_spark.png",
+        "path": "/assets/images/loc_miaocheng_spark.png",
+        "zh": "思想火花栏目：聚沙成塔的温暖。一栋栋小小的吊脚木楼，顺着山势紧紧相依，最终汇聚成了蔚为壮观的千户苗寨。每个人的力量或许是微小的，但当我们的爱与善意相连，就能在这世间筑起最温暖的港湾。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 聚沙成塔的温暖. 一栋栋小小的吊脚木楼，顺着山势紧紧相依，最终汇聚成了蔚为壮观的千户苗寨。每个人的力量或许是微小的，但当我们的爱与善意相连，就能在这世间筑起最温暖的港湾。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_miaocheng_old.png",
+        "path": "/assets/images/loc_miaocheng_old.png",
+        "zh": "旧物新看栏目：苗族蜡染的蓝白之美。苗家姑娘用铜刀蘸取熔化的蜂蜡，在白布上绘出花鸟。蓝草染色的蓝与蜂蜡覆盖的白，交织出质朴的图案。这抹洗尽铅华的蓝白，用最单纯的色彩展示着人对自然的深情表达。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 苗族蜡染的蓝白之美. 苗家姑娘用铜刀蘸取熔化的蜂蜡，在白布上绘出花鸟。蓝草染色的蓝与蜂蜡覆盖的白，交织出质朴的图案。这抹洗尽铅华的蓝白，用最单纯的色彩展示着人对自然的深情表达。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "中国 · 福建土楼": {
+    "countryCode": "cn",
+    "continent": "亚洲",
+    "emblem": "🛖",
+    "wood": "#8B5A2B",
+    "stampColor": "#8B4513",
+    "hasCustomImages": true,
+    "identity": "大山深处的同心圆",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_tulou.png",
+        "path": "/assets/images/loc_tulou.png",
+        "zh": "世界一角栏目：大山深处的同心圆。阳光斜照进翠绿的山谷，几座巨大的圆形土楼如飞碟般静静卧在溪水旁。高大厚实的黄土墙在夕阳中呈现出温暖的色调，缕缕炊烟从屋顶的瓦片缝隙里飘出，透出无比的安详。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 大山深处的同心圆. 阳光斜照进翠绿的山谷，几座巨大的圆形土楼如飞碟般静静卧在溪水旁。高大厚实的黄土墙在夕阳中呈现出温暖的色调，缕缕炊烟从屋顶的瓦片缝隙里飘出，透出无比的安详。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_tulou_nature.png",
+        "path": "/assets/images/loc_tulou_nature.png",
+        "zh": "科学自然栏目：依山傍水的选址。福建土楼多分布在闽西南丘陵地带。古人在选址时依循风水，多选在背山临水、避风向阳的谷地。肥沃的红壤不仅滋养了竹林与水稻，更为建造土楼提供了最坚固的原料。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 依山傍水的选址. 福建土楼多分布在闽西南丘陵地带。古人在选址时依循风水，多选在背山临水、避风向阳的谷地。肥沃的红壤不仅滋养了竹林与水稻，更为建造土楼提供了最坚固的原料。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_tulou_people.png",
+        "path": "/assets/images/loc_tulou_people.png",
+        "zh": "他人在场栏目：土楼天井旁的泡茶人。在土楼宽敞的天井中央，阿公在石桌上摆开茶具，冲泡一壶刚采摘的铁观音。滚烫的茶水注入杯中，清香在天井里飘散。他笑呵呵地招呼着路过的邻居，递上一杯温暖的茶水。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 土楼天井旁的泡茶人. 在土楼宽敞的天井中央，阿公在石桌上摆开茶具，冲泡一壶刚采摘的铁观音。滚烫的茶水注入杯中，清香在天井里飘散。他笑呵呵地招呼着路过的邻居，递上一杯温暖的茶水。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_tulou_spark.png",
+        "path": "/assets/images/loc_tulou_spark.png",
+        "zh": "思想火花栏目：圆融的包容。土楼圆形的结构让所有房间都朝向中心的天井，无分尊卑，象征着族群的平等与团结。在繁杂的社交世界中，或许我们也需要这样一份“圆融”，用平等与包容去对待身边的每个人。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 圆融的包容. 土楼圆形的结构让所有房间都朝向中心的天井，无分尊卑，象征着族群的平等与团结。在繁杂的社交世界中，或许我们也需要这样一份“圆融”，用平等与包容去对待身边的每个人。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_tulou_old.png",
+        "path": "/assets/images/loc_tulou_old.png",
+        "zh": "旧物新看栏目：夯土墙的呼吸。用生土、竹片与红糖糯米浆混合夯筑的土楼外墙，厚达数米。这面神奇的泥土墙不仅冬暖夏凉，还具有极强的防震功能。它像有生命一样在空气中呼吸，默默守护了数百年。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 夯土墙的呼吸. 用生土、竹片与红糖糯米浆混合夯筑的土楼外墙，厚达数米。这面神奇的泥土墙不仅冬暖夏凉，还具有极强的防震功能。它像有生命一样在空气中呼吸，默默守护了数百年。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 东京": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "🗼",
+    "wood": "#333D47",
+    "stampColor": "#C0392B",
+    "hasCustomImages": true,
+    "identity": "暮色中的东京塔",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_tokyo.png",
+        "path": "/assets/images/loc_tokyo.png",
+        "zh": "世界一角栏目：暮色中的东京塔。傍晚的东京塔在浅粉色暮光中亮起温暖的橘色。白日里喧嚣的都市，在这一刻仿佛按下了静音键，只有天际线处的云彩缓缓流动，陪伴着晚归者的脚步。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 暮色中的东京塔. 傍晚的东京塔在浅粉色暮光中亮起温暖的橘色。白日里喧嚣的都市，在这一刻仿佛按下了静音键，只有天际线处的云彩缓缓流动，陪伴着晚归者的脚步。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_tokyo_nature.png",
+        "path": "/assets/images/loc_tokyo_nature.png",
+        "zh": "科学自然栏目：明治神宫的古木。隐匿在繁华都市中心的明治神宫拥有一片茂密的温带常绿阔叶林。清晨，微风穿过古老的樟树与栎树，带走城市的喧闹，只留下湿润的泥土气息和清脆的鸟鸣。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 明治神宫的古木. 隐匿在繁华都市中心的明治神宫拥有一片茂密的温带常绿阔叶林。清晨，微风穿过古老的樟树与栎树，带走城市的喧闹，只留下湿润的泥土气息和清脆的鸟鸣。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_tokyo_people.png",
+        "path": "/assets/images/loc_tokyo_people.png",
+        "zh": "他人在场栏目：江户切子工坊的匠人。谷中老街的小作坊里，年迈的匠人正专注地在红色玻璃杯上雕刻出精细的几何纹样。砂轮摩擦的沙沙声中，飞溅的水花在晨光里折射出彩虹般的光芒，安静而温暖。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 江户切子工坊的匠人. 谷中老街的小作坊里，年迈的匠人正专注地在红色玻璃杯上雕刻出精细的几何纹样。砂轮摩擦的沙沙声中，飞溅的水花在晨光里折射出彩虹般的光芒，安静而温暖。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_tokyo_spark.png",
+        "path": "/assets/images/loc_tokyo_spark.png",
+        "zh": "思想火花栏目：繁华深处的角落。在世界上最繁忙的十字路口旁，总有一条寂静的窄巷与一盏微弱的石灯笼。当生活被按快进键时，不妨学着在一朵路边野花前停下，寻找属于你自己的慢半拍。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 繁华深处的角落. 在世界上最繁忙的十字路口旁，总有一条寂静的窄巷与一盏微弱的石灯笼。当生活被按快进键时，不妨学着在一朵路边野花前停下，寻找属于你自己的慢半拍。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_tokyo_old.png",
+        "path": "/assets/images/loc_tokyo_old.png",
+        "zh": "旧物新看栏目：招财猫的百年守护。豪德寺里成千上万只白色招财猫静静伫立。这一源自江户时代的风俗，最初只是人们对平安与丰收的质朴祈愿。如今，它们用举起的右爪，继续守护着人世间的宁静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 招财猫的百年守护. 豪德寺里成千上万只白色招财猫静静伫立。这一源自江户时代的风俗，最初只是人们对平安与丰收的质朴祈愿。如今，它们用举起的右爪，继续守护着人世间的宁静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 大阪": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "🏯",
+    "wood": "#5C5046",
+    "stampColor": "#8B5A2B",
+    "hasCustomImages": true,
+    "identity": "晨光微熹的道顿堀",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_osaka.png",
+        "path": "/assets/images/loc_osaka.png",
+        "zh": "世界一角栏目：晨光微熹的道顿堀。清晨的道顿堀褪去了夜晚的斑斓霓虹，运河水面平静得如同一面镜子。只有早起的环卫工人在静静清扫街道，朝阳给巨大的广告牌镀上一层温柔的浅金色。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨光微熹的道顿堀. 清晨的道顿堀褪去了夜晚的斑斓霓虹，运河水面平静得如同一面镜子。只有早起的环卫工人在静静清扫街道，朝阳给巨大的广告牌镀上一层温柔的浅金色。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_osaka_nature.png",
+        "path": "/assets/images/loc_osaka_nature.png",
+        "zh": "科学自然栏目：淀川河畔的候鸟。贯穿大阪的淀川拥有一片丰茂的芦苇湿地。每逢春秋两季，来自西伯利亚的候鸟会在此短暂停歇，在水草间筑巢觅食，为这座钢铁城市注入大自然的灵动与生机。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 淀川河畔的候鸟. 贯穿大阪的淀川拥有一片丰茂的芦苇湿地。每逢春秋两季，来自西伯利亚的候鸟会在此短暂停歇，在水草间筑巢觅食，为这座钢铁城市注入大自然的灵动与生机。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_osaka_people.png",
+        "path": "/assets/images/loc_osaka_people.png",
+        "zh": "他人在场栏目：巷弄里的章鱼烧店主。狭窄的小巷里，铁板上正散发着浓郁的柴鱼香气。胖乎乎的店主大叔手持竹签，快速翻转着滚圆 of 章鱼烧，脸上洋溢着温暖的笑容，热情地向每一位过客问好。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 巷弄里的章鱼烧店主. 狭窄的小巷里，铁板上正散发着浓郁的柴鱼香气。胖乎乎的店主大叔手持竹签，快速翻转着滚圆 of 章鱼烧，脸上洋溢着温暖的笑容，热情地向每一位过客问好。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_osaka_spark.png",
+        "path": "/assets/images/loc_osaka_spark.png",
+        "zh": "思想火花栏目：喧嚣落幕后的温热。大阪的烟火气里总带着一丝质朴的幽默。当热闹的宴席散去，深夜路灯下的影子被拉得很长。生活或许并不完美，但那些藏在市井深处的笑声，总能治愈疲惫的灵魂。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 喧嚣落幕后的温热. 大阪的烟火气里总带着一丝质朴的幽默。当热闹的宴席散去，深夜路灯下的影子被拉得很长。生活或许并不完美，但那些藏在市井深处的笑声，总能治愈疲惫的灵魂。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_osaka_old.png",
+        "path": "/assets/images/loc_osaka_old.png",
+        "zh": "旧物新看栏目：丰臣秀吉的千成葫芦。在大阪的传统徽记中，常能见到成串的葫芦图案。这源于战国时期丰臣秀吉的军旗标识。如今，这枚曾经象征权力的图腾，已化作百姓祈求子孙繁衍、家庭和睦的吉祥物。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 丰臣秀吉的千成葫芦. 在大阪的传统徽记中，常能见到成串的葫芦图案。这源于战国时期丰臣秀吉的军旗标识。如今，这枚曾经象征权力的图腾，已化作百姓祈求子孙繁衍、家庭和睦的吉祥物。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 奈良": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "🦌",
+    "wood": "#8B7355",
+    "stampColor": "#CD853F",
+    "hasCustomImages": true,
+    "identity": "晨雾迷蒙的奈良公园",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_nara.png",
+        "path": "/assets/images/loc_nara.png",
+        "zh": "世界一角栏目：晨雾迷蒙的奈良公园。清晨的奈良公园笼罩在淡淡的薄雾中。几只小鹿轻盈地穿过落满红枫的草地，春日大社的石灯笼在古木的阴影下静默着，仿佛时间在这里千百年来从未移动。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨雾迷蒙的奈良公园. 清晨的奈良公园笼罩在淡淡的薄雾中。几只小鹿轻盈地穿过落满红枫的草地，春日大社的石灯笼在古木的阴影下静默着，仿佛时间在这里千百年来从未移动。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_nara_nature.png",
+        "path": "/assets/images/loc_nara_nature.png",
+        "zh": "科学自然栏目：春日山原始森林。奈良城东的春日山原始森林，自公元九世纪起便被严禁砍伐。古老的常绿栎树遮天蔽日，苔藓在潮湿的树干上静静蔓延，保留着日本古代最纯粹的自然神韵。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 春日山原始森林. 奈良城东的春日山原始森林，自公元九世纪起便被严禁砍伐。古老的常绿栎树遮天蔽日，苔藓在潮湿的树干上静静蔓延，保留着日本古代最纯粹的自然神韵。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_nara_people.png",
+        "path": "/assets/images/loc_nara_people.png",
+        "zh": "他人在场栏目：奈良墨坊的老手艺人。昏暗的作坊里弥漫着淡淡的松香与冰片味。老手艺人正用双手揉捏着温热的墨团，反复捶打，将其压入精美的木模中。这门安静的指尖手艺，已在墨香中传了数代。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 奈良墨坊的老手艺人. 昏暗的作坊里弥漫着淡淡的松香与冰片味。老手艺人正用双手揉捏着温热的墨团，反复捶打，将其压入精美的木模中。这门安静的指尖手艺，已在墨香中传了数代。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_nara_spark.png",
+        "path": "/assets/images/loc_nara_spark.png",
+        "zh": "思想火花栏目：与生灵同行的默契。走在奈良，小鹿会向你微微鞠躬，期待一块鹿仙贝。在这个没有围栏的世界里，人类与野生动物共享一片树荫。学会与自然分享空间，我们的心也会变得宽广开阔。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 与生灵同行的默契. 走在奈良，小鹿会向你微微鞠躬，期待一块鹿仙贝。在这个没有围栏的世界里，人类与野生动物共享一片树荫。学会与自然分享空间，我们的心也会变得宽广开阔。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_nara_old.png",
+        "path": "/assets/images/loc_nara_old.png",
+        "zh": "旧物新看栏目：奈良一刀雕的朴拙。奈良传统的一刀雕用简单的刀法刻出人偶与小鹿，不求精细却保留了木材天然的粗粝感。这种诞生于古代祭祀的小玩偶，至今仍用它拙朴的姿态传递着匠心的温度。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 奈良一刀雕的朴拙. 奈良传统的一刀雕用简单的刀法刻出人偶与小鹿，不求精细却保留了木材天然的粗粝感。这种诞生于古代祭祀的小玩偶，至今仍用它拙朴的姿态传递着匠心的温度。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 札幌": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "❄️",
+    "wood": "#6C7A89",
+    "stampColor": "#3A539B",
+    "hasCustomImages": true,
+    "identity": "大通公园的冬夜雪景",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_sapporo.png",
+        "path": "/assets/images/loc_sapporo.png",
+        "zh": "世界一角栏目：大通公园的冬夜雪景。暮色降临，漫天飞雪将大通公园染成一片纯白。暖黄色的街灯在雪地上投下柔和的光晕，远处的电视塔闪烁着红绿相间的光芒，整座城市像被装进了水晶音乐盒。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 大通公园的冬夜雪景. 暮色降临，漫天飞雪将大通公园染成一片纯白。暖黄色的街灯在雪地上投下柔和的光晕，远处的电视塔闪烁着红绿相间的光芒，整座城市像被装进了水晶音乐盒。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_sapporo_nature.png",
+        "path": "/assets/images/loc_sapporo_nature.png",
+        "zh": "科学自然栏目：北海道的轻盈粉雪。札幌的冬天拥有世界上最干燥、最轻盈的粉雪。来自西伯利亚的寒冷季风越过海面，在北海道凝结成含水量极低的雪花。落在手心里，只需轻轻一吹便会消散如风。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 北海道的轻盈粉雪. 札幌的冬天拥有世界上最干燥、最轻盈的粉雪。来自西伯利亚的寒冷季风越过海面，在北海道凝结成含水量极低的雪花。落在手心里，只需轻轻一吹便会消散如风。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_sapporo_people.png",
+        "path": "/assets/images/loc_sapporo_people.png",
+        "zh": "他人在场栏目：温暖玻璃工坊的学徒。在雪地环绕的工坊内，火炉喷吐着橘红的火舌。年轻的玻璃学徒用吹管吹出一个红热的玻璃泡，在旋转中慢慢塑成一只冰蓝色的风铃，为寒冬注入一丝清脆的温度。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 温暖玻璃工坊的学徒. 在雪地环绕的工坊内，火炉喷吐着橘红的火舌。年轻的玻璃学徒用吹管吹出一个红热的玻璃泡，在旋转中慢慢塑成一只冰蓝色的风铃，为寒冬注入一丝清脆的温度。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_sapporo_spark.png",
+        "path": "/assets/images/loc_sapporo_spark.png",
+        "zh": "思想火花栏目：大雪之下的寂静。当厚雪覆盖大地，世界仿佛失去了所有的回音，变得无比安静。在这片白茫茫的寂静中，呼吸也变得缓慢而清晰。或许，心灵也需要这样一场大雪，掩盖昨日的繁杂。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 大雪之下的寂静. 当厚雪覆盖大地，世界仿佛失去了所有的回音，变得无比安静。在这片白茫茫的寂静中，呼吸也变得缓慢而清晰。或许，心灵也需要这样一场大雪，掩盖昨日的繁杂。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_sapporo_old.png",
+        "path": "/assets/images/loc_sapporo_old.png",
+        "zh": "旧物新看栏目：雪祭的温情起源。札幌雪祭如今是举世闻名的盛会，然而它最初只是在1950年，由几名当地高中生在大通公园制作的六座雪雕。这种在寒冬中寻找乐趣的简单初心，延续至今未变。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 雪祭的温情起源. 札幌雪祭如今是举世闻名的盛会，然而它最初只是在1950年，由几名当地高中生在大通公园制作的六座雪雕。这种在寒冬中寻找乐趣的简单初心，延续至今未变。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 冲绳": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "🌺",
+    "wood": "#008B8B",
+    "stampColor": "#00868B",
+    "hasCustomImages": true,
+    "identity": "万座毛的落日晚霞",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_okinawa.png",
+        "path": "/assets/images/loc_okinawa.png",
+        "zh": "世界一角栏目：万座毛的落日晚霞。傍晚，夕阳缓缓坠入清澈的海平线，将万座毛的象鼻状悬崖染成深黛色。海浪温柔地拍打着下方的珊瑚礁，碎成白色的泡沫，整片天空化作温柔的橘红色和紫色。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 万座毛的落日晚霞. 傍晚，夕阳缓缓坠入清澈的海平线，将万座毛的象鼻状悬崖染成深黛色。海浪温柔地拍打着下方的珊瑚礁，碎成白色的泡沫，整片天空化作温柔的橘红色和紫色。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_okinawa_nature.png",
+        "path": "/assets/images/loc_okinawa_nature.png",
+        "zh": "科学自然栏目：星砂湾的奇妙沙滩。冲绳离岛的竹富岛上有一片神奇的沙滩。这里的沙粒呈完美的五角或六角星形。其实它们并非真正的沙子，而是古代有孔虫类留下的钙质外壳，见证着生命的奇妙。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 星砂湾的奇妙沙滩. 冲绳离岛的竹富岛上有一片神奇的沙滩。这里的沙粒呈完美的五角或六角星形。其实它们并非真正的沙子，而是古代有孔虫类留下的钙质外壳，见证着生命的奇妙。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_okinawa_people.png",
+        "path": "/assets/images/loc_okinawa_people.png",
+        "zh": "他人在场栏目：编织八重山织的阿嬷。木质阁楼里，年迈的阿嬷坐在古老的织布机前。梭子在五彩的棉线间来回穿梭，发出规律的吱呀声。她正在织造有着五格和四格花纹的传统腰带，寄托着永恒的爱意。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 编织八重山织的阿嬷. 木质阁楼里，年迈的阿嬷坐在古老的织布机前。梭子在五彩的棉线间来回穿梭，发出规律的吱呀声。她正在织造有着五格和四格花纹的传统腰带，寄托着永恒的爱意。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_okinawa_spark.png",
+        "path": "/assets/images/loc_okinawa_spark.png",
+        "zh": "思想火花栏目：顺应海潮的漫时光。在冲绳，人们有着独特的慢节奏。海浪退去又会回来，花朵谢了又会再开。生命不需要总是紧绷前行，试着像海边的椰子树一样，在海风中放松地摆动，任时光静静流逝。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 顺应海潮的漫时光. 在冲绳，人们有着独特的慢节奏。海浪退去又会回来，花朵谢了又会再开。生命不需要总是紧绷前行，试着像海边的椰子树一样，在海风中放松地摆动，任时光静静流逝。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_okinawa_old.png",
+        "path": "/assets/images/loc_okinawa_old.png",
+        "zh": "旧物新看栏目：守护屋顶的石狮子。冲绳民居红瓦屋顶上，总能看到一尊泥塑的石狮子。这种受中国影响而诞生的吉祥物，张着口迎接福气，闭着口守住财富，在海风吹拂的蓝天之下，默默守护着一方家园。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 守护屋顶的石狮子. 冲绳民居红瓦屋顶上，总能看到一尊泥塑的石狮子。这种受中国影响而诞生的吉祥物，张着口迎接福气，闭着口守住财富，在海风吹拂的蓝天之下，默默守护着一方家园。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 镰仓": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "🚃",
+    "wood": "#4F6B58",
+    "stampColor": "#2E6930",
+    "hasCustomImages": true,
+    "identity": "江之电与海的交会",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_kamakura.png",
+        "path": "/assets/images/loc_kamakura.png",
+        "zh": "世界一角栏目：江之电与海的交会。傍晚时分，一列绿皮的江之电电车缓缓驶过路口，前方就是泛着金色波光的太平洋。海风吹动着铁道口旁的野草，下课的少年骑着单车经过，青春在这一刻定格成画。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 江之电与海的交会. 傍晚时分，一列绿皮的江之电电车缓缓驶过路口，前方就是泛着金色波光的太平洋。海风吹动着铁道口旁的野草，下课的少年骑着单车经过，青春在这一刻定格成画。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_kamakura_nature.png",
+        "path": "/assets/images/loc_kamakura_nature.png",
+        "zh": "科学自然栏目：明月院的雨后绣球。六月梅雨季节，明月院的千株绣球花在雨中静静绽放。这种植物的花色会随着土壤酸碱度的改变而变化，从淡绿到蔚蓝，在湿润的空气中晕染出深邃而温柔的禅意。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 明月院的雨后绣球. 六月梅雨季节，明月院的千株绣球花在雨中静静绽放。这种植物的花色会随着土壤酸碱度的改变而变化，从淡绿到蔚蓝，在湿润的空气中晕染出深邃而温柔的禅意。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_kamakura_people.png",
+        "path": "/assets/images/loc_kamakura_people.png",
+        "zh": "他人在场栏目：镰仓雕刻工坊的刀声。幽静的院落里传来笃笃的雕刻声。匠人正在桂木托盘上刻出灵动的牡丹花纹，随后再涂上层层红漆。指关节上的厚茧，记录着他与木头交谈了数十年的寂静时光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 镰仓雕刻工坊的刀声. 幽静的院落里传来笃笃的雕刻声。匠人正在桂木托盘上刻出灵动的牡丹花纹，随后再涂上层层红漆。指关节上的厚茧，记录着他与木头交谈了数十年的寂静时光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_kamakura_spark.png",
+        "path": "/assets/images/loc_kamakura_spark.png",
+        "zh": "思想火花栏目：听海潮抚平心绪。坐在湘南海岸 of 沙滩上，看着潮水一波波涌来，又一波波退去。世间万物都处于这种永恒的交替中。那些让我们焦虑的烦恼，最终也会像沙滩上的脚印，被海水轻柔抹平。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 听海潮抚平心绪. 坐在湘南海岸 of 沙滩上，看着潮水一波波涌来，又一波波退去。世间万物都处于这种永恒的交替中。那些让我们焦虑的烦恼，最终也会像沙滩上的脚印，被海水轻柔抹平。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_kamakura_old.png",
+        "path": "/assets/images/loc_kamakura_old.png",
+        "zh": "旧物新看栏目：镰仓雕漆器的传承。镰仓雕源于南宋时期传入日本的雕漆工艺。当时日本僧人为了模仿漆雕器物，便在木头上雕刻再涂漆。如今，这项古老的寺院工艺已化作茶几上的精美茶托，日臻温润。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 镰仓雕漆器的传承. 镰仓雕源于南宋时期传入日本的雕漆工艺。当时日本僧人为了模仿漆雕器物，便在木头上雕刻再涂漆。如今，这项古老的寺院工艺已化作茶几上的精美茶托，日臻温润。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 金泽": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "🏯",
+    "wood": "#8B6508",
+    "stampColor": "#CD9B1D",
+    "hasCustomImages": true,
+    "identity": "兼六园的雪中吊绳",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_kanazawa.png",
+        "path": "/assets/images/loc_kanazawa.png",
+        "zh": "世界一角栏目：兼六园的雪中吊绳。冬日将至，兼六园的古松被系上了放射状的伞形吊绳，用以承受沉重的积雪。雪花落在绳索与松针之间，宛如一件巨大的白色几何织物，在暮色里散发着清冷而寂静的美。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 兼六园的雪中吊绳. 冬日将至，兼六园的古松被系上了放射状的伞形吊绳，用以承受沉重的积雪。雪花落在绳索与松针之间，宛如一件巨大的白色几何织物，在暮色里散发着清冷而寂静的美。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_kanazawa_nature.png",
+        "path": "/assets/images/loc_kanazawa_nature.png",
+        "zh": "科学自然栏目：北陆湿雪的独特重量。金泽地处日本海沿岸，冬季的空气富含水分，降雪比内陆地区更加沉重而湿润。这种湿雪挂在枝头，压弯了竹枝，也促使当地植物演化出更加坚韧、富有弹性的枝干。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 北陆湿雪的独特重量. 金泽地处日本海沿岸，冬季的空气富含水分，降雪比内陆地区更加沉重而湿润。这种湿雪挂在枝头，压弯了竹枝，也促使当地植物演化出更加坚韧、富有弹性的枝干。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_kanazawa_people.png",
+        "path": "/assets/images/loc_kanazawa_people.png",
+        "zh": "他人在场栏目：铺展金箔的安静指尖。寂静的工坊内，女工用竹夹屏住呼吸，小心翼翼地夹起一片薄如蝉翼的黄金，将其平铺在和纸上。微风在这一刻也被阻挡在门外，只留下金属光芒在指尖安静地流动。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 铺展金箔的安静指尖. 寂静的工坊内，女工用竹夹屏住呼吸，小心翼翼地夹起一片薄如蝉翼的黄金，将其平铺在和纸上。微风在这一刻也被阻挡在门外，只留下金属光芒在指尖安静地流动。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_kanazawa_spark.png",
+        "path": "/assets/images/loc_kanazawa_spark.png",
+        "zh": "思想火花栏目：为生活系上保护绳。兼六园的松树在入冬前就会系上吊绳，预防大雪压折枝干。人的一生也会遇到属于自己的严冬，在晴朗的日子里，为心灵做一些温和的准备，便能从容面对未来的风雪。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 为生活系上保护绳. 兼六园的松树在入冬前就会系上吊绳，预防大雪压折枝干。人的一生也会遇到属于自己的严冬，在晴朗的日子里，为心灵做一些温和的准备，便能从容面对未来的风雪。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_kanazawa_old.png",
+        "path": "/assets/images/loc_kanazawa_old.png",
+        "zh": "旧物新看栏目：加贺友禅的色彩秘密。加贺友禅是金泽著名的染色技艺，其特点是在手绘花纹中加入独创的草绿色与胭脂红。这种诞生于茶道盛行时期的工艺，将自然的四季流转永久封存在了丝绸的经纬之中。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 加贺友禅的色彩秘密. 加贺友禅是金泽著名的染色技艺，其特点是在手绘花纹中加入独创的草绿色与胭脂红。这种诞生于茶道盛行时期的工艺，将自然的四季流转永久封存在了丝绸的经纬之中。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "日本 · 箱根": {
+    "countryCode": "jp",
+    "continent": "亚洲",
+    "emblem": "♨️",
+    "wood": "#5C4A37",
+    "stampColor": "#8B4500",
+    "hasCustomImages": true,
+    "identity": "芦之湖畔的水中鸟居",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hakone.png",
+        "path": "/assets/images/loc_hakone.png",
+        "zh": "世界一角栏目：芦之湖畔的水中鸟居。清晨的芦之湖上升起一层薄薄的水雾。箱根神社红色的鸟居静静伫立在清澈的湖水之中。远处的富士山在晨曦中展露身姿，山顶积雪泛着粉红，宛如一幅流动的浮世绘。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 芦之湖畔的水中鸟居. 清晨的芦之湖上升起一层薄薄的水雾。箱根神社红色的鸟居静静伫立在清澈的湖水之中。远处的富士山在晨曦中展露身姿，山顶积雪泛着粉红，宛如一幅流动的浮世绘。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hakone_nature.png",
+        "path": "/assets/images/loc_hakone_nature.png",
+        "zh": "科学自然栏目：大涌谷的地热吐息。约三千年前的火山喷发，造就了如今箱根大涌谷的奇特景观。地底深处的泉水被岩浆加热，混合着硫磺气体喷涌而出。乳白色的蒸汽袅袅升起，展示着地球深处的律动。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 大涌谷的地热吐息. 约三千年前的火山喷发，造就了如今箱根大涌谷的奇特景观。地底深处的泉水被岩浆加热，混合着硫磺气体喷涌而出。乳白色的蒸汽袅袅升起，展示着地球深处的律动。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hakone_people.png",
+        "path": "/assets/images/loc_hakone_people.png",
+        "zh": "他人在场栏目：寄木细工手艺人的木片。阳光洒在木屑上，手艺人正把胡桃木、樱花木等不同颜色的木条拼粘成规则的几何图案。他用刨刀刨下一片片比纸还薄的彩色木皮，拼贴在木盒上，神情专注而安宁。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 寄木细工手艺人的木片. 阳光洒在木屑上，手艺人正把胡桃木、樱花木等不同颜色的木条拼粘成规则的几何图案。他用刨刀刨下一片片比纸还薄的彩色木皮，拼贴在木盒上，神情专注而安宁。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hakone_spark.png",
+        "path": "/assets/images/loc_hakone_spark.png",
+        "zh": "思想火花栏目：借地热温暖凡尘。冰冷的雨水渗入地下，经过岩浆的抚摸，最终以温暖的温泉重回地表。当你在生活中感到寒冷无力时，不妨相信，那些沉淀在心底的经历，也正在为你悄悄积攒着温度。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 借地热温暖凡尘. 冰冷的雨水渗入地下，经过岩浆的抚摸，最终以温暖的温泉重回地表。当你在生活中感到寒冷无力时，不妨相信，那些沉淀在心底的经历，也正在为你悄悄积攒着温度。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hakone_old.png",
+        "path": "/assets/images/loc_hakone_old.png",
+        "zh": "旧物新看栏目：寄木细工木纹的融合。寄木细工木工技艺，利用箱根山中丰富的树木资源，不使用任何颜料，全凭不同木材的天然色差拼出花纹。这门古老手艺，将自然界多样的木质完美融于一体。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 寄木细工木纹的融合. 寄木细工木工技艺，利用箱根山中丰富的树木资源，不使用任何颜料，全凭不同木材的天然色差拼出花纹。这门古老手艺，将自然界多样的木质完美融于一体。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "韩国 · 首尔": {
+    "countryCode": "kr",
+    "continent": "亚洲",
+    "emblem": "🛕",
+    "wood": "#34495E",
+    "stampColor": "#E74C3C",
+    "hasCustomImages": true,
+    "identity": "北村韩屋的金色晨曦",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_seoul.png",
+        "path": "/assets/images/loc_seoul.png",
+        "zh": "世界一角栏目：北村韩屋的金色晨曦。清晨，第一缕阳光洒在北村韩屋瓦片层叠的屋顶上。浅灰色的砖墙与远处的现代高楼交织在晨雾中。踩在有些年头的青石板路上，能听见风吹过院落中松针的细碎声响。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 北村韩屋的金色晨曦. 清晨，第一缕阳光洒在北村韩屋瓦片层叠的屋顶上。浅灰色的砖墙与远处的现代高楼交织在晨雾中。踩在有些年头的青石板路上，能听见风吹过院落中松针的细碎声响。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_seoul_nature.png",
+        "path": "/assets/images/loc_seoul_nature.png",
+        "zh": "科学自然栏目：北汉山的坚韧花岗岩。拱卫着首尔的北汉山，是一座由巨大花岗岩构成的天然屏障。岩石缝隙中，坚韧的迎客松顽强地扎根生长。每到秋季，满山枫叶将灰白的花岗岩山体点缀得如诗如画。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 北汉山的坚韧花岗岩. 拱卫着首尔的北汉山，是一座由巨大花岗岩构成的天然屏障。岩石缝隙中，坚韧的迎客松顽强地扎根生长。每到秋季，满山枫叶将灰白的花岗岩山体点缀得如诗如画。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_seoul_people.png",
+        "path": "/assets/images/loc_seoul_people.png",
+        "zh": "他人在场栏目：仁寺洞茶室的温茶阿姨。掩映在竹帘后的老茶室里，阿姨正用铜壶冲泡着五味子茶。红亮的水流倾注进白色瓷杯，升腾起酸甜的蒸汽。她细心地擦拭着老木桌，用轻柔的语调向常客道一声安好。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 仁寺洞茶室的温茶阿姨. 掩映在竹帘后的老茶室里，阿姨正用铜壶冲泡着五味子茶。红亮的水流倾注进白色瓷杯，升腾起酸甜的蒸汽。她细心地擦拭着老木桌，用轻柔的语调向常客道一声安好。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_seoul_spark.png",
+        "path": "/assets/images/loc_seoul_spark.png",
+        "zh": "思想火花栏目：瓦檐与霓虹的对话。站在韩屋的院子里抬起头，视线越过古朴的木屋顶，就能看见高耸的现代大楼。过去与未来在同一个空间里并存。在快速奔跑的世界里，为心保留一处古朴的角落吧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 瓦檐与霓虹的对话. 站在韩屋的院子里抬起头，视线越过古朴的木屋顶，就能看见高耸的现代大楼。过去与未来在同一个空间里并存。在快速奔跑的世界里，为心保留一处古朴的角落吧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_seoul_old.png",
+        "path": "/assets/images/loc_seoul_old.png",
+        "zh": "旧物新看栏目：韩纸隔扇的温润呼吸。传统韩屋的门窗通常糊有厚实的传统韩纸。这种用桑树皮制成的纸张，能调节室内湿度并过滤光线。古人借由这张纸，让屋子与四季的风一同温柔地呼吸。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 韩纸隔扇的温润呼吸. 传统韩屋的门窗通常糊有厚实的传统韩纸。这种用桑树皮制成的纸张，能调节室内湿度并过滤光线。古人借由这张纸，让屋子与四季的风一同温柔地呼吸。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "韩国 · 济州岛": {
+    "countryCode": "kr",
+    "continent": "亚洲",
+    "emblem": "🗿",
+    "wood": "#566573",
+    "stampColor": "#1E8449",
+    "hasCustomImages": true,
+    "identity": "城山日出峰下的浪花",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_jeju.png",
+        "path": "/assets/images/loc_jeju.png",
+        "zh": "世界一角栏目：城山日出峰下的浪花。晨光初照，巨大的火山遗迹城山日出峰傲然伫立在海边。金黄色的油菜花在黑色的火山石墙旁随风摇曳，清澈的海浪一次次拍打着黑沙滩，发出规律而治愈的沙沙声。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 城山日出峰下的浪花. 晨光初照，巨大的火山遗迹城山日出峰傲然伫立在海边。金黄色的油菜花在黑色的火山石墙旁随风摇曳，清澈的海浪一次次拍打着黑沙滩，发出规律而治愈的沙沙声。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_jeju_nature.png",
+        "path": "/assets/images/loc_jeju_nature.png",
+        "zh": "科学自然栏目：黑色的玄武岩地貌。济州岛是由火山活动形成的岛屿，岛上随处可见多孔的黑色玄武岩。这些岩石内部的微孔可以储存空气与水分，在夏日里为岛上的植物和微生物提供着温润的微生态环境。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 黑色的玄武岩地貌. 济州岛是由火山活动形成的岛屿，岛上随处可见多孔的黑色玄武岩。这些岩石内部的微孔可以储存空气与水分，在夏日里为岛上的植物和微生物提供着温润的微生态环境。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_jeju_people.png",
+        "path": "/assets/images/loc_jeju_people.png",
+        "zh": "他人在场栏目：准备下海的硬朗海女。晨雾退去的礁石上，年近古稀的海女阿嬷正仔细检查着潜水镜和浮力球。她只凭一口气，便能潜入冰冷的海水中采集海参。她向晚辈笑笑，眼中闪烁着如海浪般的坚毅。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 准备下海的硬朗海女. 晨雾退去的礁石上，年近古稀的海女阿嬷正仔细检查着潜水镜和浮力球。她只凭一口气，便能潜入冰冷的海水中采集海参。她向晚辈笑笑，眼中闪烁着如海浪般的坚毅。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_jeju_spark.png",
+        "path": "/assets/images/loc_jeju_spark.png",
+        "zh": "思想火花栏目：像海风一样穿过礁石。济州岛的玄武岩墙上布满了缝隙。大风吹过时，风会从这些细孔中穿过，因此石墙历经百年暴风雨也不会倒塌。在逆境中，试着给心灵留一点空隙，让坚硬的烦恼随风而去。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 像海风一样穿过礁石. 济州岛的玄武岩墙上布满了缝隙。大风吹过时，风会从这些细孔中穿过，因此石墙历经百年暴风雨也不会倒塌。在逆境中，试着给心灵留一点空隙，让坚硬的烦恼随风而去。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_jeju_old.png",
+        "path": "/assets/images/loc_jeju_old.png",
+        "zh": "旧物新看栏目：守护村落的石头爷爷。济州岛的村口静静伫立着用玄武岩雕刻的“石头爷爷”。它们有着圆圆的眼睛和温和的微笑。这一古老的石雕习俗，原本是为了划分村界并辟邪，如今已成为岛上温暖的象征。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 守护村落的石头爷爷. 济州岛的村口静静伫立着用玄武岩雕刻的“石头爷爷”。它们有着圆圆的眼睛和温和的微笑。这一古老的石雕习俗，原本是为了划分村界并辟邪，如今已成为岛上温暖的象征。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "韩国 · 庆州": {
+    "countryCode": "kr",
+    "continent": "亚洲",
+    "emblem": "🏺",
+    "wood": "#8B7355",
+    "stampColor": "#D35400",
+    "hasCustomImages": true,
+    "identity": "大陵苑的起伏绿浪",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_gyeongju.png",
+        "path": "/assets/images/loc_gyeongju.png",
+        "zh": "世界一角栏目：大陵苑的起伏绿浪。黄昏时分，大陵苑中巨大的新罗古墓草丘在紫色的晚霞下呈现出柔和的曲线。这些覆满绿草的圆丘如同大地长出的波浪，在落日余晖中散发着一种神圣而祥和的永恒感。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 大陵苑的起伏绿浪. 黄昏时分，大陵苑中巨大的新罗古墓草丘在紫色的晚霞下呈现出柔和的曲线。这些覆满绿草的圆丘如同大地长出的波浪，在落日余晖中散发着一种神圣而祥和的永恒感。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_gyeongju_nature.png",
+        "path": "/assets/images/loc_gyeongju_nature.png",
+        "zh": "科学自然栏目：普门湖畔的樱雪纷飞。庆州普门湖畔栽满了古老的樱花树。每到暮春，湖风吹拂，千万片粉白的花瓣如雪般落在平静的湖面上。这些落花化作水中的养分，滋养着湖里的游鱼与岸边的草木。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 普门湖畔的樱雪纷飞. 庆州普门湖畔栽满了古老的樱花树。每到暮春，湖风吹拂，千万片粉白的花瓣如雪般落在平静的湖面上。这些落花化作水中的养分，滋养着湖里的游鱼与岸边的草木。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_gyeongju_people.png",
+        "path": "/assets/images/loc_gyeongju_people.png",
+        "zh": "他人在场栏目：雕刻微型石塔的匠人。临街的小木屋里，匠人戴着老花镜，用刻刀在花岗岩上细细雕琢着新罗风格的七层小石塔。指尖的石粉在阳光下飘散，他每一次敲击都极轻极慢，仿佛在与沉睡的石头对话。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 雕刻微型石塔的匠人. 临街的小木屋里，匠人戴着老花镜，用刻刀在花岗岩上细细雕琢着新罗风格的七层小石塔。指尖的石粉在阳光下飘散，他每一次敲击都极轻极慢，仿佛在与沉睡的石头对话。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_gyeongju_spark.png",
+        "path": "/assets/images/loc_gyeongju_spark.png",
+        "zh": "思想火花栏目：把岁月还给泥土。庆州的古墓没有高耸的碑石，而是化作了一座座起伏的草丘，与自然融为一体。逝去的生命最终以绿草的形态重回大地的怀抱。当懂得生命的终点是融入自然，便不再抗拒逝去。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 把岁月还给泥土. 庆州的古墓没有高耸的碑石，而是化作了一座座起伏的草丘，与自然融为一体。逝去的生命最终以绿草的形态重回大地的怀抱。当懂得生命的终点是融入自然，便不再抗拒逝去。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_gyeongju_old.png",
+        "path": "/assets/images/loc_gyeongju_old.png",
+        "zh": "旧物新看栏目：瞻星台的数字密码。瞻星台是亚洲现存最古老的天文台。它由362块花岗岩堆砌而成，象征着一年的阴历天数。这座看似古朴的瓶状石塔，是古人对星空的深情凝望，用石头的重量记录着时光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 瞻星台的数字密码. 瞻星台是亚洲现存最古老的天文台。它由362块花岗岩堆砌而成，象征着一年的阴历天数。这座看似古朴的瓶状石塔，是古人对星空的深情凝望，用石头的重量记录着时光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "韩国 · 釜山": {
+    "countryCode": "kr",
+    "continent": "亚洲",
+    "emblem": "🌉",
+    "wood": "#2980B9",
+    "stampColor": "#1F618D",
+    "hasCustomImages": true,
+    "identity": "甘川文化村错落彩房",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_busan.png",
+        "path": "/assets/images/loc_busan.png",
+        "zh": "世界一角栏目：甘川文化村错落彩房。傍晚，海风吹拂着甘川文化村的彩色小屋。这些像积木一样层叠在山坡上的房子渐渐亮起暖黄的灯火，与山脚下深蓝色的海面交织在一起，宛如星河坠落在了人间。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 甘川文化村错落彩房. 傍晚，海风吹拂着甘川文化村的彩色小屋。这些像积木一样层叠在山坡上的房子渐渐亮起暖黄的灯火，与山脚下深蓝色的海面交织在一起，宛如星河坠落在了人间。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_busan_nature.png",
+        "path": "/assets/images/loc_busan_nature.png",
+        "zh": "科学自然栏目：太宗台的千层岩壁。位于釜山最南端的太宗台，拥有被海浪拍打千万年而形成的断崖峭壁。不同年代的沉积岩层层叠叠，展示着海陆变迁的刻痕。松树在崖顶迎风招展，展现着生命的坚韧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 太宗台的千层岩壁. 位于釜山最南端的太宗台，拥有被海浪拍打千万年而形成的断崖峭壁。不同年代的沉积岩层层叠叠，展示着海陆变迁的刻痕。松树在崖顶迎风招展，展现着生命的坚韧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_busan_people.png",
+        "path": "/assets/images/loc_busan_people.png",
+        "zh": "他人在场栏目：札嘎其鱼市的拾网人。喧嚣的札嘎其鱼市旁，年迈的船长在海风中整理着蓝色的渔网。他的双手布满老茧，却敏捷地打着结。咸湿的海味中，他抬头看着海鸥飞过，脸上泛起平静的笑意。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 札嘎其鱼市的拾网人. 喧嚣的札嘎其鱼市旁，年迈的船长在海风中整理着蓝色的渔网。他的双手布满老茧，却敏捷地打着结。咸湿的海味中，他抬头看着海鸥飞过，脸上泛起平静的笑意。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_busan_spark.png",
+        "path": "/assets/images/loc_busan_spark.png",
+        "zh": "思想火花栏目：在海天交界处眺望。站在海边，看着海水在远方与蓝天连成一线。海洋从不为自己设限，它接纳每一条河流，平息每一次风浪。让自己的心也变得像大海一样宽广吧，包容所有的喜怒哀乐。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 在海天交界处眺望. 站在海边，看着海水在远方与蓝天连成一线。海洋从不为自己设限，它接纳每一条河流，平息每一次风浪。让自己的心也变得像大海一样宽广吧，包容所有的喜怒哀乐。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_busan_old.png",
+        "path": "/assets/images/loc_busan_old.png",
+        "zh": "旧物新看栏目：釜山鱼饼的温暖记忆。釜山著名的传统鱼饼最早源于渔民为了保存吃不完的杂鱼，将其剁碎油炸。这道平民美食如今已成为冬日街头最温暖的慰藉，用热汤温暖着无数行人的双手。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 釜山鱼饼的温暖记忆. 釜山著名的传统鱼饼最早源于渔民为了保存吃不完的杂鱼，将其剁碎油炸。这道平民美食如今已成为冬日街头最温暖的慰藉，用热汤温暖着无数行人的双手。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "泰国 · 曼谷": {
+    "countryCode": "th",
+    "continent": "亚洲",
+    "emblem": "🛕",
+    "wood": "#D4AC0D",
+    "stampColor": "#B7950B",
+    "hasCustomImages": true,
+    "identity": "湄南河畔的黎明寺",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_bangkok.png",
+        "path": "/assets/images/loc_bangkok.png",
+        "zh": "世界一角栏目：湄南河畔的黎明寺。傍晚的湄南河水平静流淌，夕阳将黎明寺高耸的尖塔染成一抹华丽的深金色。白色的瓷片与贝壳在落日下折射出温柔的光芒，伴着河水温柔的拍岸声，城市渐渐入眠。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 湄南河畔的黎明寺. 傍晚的湄南河水平静流淌，夕阳将黎明寺高耸的尖塔染成一抹华丽的深金色。白色的瓷片与贝壳在落日下折射出温柔的光芒，伴着河水温柔的拍岸声，城市渐渐入眠。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_bangkok_nature.png",
+        "path": "/assets/images/loc_bangkok_nature.png",
+        "zh": "科学自然栏目：附生树干的热带兰。曼谷潮湿温暖 of 季风气候，为附生植物提供了绝佳的家园。运河两岸的古老凤凰木上，常能见到野生石斛兰在树干上扎根。它们不需要泥土，仅凭空气中的水雾便能盛开。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 附生树干的热带兰. 曼谷潮湿温暖 of 季风气候，为附生植物提供了绝佳的家园。运河两岸的古老凤凰木上，常能见到野生石斛兰在树干上扎根。它们不需要泥土，仅凭空气中的水雾便能盛开。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_bangkok_people.png",
+        "path": "/assets/images/loc_bangkok_people.png",
+        "zh": "他人在场栏目：敲击僧钵的古街匠人。寂静的古老社区里，传出规律的手工敲击声。匠人正用铁锤塑造着僧侣化缘用的铜钵。每一次敲击都专注而平稳，将浮躁的空气也锤炼得像铜器表面一样，沉静而透亮。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 敲击僧钵的古街匠人. 寂静的古老社区里，传出规律的手工敲击声。匠人正用铁锤塑造着僧侣化缘用的铜钵。每一次敲击都专注而平稳，将浮躁的空气也锤炼得像铜器表面一样，沉静而透亮。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_bangkok_spark.png",
+        "path": "/assets/images/loc_bangkok_spark.png",
+        "zh": "思想火花栏目：随流水寻找方向。湄南河里漂浮着一团团绿色的水葫芦，它们随着潮汐静静漂流。生活有时也需要一点顺水推舟的智慧，不必总是逆流而上。随遇而安，或许能带你发现不一样的风景。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 随流水寻找方向. 湄南河里漂浮着一团团绿色的水葫芦，它们随着潮汐静静漂流。生活有时也需要一点顺水推舟的智慧，不必总是逆流而上。随遇而安，或许能带你发现不一样的风景。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_bangkok_old.png",
+        "path": "/assets/images/loc_bangkok_old.png",
+        "zh": "旧物新看栏目：街角神龛的繁花祈愿。曼谷街头随处可见精美的小神龛，每日都有新鲜的万寿菊与茉莉花串供奉其上。这种将古老信仰融于日常的习俗，表达了普通人对生活的敬畏，让繁忙的街道多了一份温情。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 街角神龛的繁花祈愿. 曼谷街头随处可见精美的小神龛，每日都有新鲜的万寿菊与茉莉花串供奉其上。这种将古老信仰融于日常的习俗，表达了普通人对生活的敬畏，让繁忙的街道多了一份温情。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "泰国 · 清迈": {
+    "countryCode": "th",
+    "continent": "亚洲",
+    "emblem": "🐘",
+    "wood": "#7D6608",
+    "stampColor": "#CA6F1E",
+    "hasCustomImages": true,
+    "identity": "塔佩门的晨光布施",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_chiangmai.png",
+        "path": "/assets/images/loc_chiangmai.png",
+        "zh": "世界一角栏目：塔佩门的晨光布施。清晨的清迈红砖古城墙下，晨雾尚未散尽。身着橙色僧袍的僧侣们赤脚走过松软的草地，安静地接受信众的食物布施。没有喧哗，只有鸟鸣与落叶的细碎声，温润而虔诚。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 塔佩门的晨光布施. 清晨的清迈红砖古城墙下，晨雾尚未散尽。身着橙色僧袍的僧侣们赤脚走过松软的草地，安静地接受信众的食物布施。没有喧哗，只有鸟鸣与落叶的细碎声，温润而虔诚。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_chiangmai_nature.png",
+        "path": "/assets/images/loc_chiangmai_nature.png",
+        "zh": "科学自然栏目：双龙山的云雾雨林。环抱清迈的双龙山常年被云雾缭绕。这里的常绿季雨林中生长着巨大的树蕨与厚厚的苔藓。湿润的山风穿过竹林，带来了泥土的清香和野生睡莲在清晨悄悄绽放的气息。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 双龙山的云雾雨林. 环抱清迈的双龙山常年被云雾缭绕。这里的常绿季雨林中生长着巨大的树蕨与厚厚的苔藓。湿润的山风穿过竹林，带来了泥土的清香和野生睡莲在清晨悄悄绽放的气息。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_chiangmai_people.png",
+        "path": "/assets/images/loc_chiangmai_people.png",
+        "zh": "他人在场栏目：手绘花卉的油纸伞工。博桑村的工坊里，姑娘正手持细笔，在竹制油纸伞上描绘彩色的木槿花。颜料在粗糙的桑皮纸上慢慢晕开，她的眼神专注而温柔，仿佛将整个北国的春天都画进了伞里。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 手绘花卉的油纸伞工. 博桑村的工坊里，姑娘正手持细笔，在竹制油纸伞上描绘彩色的木槿花。颜料在粗糙的桑皮纸上慢慢晕开，她的眼神专注而温柔，仿佛将整个北国的春天都画进了伞里。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_chiangmai_spark.png",
+        "path": "/assets/images/loc_chiangmai_spark.png",
+        "zh": "思想火花栏目：在慢时光中看细微。清迈的节奏是松弛的。当你把脚步放慢，才会注意到砖缝里长出的小草，和落在木桌上的阳光。生命的美好往往不在于终点的辉煌，而在于这些被我们忽略的日常瞬间。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 在慢时光中看细微. 清迈的节奏是松弛的。当你把脚步放慢，才会注意到砖缝里长出的小草，和落在木桌上的阳光。生命的美好往往不在于终点的辉煌，而在于这些被我们忽略的日常瞬间。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_chiangmai_old.png",
+        "path": "/assets/images/loc_chiangmai_old.png",
+        "zh": "旧物新看栏目：兰纳木寺的自然融合。传统兰纳风格的寺庙拥有高耸的陡峭屋顶和低矮的飞檐，几乎要贴近地面。这种设计不仅能遮蔽热带的暴雨，也表达了古人将建筑融入自然、向大地低头致敬的谦逊哲学。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 兰纳木寺的自然融合. 传统兰纳风格的寺庙拥有高耸的陡峭屋顶和低矮的飞檐，几乎要贴近地面。这种设计不仅能遮蔽热带的暴雨，也表达了古人将建筑融入自然、向大地低头致敬的谦逊哲学。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "泰国 · 普吉岛": {
+    "countryCode": "th",
+    "continent": "亚洲",
+    "emblem": "🌴",
+    "wood": "#117A65",
+    "stampColor": "#148F77",
+    "hasCustomImages": true,
+    "identity": "神仙半岛的金色晚霞",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_phuket.png",
+        "path": "/assets/images/loc_phuket.png",
+        "zh": "世界一角栏目：神仙半岛的金色晚霞。傍晚，站在神仙半岛的悬崖上，看着夕阳渐渐没入安达曼海。余晖将海面铺上一层细碎的碎金，高大的糖棕树在粉紫色的晚霞中留下剪影，海风带来了远方海水的温热。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 神仙半岛的金色晚霞. 傍晚，站在神仙半岛的悬崖上，看着夕阳渐渐没入安达曼海。余晖将海面铺上一层细碎的碎金，高大的糖棕树在粉紫色的晚霞中留下剪影，海风带来了远方海水的温热。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_phuket_nature.png",
+        "path": "/assets/images/loc_phuket_nature.png",
+        "zh": "科学自然栏目：守护海岸的红树林。普吉岛潮间带分布着繁茂的红树林。这些神奇的植物演化出盘根错节的呼吸根，不仅能过滤海盐，还能在潮起潮落间牢牢锁住泥沙，成为幼小鱼虾最安全的避风港湾。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 守护海岸的红树林. 普吉岛潮间带分布着繁茂的红树林。这些神奇的植物演化出盘根错节的呼吸根，不仅能过滤海盐，还能在潮起潮落间牢牢锁住泥沙，成为幼小鱼虾最安全的避风港湾。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_phuket_people.png",
+        "path": "/assets/images/loc_phuket_people.png",
+        "zh": "他人在场栏目：系扎彩带的木船水手。沙滩上，老水手正在给停泊的长尾船系上新的红绿彩带。这是泰南渔民的传统，用以祈求掌管水域的神明保佑平安。他轻抚着木制船头，嘴里念念有词，眼神真挚而平和。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 系扎彩带的木船水手. 沙滩上，老水手正在给停泊的长尾船系上新的红绿彩带。这是泰南渔民的传统，用以祈求掌管水域的神明保佑平安。他轻抚着木制船头，嘴里念念有词，眼神真挚而平和。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_phuket_spark.png",
+        "path": "/assets/images/loc_phuket_spark.png",
+        "zh": "思想火花栏目：随潮汐吐纳的情绪。看着海潮退去，露出湿润的沙滩与彩色的贝壳；不久之后，潮水又会重新盈满海岸。心里的情绪也是如此。允许自己有低谷，因为每一次退潮，都是为了下一次蓄力前行。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 随潮汐吐纳的情绪. 看着海潮退去，露出湿润的沙滩与彩色的贝壳；不久之后，潮水又会重新盈满海岸。心里的情绪也是如此。允许自己有低谷，因为每一次退潮，都是为了下一次蓄力前行。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_phuket_old.png",
+        "path": "/assets/images/loc_phuket_old.png",
+        "zh": "旧物新看栏目：中葡老街的骑楼回廊。普吉老镇保留着独特的锡兰中葡风格骑楼。宽敞的回廊既能为行人遮阳避雨，又连接着街坊邻里的温情。这一融合了中西方智慧的古老建筑，用斑驳的墙面诉说着昔日的宽容。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 中葡老街的骑楼回廊. 普吉老镇保留着独特的锡兰中葡风格骑楼。宽敞的回廊既能为行人遮阳避雨，又连接着街坊邻里的温情。这一融合了中西方智慧的古老建筑，用斑驳的墙面诉说着昔日的宽容。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "越南 · 河内": {
+    "countryCode": "vn",
+    "continent": "亚洲",
+    "emblem": "🏮",
+    "wood": "#A04000",
+    "stampColor": "#D35400",
+    "hasCustomImages": true,
+    "identity": "晨雾笼罩的还剑湖",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hanoi.png",
+        "path": "/assets/images/loc_hanoi.png",
+        "zh": "世界一角栏目：晨雾笼罩的还剑湖。清晨的还剑湖水平静如镜，古老的龟塔隐没在淡淡的晨雾里。湖畔的百年柳树垂下柔软的枝条，几位老人在树下安静地打着太极，时间仿佛在这片绿意中放慢了脚步。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨雾笼罩的还剑湖. 清晨的还剑湖水平静如镜，古老的龟塔隐没在淡淡的晨雾里。湖畔的百年柳树垂下柔软的枝条，几位老人在树下安静地打着太极，时间仿佛在这片绿意中放慢了脚步。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hanoi_nature.png",
+        "path": "/assets/images/loc_hanoi_nature.png",
+        "zh": "科学自然栏目：攀附古墙的巨大榕树。河内湿润的热带季风气候滋养了巨大的无花果树与榕树。它们粗壮的气生根如巨大的手掌，牢牢抓着古老的黄色法式建筑老墙，形成了植物与人造物共生相融的独特奇观。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 攀附古墙的巨大榕树. 河内湿润的热带季风气候滋养了巨大的无花果树与榕树。它们粗壮的气生根如巨大的手掌，牢牢抓着古老的黄色法式建筑老墙，形成了植物与人造物共生相融的独特奇观。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hanoi_people.png",
+        "path": "/assets/images/loc_hanoi_people.png",
+        "zh": "他人在场栏目：晨光中整理荷花的妈。湖边小巷里，阿妈正在自行车后座的竹筐里整理刚采摘的粉红荷花。她用宽大的绿荷叶小心包裹着花蕾，动作轻柔得像是在抚摸沉睡的婴儿，空气中弥漫着清雅的荷香。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 晨光中整理荷花的妈. 湖边小巷里，阿妈正在自行车后座的竹筐里整理刚采摘的粉红荷花。她用宽大的绿荷叶小心包裹着花蕾，动作轻柔得像是在抚摸沉睡的婴儿，空气中弥漫着清雅的荷香。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hanoi_spark.png",
+        "path": "/assets/images/loc_hanoi_spark.png",
+        "zh": "思想火花栏目：闹市中心的安静湖水。还剑湖四周是川流不息的摩托车洪流，然而只要走到湖边，喧嚣便被水面化解。我们的内心也需要这样一片湖水，任凭外界如何纷扰嘈杂，深处依然能保持平静与清澈。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 闹市中心的安静湖水. 还剑湖四周是川流不息的摩托车洪流，然而只要走到湖边，喧嚣便被水面化解。我们的内心也需要这样一片湖水，任凭外界如何纷扰嘈杂，深处依然能保持平静与清澈。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hanoi_old.png",
+        "path": "/assets/images/loc_hanoi_old.png",
+        "zh": "旧物新看栏目：稻田里的水上木偶戏。越南传统的水上木偶戏起源于红河三角洲的农闲时期。古人将泛滥的稻田当作舞台，操控木偶表达对丰收的喜悦。这种与水共生的民间艺术，至今仍保留着泥土的温香。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 稻田里的水上木偶戏. 越南传统的水上木偶戏起源于红河三角洲的农闲时期。古人将泛滥的稻田当作舞台，操控木偶表达对丰收的喜悦。这种与水共生的民间艺术，至今仍保留着泥土的温香。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "越南 · 会安": {
+    "countryCode": "vn",
+    "continent": "亚洲",
+    "emblem": "🏮",
+    "wood": "#B7950B",
+    "stampColor": "#D4AC0D",
+    "hasCustomImages": true,
+    "identity": "秋盆河畔的提灯之夜",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_hoian.png",
+        "path": "/assets/images/loc_hoian.png",
+        "zh": "世界一角栏目：秋盆河畔的提灯之夜。入夜，会安古城熄灭了现代电灯。成千上万盏色彩斑斓的丝绸灯笼将古街照得如梦似幻。人们将许愿的小纸船灯送入秋盆河中，点点烛光在微波中摇曳，铺展出温柔的星河。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 秋盆河畔的提灯之夜. 入夜，会安古城熄灭了现代电灯。成千上万盏色彩斑斓的丝绸灯笼将古街照得如梦似幻。人们将许愿的小纸船灯送入秋盆河中，点点烛光在微波中摇曳，铺展出温柔的星河。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_hoian_nature.png",
+        "path": "/assets/images/loc_hoian_nature.png",
+        "zh": "科学自然栏目：潮汐交汇的水椰林。坐落在秋盆河出海口的会安，拥有一片茂密的水椰林。这些独特的半水生植物根植于咸淡水交界的泥滩中，叶片宽大如桨，不仅稳固了海岸，还孕育了丰富的小型蟹类。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 潮汐交汇的水椰林. 坐落在秋盆河出海口的会安，拥有一片茂密的水椰林。这些独特的半水生植物根植于咸淡水交界的泥滩中，叶片宽大如桨，不仅稳固了海岸，还孕育了丰富的小型蟹类。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_hoian_people.png",
+        "path": "/assets/images/loc_hoian_people.png",
+        "zh": "他人在场栏目：制作竹胎丝灯的工匠。临河的木屋里，工匠正在将五彩的真丝绸缎绷在削好的竹片胎骨上。他用胶水细细抹平边缘的褶皱，手法熟练而温柔。一盏灯笼在他的手中成型，等待点亮某人的归途。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 制作竹胎丝灯的工匠. 临河的木屋里，工匠正在将五彩的真丝绸缎绷在削好的竹片胎骨上。他用胶水细细抹平边缘的褶皱，手法熟练而温柔。一盏灯笼在他的手中成型，等待点亮某人的归途。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_hoian_spark.png",
+        "path": "/assets/images/loc_hoian_spark.png",
+        "zh": "思想火花栏目：柔光之下的夜色。会安的夜不用强光照亮，而是交给了丝绸灯笼的柔光。这种光芒不刺眼，却能让人的神情变得温柔。生活有时也不必追求过于直白的坦露，朦胧的善意更能让人感到心安。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 柔光之下的夜色. 会安的夜不用强光照亮，而是交给了丝绸灯笼的柔光。这种光芒不刺眼，却能让人的神情变得温柔。生活有时也不必追求过于直白的坦露，朦胧的善意更能让人感到心安。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_hoian_old.png",
+        "path": "/assets/images/loc_hoian_old.png",
+        "zh": "旧物新看栏目：桥寺合一的日本桥。横跨小溪的日本桥建于十七世纪。这座带有屋顶的木桥不仅供行人避雨，其内部还设有一座小小的神庙以平息传说中的地动之龙。它以独特的桥寺结构，默默守护着两岸。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 桥寺合一的日本桥. 横跨小溪的日本桥建于十七世纪。这座带有屋顶的木桥不仅供行人避雨，其内部还设有一座小小的神庙以平息传说中的地动之龙。它以独特的桥寺结构，默默守护着两岸。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "越南 · 下龙湾": {
+    "countryCode": "vn",
+    "continent": "亚洲",
+    "emblem": "⛵",
+    "wood": "#16A085",
+    "stampColor": "#117A65",
+    "hasCustomImages": true,
+    "identity": "晨雾缭绕奇峰绿水",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_halong.png",
+        "path": "/assets/images/loc_halong.png",
+        "zh": "世界一角栏目：晨雾缭绕奇峰绿水。清晨的下龙湾被一层淡淡的乳白色晨雾笼罩。千万座形态各异的石灰岩岛屿若隐若现地浮在翠绿的海面上，一艘红帆木船静静驶过平静的水面，宛如游走在水墨画卷中。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨雾缭绕奇峰绿水. 清晨的下龙湾被一层淡淡的乳白色晨雾笼罩。千万座形态各异的石灰岩岛屿若隐若现地浮在翠绿的海面上，一艘红帆木船静静驶过平静的水面，宛如游走在水墨画卷中。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_halong_nature.png",
+        "path": "/assets/images/loc_halong_nature.png",
+        "zh": "科学自然栏目：沉没海中的喀斯特。下龙湾是地球历经数亿年地质运动形成的喀斯特地貌。原本耸立在陆地上的石灰岩山峰，随着地壳下沉和海水上升，最终演变成千百座海中翠岛，展示着大自然的鬼斧神工。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 沉没海中的喀斯特. 下龙湾是地球历经数亿年地质运动形成的喀斯特地貌。原本耸立在陆地上的石灰岩山峰，随着地壳下沉和海水上升，最终演变成千百座海中翠岛，展示着大自然的鬼斧神工。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_halong_people.png",
+        "path": "/assets/images/loc_halong_people.png",
+        "zh": "他人在场栏目：浮村网箱的喂鱼渔民。漂浮在海面上的木屋旁，渔民正从网箱里舀出饵料喂食石斑鱼。清澈见底的海水里，鱼儿抢食溅起碎金般的水花。他用草帽扇着风，看着在波浪中摇晃的家，神情安详。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 浮村网箱的喂鱼渔民. 漂浮在海面上的木屋旁，渔民正从网箱里舀出饵料喂食石斑鱼。清澈见底的海水里，鱼儿抢食溅起碎金般的水花。他用草帽扇着风，看着在波浪中摇晃的家，神情安详。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_halong_spark.png",
+        "path": "/assets/images/loc_halong_spark.png",
+        "zh": "思想火花栏目：水滴穿石静水流深。坚硬的石灰岩巨石，在千万年雨水与海浪的冲刷下，最终被雕刻出空心的溶洞与奇特的姿态。柔软的力量同样可以穿透坚硬的障碍。在困境中，请保持温柔而持久的坚持。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 水滴穿石静水流深. 坚硬的石灰岩巨石，在千万年雨水与海浪的冲刷下，最终被雕刻出空心的溶洞与奇特的姿态。柔软的力量同样可以穿透坚硬的障碍。在困境中，请保持温柔而持久的坚持。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_halong_old.png",
+        "path": "/assets/images/loc_halong_old.png",
+        "zh": "旧物新看栏目：神龙吐珠的群岛传说。传说古时有神龙在此降临，口中吐出无数翡翠珠宝化作千座岛屿，用以阻挡外敌的入侵。这一美丽的古老传说，表达了当地百姓对这片奇特自然山水最深沉的崇敬与热爱。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 神龙吐珠的群岛传说. 传说古时有神龙在此降临，口中吐出无数翡翠珠宝化作千座岛屿，用以阻挡外敌的入侵。这一美丽的古老传说，表达了当地百姓对这片奇特自然山水最深沉的崇敬与热爱。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "新加坡": {
+    "countryCode": "sg",
+    "continent": "亚洲",
+    "emblem": "🦁",
+    "wood": "#2C3E50",
+    "stampColor": "#E74C3C",
+    "hasCustomImages": true,
+    "identity": "滨海湾的超级树暮色",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_singapore.png",
+        "path": "/assets/images/loc_singapore.png",
+        "zh": "世界一角栏目：滨海湾的超级树暮色。傍晚，滨海湾 of 巨型超级树在粉紫色晚霞中渐渐亮起蓝色与紫色的灯光。垂直花园藤蔓随风轻摆，与远处的摩天轮交相辉映，仿佛是一处属于未来的奇幻热带雨林。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 滨海湾的超级树暮色. 傍晚，滨海湾 of 巨型超级树在粉紫色晚霞中渐渐亮起蓝色与紫色的灯光。垂直花园藤蔓随风轻摆，与远处的摩天轮交相辉映，仿佛是一处属于未来的奇幻热带雨林。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_singapore_nature.png",
+        "path": "/assets/images/loc_singapore_nature.png",
+        "zh": "科学自然栏目：钢筋骨架垂直生态。滨海湾的超级树并非只是艺术品，它们是活的生态系统。巨大的钢架上附生着来自世界各地的数万株凤梨、蕨类与兰花，收集雨水并利用太阳能发电，展现着科技与自然的融合。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 钢筋骨架垂直生态. 滨海湾的超级树并非只是艺术品，它们是活的生态系统。巨大的钢架上附生着来自世界各地的数万株凤梨、蕨类与兰花，收集雨水并利用太阳能发电，展现着科技与自然的融合。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_singapore_people.png",
+        "path": "/assets/images/loc_singapore_people.png",
+        "zh": "他人在场栏目：云雾林里照料兰花师。在巨大的玻璃冷室里，人工瀑布洒下漫天水雾。园艺师正站在脚手架上，用软刷轻轻清理一株珍稀石斛兰叶片上的微尘。他的身边烟雾缭绕，眼神像照看孩子般温柔专注。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 云雾林里照料兰花师. 在巨大的玻璃冷室里，人工瀑布洒下漫天水雾。园艺师正站在脚手架上，用软刷轻轻清理一株珍稀石斛兰叶片上的微尘。他的身边烟雾缭绕，眼神像照看孩子般温柔专注。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_singapore_spark.png",
+        "path": "/assets/images/loc_singapore_spark.png",
+        "zh": "思想火花栏目：在水泥缝隙中开花。在这座由钢筋水泥构成的超级大都市里，绿色藤蔓顺着高楼的外墙肆意攀爬。生命总能找到属于自己的缝隙去生长。无论生活环境多么坚硬，都不要放弃寻找阳光和绽放的机会。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 在水泥缝隙中开花. 在这座由钢筋水泥构成的超级大都市里，绿色藤蔓顺着高楼的外墙肆意攀爬。生命总能找到属于自己的缝隙去生长。无论生活环境多么坚硬，都不要放弃寻找阳光和绽放的机会。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_singapore_old.png",
+        "path": "/assets/images/loc_singapore_old.png",
+        "zh": "旧物新看栏目：鱼尾狮的昔日渔歌。伫立在海口的鱼尾狮雕像，其鱼身代表着新加坡昔日作为一个小渔村的起点，狮头则象征着传说中的“狮子城”。这一现代徽记，用它喷涌的水流，诉说着对海洋的质朴感恩。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 鱼尾狮的昔日渔歌. 伫立在海口的鱼尾狮雕像，其鱼身代表着新加坡昔日作为一个小渔村的起点，狮头则象征着传说中的“狮子城”。这一现代徽记，用它喷涌的水流，诉说着对海洋的质朴感恩。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "马来西亚 · 吉隆坡": {
+    "countryCode": "my",
+    "continent": "亚洲",
+    "emblem": "🗼",
+    "wood": "#34495E",
+    "stampColor": "#5D6D7E",
+    "hasCustomImages": true,
+    "identity": "双子塔下的蓝调时刻",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_kualalumpur.png",
+        "path": "/assets/images/loc_kualalumpur.png",
+        "zh": "世界一角栏目：双子塔下的蓝调时刻。黄昏时分，吉隆坡的钢筋水泥丛林被染上深沉的蓝调。双子塔亮起璀璨的银白色冷光，直插云霄。而在它脚下，热带椰子树的叶片在温热的夜风中低语，碰撞出温柔的沙沙声。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 双子塔下的蓝调时刻. 黄昏时分，吉隆坡的钢筋水泥丛林被染上深沉的蓝调。双子塔亮起璀璨的银白色冷光，直插云霄。而在它脚下，热带椰子树的叶片在温热的夜风中低语，碰撞出温柔的沙沙声。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_kualalumpur_nature.png",
+        "path": "/assets/images/loc_kualalumpur_nature.png",
+        "zh": "科学自然栏目：城市心脏的古老雨林。坐落在市中心的吉隆坡森林生态公园，是一片被摩天大楼环抱的原始热带雨林。巨大的龙脑香树高耸入云，野生银叶猴在树冠间轻盈跳跃，保留着亿万年前大地的绿色呼吸。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 城市心脏的古老雨林. 坐落在市中心的吉隆坡森林生态公园，是一片被摩天大楼环抱的原始热带雨林。巨大的龙脑香树高耸入云，野生银叶猴在树冠间轻盈跳跃，保留着亿万年前大地的绿色呼吸。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_kualalumpur_people.png",
+        "path": "/assets/images/loc_kualalumpur_people.png",
+        "zh": "他人在场栏目：描绘蜡染布的老艺人。充满樟脑味的工坊里，老艺人手持装满热蜡的铜漏斗，在白色棉布上勾勒出灵动的兰花线条。蜡液迅速凝固，锁住了花朵的轮廓。他动作沉稳，在沉寂中编织着斑斓的梦境。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 描绘蜡染布的老艺人. 充满樟脑味的工坊里，老艺人手持装满热蜡的铜漏斗，在白色棉布上勾勒出灵动的兰花线条。蜡液迅速凝固，锁住了花朵的轮廓。他动作沉稳，在沉寂中编织着斑斓的梦境。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_kualalumpur_spark.png",
+        "path": "/assets/images/loc_kualalumpur_spark.png",
+        "zh": "思想火花栏目：俯视世间的万家灯火。从高处俯瞰这座繁忙的都市，千万道车灯汇聚成流动的金线。每一盏亮起的窗户后，都藏着一个独特的人生故事。在这个宏大的世间，我们都是微光，却都在用力温暖着某人。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 俯视世间的万家灯火. 从高处俯瞰这座繁忙的都市，千万道车灯汇聚成流动的金线。每一盏亮起的窗户后，都藏着一个独特的人生故事。在这个宏大的世间，我们都是微光，却都在用力温暖着某人。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_kualalumpur_old.png",
+        "path": "/assets/images/loc_kualalumpur_old.png",
+        "zh": "旧物新看栏目：铜顶建筑的多元交融。苏丹阿都沙末大厦闪耀着古铜色的圆顶，它巧妙融合了摩尔式、莫卧儿式与哥特式风格。这座见证了吉隆坡起步的历史地标，用它多元的线条诉说着包容与和合共生的智慧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 铜顶建筑的多元交融. 苏丹阿都沙末大厦闪耀着古铜色的圆顶，它巧妙融合了摩尔式、莫卧儿式与哥特式风格。这座见证了吉隆坡起步的历史地标，用它多元的线条诉说着包容与和合共生的智慧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "马来西亚 · 槟城": {
+    "countryCode": "my",
+    "continent": "亚洲",
+    "emblem": "🥡",
+    "wood": "#873600",
+    "stampColor": "#BA4A00",
+    "hasCustomImages": true,
+    "identity": "姓氏桥的落日余晖",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_penang.png",
+        "path": "/assets/images/loc_penang.png",
+        "zh": "世界一角栏目：姓氏桥的落日余晖。傍晚的槟城姓氏桥，木板路在海浪声中吱呀作响。落日把海水染成温暖的橘红色，远处的渔船缓缓归航，炊烟从木屋顶袅袅升起，带走了一整天的喧嚣与疲惫。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 姓氏桥的落日余晖. 傍晚的槟城姓氏桥，木板路在海浪声中吱呀作响。落日把海水染成温暖的橘红色，远处的渔船缓缓归航，炊烟从木屋顶袅袅升起，带走了一整天的喧嚣与疲惫。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_penang_nature.png",
+        "path": "/assets/images/loc_penang_nature.png",
+        "zh": "科学自然栏目：升旗山的雨林晨雾。槟城升旗山在晨光中苏醒，湿润的空气里弥漫着泥土的清香。这里生长着奇特的野生猪笼草，它们在湿热的微气候中静静蓄水，折射着叶尖滑落的露珠，展现着自然的精巧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 升旗山的雨林晨雾. 槟城升旗山在晨光中苏醒，湿润的空气里弥漫着泥土的清香。这里生长着奇特的野生猪笼草，它们在湿热的微气候中静静蓄水，折射着叶尖滑落的露珠，展现着自然的精巧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_penang_people.png",
+        "path": "/assets/images/loc_penang_people.png",
+        "zh": "他人在场栏目：街角飘香的娘惹糕。在乔治城的一隅，老阿嬷正用斑兰叶和小椰丝制作传统的娘惹糕。她熟练地将糯米浆倒入蒸笼，蒸气升腾间，椰香与斑兰的清甜在小巷弥漫，温暖了早起路人的胃。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 街角飘香的娘惹糕. 在乔治城的一隅，老阿嬷正用斑兰叶和小椰丝制作传统的娘惹糕。她熟练地将糯米浆倒入蒸笼，蒸气升腾间，椰香与斑兰的清甜在小巷弥漫，温暖了早起路人的胃。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_penang_spark.png",
+        "path": "/assets/images/loc_penang_spark.png",
+        "zh": "思想火花栏目：墙壁上的时光慢递。斑驳的古墙上，骑自行车的少年壁画已有些剥落。岁月在砖石上刻下痕迹，却也让一切变得柔和。我们都在与时间同行，或许不必走得太快，慢慢走，才能看清路边的风景。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 墙壁上的时光慢递. 斑驳的古墙上，骑自行车的少年壁画已有些剥落。岁月在砖石上刻下痕迹，却也让一切变得柔和。我们都在与时间同行，或许不必走得太快，慢慢走，才能看清路边的风景。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_penang_old.png",
+        "path": "/assets/images/loc_penang_old.png",
+        "zh": "旧物新看栏目：极乐寺的百年灯火。依山而建的极乐寺，在每年的岁末年初都会亮起万盏明灯。这不仅是祈福的传统，更是漂泊游子归乡的指路明灯。万千灯火交织成一片温暖的光海，照亮了古老而宁静的夜。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 极乐寺的百年灯火. 依山而建的极乐寺，在每年的岁末年初都会亮起万盏明灯。这不仅是祈福的传统，更是漂泊游子归乡的指路明灯。万千灯火交织成一片温暖的光海，照亮了古老而宁静的夜。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "印度尼西亚 · 巴厘岛": {
+    "countryCode": "id",
+    "continent": "亚洲",
+    "emblem": "🏖️",
+    "wood": "#1E8449",
+    "stampColor": "#229954",
+    "hasCustomImages": true,
+    "identity": "晨光亲吻的绿色梯田",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_bali.png",
+        "path": "/assets/images/loc_bali.png",
+        "zh": "世界一角栏目：晨光亲吻的绿色梯田。清晨的德格拉朗梯田被薄雾笼罩，椰子树在微风中轻轻摇曳。当第一缕阳光穿透树梢，洒在层层叠叠的嫩绿稻田上，每一颗露珠都闪烁着光芒，仿佛大地在静静呼吸。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 晨光亲吻的绿色梯田. 清晨的德格拉朗梯田被薄雾笼罩，椰子树在微风中轻轻摇曳。当第一缕阳光穿透树梢，洒在层层叠叠的嫩绿稻田上，每一颗露珠都闪烁着光芒，仿佛大地在静静呼吸。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_bali_nature.png",
+        "path": "/assets/images/loc_bali_nature.png",
+        "zh": "科学自然栏目：火山孕育的鸡蛋花。阿贡火山的肥沃土壤，滋养了岛上繁茂的生命。随处可见的鸡蛋花在湿润的热带微风中绽放，白瓣黄心，散发着淡淡的清香，它们随风飘落，归于大地，完成静默的生命循环。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 火山孕育的鸡蛋花. 阿贡火山的肥沃土壤，滋养了岛上繁茂的生命。随处可见的鸡蛋花在湿润的热带微风中绽放，白瓣黄心，散发着淡淡的清香，它们随风飘落，归于大地，完成静默的生命循环。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_bali_people.png",
+        "path": "/assets/images/loc_bali_people.png",
+        "zh": "他人在场栏目：编织清晨的虔诚心意。坐在家庙门前，巴厘岛的妇女用椰子叶熟练地编织着祭祀用的花盒。她将新鲜的鸡蛋花、金盏花与几滴圣水放入其中，神情专注而宁静，用双手开启了小岛充满敬意的一天。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 编织清晨的虔诚心意. 坐在家庙门前，巴厘岛的妇女用椰子叶熟练地编织着祭祀用的花盒。她将新鲜的鸡蛋花、金盏花与几滴圣水放入其中，神情专注而宁静，用双手开启了小岛充满敬意的一天。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_bali_spark.png",
+        "path": "/assets/images/loc_bali_spark.png",
+        "zh": "思想火花栏目：随潮水退去的繁杂。乌鲁瓦图的悬崖下，海浪一次次拍打着沙滩，又悄然退去。潮水带走了沙滩上的脚印，也带走了内心的浮躁。我们的心如这沙滩，适时地清空，才能容纳下一次温柔的潮起。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 随潮水退去的繁杂. 乌鲁瓦图的悬崖下，海浪一次次拍打着沙滩，又悄然退去。潮水带走了沙滩上的脚印，也带走了内心的浮躁。我们的心如这沙滩，适时地清空，才能容纳下一次温柔的潮起。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_bali_old.png",
+        "path": "/assets/images/loc_bali_old.png",
+        "zh": "旧物新看栏目：竹林深处的甘美兰。古老的甘美兰乐器由竹与铜手工制成，音色如雨滴落在荷叶上般清脆。在巴厘岛的传统祭典中，村民们敲击着乐器，清澈的乐音在林间回荡，将古老的自然崇拜代代相传。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 竹林深处的甘美兰. 古老的甘美兰乐器由竹与铜手工制成，音色如雨滴落在荷叶上般清脆。在巴厘岛的传统祭典中，村民们敲击着乐器，清澈的乐音在林间回荡，将古老的自然崇拜代代相传。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "印度尼西亚 · 日惹": {
+    "countryCode": "id",
+    "continent": "亚洲",
+    "emblem": "🛕",
+    "wood": "#626567",
+    "stampColor": "#7F8C8D",
+    "hasCustomImages": true,
+    "identity": "普兰巴南的落日剪影",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_yogyakarta.png",
+        "path": "/assets/images/loc_yogyakarta.png",
+        "zh": "世界一角栏目：普兰巴南的落日剪影。暮色降临，普兰巴南古老的湿婆神庙在金色的晚霞中显得格外庄严。高耸的石塔在夜色中化作黑色的剪影，微风吹过空旷的庭院，带走白日的余温，留下千年古迹的宁静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 普兰巴南的落日剪影. 暮色降临，普兰巴南古老的湿婆神庙在金色的晚霞中显得格外庄严。高耸的石塔在夜色中化作黑色的剪影，微风吹过空旷的庭院，带走白日的余温，留下千年古迹的宁静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_yogyakarta_nature.png",
+        "path": "/assets/images/loc_yogyakarta_nature.png",
+        "zh": "科学自然栏目：默拉皮的沉默力量。默拉皮火山常年吐着白烟，黑色的火山岩散落在山谷之中。这种看似毁灭的力量，却为周边的土地带来了无与伦比的养分，让稀有的高山兰花在此静静盛开，诉说生命的顽强。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 默拉皮的沉默力量. 默拉皮火山常年吐着白烟，黑色的火山岩散落在山谷之中。这种看似毁灭的力量，却为周边的土地带来了无与伦比的养分，让稀有的高山兰花在此静静盛开，诉说生命的顽强。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_yogyakarta_people.png",
+        "path": "/assets/images/loc_yogyakarta_people.png",
+        "zh": "他人在场栏目：铜壶指尖的蜡染时光。在日惹的老街坊里，手艺人手持小铜壶，在白布上画下细密的蜡线。她神情专注，温热的石蜡随着笔尖缓缓流淌，勾勒出传承千年的图腾，时光仿佛在她的指尖慢了下来。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 铜壶指尖的蜡染时光. 在日惹的老街坊里，手艺人手持小铜壶，在白布上画下细密的蜡线。她神情专注，温热的石蜡随着笔尖缓缓流淌，勾勒出传承千年的图腾，时光仿佛在她的指尖慢了下来。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_yogyakarta_spark.png",
+        "path": "/assets/images/loc_yogyakarta_spark.png",
+        "zh": "思想火花栏目：婆罗浮屠的静心漫步。顺着回廊缓缓向上，石壁上的浮雕记录着古老的智慧。当走到塔顶，面对四周连绵的群山与佛像，内心的杂音渐渐消失。人生亦如登塔，走好当下的每一步，终会看见辽阔。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 婆罗浮屠的静心漫步. 顺着回廊缓缓向上，石壁上的浮雕记录着古老的智慧。当走到塔顶，面对四周连绵的群山与佛像，内心的杂音渐渐消失。人生亦如登塔，走好当下的每一步，终会看见辽阔。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_yogyakarta_old.png",
+        "path": "/assets/images/loc_yogyakarta_old.png",
+        "zh": "旧物新看栏目：光影错落的皮影戏。用水牛皮雕刻而成的哇扬皮影，在油灯的照射下，在白幕上投射出古老神话的影子。这门流传千年的光影艺术，不仅是娱乐，更是古人将哲学与道德寓于戏中的智慧结晶。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 光影错落的皮影戏. 用水牛皮雕刻而成的哇扬皮影，在油灯的照射下，在白幕上投射出古老神话的影子。这门流传千年的光影艺术，不仅是娱乐，更是古人将哲学与道德寓于戏中的智慧结晶。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "菲律宾 · 长滩岛": {
+    "countryCode": "ph",
+    "continent": "亚洲",
+    "emblem": "🏖️",
+    "wood": "#2E86C1",
+    "stampColor": "#2874A6",
+    "hasCustomImages": true,
+    "identity": "帆影摇曳的白沙滩",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_boracay.png",
+        "path": "/assets/images/loc_boracay.png",
+        "zh": "世界一角栏目：帆影摇曳的白沙滩。傍晚的长滩岛白沙滩，细沙如面粉般温柔地包裹着双脚。橘红色的夕阳将天空染透，无动力帆船在海平线上静静漂流，海浪温柔地拍打着海岸，送来湿润而温热的晚风。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 帆影摇曳的白沙滩. 傍晚的长滩岛白沙滩，细沙如面粉般温柔地包裹着双脚。橘红色的夕阳将天空染透，无动力帆船在海平线上静静漂流，海浪温柔地拍打着海岸，送来湿润而温热的晚风。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_boracay_nature.png",
+        "path": "/assets/images/loc_boracay_nature.png",
+        "zh": "科学自然栏目：珊瑚化作的温柔细沙。这里的白沙之所以细密冰凉，是因为它们由珊瑚碎屑历经千万年冲刷而成。在清澈的海水下，五彩斑斓的珊瑚礁是海洋生物的温床，用无声的包容维持着这片海的纯净。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 珊瑚化作的温柔细沙. 这里的白沙之所以细密冰凉，是因为它们由珊瑚碎屑历经千万年冲刷而成。在清澈的海水下，五彩斑斓的珊瑚礁是海洋生物的温床，用无声的包容维持着这片海的纯净。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_boracay_people.png",
+        "path": "/assets/images/loc_boracay_people.png",
+        "zh": "他人在场栏目：清晨沙滩的守护者。天刚蒙蒙亮，当地的阿叔便拿着竹扫帚，沿着白沙滩细心扫去落叶与杂物。海风吹拂着他的草帽，扫帚在沙滩上留下一道道整齐的弧线，为醒来的游客准备好最纯净的晨光。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 清晨沙滩的守护者. 天刚蒙蒙亮，当地的阿叔便拿着竹扫帚，沿着白沙滩细心扫去落叶与杂物。海风吹拂着他的草帽，扫帚在沙滩上留下一道道整齐的弧线，为醒来的游客准备好最纯净的晨光。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_boracay_spark.png",
+        "path": "/assets/images/loc_boracay_spark.png",
+        "zh": "思想火花栏目：顺风而行的小船。无动力帆船没有引擎的轰鸣，只靠风与舵在海面滑行。有时，生活也需要我们收起急躁的马达，顺应风的方向，学会等待和借力，在起伏的波浪中找到最舒适的平衡。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 顺风而行的小船. 无动力帆船没有引擎的轰鸣，只靠风与舵在海面滑行。有时，生活也需要我们收起急躁的马达，顺应风的方向，学会等待和借力，在起伏的波浪中找到最舒适的平衡。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_boracay_old.png",
+        "path": "/assets/images/loc_boracay_old.png",
+        "zh": "旧物新看栏目：螃蟹船的平衡智慧。这种两侧带有竹翅的螃蟹船，是菲律宾人世代相传的航海工具。竹翅不仅能在风浪中保持平衡，还能让船只平稳地靠近浅滩，展现了古人因地制宜、与风浪和谐共处的智慧。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 螃蟹船的平衡智慧. 这种两侧带有竹翅的螃蟹船，是菲律宾人世代相传的航海工具。竹翅不仅能在风浪中保持平衡，还能让船只平稳地靠近浅滩，展现了古人因地制宜、与风浪和谐共处的智慧。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "柬埔寨 · 吴哥窟": {
+    "countryCode": "kh",
+    "continent": "亚洲",
+    "emblem": "🛕",
+    "wood": "#7E5109",
+    "stampColor": "#B7950B",
+    "hasCustomImages": true,
+    "identity": "莲花池畔的吴哥晨曦",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_angkor.png",
+        "path": "/assets/images/loc_angkor.png",
+        "zh": "世界一角栏目：莲花池畔的吴哥晨曦。天空从深紫渐变为温暖的橙黄，吴哥寺标志性的五座石塔倒映在静谧的莲花池中。当第一缕曙光照亮古老的石雕，整座遗迹仿佛从千年的沉睡中醒来，美得让人屏住呼吸。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 莲花池畔的吴哥晨曦. 天空从深紫渐变为温暖的橙黄，吴哥寺标志性的五座石塔倒映在静谧的莲花池中。当第一缕曙光照亮古老的石雕，整座遗迹仿佛从千年的沉睡中醒来，美得让人屏住呼吸。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_angkor_nature.png",
+        "path": "/assets/images/loc_angkor_nature.png",
+        "zh": "科学自然栏目：石缝中生长的巨树。塔普伦寺的石庙被巨大的绞杀榕根系紧紧缠绕，树根如巨蟒般深入石缝。这种植物与建筑的共生，展现了热带雨林惊人的生命力，在岁月的流逝中，将人工与自然融为一体。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 石缝中生长的巨树. 塔普伦寺的石庙被巨大的绞杀榕根系紧紧缠绕，树根如巨蟒般深入石缝。这种植物与建筑的共生，展现了热带雨林惊人的生命力，在岁月的流逝中，将人工与自然融为一体。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_angkor_people.png",
+        "path": "/assets/images/loc_angkor_people.png",
+        "zh": "他人在场栏目：唤醒石刻的修复师。在幽暗的回廊里，修复师拿着细小的刷子和软布，轻柔地清理着石雕上的青苔。他的动作缓慢而专注，仿佛在与千年前的雕刻匠人低声对话，用双手延续着古老石刻的生命。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 唤醒石刻的修复师. 在幽暗的回廊里，修复师拿着细小的刷子和软布，轻柔地清理着石雕上的青苔。他的动作缓慢而专注，仿佛在与千年前的雕刻匠人低声对话，用双手延续着古老石刻的生命。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_angkor_spark.png",
+        "path": "/assets/images/loc_angkor_spark.png",
+        "zh": "思想火花栏目：青苔写给岁月的诗。斑驳的石块上覆满了绿色的青苔，那是时光流逝的温和印记。废墟并不代表消亡，而是生命与时间的另一种和解。接受残缺与变化，我们的内心也会变得如磐石般平静。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 青苔写给岁月的诗. 斑驳的石块上覆满了绿色的青苔，那是时光流逝的温和印记。废墟并不代表消亡，而是生命与时间的另一种和解。接受残缺与变化，我们的内心也会变得如磐石般平静。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_angkor_old.png",
+        "path": "/assets/images/loc_angkor_old.png",
+        "zh": "旧物新看栏目：指尖绽放的仙女之舞。墙壁上刻画的阿帕萨拉仙女，其舞蹈手势有着丰富的含义：手指微弯代表花蕾，伸展代表绽放。这种源自印度教神话的舞蹈，用无声的手势，诉说着生命花开花落的循环。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 指尖绽放的仙女之舞. 墙壁上刻画的阿帕萨拉仙女，其舞蹈手势有着丰富的含义：手指微弯代表花蕾，伸展代表绽放。这种源自印度教神话的舞蹈，用无声的手势，诉说着生命花开花落的循环。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "乌兹别克斯坦 · 布哈拉": {
+    "countryCode": "uz",
+    "continent": "亚洲",
+    "emblem": "🕌",
+    "wood": "#873600",
+    "stampColor": "#D35400",
+    "hasCustomImages": true,
+    "identity": "千顶之城的土坯圆顶",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_bukhara.png",
+        "path": "/assets/images/loc_bukhara.png",
+        "zh": "世界一角栏目：千顶之城的土坯圆顶。从卡扬宣礼塔旁古老风塔木窗望去，夕阳洒在浩瀚的泥砖集市圆顶上。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 千顶之城的土坯圆顶. 从卡扬宣礼塔旁古老风塔木窗望去，夕阳洒在浩瀚的泥砖集市圆顶上。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_bukhara_nature.png",
+        "path": "/assets/images/loc_bukhara_nature.png",
+        "zh": "科学自然栏目：红沙漠绿洲绿洲。克孜勒库姆沙漠红沙丘边缘，沙枣树环绕着平静的绿洲水池。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 红沙漠绿洲绿洲. 克孜勒库姆沙漠红沙丘边缘，沙枣树环绕着平静的绿洲水池。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_bukhara_people.png",
+        "path": "/assets/images/loc_bukhara_people.png",
+        "zh": "他人在场栏目：穹顶大集市打铜声。老集市拱顶下，铜匠在昏黄油灯旁一锤一锤打磨着黄铜茶壶的花纹。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 穹顶大集市打铜声. 老集市拱顶下，铜匠在昏黄油灯旁一锤一锤打磨着黄铜茶壶的花纹。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_bukhara_spark.png",
+        "path": "/assets/images/loc_bukhara_spark.png",
+        "zh": "思想火花栏目：雅克城堡黄昏墙。雅克要塞巨大的泥砖城墙在落日余晖中发出金黄光芒。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 雅克城堡黄昏墙. 雅克要塞巨大的泥砖城墙在落日余晖中发出金黄光芒。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_bukhara_old.png",
+        "path": "/assets/images/loc_bukhara_old.png",
+        "zh": "旧物新看栏目：印饼木章的齿痕。传统手工刻印木章Chekich在金黄烤饼上留下古老星芒纹路。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 印饼木章的齿痕. 传统手工刻印木章Chekich在金黄烤饼上留下古老星芒纹路。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      }
+    ]
+  },
+  "乌兹别克斯坦 · 塔什干": {
+    "countryCode": "uz",
+    "continent": "亚洲",
+    "emblem": "🏛️",
+    "wood": "#1A5276",
+    "stampColor": "#2980B9",
+    "hasCustomImages": true,
+    "identity": "楚苏大集市的蓝穹顶",
+    "items": [
+      {
+        "bucket": "世界一角",
+        "filename": "loc_tashkent.png",
+        "path": "/assets/images/loc_tashkent.png",
+        "zh": "世界一角栏目：楚苏大集市的蓝穹顶。从老城木雕花窗望去，晨光洒在楚苏集市庞大而耀眼的蓝色穹顶上。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "world corner column: 楚苏大集市的蓝穹顶. 从老城木雕花窗望去，晨光洒在楚苏集市庞大而耀眼的蓝色穹顶上。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "科学自然",
+        "filename": "loc_tashkent_nature.png",
+        "path": "/assets/images/loc_tashkent_nature.png",
+        "zh": "科学自然栏目：恰尔瓦克高山湖泊。晨曦下的恰尔瓦克湖，天山山脉环抱着透亮如宝石般的湛蓝水面。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "nature column: 恰尔瓦克高山湖泊. 晨曦下的恰尔瓦克湖，天山山脉环抱着透亮如宝石般的湛蓝水面。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "他人在场",
+        "filename": "loc_tashkent_people.png",
+        "path": "/assets/images/loc_tashkent_people.png",
+        "zh": "他人在场栏目：大铜锅抓饭的香气。集市大铜锅旁，大厨正用长木勺翻炒着香气四溢的乌兹别克羊肉抓饭。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "people column: 大铜锅抓饭的香气. 集市大铜锅旁，大厨正用长木勺翻炒着香气四溢的乌兹别克羊肉抓饭。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "思想火花",
+        "filename": "loc_tashkent_spark.png",
+        "path": "/assets/images/loc_tashkent_spark.png",
+        "zh": "思想火花栏目：哈兹拉特伊玛姆黄昏影。哈兹拉特伊玛姆建筑群在紫罗兰色的夜空中散发着庄严柔和的光芒。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "spark column: 哈兹拉特伊玛姆黄昏影. 哈兹拉特伊玛姆建筑群在紫罗兰色的夜空中散发着庄严柔和的光芒。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
+      },
+      {
+        "bucket": "旧物新看",
+        "filename": "loc_tashkent_old.png",
+        "path": "/assets/images/loc_tashkent_old.png",
+        "zh": "旧物新看栏目：艾特莱斯扎染彩绸。如流云般绚丽的手工Ikat彩绸与古朴陶瓷茶杯静置在木桌上。柔和水彩水粉手绘，细微纸纹，温润低饱和，方形构图，画面无任何文字",
+        "en": "old column: 艾特莱斯扎染彩绸. 如流云般绚丽的手工Ikat彩绸与古朴陶瓷茶杯静置在木桌上。 soft watercolor and gouache illustration, subtle paper grain, warm muted natural palette, painterly, square 1:1, no text, no words, no letters, no signage"
       }
     ]
   }

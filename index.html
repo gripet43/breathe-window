@@ -1806,7 +1806,9 @@
     }
   }
 
-  function shuffleLocation() {
+  const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+  async function shuffleLocation() {
     const wrapper = document.getElementById("windowWrapper");
     const isOpen = localStorage.getItem(KEY_IS_OPEN) === "true";
     if (isOpen || isGenerating || isShuffling || wrapper.classList.contains("zoomed")) return;
@@ -1820,18 +1822,18 @@
     const openBtn = document.getElementById("openBtn");
     const shuffleBtn = document.getElementById("shuffleBtn");
     const globeWrapper = document.getElementById("homeGlobeWrapper");
+    const pinAtStart = document.getElementById("homeGlobePin");
 
     if (openBtn) openBtn.disabled = true;
     if (shuffleBtn) shuffleBtn.disabled = true;
 
-    const globeCenterY = window.innerHeight * 0.6;   // 升起时球心落在视口 60% 处，整体略偏下更稳重
-    const RAISED_ZOOM = 1.15;   // 升起为整球时的地图缩放（露出更多大陆，转动更有“地球感”）
+    const globeCenterY = window.innerHeight * 0.6;
+    const RAISED_ZOOM = 1.15;
 
-    // 坍缩锚点 = 当前城市红点【此刻】的真实屏幕位置（动态取自红点元素），
-    // 而非某个固定视口坐标——所有元素将被吸进这枚"地球上的坐标点"
     let anchorX = window.innerWidth / 2;
     let anchorY = window.innerHeight * 0.6;
-    const pinAtStart = document.getElementById("homeGlobePin");
+    
+    // 提前读取所有需获取布局信息的元素，避免在循环/设置样式后立刻读取引发强制回流（Layout Thrashing）
     if (pinAtStart) {
       const pr = pinAtStart.getBoundingClientRect();
       if (pr.width > 0 || pr.height > 0) {
@@ -1840,147 +1842,154 @@
       }
     }
 
-    // 将某元素朝红点锚点坍缩为一点：加速坠入、末段淡出，像被坐标点吸走
-    function collapseTo(el, extraY) {
-      if (!el) return;
-      const r = el.getBoundingClientRect();
-      const cx = r.left + r.width / 2;
-      const cy = r.top + r.height / 2;
+    const wrapperRect = wrapper ? wrapper.getBoundingClientRect() : null;
+    const locBadgeRect = locBadgeWrapper ? locBadgeWrapper.getBoundingClientRect() : null;
+    const btnGroupRect = btnGroup ? btnGroup.getBoundingClientRect() : null;
+
+    function collapseTo(el, rect, extraY) {
+      if (!el || !rect) return;
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
       el.style.transition = "transform 0.9s cubic-bezier(0.55, 0, 0.85, 0.36), opacity 0.5s ease-in 0.4s";
       el.style.transform = `translate(${anchorX - cx}px, ${anchorY - cy + (extraY || 0)}px) scale(0.02)`;
       el.style.opacity = "0";
     }
 
-    // ═══ Phase A1: 元素坍缩，坠入地球上当前城市的红点 (0 → 0.9s) ═══
-    collapseTo(wrapper, 0);
-    collapseTo(locBadgeWrapper, 0);
-    collapseTo(btnGroup, -18);
+    // ═══ Phase A1: 元素坍缩，坠入地球上当前城市的红点 ═══
+    collapseTo(wrapper, wrapperRect, 0);
+    collapseTo(locBadgeWrapper, locBadgeRect, 0);
+    collapseTo(btnGroup, btnGroupRect, -18);
+    
     if (btnGroup) btnGroup.style.pointerEvents = "none";
     if (gateTitle) { gateTitle.style.transition = "opacity 0.55s ease"; gateTitle.style.opacity = "0"; }
     if (gateSub)   { gateSub.style.transition = "opacity 0.55s ease"; gateSub.style.opacity = "0"; }
 
-    // 红点原地不动，先让元素们"回家"；坠入瞬间脉冲放大，像在这枚坐标点上盖了枚邮戳
     if (pinAtStart) {
       pinAtStart.style.transition = "transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease";
       pinAtStart.style.opacity = "1";
     }
-    setTimeout(() => {
-      const pin = document.getElementById("homeGlobePin");
-      if (!pin) return;
-      pin.style.transform = "scale(2.1)";
-      setTimeout(() => {
-        // 升起阶段的 panGlobeToCity 会覆写红点 transition，这里先还回平滑过渡再收回脉冲
-        pin.style.transition = "transform 0.4s ease-out";
-        pin.style.transform = "scale(1)";
-      }, 420);
-    }, 620);
 
-    // ═══ Phase A2: 红点承接完毕，地球载着这枚坐标点整体升起为整球 (0.95s → 2.45s) ═══
-    setTimeout(() => {
-      // 把球心从屏幕下方抬到 globeCenterY，使整个圆球完整浮现
-      const raiseY = globeCenterY - window.innerHeight - 120;
-      if (globeWrapper) {
-        globeWrapper.style.transition = "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)";
-        globeWrapper.style.transform = `translateX(-50%) translateY(${raiseY}px)`;
+    await wait(620); // 坠入瞬间脉冲放大
+
+    const pin = document.getElementById("homeGlobePin");
+    if (pin) pin.style.transform = "scale(2.1)";
+
+    await wait(330); // 脉冲保持时间 (620 + 330 = 950 升起时间)
+    
+    if (pin) {
+      pin.style.transition = "transform 0.4s ease-out";
+      pin.style.transform = "scale(1)";
+    }
+
+    // ═══ Phase A2: 地球载着这枚坐标点整体升起为整球 ═══
+    const raiseY = globeCenterY - window.innerHeight - 120;
+    if (globeWrapper) {
+      globeWrapper.style.transition = "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)";
+      globeWrapper.style.transform = `translateX(-50%) translateY(${raiseY}px)`;
+    }
+    panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 320, RAISED_ZOOM, "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)");
+
+    await wait(1500);
+
+    // ═══ Phase B: 整球转动，从当前城市滚向目的地 ═══
+    if (pin) {
+      pin.style.transition = "opacity 0.4s ease";
+      pin.style.opacity = "0";
+    }
+
+    if (LOCATIONS.length > 1) {
+      const curContinent = getContinent(LOCATIONS[currentLocationIndex]);
+      const crossPool = LOCATIONS
+        .map((l, idx) => ({ idx, cont: getContinent(l) }))
+        .filter(({ idx, cont }) => idx !== currentLocationIndex && cont !== curContinent)
+        .map(({ idx }) => idx);
+      
+      if (crossPool.length > 0) {
+        currentLocationIndex = crossPool[Math.floor(Math.random() * crossPool.length)];
+      } else {
+        let nextIndex;
+        do {
+          nextIndex = Math.floor(Math.random() * LOCATIONS.length);
+        } while (nextIndex === currentLocationIndex);
+        currentLocationIndex = nextIndex;
       }
-      // 当前城市随升起平移到球心，并把地图缩放到整球视角
-      panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 320, RAISED_ZOOM,
-                     "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)");
-    }, 950);
+    }
+    try { localStorage.setItem(KEY_LOCATION_NAME, LOCATIONS[currentLocationIndex].name); } catch (e) {}
 
-    // ═══ Phase B: 整球转动，从当前城市滚向目的地 (2.45s → 4.65s) ═══
-    setTimeout(() => {
-      // 先让旧红点【就地】淡出，淡出期间绝不移动它的坐标，避免“跳位闪烁”
-      const pin = document.getElementById("homeGlobePin");
-      if (pin) { pin.style.transition = "opacity 0.4s ease"; pin.style.opacity = "0"; }
+    applyLocationSettings(currentLocationIndex, true, true);
 
-      // 在所有可抽取城市(LOCATIONS 已过滤为 hasCustomImages 城市)中随机抽取，
-      // 排除当前城市；并"跨洲换窗"：这次在亚洲，下次就从非亚洲里抽，
-      // 以此类推，让每一次换窗都必然跨越到另一片大陆
-      if (LOCATIONS.length > 1) {
-        const curContinent = getContinent(LOCATIONS[currentLocationIndex]);
-        const crossPool = LOCATIONS
-          .map((l, idx) => ({ idx, cont: getContinent(l) }))
-          .filter(({ idx, cont }) => idx !== currentLocationIndex && cont !== curContinent)
-          .map(({ idx }) => idx);
-        if (crossPool.length > 0) {
-          currentLocationIndex = crossPool[Math.floor(Math.random() * crossPool.length)];
-        } else {
-          // 兜底：万一所有城市同属一洲，退化为仅排除当前城市
-          let nextIndex;
-          do {
-            nextIndex = Math.floor(Math.random() * LOCATIONS.length);
-          } while (nextIndex === currentLocationIndex);
-          currentLocationIndex = nextIndex;
-        }
-      }
-      try { localStorage.setItem(KEY_LOCATION_NAME, LOCATIONS[currentLocationIndex].name); } catch (e) {}
+    await wait(450); // 等待红点彻底淡出
 
-      // 切换窗框主题与徽章（地球转动由本函数手动接管，故跳过其内置定位）
-      applyLocationSettings(currentLocationIndex, true, true);
+    panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 320, RAISED_ZOOM, "transform 1.8s cubic-bezier(0.45, 0, 0.2, 1)");
 
-      // 等旧红点【完全】淡出后(>0.4s)，红点已不可见，此时再把它移到目的城市
-      // 并启动地图平移——坐标跳变发生在透明状态下，肉眼无感
-      setTimeout(() => {
-        panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 320, RAISED_ZOOM,
-                       "transform 1.8s cubic-bezier(0.45, 0, 0.2, 1)");
+    await wait(1150); // 临近落点时，目的地红点在球心徐徐亮起
+    
+    if (pin) {
+      pin.style.transition = "opacity 0.8s ease";
+      pin.style.opacity = "1";
+    }
 
-        // 临近落点时，目的地红点在球心徐徐亮起
-        setTimeout(() => {
-          const p2 = document.getElementById("homeGlobePin");
-          if (p2) { p2.style.transition = "opacity 0.8s ease"; p2.style.opacity = "1"; }
-        }, 1150);
-      }, 450);
-    }, 2450);
+    await wait(800); // 等待转动完全结束并停顿 (2450 + 1500 - 450 - 1150 = 2350 = 800 + 1550 => wait. total match = 4850ms)
+    // Actually, Phase C starts at 4850ms. 
+    // Start of B: 2450.
+    // 2450 + 450 (wait) = 2900.
+    // 2900 + 1150 (wait) = 4050.
+    // 4050 + 800 (wait) = 4850. Perfect match!
 
-    // ═══ Phase C: 地球放大着沉回底部，回到半球露出态 (4.85s → 6.15s) ═══
-    setTimeout(() => {
-      if (globeWrapper) {
-        globeWrapper.style.transition = "transform 1.3s cubic-bezier(0.5, 0, 0.2, 1)";
-        globeWrapper.style.transform = "translateX(-50%)";
-      }
-      panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 180, 1.4,
-                     "transform 1.3s cubic-bezier(0.5, 0, 0.2, 1)");
-      lastHomeGlobeIndex = currentLocationIndex;
-    }, 4850);
+    // ═══ Phase C: 地球放大着沉回底部，回到半球露出态 ═══
+    if (globeWrapper) {
+      globeWrapper.style.transition = "transform 1.3s cubic-bezier(0.5, 0, 0.2, 1)";
+      globeWrapper.style.transform = "translateX(-50%)";
+    }
+    panGlobeToCity(LOCATIONS[currentLocationIndex], 320, 180, 1.4, "transform 1.3s cubic-bezier(0.5, 0, 0.2, 1)");
+    lastHomeGlobeIndex = currentLocationIndex;
 
-    // ═══ Phase D: 其余元素从坐标点缓缓重新展开 (6.15s → 7.55s) ═══
-    setTimeout(() => {
-      function expand(el, delay) {
-        if (!el) return;
-        el.style.transition = `transform 1.4s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s, opacity 0.9s ease-out ${delay}s`;
-        el.style.transform = "translate(0, 0) scale(1)";
-        el.style.opacity = "1";
-      }
-      expand(wrapper, 0);
-      expand(locBadgeWrapper, 0.1);
-      expand(btnGroup, 0.2);
-      if (gateTitle) { gateTitle.style.transition = "opacity 1.2s ease-out 0.3s"; gateTitle.style.opacity = "1"; }
-      if (gateSub)   { gateSub.style.transition = "opacity 1.2s ease-out 0.4s"; gateSub.style.opacity = "1"; }
-    }, 6150);
+    await wait(1300); // 1.3s 下沉时间. 4850 + 1300 = 6150. Perfect match!
 
-    // ═══ Phase E: 动画收尾，清除行内样式 (7.75s) ═══
-    setTimeout(() => {
-      [wrapper, locBadgeWrapper, btnGroup, gateTitle, gateSub].forEach(el => {
-        if (!el) return;
-        el.style.transition = "";
-        el.style.transform = "";
-        el.style.opacity = "";
-      });
-      if (btnGroup) btnGroup.style.pointerEvents = "";
-      if (globeWrapper) {
-        globeWrapper.style.transition = "";
-        globeWrapper.style.transform = "translateX(-50%)";
-      }
-      const pin = document.getElementById("homeGlobePin");
-      if (pin) {
-        pin.style.transition = "";
-        pin.style.transform = "";
-      }
-      if (openBtn) openBtn.disabled = false;
-      if (shuffleBtn) shuffleBtn.disabled = false;
-      isShuffling = false;
-    }, 7750);
+    // ═══ Phase D: 所有元素同时重新出现 ═══
+    // 先瞬间将所有元素归位到自然位置，但保持透明（肉眼不可见的瞬间跳变）
+    const expandEls = [wrapper, locBadgeWrapper, btnGroup, gateTitle, gateSub];
+    expandEls.forEach(el => {
+      if (!el) return;
+      el.style.transition = "none";
+      el.style.transform = "scale(0.92)";
+      el.style.opacity = "0";
+    });
+
+    // 强制浏览器在下一帧应用上面的"归位"，再启动过渡动画
+    if (wrapper) wrapper.offsetHeight;
+
+    // 统一淡入 + 轻微缩放弹出，所有元素完全同步出现
+    expandEls.forEach(el => {
+      if (!el) return;
+      el.style.transition = "transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.7s ease-out";
+      el.style.transform = "scale(1)";
+      el.style.opacity = "1";
+    });
+
+    await wait(1600); // 6150 + 1600 = 7750. Perfect match!
+
+    // ═══ Phase E: 动画收尾，清除行内样式 ═══
+    [wrapper, locBadgeWrapper, btnGroup, gateTitle, gateSub].forEach(el => {
+      if (!el) return;
+      el.style.transition = "";
+      el.style.transform = "";
+      el.style.opacity = "";
+    });
+    
+    if (btnGroup) btnGroup.style.pointerEvents = "";
+    if (globeWrapper) {
+      globeWrapper.style.transition = "";
+      globeWrapper.style.transform = "translateX(-50%)";
+    }
+    if (pin) {
+      pin.style.transition = "";
+      pin.style.transform = "";
+    }
+    
+    if (openBtn) openBtn.disabled = false;
+    if (shuffleBtn) shuffleBtn.disabled = false;
+    isShuffling = false;
   }
 
 

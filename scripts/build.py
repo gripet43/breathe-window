@@ -73,7 +73,15 @@ def main():
     # -------------------------------------------------------------
     # 3. Synchronize locations.json and recalculate hasCustomImages
     # -------------------------------------------------------------
-    loc_file = os.path.join(pub_assets, "data", "locations.json")
+    src_loc = os.path.join(src_assets, "data", "locations.json")
+    pub_loc = os.path.join(pub_assets, "data", "locations.json")
+    loc_file = pub_loc
+    if os.path.exists(src_loc) and os.path.exists(pub_loc):
+        if os.path.getmtime(src_loc) > os.path.getmtime(pub_loc):
+            loc_file = src_loc
+    elif os.path.exists(src_loc):
+        loc_file = src_loc
+
     with open(loc_file, "r", encoding="utf-8") as f:
         locations = json.load(f)
 
@@ -91,9 +99,9 @@ def main():
         else:
             loc["hasCustomImages"] = False
 
-    with open(os.path.join(pub_assets, "data", "locations.json"), "w", encoding="utf-8") as f:
+    with open(pub_loc, "w", encoding="utf-8") as f:
         json.dump(locations, f, ensure_ascii=False, indent=2)
-    with open(os.path.join(src_assets, "data", "locations.json"), "w", encoding="utf-8") as f:
+    with open(src_loc, "w", encoding="utf-8") as f:
         json.dump(locations, f, ensure_ascii=False, indent=2)
 
     log(f"Updated locations.json: {custom_count} locations with full custom images.")
@@ -101,7 +109,15 @@ def main():
     # -------------------------------------------------------------
     # 4. Synchronize catalog.json and update image extension
     # -------------------------------------------------------------
-    cat_file = os.path.join(pub_assets, "data", "catalog.json")
+    src_cat = os.path.join(src_assets, "data", "catalog.json")
+    pub_cat = os.path.join(pub_assets, "data", "catalog.json")
+    cat_file = pub_cat
+    if os.path.exists(src_cat) and os.path.exists(pub_cat):
+        if os.path.getmtime(src_cat) > os.path.getmtime(pub_cat):
+            cat_file = src_cat
+    elif os.path.exists(src_cat):
+        cat_file = src_cat
+
     with open(cat_file, "r", encoding="utf-8") as f:
         catalog = json.load(f)
 
@@ -114,9 +130,9 @@ def main():
                 if img.endswith(".png"):
                     card["image"] = img[:-4] + ".webp"
 
-    with open(os.path.join(pub_assets, "data", "catalog.json"), "w", encoding="utf-8") as f:
+    with open(pub_cat, "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
-    with open(os.path.join(src_assets, "data", "catalog.json"), "w", encoding="utf-8") as f:
+    with open(src_cat, "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
 
     log("Synchronized catalog.json.")
