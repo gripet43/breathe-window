@@ -2668,35 +2668,35 @@
       "bucket": "世界一角",
       "title": "纳季迪风格的赭黄泥墙",
       "body": "从德拉伊耶(Diriyah)泥砖老宅的方窗望出去，看见纳季迪(Najdi)风格的赭黄泥墙与三角垛口，棕榈绿洲点缀其间，远处现代利雅得天际线隐约。",
-      "image": "/assets/images/loc_riyadh.png",
+      "image": "/assets/images/loc_riyadh.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "阿拉伯半岛沙漠绿洲生态",
       "body": "阿拉伯半岛沙漠绿洲生态切面，椰枣林的灌溉渠(falaj)与沙丘，一只沙狐在沙纹间，解释绿洲如何在沙漠中存续。",
-      "image": "/assets/images/loc_riyadh_nature.png",
+      "image": "/assets/images/loc_riyadh_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "乳香袅袅的老香料铺",
       "body": "利雅得传统市集的傍晚，身着白袍与头巾的男子在椰枣摊前品茶，摊上堆着各色椰枣，铜壶冒着热气，人气温暖。",
-      "image": "/assets/images/loc_riyadh_people.png",
+      "image": "/assets/images/loc_riyadh_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "风沙与岩石的默契",
       "body": "沙漠夜空，一人独坐在沙丘上望向繁星与一弯新月，身旁一棵孤椰枣树剪影，天空由赭橙渐入深靛，留白辽阔沉思，呼应橄榄金与夜蓝。",
-      "image": "/assets/images/loc_riyadh_spark.png",
+      "image": "/assets/images/loc_riyadh_spark.webp",
       "ponder": "在坚持的道路上，你是否也学会了用温柔的方式去面对？"
     },
     {
       "bucket": "旧物新看",
       "title": "达拉壶里的豆蔻咖啡香",
       "body": "特写纳季迪泥砖建筑的三角装饰墙与雕花木门，泥面有岁月裂纹与暖黄包浆，门铜环氧化，旁置银咖啡壶与椰枣篮，质感厚重。",
-      "image": "/assets/images/loc_riyadh_old.png",
+      "image": "/assets/images/loc_riyadh_old.webp",
       "ponder": ""
     }
   ],
@@ -2705,35 +2705,35 @@
       "bucket": "世界一角",
       "title": "谢赫·洛特芙拉与伊玛",
       "body": "从伊玛目广场的拱廊望出去，看见谢赫·洛特芙拉与伊玛目清真寺的蓝色瓷砖穹顶与宣礼塔，广场铺石开阔。",
-      "image": "/assets/images/loc_isfahan.png",
+      "image": "/assets/images/loc_isfahan.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "扎因代河与绿洲花园生态",
       "body": "扎因代河与绿洲花园生态切面，波斯天堂花园的四分水道(charbagh)与柏树、玫瑰，远处札格罗斯山脉，解释干旱区园林水利。",
-      "image": "/assets/images/loc_isfahan_nature.png",
+      "image": "/assets/images/loc_isfahan_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "铜器街上的规律敲打声",
       "body": "伊斯法罕大巴扎内，一位匠人弓身编织波斯地毯，旁有铜匠敲打铜盘叮当作响，几位妇人端详细密画，人气温暖。",
-      "image": "/assets/images/loc_isfahan_people.png",
+      "image": "/assets/images/loc_isfahan_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "碎瓷拼贴出的宏伟苍穹",
       "body": "黄昏，三十三孔桥(Si-o-se-pol)的拱洞倒映在静水，一人独坐桥洞下听水声，天空晕开瓷蓝与赭橙，留白沉思，呼应瓷蓝与暮暖。",
-      "image": "/assets/images/loc_isfahan_spark.png",
+      "image": "/assets/images/loc_isfahan_spark.webp",
       "ponder": "面对繁复的生活，你是否愿意给当下的细节多一点耐心？"
     },
     {
       "bucket": "旧物新看",
       "title": "三十三孔桥的桥洞月影",
       "body": "特写伊斯法罕清真寺的蓝色釉砖马赛克，拼出藤蔓与阿拉伯纹带(极弱化无可读字)，釉面有细裂与岁月斑，旁置一件掐丝珐琅(minakari)铜盘，质感精致。",
-      "image": "/assets/images/loc_isfahan_old.png",
+      "image": "/assets/images/loc_isfahan_old.webp",
       "ponder": ""
     }
   ],

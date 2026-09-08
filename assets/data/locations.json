@@ -992,7 +992,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F9E79F 100%)",
     "stampColor": "#9A7D0A",
     "locClass": "loc-riyadh",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "伊朗 · 伊斯法罕",
@@ -1005,7 +1005,7 @@
     "glow": "radial-gradient(circle at center, #EAF2F8 20%, #A9D0F5 100%)",
     "stampColor": "#2874A6",
     "locClass": "loc-isfahan",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "乌兹别克斯坦 · 撒马尔罕",
