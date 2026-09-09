@@ -2779,35 +2779,35 @@
       "bucket": "世界一角",
       "title": "玫瑰古城的晨光",
       "body": "从狭窄蛇道(Siq)的岩缝望出去，正框住卡兹尼神殿(The Treasury)玫瑰红岩凿立面，岩壁赭红与乳白条纹交错，一束光照亮门楣。",
-      "image": "/assets/images/loc_petra.png",
+      "image": "/assets/images/loc_petra.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "峡谷风蚀的指纹",
       "body": "佩特拉砂岩地貌切面，含铁矿物氧化形成岩壁的红粉乳白条纹，纳巴泰人凿岩蓄水池与陶管引水系统。",
-      "image": "/assets/images/loc_petra_nature.png",
+      "image": "/assets/images/loc_petra_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "贝都因人的茶香",
       "body": "佩特拉谷地的清晨，一位贝都因人牵着骆驼在岩凿墓前煮茶，铜壶冒烟，几个孩子蹲在沙地画纹，人气恬静。",
-      "image": "/assets/images/loc_petra_people.png",
+      "image": "/assets/images/loc_petra_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "岩石里长出的耐心",
       "body": "黄昏，一人独立在修道院(Ad-Deir)巨大岩凿立面下显得渺小，赭红岩壁在暮光中泛玫瑰色，天空留白辽阔沉思，呼应赭红与暮暖。",
-      "image": "/assets/images/loc_petra_spark.png",
+      "image": "/assets/images/loc_petra_spark.webp",
       "ponder": "在急于求成的日子里，有什么事值得你像雕刻岩石一样倾注耐心？"
     },
     {
       "bucket": "旧物新看",
       "title": "砂瓶里的彩色风沙",
       "body": "特写佩特拉的纳巴泰彩陶残片与岩凿墓门的浮雕柱头，陶面赭红绘黑纹，石面风化有岁月感，旁置贝都因银饰，质感厚重。",
-      "image": "/assets/images/loc_petra_old.png",
+      "image": "/assets/images/loc_petra_old.webp",
       "ponder": ""
     }
   ],
@@ -2816,35 +2816,35 @@
       "bucket": "世界一角",
       "title": "奥斯曼与法式殖民风格",
       "body": "从贝鲁特老宅的拱形百叶窗望出去，看见奥斯曼与法式殖民风格的赭石老楼配红瓦顶，阳台垂着九重葛，远处地中海湛蓝。",
-      "image": "/assets/images/loc_beirut.png",
+      "image": "/assets/images/loc_beirut.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "黎巴嫩山雪松林生态",
       "body": "黎巴嫩山雪松林生态切面，高海拔的黎巴嫩雪松在岩石间挺立，枝头积雪，山脚是地中海海岸与葡萄梯田，解释国树雪松的生态。",
-      "image": "/assets/images/loc_beirut_nature.png",
+      "image": "/assets/images/loc_beirut_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "海滨大道的垂钓者",
       "body": "贝鲁特滨海大道(Corniche)的傍晚，渔民收线，老人在栏杆旁抽水烟，年轻人在长椅聊天喝薄荷咖啡，人气悠闲温暖。",
-      "image": "/assets/images/loc_beirut_people.png",
+      "image": "/assets/images/loc_beirut_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在裂缝中绽放的花朵",
       "body": "黄昏，鸽子岩(Raouche)两块海蚀巨岩立在渐暗的地中海，一人独坐岸边望向落日，天空晕开雪松绿与赭粉，留白沉思，呼应雪松绿与暮暖。",
-      "image": "/assets/images/loc_beirut_spark.png",
+      "image": "/assets/images/loc_beirut_spark.webp",
       "ponder": "当生活中出现不如意的裂痕时，你是否能试着在其中播下一粒温柔的种子？"
     },
     {
       "bucket": "旧物新看",
       "title": "百年红顶屋的守候",
       "body": "特写贝鲁特的罗马马赛克地砖残片与奥斯曼老宅的彩绘木天花，马赛克拼出几何与葡萄纹，木面斑驳，旁置腓尼基玻璃瓶，质感厚重有岁月感。",
-      "image": "/assets/images/loc_beirut_old.png",
+      "image": "/assets/images/loc_beirut_old.webp",
       "ponder": ""
     }
   ],
