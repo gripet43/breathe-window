@@ -2949,35 +2949,35 @@
       "bucket": "世界一角",
       "title": "爱丁堡城堡矗立在黑色",
       "body": "从皇家一英里(Royal Mile)老楼的石框窗望出去，看见爱丁堡城堡矗立在黑色火山岩上，窄巷两侧是灰石高楼与悬挑阁楼。",
-      "image": "/assets/images/loc_edinburgh.png",
+      "image": "/assets/images/loc_edinburgh.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "火山遗迹上的绿意",
       "body": "爱丁堡火山地貌切面，城堡所在的死火山岩颈与亚瑟王座火山丘，坡上石楠与蓟花(国花)，解释冰川与火山如何塑造城市地形。",
-      "image": "/assets/images/loc_edinburgh_nature.png",
+      "image": "/assets/images/loc_edinburgh_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "独立书店里的墨香守候",
       "body": "皇家一英里的清晨，一位穿格纹裙的风笛手在巷口吹奏，咖啡馆老板摆出黑板，路人撑伞走过湿石路，人气温暖。",
-      "image": "/assets/images/loc_edinburgh_people.png",
+      "image": "/assets/images/loc_edinburgh_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在阴雨中寻找诗意",
       "body": "薄暮，灰石老墓园里一块倾斜的墓碑，一人独坐石墙读旧书，远处城堡剪影在赭灰天空下，留白沉思，呼应板岩灰与暮暖。",
-      "image": "/assets/images/loc_edinburgh_spark.png",
+      "image": "/assets/images/loc_edinburgh_spark.webp",
       "ponder": "在你最近经历的“阴雨天”里，有没有发现一些意想不到的美丽细节？"
     },
     {
       "bucket": "旧物新看",
       "title": "苏格兰格子呢的叙事",
       "body": "特写苏格兰格纹羊毛呢与银制蓟花胸针，呢面深板岩蓝与红格纹，旁置一本磨损的旧皮精装书与威士忌铜杯，质感厚重有岁月感。",
-      "image": "/assets/images/loc_edinburgh_old.png",
+      "image": "/assets/images/loc_edinburgh_old.webp",
       "ponder": ""
     }
   ],
@@ -2986,35 +2986,35 @@
       "bucket": "世界一角",
       "title": "牛津的蜜色方庭与尖塔",
       "body": "从学院的哥特石拱窗望出去，看见牛津的蜜色方庭与尖塔群(叹息桥与拉德克利夫圆顶隐约)，爬山虎染上秋黄。",
-      "image": "/assets/images/loc_oxford.png",
+      "image": "/assets/images/loc_oxford.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "牛津周边泰晤士上游草甸生态",
       "body": "牛津周边泰晤士上游草甸生态切面，河湾柳林与水毛茛，一只翠鸟掠过水面，远处牧牛草地，解释洪泛草甸生态。",
-      "image": "/assets/images/loc_oxford_nature.png",
+      "image": "/assets/images/loc_oxford_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "撑篙船夫的夏日慢歌",
       "body": "牛津学院方庭的午后，穿学袍的学生抱着书走过回廊，一位老园丁修剪草坪，长椅上一人静读，人气安静温暖。",
-      "image": "/assets/images/loc_oxford_people.png",
+      "image": "/assets/images/loc_oxford_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "探寻知识的林间小路",
       "body": "黄昏，博德利图书馆的塔楼在赭金天空下，一人独坐方庭石阶望向尖塔，落叶铺地，留白沉思，呼应蜜褐与暮金。",
-      "image": "/assets/images/loc_oxford_spark.png",
+      "image": "/assets/images/loc_oxford_spark.webp",
       "ponder": "在获取信息的碎片时代，你是否愿意花时间走一条漫长而专注的思考之路？"
     },
     {
       "bucket": "旧物新看",
       "title": "铜质门环上的守护兽",
       "body": "特写牛津中世纪手抄本的泥金装饰页与学院纹章石雕，金箔与赭红颜料，石面风化，旁置磨损的羽毛笔与羊皮卷，质感精致有岁月感。",
-      "image": "/assets/images/loc_oxford_old.png",
+      "image": "/assets/images/loc_oxford_old.webp",
       "ponder": ""
     }
   ],

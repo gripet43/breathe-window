@@ -1096,7 +1096,7 @@
     "glow": "radial-gradient(circle at center, #EBEDEF 20%, #BDC3C7 100%)",
     "stampColor": "#2C3E50",
     "locClass": "loc-edinburgh",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "英国 · 牛津",
@@ -1109,7 +1109,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F5CBA7 100%)",
     "stampColor": "#9A5B1D",
     "locClass": "loc-oxford",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "英国 · 剑桥",
