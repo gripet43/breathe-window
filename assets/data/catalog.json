@@ -3023,35 +3023,35 @@
       "bucket": "世界一角",
       "title": "康河上的撑篙平底船",
       "body": "从学院临河的哥特窗望出去，看见康河(River Cam)上的撑篙平底船(punt)在叹息桥下缓缓滑过，两岸垂柳倒映绿波，学者穿长袍走过草坪。",
-      "image": "/assets/images/loc_cambridge.png",
+      "image": "/assets/images/loc_cambridge.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "剑桥周边沼泽与白垩溪生态",
       "body": "剑桥周边沼泽(fens)与白垩溪生态切面，清澈 chalk stream 里的水毛茛与鳟鱼，岸边芦苇与蜻蜓，解释白垩含水层溪流。",
-      "image": "/assets/images/loc_cambridge_nature.png",
+      "image": "/assets/images/loc_cambridge_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "园丁的草坪私语",
       "body": "康河上的午后，撑篙人立船尾载着游客缓缓划过，岸上唱诗班少年穿白袍走过，一人坐桥头看书，人气安静温暖。",
-      "image": "/assets/images/loc_cambridge_people.png",
+      "image": "/assets/images/loc_cambridge_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "像流水一样穿过桥洞",
       "body": "黄昏，数学桥的木构斜撑倒映在静水，一人独立桥头望向渐暗的河与垂柳，天空晕开深蓝与赭橙，留白沉思，呼应深蓝与暮暖。",
-      "image": "/assets/images/loc_cambridge_spark.png",
+      "image": "/assets/images/loc_cambridge_spark.webp",
       "ponder": "面对生活中的条条框框，你是否能像康河的流水一样，温柔而笃定地穿过它们？"
     },
     {
       "bucket": "旧物新看",
       "title": "数学桥的无钉智慧",
       "body": "特写剑桥学院礼拜堂的彩窗与磨损的旧羊皮书，彩窗深蓝与赭红拼出纹章，书皮斑驳，旁置羽毛笔，质感精致有岁月感。",
-      "image": "/assets/images/loc_cambridge_old.png",
+      "image": "/assets/images/loc_cambridge_old.webp",
       "ponder": ""
     }
   ],
@@ -3060,35 +3060,35 @@
       "bucket": "世界一角",
       "title": "都柏林利菲河两岸的乔",
       "body": "从乔治亚老楼的扇形窗望出去，看见都柏林利菲河两岸的乔治亚方砖房与彩色大门，河畔石板路与铁灯柱。",
-      "image": "/assets/images/loc_dublin.png",
+      "image": "/assets/images/loc_dublin.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "爱尔兰海岸与泥炭沼泽生态",
       "body": "爱尔兰海岸与泥炭沼泽生态切面，绿草坡上的三叶草与石墙，远处海崖与海鹦，解释泥炭沼泽的形成。",
-      "image": "/assets/images/loc_dublin_nature.png",
+      "image": "/assets/images/loc_dublin_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "酒馆里手风琴手的微笑",
       "body": "都柏林老市集的午后，摊上摆着牡蛎与黑啤，一位乐手在街角拉小提琴，路人围听，人气温暖。",
-      "image": "/assets/images/loc_dublin_people.png",
+      "image": "/assets/images/loc_dublin_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在故事里慢下来",
       "body": "黄昏，利菲河上一座铁桥的剪影，一人独坐河岸石阶望向渐暗的河水与彩门老屋，天空晕开绿与赭橙，留白沉思，呼应爱尔兰绿与暮暖。",
-      "image": "/assets/images/loc_dublin_spark.png",
+      "image": "/assets/images/loc_dublin_spark.webp",
       "ponder": "在今天的行程里，你是否愿意分出十分钟，单纯地沉浸在一页书或一段音乐中？"
     },
     {
       "bucket": "旧物新看",
       "title": "凯尔特结的生命循环",
       "body": "特写爱尔兰《凯尔经》泥金装饰页的螺旋纹与竖琴图案、配手工蕾丝，金箔与叶绿颜料，旁置磨损的旧书，质感精致有岁月感。",
-      "image": "/assets/images/loc_dublin_old.png",
+      "image": "/assets/images/loc_dublin_old.webp",
       "ponder": ""
     }
   ],
