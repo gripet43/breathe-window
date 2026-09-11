@@ -3097,35 +3097,35 @@
       "bucket": "世界一角",
       "title": "天使湾的蔚蓝海水与卵",
       "body": "从尼斯老城的赭黄百叶窗望出去，看见天使湾的蔚蓝海水与卵石滩，沿英国人大道的棕榈与粉彩老楼。",
-      "image": "/assets/images/loc_nice.png",
+      "image": "/assets/images/loc_nice.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "地中海马基灌丛与海岸生态",
       "body": "地中海马基灌丛与海岸生态切面，崖上的迷迭香与薰衣草，卵石滩下的海草与小鱼，解释地中海植被与清澈海水。",
-      "image": "/assets/images/loc_nice_nature.png",
+      "image": "/assets/images/loc_nice_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "萨莱亚广场的花贩",
       "body": "尼斯萨雷亚(Cours Saleya)花市的清晨，摊上堆着薰衣草束与橄榄，老人在卵石滩玩滚球(petanque)，人气悠闲温暖。",
-      "image": "/assets/images/loc_nice_people.png",
+      "image": "/assets/images/loc_nice_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "虚度时光的艺术",
       "body": "黄昏，蓝色海岸的卵石滩上一把空躺椅面向渐暗的海，一人独坐望向落日，天空晕开蔚蓝与赭粉，留白沉思，呼应蔚蓝与暮暖。",
-      "image": "/assets/images/loc_nice_spark.png",
+      "image": "/assets/images/loc_nice_spark.webp",
       "ponder": "如果现在什么都不做，只是安静地坐着吹吹风，你最想对自己说什么？"
     },
     {
       "bucket": "旧物新看",
       "title": "尼斯传统橄榄油坊",
       "body": "特写尼斯老城的彩绘墙饰(trompe-l'oeil)与手工彩釉瓷砖，赭黄墙面绘出假窗与花，瓷砖蓝黄精致，旁置狂欢节面具，质感有岁月感。",
-      "image": "/assets/images/loc_nice_old.png",
+      "image": "/assets/images/loc_nice_old.webp",
       "ponder": ""
     }
   ],
@@ -3134,35 +3134,35 @@
       "bucket": "世界一角",
       "title": "赭红与赭黄的窄巷老屋",
       "body": "从里昂老城(Vieux Lyon)文艺复兴老楼的石框窗望出去，看见赭红与赭黄的窄巷老屋与富维耶山圣母院，索恩河在谷底流过。",
-      "image": "/assets/images/loc_lyon.png",
+      "image": "/assets/images/loc_lyon.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "罗讷与索恩两河汇流处生态",
       "body": "罗讷与索恩两河汇流处生态切面，河岸柳林与葡萄梯田(博若莱)，一只鹭立于浅滩，解释两河交汇的水文。",
-      "image": "/assets/images/loc_lyon_nature.png",
+      "image": "/assets/images/loc_lyon_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "里昂小馆里的主厨",
       "body": "里昂老城的午后，一家小酒馆(bouchon)老板在门口摆红格桌布，丝织作坊里匠人操作提花织机，人气温暖。",
-      "image": "/assets/images/loc_lyon_people.png",
+      "image": "/assets/images/loc_lyon_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在曲折的秘道中探索",
       "body": "黄昏，富维耶山俯瞰老城，一人独坐石墙望向两河在暮色中闪光，天空晕开深赭与暮蓝，留白沉思，呼应深赭与暮暖。",
-      "image": "/assets/images/loc_lyon_spark.png",
+      "image": "/assets/images/loc_lyon_spark.webp",
       "ponder": "当你觉得眼前的路走不通时，是否愿意静下心来，寻找一条隐秘的旁支小路？"
     },
     {
       "bucket": "旧物新看",
       "title": "提花织机上的丝绸传奇",
       "body": "特写里昂丝绸织机的提花卡与成品织锦、配木偶Guignol，丝线深红与金，木机斑驳，质感精致有岁月感。",
-      "image": "/assets/images/loc_lyon_old.png",
+      "image": "/assets/images/loc_lyon_old.webp",
       "ponder": ""
     }
   ],
