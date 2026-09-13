@@ -1174,7 +1174,7 @@
     "glow": "radial-gradient(circle at center, #FAF9F6 20%, #E5D3B3 100%)",
     "stampColor": "#B7950B",
     "locClass": "loc-strasbourg",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "法国 · 圣米歇尔山",

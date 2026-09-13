@@ -3171,35 +3171,35 @@
       "bucket": "世界一角",
       "title": "赭红与赭黄的木筋墙老",
       "body": "从小法兰西(La Petite France)的半木结构老屋凸窗望出去，看见赭红与赭黄的木筋墙老屋临伊尔河运河，鹳在屋顶。",
-      "image": "/assets/images/loc_strasbourg.png",
+      "image": "/assets/images/loc_strasbourg.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "莱茵河泛滥平原生态",
       "body": "莱茵河泛滥平原生态切面，运河边的柳林与芦苇，一只白鹳在湿草地觅食，解释莱茵湿地与鹳的回归。",
-      "image": "/assets/images/loc_strasbourg_nature.png",
+      "image": "/assets/images/loc_strasbourg_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "甜品店里的姜饼暖香",
       "body": "斯特拉斯堡集市的午后，摊上摆着火焰薄饼(tarte flambee)与白葡萄酒，半木老屋下挂着花箱，路人撑伞走过，人气温暖。",
-      "image": "/assets/images/loc_strasbourg_people.png",
+      "image": "/assets/images/loc_strasbourg_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "融合之美如同运河水",
       "body": "黄昏，斯特拉斯堡大教堂的粉红砂岩尖塔在赭金天空下，一人独坐运河石阶望向倒影，留白沉思，呼应暖褐与暮金。",
-      "image": "/assets/images/loc_strasbourg_spark.png",
+      "image": "/assets/images/loc_strasbourg_spark.webp",
       "ponder": "在面对与自己不同的观点时，你是否能像这座城市一样，在包容中找到独特的平衡？"
     },
     {
       "bucket": "旧物新看",
       "title": "守护屋顶的白鹳鸟巢",
       "body": "特写阿尔萨斯半木结构老屋的雕花木梁与手工陶器，木面深褐有岁月裂纹，陶罐蓝白釉，旁置一篮 pretzel 与啤酒陶杯，质感厚重。",
-      "image": "/assets/images/loc_strasbourg_old.png",
+      "image": "/assets/images/loc_strasbourg_old.webp",
       "ponder": ""
     }
   ],
