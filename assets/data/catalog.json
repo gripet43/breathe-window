@@ -3208,35 +3208,35 @@
       "bucket": "世界一角",
       "title": "圣米歇尔山修道院层层",
       "body": "从盐沼草甸望出去，看见圣米歇尔山修道院层层叠叠立在岩石岛上，尖塔直指天空，潮水退去露出银亮滩涂。",
-      "image": "/assets/images/loc_montsaintmichel.png",
+      "image": "/assets/images/loc_montsaintmichel.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "圣米歇尔海湾潮汐生态",
       "body": "圣米歇尔海湾潮汐生态切面，欧洲最大潮差的潮水涨落形成流沙与盐沼草甸，一只鹭在滩涂觅食，解释潮汐与流沙。",
-      "image": "/assets/images/loc_montsaintmichel_nature.png",
+      "image": "/assets/images/loc_montsaintmichel_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "铜锅蛋师的百年节奏",
       "body": "退潮时分，几位朝圣者沿滩涂小径走向岛，远处蚝农在盐田劳作，海鸥盘旋，人气恬静。",
-      "image": "/assets/images/loc_montsaintmichel_people.png",
+      "image": "/assets/images/loc_montsaintmichel_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在孤独中寻找笃定",
       "body": "黄昏，一人独坐在空阔滩涂上望向远处如孤岛漂浮的修道院，潮水将返，天空晕开灰蓝与赭橙，留白辽阔沉思，呼应灰石与暮暖。",
-      "image": "/assets/images/loc_montsaintmichel_spark.png",
+      "image": "/assets/images/loc_montsaintmichel_spark.webp",
       "ponder": "当外界的喧嚣如潮水般涌来时，你该如何守护自己内心的那座“孤岛”？"
     },
     {
       "bucket": "旧物新看",
       "title": "朝圣者的手杖与贝壳",
       "body": "特写圣米歇尔山修道院回廊的细石柱与中世纪手抄本写经室残页，石面风化暖灰，羊皮页泥金(无可读字)，旁置盐沼羊奶酪，质感厚重有岁月感。",
-      "image": "/assets/images/loc_montsaintmichel_old.png",
+      "image": "/assets/images/loc_montsaintmichel_old.webp",
       "ponder": ""
     }
   ],

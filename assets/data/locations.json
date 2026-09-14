@@ -1187,7 +1187,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #AEB6BF 100%)",
     "stampColor": "#5D6D7E",
     "locClass": "loc-montsaintmichel",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "意大利 · 罗马",
