@@ -3245,35 +3245,35 @@
       "bucket": "世界一角",
       "title": "罗马的圆顶天际线与圣",
       "body": "从老楼赭黄百叶窗望出去，看见罗马的圆顶天际线与圣彼得穹顶，街角一棵伞松(pine)撑开伞盖。",
-      "image": "/assets/images/loc_rome.png",
+      "image": "/assets/images/loc_rome.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "罗马郊外火山湖与石松生态",
       "body": "罗马郊外火山湖与石松生态切面，意大利石松的伞形冠与松果，火山凝灰岩地貌，一只红狐，解释石松与火山土。",
-      "image": "/assets/images/loc_rome_nature.png",
+      "image": "/assets/images/loc_rome_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "冰淇淋店主的甜蜜日常",
       "body": "罗马广场边的清晨，咖啡师在吧台擦杯，花摊摆满洋蓟，一位老人牵狗走过石板路，人气温暖。",
-      "image": "/assets/images/loc_rome_people.png",
+      "image": "/assets/images/loc_rome_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "废墟上的时间哲思",
       "body": "黄昏，古罗马广场的残柱在赭金天空下，一人独坐石阶望向废墟，留白辽阔沉思，呼应暖赭与暮金。",
-      "image": "/assets/images/loc_rome_spark.png",
+      "image": "/assets/images/loc_rome_spark.webp",
       "ponder": "面对注定流逝的时间，此时此刻，有什么是你想留给未来的“不朽记忆”？"
     },
     {
       "bucket": "旧物新看",
       "title": "砖石缝隙里的拱券智慧",
       "body": "特写罗马的大理石残柱头与古马赛克地砖，石面风化暖灰，马赛克拼出几何纹，旁置一枚古铜币，质感厚重有岁月感。",
-      "image": "/assets/images/loc_rome_old.png",
+      "image": "/assets/images/loc_rome_old.webp",
       "ponder": ""
     }
   ],
@@ -3282,35 +3282,35 @@
       "bucket": "世界一角",
       "title": "佛罗伦萨的圣母百花大",
       "body": "从老楼石框窗望出去，看见佛罗伦萨的圣母百花大教堂红砖穹顶与乔托钟楼，阿诺河上的老桥(Ponte Vecchio)与赭黄屋顶。",
-      "image": "/assets/images/loc_florence.png",
+      "image": "/assets/images/loc_florence.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "托斯卡纳丘陵生态",
       "body": "托斯卡纳丘陵生态切面，丝柏夹道的起伏山丘与鸢尾花(市花)，远处葡萄园，解释丝柏与黏土丘陵。",
-      "image": "/assets/images/loc_florence_nature.png",
+      "image": "/assets/images/loc_florence_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "皮革作坊里的锤打声",
       "body": "佛罗伦萨老桥上的午后，金匠在柜台打磨首饰，皮具匠在摊上压花，路人凭栏望河，人气温暖。",
-      "image": "/assets/images/loc_florence_people.png",
+      "image": "/assets/images/loc_florence_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "像湿壁画一样慢工细活",
       "body": "黄昏，米开朗基罗广场俯瞰老城，一人独坐石阶望向沐浴赭金的穹顶群，留白辽阔沉思，呼应赭红与暮金。",
-      "image": "/assets/images/loc_florence_spark.png",
+      "image": "/assets/images/loc_florence_spark.webp",
       "ponder": "在你当前的生命阶段，有什么事需要你像绘制湿壁画一样，专注且耐心地对待？"
     },
     {
       "bucket": "旧物新看",
       "title": "大理石纸的色彩流转",
       "body": "特写佛罗伦萨的金匠细工与湿壁画残片，金丝掐出花纹，壁画赭红与土黄，旁置一块大理石雕凿工具，质感精致有岁月感。",
-      "image": "/assets/images/loc_florence_old.png",
+      "image": "/assets/images/loc_florence_old.webp",
       "ponder": ""
     }
   ],
