@@ -3319,35 +3319,35 @@
       "bucket": "世界一角",
       "title": "米兰大教堂林立的白大",
       "body": "从老楼拱窗望出去，看见米兰大教堂林立的白大理石尖塔与雕像，广场鸽群飞起。",
-      "image": "/assets/images/loc_milan.png",
+      "image": "/assets/images/loc_milan.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "波河平原与阿尔卑斯山麓生态",
       "body": "波河平原与阿尔卑斯山麓生态切面，稻田水镜与白杨林，远处雪山，解释波河平原的灌溉稻作。",
-      "image": "/assets/images/loc_milan_nature.png",
+      "image": "/assets/images/loc_milan_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "运河畔咖啡馆的日常",
       "body": "米兰运河区(Navigli)的傍晚，年轻人在河畔酒吧举 aperitivo 杯，裁缝在工作室熨衣，人气温暖。",
-      "image": "/assets/images/loc_milan_people.png",
+      "image": "/assets/images/loc_milan_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "在繁华中寻找内心的留白",
       "body": "黄昏，埃马努埃莱拱廊的玻璃穹顶在赭金天光下，一人独坐廊下大理石地望向空廊，留白沉思，呼应冷灰与暮金。",
-      "image": "/assets/images/loc_milan_spark.png",
+      "image": "/assets/images/loc_milan_spark.webp",
       "ponder": "在快节奏的都市生活中，你该如何为自己建立一个阻绝浮躁的“内心教堂”？"
     },
     {
       "bucket": "旧物新看",
       "title": "斯福尔扎城堡的红砖记忆",
       "body": "特写米兰大教堂的白大理石尖塔雕饰与《最后的晚餐》湿壁画残影，石面风化，壁画褪色，旁置一把裁缝剪与丝绸样，质感精致有岁月感。",
-      "image": "/assets/images/loc_milan_old.png",
+      "image": "/assets/images/loc_milan_old.webp",
       "ponder": ""
     }
   ],
@@ -3356,35 +3356,35 @@
       "bucket": "世界一角",
       "title": "层叠在悬崖上的粉彩房",
       "body": "从波西塔诺的露台拱门望出去，看见层叠在悬崖上的粉彩房屋与彩釉圆顶，下方是湛蓝海湾与柠檬梯田。",
-      "image": "/assets/images/loc_amalfi.png",
+      "image": "/assets/images/loc_amalfi.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "峭壁上的柠檬梯田",
       "body": "阿玛尔菲海岸地貌切面，陡峭石灰岩海崖与海蚀洞，崖上柠檬梯田的棚架，解释陡崖农业与海蚀地貌。",
-      "image": "/assets/images/loc_amalfi_nature.png",
+      "image": "/assets/images/loc_amalfi_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "柠檬园里的采摘老人",
       "body": "阿玛尔菲小镇的午后，渔民在码头补网，妇人在摊上酿柠檬酒(limoncello)，路人拾级而上，人气温暖。",
-      "image": "/assets/images/loc_amalfi_people.png",
+      "image": "/assets/images/loc_amalfi_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "依山傍海的从容姿态",
       "body": "黄昏，悬崖边一张空桌面向渐暗的海与远岬，一人独坐望向落日，柠檬花香仿佛可闻，天空晕开海蓝与赭粉，留白沉思，呼应海蓝与暮暖。",
-      "image": "/assets/images/loc_amalfi_spark.png",
+      "image": "/assets/images/loc_amalfi_spark.webp",
       "ponder": "面对生活赋予你的险峻“悬崖”，你是否能找到一种优雅共生、借势建屋的方法？"
     },
     {
       "bucket": "旧物新看",
       "title": "阿玛尔菲手工纸的古法",
       "body": "特写阿玛尔菲的手工彩釉瓷砖与古造纸坊的棉纸，瓷砖蓝黄绘出柠檬与花，纸面粗糙有纤维，旁置一篮柠檬，质感有岁月感。",
-      "image": "/assets/images/loc_amalfi_old.png",
+      "image": "/assets/images/loc_amalfi_old.webp",
       "ponder": ""
     }
   ],

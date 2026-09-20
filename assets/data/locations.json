@@ -1226,7 +1226,7 @@
     "glow": "radial-gradient(circle at center, #FBEEF0 20%, #E5E8E8 100%)",
     "stampColor": "#900C3F",
     "locClass": "loc-milan",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "意大利 · 阿玛尔菲海岸",
@@ -1239,7 +1239,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #85C1E9 100%)",
     "stampColor": "#2980B9",
     "locClass": "loc-amalfi",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "瑞士 · 苏黎世",
