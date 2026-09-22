@@ -1278,7 +1278,7 @@
     "glow": "radial-gradient(circle at center, #FFFFFF 20%, #EAECEE 100%)",
     "stampColor": "#2C3E50",
     "locClass": "loc-zermatt",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "西班牙 · 马德里",

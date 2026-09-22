@@ -3467,35 +3467,35 @@
       "bucket": "世界一角",
       "title": "马特洪峰的冷峻晨锋",
       "body": "从采尔马特老木屋的雕花窗望出去，看见马特洪峰(Matterhorn)的尖角矗立在云雾之上，金字塔状山体在晨光中泛金，松林与黑面羊草场在下。",
-      "image": "/assets/images/loc_zermatt.png",
+      "image": "/assets/images/loc_zermatt.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "阿尔卑斯高山生态",
       "body": "阿尔卑斯高山生态切面，马特洪峰下的冰川与冰碛，高山草甸的雪绒花与龙胆，一只阿尔卑斯旱獭，解释角峰与冰川地貌。",
-      "image": "/assets/images/loc_zermatt_nature.png",
+      "image": "/assets/images/loc_zermatt_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "山地木屋的炉火主人",
       "body": "采尔马特的清晨，登山向导整理绳索，奶酪匠在作坊翻动干酪，村民牵牛走过木屋巷，人气恬静。",
-      "image": "/assets/images/loc_zermatt_people.png",
+      "image": "/assets/images/loc_zermatt_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "凝视高峰的谦逊",
       "body": "薄暮，马特洪峰尖顶被最后一抹玫瑰金(alpenglow)点亮，一人独立草甸仰望，星空初现，留白辽阔沉思，呼应灰岩与暮粉。",
-      "image": "/assets/images/loc_zermatt_spark.png",
+      "image": "/assets/images/loc_zermatt_spark.webp",
       "ponder": "站在巍峨的雪山面前，有什么是你愿意放下、让内心重新变回轻盈的执念？"
     },
     {
       "bucket": "旧物新看",
       "title": "防鼠木屋的悬空智慧",
       "body": "特写采尔马特老木屋的雕花木墙与牛铃，木面深褐有岁月裂纹，铜牛铃氧化，旁置一把旧冰镐，质感厚重有岁月感。",
-      "image": "/assets/images/loc_zermatt_old.png",
+      "image": "/assets/images/loc_zermatt_old.webp",
       "ponder": ""
     }
   ],
