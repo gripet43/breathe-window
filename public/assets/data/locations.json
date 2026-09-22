@@ -1252,7 +1252,7 @@
     "glow": "radial-gradient(circle at center, #EBF5FB 20%, #AED6F1 100%)",
     "stampColor": "#2E4053",
     "locClass": "loc-zurich",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "瑞士 · 日内瓦",
@@ -1265,7 +1265,7 @@
     "glow": "radial-gradient(circle at center, #EBF5FB 20%, #A9DFBF 100%)",
     "stampColor": "#2E8B57",
     "locClass": "loc-geneva",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "瑞士 · 采尔马特",

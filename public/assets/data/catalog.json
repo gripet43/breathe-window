@@ -3393,35 +3393,35 @@
       "bucket": "世界一角",
       "title": "利马特河两岸的老屋与双塔",
       "body": "从苏黎世老城的凸窗望出去，看见利马特河两岸的老屋与双塔大教堂(Grossmunster)，水面天鹅游弋，远处苏黎世湖水与雪峰隐约。",
-      "image": "/assets/images/loc_zurich.png",
+      "image": "/assets/images/loc_zurich.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "冰川湖泊的清冽净化",
       "body": "苏黎世湖与冰川地貌切面，清澈湖水与阿尔卑斯冰蚀谷，岸边芦苇与天鹅，解释冰川湖的形成。",
-      "image": "/assets/images/loc_zurich_nature.png",
+      "image": "/assets/images/loc_zurich_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "巧克力工坊的手作甜蜜",
       "body": "苏黎世老城的午后，巧克力匠在柜台裹糖，河畔有人游泳上岸，咖啡座一人读报，人气安静温暖。",
-      "image": "/assets/images/loc_zurich_people.png",
+      "image": "/assets/images/loc_zurich_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "如同钟表般的有序与平静",
       "body": "黄昏，苏黎世湖面如镜倒映雪山与双塔，一人独坐湖岸长椅望向渐暗的水，天空晕开深板岩蓝与赭橙，留白沉思，呼应深板岩蓝与暮暖。",
-      "image": "/assets/images/loc_zurich_spark.png",
+      "image": "/assets/images/loc_zurich_spark.webp",
       "ponder": "在被各种琐事打乱节奏的今天，你该如何为自己进行一次“校准”，找回内心的秩序？"
     },
     {
       "bucket": "旧物新看",
       "title": "老城行会会馆的蜕变",
       "body": "特写苏黎世行会会馆的彩绘玻璃与古董座钟，玻璃深蓝与赭红拼出行会徽，铜钟面斑驳，旁置一块巧克力模具，质感精致有岁月感。",
-      "image": "/assets/images/loc_zurich_old.png",
+      "image": "/assets/images/loc_zurich_old.webp",
       "ponder": ""
     }
   ],
@@ -3430,35 +3430,35 @@
       "bucket": "世界一角",
       "title": "日内瓦湖的大喷泉水柱",
       "body": "从老城石阶旁的窗望出去，看见日内瓦湖的大喷泉(Jet d'Eau)水柱与白帆，对岸是汝拉山与勃朗峰。",
-      "image": "/assets/images/loc_geneva.png",
+      "image": "/assets/images/loc_geneva.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "日内瓦湖的生态温床",
       "body": "日内瓦湖与阿尔卑斯水文切面，冰川融水汇入深湖形成蓝绿湖色，湖面天鹅与岸边葡萄园，解释冰川湖与融水。",
-      "image": "/assets/images/loc_geneva_nature.png",
+      "image": "/assets/images/loc_geneva_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "花钟旁的园艺师",
       "body": "日内瓦湖畔的午后，制表匠在灯下用镊子装齿轮，外交官模样的路人沿湖散步，咖啡座一人静读，人气安静温暖。",
-      "image": "/assets/images/loc_geneva_people.png",
+      "image": "/assets/images/loc_geneva_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "寻找平衡与中庸的艺术",
       "body": "黄昏，大喷泉水柱在赭粉天空下化为薄雾，一人独坐湖岸望向渐暗的水与远山，留白沉思，呼应湖蓝与暮暖。",
-      "image": "/assets/images/loc_geneva_spark.png",
+      "image": "/assets/images/loc_geneva_spark.webp",
       "ponder": "在非黑即白的喧嚣议题中，你是否能为自己保留一份中立、理性的包容空间？"
     },
     {
       "bucket": "旧物新看",
       "title": "阁楼钟表匠的阁楼文化",
       "body": "特写日内瓦的机械表机芯与古董八音盒，齿轮与红宝石轴承精致，铜面斑驳，旁置一枚珐琅怀表，质感精致有岁月感。",
-      "image": "/assets/images/loc_geneva_old.png",
+      "image": "/assets/images/loc_geneva_old.webp",
       "ponder": ""
     }
   ],
