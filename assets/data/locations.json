@@ -1317,7 +1317,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F9E79F 100%)",
     "stampColor": "#D35400",
     "locClass": "loc-seville",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "西班牙 · 格拉纳达",
@@ -1330,7 +1330,7 @@
     "glow": "radial-gradient(circle at center, #FDF2E9 20%, #F5CBA7 100%)",
     "stampColor": "#BA4A00",
     "locClass": "loc-granada",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "葡萄牙 · 里斯本",

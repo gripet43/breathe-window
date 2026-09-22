@@ -3578,35 +3578,35 @@
       "bucket": "世界一角",
       "title": "吉拉尔达钟楼与满院橙",
       "body": "从塞维利亚王宫的拱廊望出去，看见吉拉尔达钟楼与满院橙树，白墙配蓝黄瓷砖。",
-      "image": "/assets/images/loc_seville.png",
+      "image": "/assets/images/loc_seville.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "多尼亚纳湿地与火烈鸟群",
       "body": "瓜达尔基维尔河下游与多尼亚纳湿地生态剖面，潮汐沼泽与芦苇荡交错，成群粉红火烈鸟在浅滩觅食，展现候鸟迁徙天堂的生命律动。",
-      "image": "/assets/images/loc_seville_nature.png",
+      "image": "/assets/images/loc_seville_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "弗拉门戈舞鞋的缝纫匠",
       "body": "塞维利亚圣十字区的傍晚，庭院里一位女子抚裙跳弗拉门戈，墙根摆着陶罐，路人凭栏，人气温暖。",
-      "image": "/assets/images/loc_seville_people.png",
+      "image": "/assets/images/loc_seville_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "穿过回廊的悠长风声",
       "body": "黄昏，西班牙广场(Plaza de Espana)的运河与拱廊在赭橙天光下，一人独坐桥栏望向倒影，留白沉思，呼应鲜橙与暮暖。",
-      "image": "/assets/images/loc_seville_spark.png",
+      "image": "/assets/images/loc_seville_spark.webp",
       "ponder": "当外界的喧嚣渐渐褪去，你的内心留下了什么？"
     },
     {
       "bucket": "旧物新看",
       "title": "悬挂在阳台上的蕾丝挂毯",
       "body": "特写塞维利亚的 azulejo 彩釉瓷砖与折扇，瓷砖蓝黄绘出花纹，扇面手绘，旁置一把吉他，质感精致有岁月感。",
-      "image": "/assets/images/loc_seville_old.png",
+      "image": "/assets/images/loc_seville_old.webp",
       "ponder": ""
     }
   ],
@@ -3615,35 +3615,35 @@
       "bucket": "世界一角",
       "title": "阿尔罕布拉宫的红墙与雪山",
       "body": "从阿尔拜辛老区的窗望出去，看见阿尔罕布拉宫的红墙与塔楼立在丘上，背景是内华达山雪峰，摩尔式柏树与白色庭院层叠。",
-      "image": "/assets/images/loc_granada.png",
+      "image": "/assets/images/loc_granada.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "内华达山高山生态",
       "body": "内华达山高山生态切面，雪线下的野花与松林，山脚格拉纳达平原的石榴园，解释雪山与摩尔灌溉渠(acequia)。",
-      "image": "/assets/images/loc_granada_nature.png",
+      "image": "/assets/images/loc_granada_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "镶嵌细木工坊的老艺人",
       "body": "格拉纳达洞穴区(Sacromonte)的傍晚，窑洞里一位女子跳弗拉门戈，墙挂铜盘，路人围坐喝茶，人气温暖。",
-      "image": "/assets/images/loc_granada_people.png",
+      "image": "/assets/images/loc_granada_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "狮子庭院的静止水波",
       "body": "黄昏，阿尔罕布拉宫的水渠庭院长池如镜，一人独坐池畔望向红墙与雪山，留白沉思，呼应赭红与暮暖。",
-      "image": "/assets/images/loc_granada_spark.png",
+      "image": "/assets/images/loc_granada_spark.webp",
       "ponder": "试着深呼吸，想象自己是一潭不起波澜的清澈泉水。"
     },
     {
       "bucket": "旧物新看",
       "title": "洞穴民居萨克拉蒙托",
       "body": "特写阿尔罕布拉宫的石膏雕花(mocárabe 钟乳石)与镶嵌木天花，石膏暖白繁复，木面深赭，旁置一把乌德琴，质感精致有岁月感。",
-      "image": "/assets/images/loc_granada_old.png",
+      "image": "/assets/images/loc_granada_old.webp",
       "ponder": ""
     }
   ],
