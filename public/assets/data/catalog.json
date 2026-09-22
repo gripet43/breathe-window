@@ -3504,35 +3504,35 @@
       "bucket": "世界一角",
       "title": "马德里的王宫与阿尔穆",
       "body": "从老楼铁艺阳台望出去，看见马德里的王宫与阿尔穆德纳教堂穹顶，广场边的石松与赭黄老楼。",
-      "image": "/assets/images/loc_madrid.png",
+      "image": "/assets/images/loc_madrid.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "德埃萨橡树草原与伊比利亚猞猁",
       "body": "马德里郊外德埃萨栎树草原生态切面，千百年树龄的常绿圣栎散立在金色原野上，一只伊比利亚猞猁伏在灌木阴影中，展现独特的传统农牧林系统。",
-      "image": "/assets/images/loc_madrid_nature.png",
+      "image": "/assets/images/loc_madrid_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "百年老店的油条匠人",
       "body": "马德里圣米格尔市集的傍晚，吧台摆满 tapas 与火腿，一位弗拉门戈吉他手在街角弹奏，人气温暖热闹。",
-      "image": "/assets/images/loc_madrid_people.png",
+      "image": "/assets/images/loc_madrid_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "广场长椅上的午后停顿",
       "body": "黄昏，丽池公园(Retiro)的水晶宫在赭金天光下，一人独坐湖畔长椅望向倒影，留白沉思，呼应暖赭与暮金。",
-      "image": "/assets/images/loc_madrid_spark.png",
+      "image": "/assets/images/loc_madrid_spark.webp",
       "ponder": "此时此刻，有哪些急于完成的事，其实可以等一等？"
     },
     {
       "bucket": "旧物新看",
       "title": "塔帕斯小食的起源",
       "body": "特写马德里的马约利卡彩釉瓷砖与折扇，瓷砖蓝黄绘出花纹，扇面手绘，旁置一把斗牛海报旧纸(无可读字)，质感有岁月感。",
-      "image": "/assets/images/loc_madrid_old.png",
+      "image": "/assets/images/loc_madrid_old.webp",
       "ponder": ""
     }
   ],
@@ -3541,35 +3541,35 @@
       "bucket": "世界一角",
       "title": "圣家堂的尖塔群在赭黄",
       "body": "从扩展区老楼的彩釉阳台望出去，看见圣家堂的尖塔群在赭黄屋顶之上，街角一棵棕榈。",
-      "image": "/assets/images/loc_barcelona.png",
+      "image": "/assets/images/loc_barcelona.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "地中海湿润的暖风",
       "body": "巴塞罗那郊外蒙特塞拉特(Montserrat)锯齿山与地中海生态切面，圆砾岩峰与海岸松，一只红隼盘旋，解释锯齿砾岩地貌。",
-      "image": "/assets/images/loc_barcelona_nature.png",
+      "image": "/assets/images/loc_barcelona_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "兰布拉大道的花铺女主人",
       "body": "巴塞罗那波盖利亚(Boqueria)市集的清晨，摊上堆着彩椒与海鲜，广场上一群人跳萨达纳(sardana)圆舞，人气温暖。",
-      "image": "/assets/images/loc_barcelona_people.png",
+      "image": "/assets/images/loc_barcelona_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "马赛克拼贴的残缺美",
       "body": "黄昏，桂尔公园的马赛克长椅俯瞰城市与海，一人独坐望向渐暗的地中海，天空晕开赭红与海蓝，留白沉思，呼应赭红与暮暖。",
-      "image": "/assets/images/loc_barcelona_spark.png",
+      "image": "/assets/images/loc_barcelona_spark.webp",
       "ponder": "你愿意接纳自己身上那些不完美的碎瓷片吗？"
     },
     {
       "bucket": "旧物新看",
       "title": "叠人塔的团结默契",
       "body": "特写高迪建筑的碎瓷拼贴(trencadis)马赛克与锻铁栏杆，瓷片蓝绿与白，铁艺如藤蔓，旁置一块彩釉瓷砖，质感精致有岁月感。",
-      "image": "/assets/images/loc_barcelona_old.png",
+      "image": "/assets/images/loc_barcelona_old.webp",
       "ponder": ""
     }
   ],
