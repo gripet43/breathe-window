@@ -1356,7 +1356,7 @@
     "glow": "radial-gradient(circle at center, #EBF5FB 20%, #A9DFBF 100%)",
     "stampColor": "#2471A3",
     "locClass": "loc-porto",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "德国 · 柏林",

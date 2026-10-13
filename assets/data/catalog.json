@@ -3689,35 +3689,35 @@
       "bucket": "世界一角",
       "title": "路易一世大桥下的杜罗河",
       "body": "透过一扇嵌着蓝白瓷砖花板的旧木百叶窗，望见路易一世双层铁桥横跨杜罗河，里贝拉河畔彩色山墙老屋层层叠上陡坡，赭红屋顶与窗框的深蓝在暮光里回响，河水泛绿。",
-      "image": "/assets/images/loc_porto.png",
+      "image": "/assets/images/loc_porto.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "潮湿多雨的杜罗河谷",
       "body": "杜罗河谷片岩梯田葡萄园的地质剖面：陡峭山坡上一圈圈石墙梯田种着葡萄，秋日藤叶转红，谷底杜罗河水呈翡翠绿，展现塑造波特酒的陡坡微气候与页岩土壤。",
-      "image": "/assets/images/loc_porto_nature.png",
+      "image": "/assets/images/loc_porto_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "码头上的木桶修造师",
       "body": "加亚新城酒窖外，工人正把一只橡木酒桶滚上斜板，旁边一人扶着藤架，傍晚暖光，人气疏朗，赭与蓝的低饱和色调。",
-      "image": "/assets/images/loc_porto_people.png",
+      "image": "/assets/images/loc_porto_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "斑驳老墙上的岁月痕迹",
       "body": "里贝拉河阶一处空露台，一把锻铁椅，桌上一杯波特酒，杜罗河水面碎金，暮色安静，引人出神。",
-      "image": "/assets/images/loc_porto_spark.png",
+      "image": "/assets/images/loc_porto_spark.webp",
       "ponder": "面对岁月的流逝，你是否能像这些老墙一样坦然自在？"
     },
     {
       "bucket": "旧物新看",
       "title": "传统木船“雷贝洛”的变迁",
       "body": "一面老旧蓝白瓷砖花板特写，手绘钴蓝花纹釉面开着细裂与岁月斑驳，柔光斜照，质感温润，深蓝在花纹间回响。",
-      "image": "/assets/images/loc_porto_old.png",
+      "image": "/assets/images/loc_porto_old.webp",
       "ponder": ""
     }
   ],
