@@ -1343,7 +1343,7 @@
     "glow": "radial-gradient(circle at center, #FEF9E7 20%, #F5B041 100%)",
     "stampColor": "#B9770E",
     "locClass": "loc-lisbon",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "葡萄牙 · 波尔图",

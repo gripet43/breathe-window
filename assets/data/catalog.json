@@ -3652,35 +3652,35 @@
       "bucket": "世界一角",
       "title": "黄色 28 路电车爬",
       "body": "从里斯本老楼的瓷砖阳台望出去，看见黄色 28 路电车爬过铺石坡道，两侧是贴蓝白瓷砖(azulejo)的老屋与红瓦顶，塔霍河在谷底闪光。",
-      "image": "/assets/images/loc_lisbon.png",
+      "image": "/assets/images/loc_lisbon.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "塔霍河口与软木橡林生态",
       "body": "塔霍河口与软木橡林生态切面，河口滩涂与火烈鸟，山坡的软木橡(国树)剥皮，解释软木橡与河口生态。",
-      "image": "/assets/images/loc_lisbon_nature.png",
+      "image": "/assets/images/loc_lisbon_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "贝伦区的老牌糕点师",
       "body": "里斯本阿尔法玛区的傍晚，法朵(fado)小馆里歌手抚吉他低唱，糕点铺摆出蛋挞，路人拾级而上，人气温暖。",
-      "image": "/assets/images/loc_lisbon_people.png",
+      "image": "/assets/images/loc_lisbon_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "命运之歌法朵的余音",
       "body": "黄昏，塔霍河畔的观景台(miradouro)上一人独坐望向渐暗的河与红瓦老城，天空晕开深红与赭橙，留白沉思，呼应深红与暮暖。",
-      "image": "/assets/images/loc_lisbon_spark.png",
+      "image": "/assets/images/loc_lisbon_spark.webp",
       "ponder": "有什么思念是你一直藏在心底，却不知该如何诉说的？"
     },
     {
       "bucket": "旧物新看",
       "title": "蓝白瓷砖上的航海史诗",
       "body": "特写里斯本的蓝白瓷砖画(azulejo)与金银丝细工(filigree)心形首饰，瓷砖绘出航海图案，银丝精致，旁置一只葡式公鸡陶偶，质感有岁月感。",
-      "image": "/assets/images/loc_lisbon_old.png",
+      "image": "/assets/images/loc_lisbon_old.webp",
       "ponder": ""
     }
   ],
