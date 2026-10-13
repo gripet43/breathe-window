@@ -3726,35 +3726,35 @@
       "bucket": "世界一角",
       "title": "勃兰登堡门的灰色黎明",
       "body": "透过一扇简洁的现代钢框窗，望见勃兰登堡门砂岩列柱，远处电视塔圆球在薄雾里，菩提树绿意在前景与窗框的深灰绿间回响，光线柔和。",
-      "image": "/assets/images/loc_berlin.png",
+      "image": "/assets/images/loc_berlin.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "施普雷河与蒂尔加滕的城市生态",
       "body": "施普雷河与蒂尔加滕的城市生态切面：河畔白桦与山毛榉秋叶，草地上一只红松鼠，柏林林地的湿润生态细节，绿意沉静。",
-      "image": "/assets/images/loc_berlin_nature.png",
+      "image": "/assets/images/loc_berlin_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "跳蚤市场的旧相机修复师",
       "body": "迈巴赫河岸土耳其市集，木箱里堆着番茄与鲜花，摊主正用秤称量，一位顾客挑选，日常温柔，不拥挤，色调温润。",
-      "image": "/assets/images/loc_berlin_people.png",
+      "image": "/assets/images/loc_berlin_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "围墙遗迹上的彩色涂鸦",
       "body": "薄暮的施普雷河岸，一张空长椅，远处电视塔剪影没入雾中，水面平静，留白克制，沉静而引人出神。",
-      "image": "/assets/images/loc_berlin_spark.png",
+      "image": "/assets/images/loc_berlin_spark.webp",
       "ponder": "在你的心中，是否也有一面需要用温柔去推倒的围墙？"
     },
     {
       "bucket": "旧物新看",
       "title": "柏林红绿灯小人的温情",
       "body": "一段柏林墙残片特写，斑驳涂料与抽象色块被岁月磨旧，表面龟裂，质感厚重，深灰绿调，无人无字。",
-      "image": "/assets/images/loc_berlin_old.png",
+      "image": "/assets/images/loc_berlin_old.webp",
       "ponder": ""
     }
   ],
