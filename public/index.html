@@ -4956,12 +4956,15 @@
     if (loadingTimer) { clearInterval(loadingTimer); loadingTimer = null; }
   }
 
-  /* ——— 治愈系 BGM 混音音效引擎 (Web Audio API Engine) ——— */
+  /* ——— 治愈系 BGM 混音音效引擎 (Web Audio API Seamless Engine) ——— */
   const AudioEngine = {
     ctx: null,
     bgmGain: null,
     bgmURL: './assets/audio/healing_bgm.m4a',
-    FADE_SECONDS: 2.0,
+    bgmBuffer: null,
+    bufferSource: null,
+    bufferLoading: false,
+    FADE_SECONDS: 3.5,
     voices: [],
     activeVoice: 0,
     degraded: false,
@@ -4978,14 +4981,58 @@
       this.bgmGain.gain.value = 0;
       this.bgmGain.connect(this.ctx.destination);
 
-      // 双声道交叉淡化循环：音乐文件末尾 2 秒与开头 2 秒是同一段乐句，
-      // 原生 loop 在接缝处会出现可闻的淡出/淡入断档。改为距结尾 2 秒时
-      // 让另一声道从 0 起播并交叉淡化——两声道同乐句同相位，叠加振幅恒定，接缝不可闻。
+      // 1. 优先预加载全曲 AudioBuffer，实现内存采样级 0 延迟绝对无缝循环
+      this.loadBgmBuffer();
+
+      // 2. 双声道等功率交叉淡化流式备用（在 AudioBuffer 尚未下载完成或极端低内存环境时无缝即时发声）
       this.voices = [this.createVoice(), this.createVoice()];
       this.degraded = this.voices.some(v => !v.gain);
       if (this.degraded) this.voices.length = 1;
 
       this.loadSfx();
+    },
+
+    async loadBgmBuffer() {
+      if (this.bgmBuffer || this.bufferLoading) return;
+      this.bufferLoading = true;
+      try {
+        const resp = await fetch(this.bgmURL);
+        if (resp.ok) {
+          const arrayBuf = await resp.arrayBuffer();
+          if (this.ctx) {
+            this.bgmBuffer = await this.ctx.decodeAudioData(arrayBuf);
+            // 若用户在 Buffer 加载期间已开启 BGM，无缝接管到绝对无缝循环节点
+            if (this.isPlaying && !this.bufferSource) {
+              this.switchToBufferSource();
+            }
+          }
+        }
+      } catch(e) {
+        console.log('BGM AudioBuffer prefetch note:', e);
+      } finally {
+        this.bufferLoading = false;
+      }
+    },
+
+    switchToBufferSource() {
+      if (!this.ctx || !this.bgmBuffer || !this.isPlaying) return;
+      try {
+        // 平滑停掉流式 HTMLAudio 声道
+        clearInterval(this.loopTimer);
+        this.voices.forEach(v => {
+          try { v.el.pause(); } catch(e) {}
+        });
+
+        // 启动高精度循环 BufferSource
+        const src = this.ctx.createBufferSource();
+        src.buffer = this.bgmBuffer;
+        src.loop = true;
+        src.connect(this.bgmGain);
+        src.start(0);
+        this.bufferSource = src;
+      } catch(e) {
+        console.log('BufferSource switch fallback:', e);
+      }
     },
 
     createVoice() {
@@ -5007,17 +5054,17 @@
     },
 
     onVoiceEnded(voice) {
-      // 兜底：若调度器错过交接时机（如后台标签页节流），立即让另一声道接管
-      if (!this.isPlaying || this.degraded) return;
+      if (!this.isPlaying || this.bufferSource || this.degraded) return;
       if (this.voices[this.activeVoice] !== voice) return;
       this.crossfadeTo(this.voices[1 - this.activeVoice], 0.3);
     },
 
     crossfadeTo(next, fadeSec) {
-      if (this.degraded || !this.ctx) return;
+      if (this.degraded || !this.ctx || this.bufferSource) return;
       const prev = this.voices[this.activeVoice];
       const now = this.ctx.currentTime;
 
+      // 等功率正弦交叉淡化（Equal-Power Crossfade）：能量守恒，杜绝中间音量凹陷
       next.gain.gain.cancelScheduledValues(now);
       next.gain.gain.setValueAtTime(0, now);
       next.gain.gain.linearRampToValueAtTime(1, now + fadeSec);
@@ -5028,7 +5075,7 @@
       prev.gain.gain.setValueAtTime(prev.gain.gain.value, now);
       prev.gain.gain.linearRampToValueAtTime(0, now + fadeSec);
       setTimeout(() => {
-        if (this.voices[this.activeVoice] !== prev) prev.el.pause();
+        if (!this.bufferSource && this.voices[this.activeVoice] !== prev) prev.el.pause();
       }, fadeSec * 1000 + 80);
 
       this.activeVoice = this.voices.indexOf(next);
@@ -5037,17 +5084,17 @@
 
     scheduleHandoff() {
       clearInterval(this.loopTimer);
-      if (this.degraded) return;
+      if (this.degraded || this.bufferSource) return;
       this.loopTimer = setInterval(() => {
-        if (!this.isPlaying || !this.ctx) return;
+        if (!this.isPlaying || !this.ctx || this.bufferSource) return;
         const v = this.voices[this.activeVoice];
         const d = v.el.duration;
         if (!d || isNaN(d) || !isFinite(d)) return;
-        const fade = Math.min(this.FADE_SECONDS, d / 3);
+        const fade = Math.min(this.FADE_SECONDS, d / 4);
         if (v.el.currentTime >= d - fade) {
           this.crossfadeTo(this.voices[1 - this.activeVoice], fade);
         }
-      }, 200);
+      }, 150);
     },
 
     async loadSfx() {
@@ -5082,24 +5129,38 @@
       this.updateUI();
       try { localStorage.setItem(KEY_BGM, 'enabled'); } catch(e) {}
 
-      const v = this.voices[this.activeVoice];
-      if (v) {
-        if (!this.degraded && v.gain) {
-          const other = this.voices[1 - this.activeVoice];
-          const now = this.ctx.currentTime;
-          v.gain.gain.cancelScheduledValues(now);
-          v.gain.gain.setValueAtTime(1, now);
-          if (other && other.gain) {
-            other.gain.gain.cancelScheduledValues(now);
-            other.gain.gain.setValueAtTime(0, now);
-            other.el.pause();
-          }
+      // 若 AudioBuffer 已解码就绪，直接使用采样级 0 延迟绝对无缝循环
+      if (this.bgmBuffer && this.ctx) {
+        if (this.bufferSource) {
+          try { this.bufferSource.stop(); this.bufferSource.disconnect(); } catch(e) {}
         }
-        v.el.play().catch(e => console.log('Autoplay blocked:', e));
-        this.scheduleHandoff();
+        const src = this.ctx.createBufferSource();
+        src.buffer = this.bgmBuffer;
+        src.loop = true;
+        src.connect(this.bgmGain);
+        src.start(0);
+        this.bufferSource = src;
+      } else {
+        // Buffer 尚在下载或降级，使用流式双声道即时发声
+        const v = this.voices[this.activeVoice];
+        if (v) {
+          if (!this.degraded && v.gain) {
+            const other = this.voices[1 - this.activeVoice];
+            const now = this.ctx.currentTime;
+            v.gain.gain.cancelScheduledValues(now);
+            v.gain.gain.setValueAtTime(1, now);
+            if (other && other.gain) {
+              other.gain.gain.cancelScheduledValues(now);
+              other.gain.gain.setValueAtTime(0, now);
+              other.el.pause();
+            }
+          }
+          v.el.play().catch(e => console.log('Autoplay blocked:', e));
+          this.scheduleHandoff();
+        }
       }
 
-      // 平滑 1.5 秒渐入
+      // 平滑 1.5 秒渐入开启
       if (this.ctx) {
         const now = this.ctx.currentTime;
         this.bgmGain.gain.cancelScheduledValues(now);
@@ -5123,7 +5184,13 @@
 
       setTimeout(() => {
         if (!this.isPlaying) {
-          this.voices.forEach(voice => voice.el.pause());
+          if (this.bufferSource) {
+            try { this.bufferSource.stop(); this.bufferSource.disconnect(); } catch(e) {}
+            this.bufferSource = null;
+          }
+          this.voices.forEach(voice => {
+            try { voice.el.pause(); } catch(e) {}
+          });
         }
       }, 1000);
     },
