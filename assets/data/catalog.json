@@ -3800,35 +3800,35 @@
       "bucket": "世界一角",
       "title": "迷雾中的童话城堡",
       "body": "透过一扇阿尔卑斯雕花木窗，望见新天鹅堡白色塔楼群立在林木覆盖的悬崖上，背后阿尔卑斯山坡苍翠，窗框石板灰与冷调在雾光里回响。",
-      "image": "/assets/images/loc_neuschwanstein.png",
+      "image": "/assets/images/loc_neuschwanstein.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "阿尔卑斯山麓的阿尔普湖",
       "body": "珀拉特峡谷瀑布与玛丽桥的地质切面：瀑布自裂谷岩壁倾泻，细雾弥漫，悬桥横跨深壑，展现阿尔卑斯石灰岩侵蚀地貌，冷灰与绿。",
-      "image": "/assets/images/loc_neuschwanstein_nature.png",
+      "image": "/assets/images/loc_neuschwanstein_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "山谷里的马车夫",
       "body": "林间登山步道上一两位背着背包的徒步者，远坡上城堡只是一抹白色剪影，朝圣般的安静行走，人气疏朗。",
-      "image": "/assets/images/loc_neuschwanstein_people.png",
+      "image": "/assets/images/loc_neuschwanstein_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "孤独国王的梦境城堡",
       "body": "晨雾中的空玛丽桥，峡谷薄雾升腾，无人，桥身沉默，象征浪漫主义的孤独梦境，留白克制，冷灰调。",
-      "image": "/assets/images/loc_neuschwanstein_spark.png",
+      "image": "/assets/images/loc_neuschwanstein_spark.webp",
       "ponder": "当你想要逃避时，你会在心中建造一座怎样的城堡？"
     },
     {
       "bucket": "旧物新看",
       "title": "城堡钢结构与石材的融合",
       "body": "城堡内厅金漆宝座厅拜占庭马赛克与彩绘穹顶细部，宝石色调泛旧，工艺繁复，岁月温润，灰金回响。",
-      "image": "/assets/images/loc_neuschwanstein_old.png",
+      "image": "/assets/images/loc_neuschwanstein_old.webp",
       "ponder": ""
     }
   ],

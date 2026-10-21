@@ -1395,7 +1395,7 @@
     "glow": "radial-gradient(circle at center, #F2F4F4 20%, #AED6F1 100%)",
     "stampColor": "#2980B9",
     "locClass": "loc-neuschwanstein",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "奥地利 · 维也纳",
