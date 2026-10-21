@@ -3763,35 +3763,35 @@
       "bucket": "世界一角",
       "title": "玛利亚广场的金色钟声",
       "body": "透过一扇摆着天竺葵的巴伐利亚木窗，望见圣母教堂双塔青铜洋葱穹顶，红砖塔身与窗框的暖褐在午后光里回响，街景安静。",
-      "image": "/assets/images/loc_munich.png",
+      "image": "/assets/images/loc_munich.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "英国公园的生态",
       "body": "英国公园的生态切面：中国塔楼旁宽阔草坪与高大栗树秋冠，远处隐约阿尔卑斯雪线，城市绿洲的温带植被细节，暖褐与绿低饱和。",
-      "image": "/assets/images/loc_munich_nature.png",
+      "image": "/assets/images/loc_munich_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "谷物市场的鲜花摊主",
       "body": "中国塔楼啤酒花园，长木桌在栗树荫下，穿传统服饰的人举着啤酒杯，斑驳阳光，人气疏朗不挤，暖褐色调。",
-      "image": "/assets/images/loc_munich_people.png",
+      "image": "/assets/images/loc_munich_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "皇家啤酒屋的喧嚣与安静",
       "body": "栗树下一张空长椅，半杯啤酒在木桌，远眺英国公园与朦胧雪山，午后光线柔和，留白安静，引人出神。",
-      "image": "/assets/images/loc_munich_spark.png",
+      "image": "/assets/images/loc_munich_spark.webp",
       "ponder": "在喧闹的环境中，你如何为自己保留一方安静的角落？"
     },
     {
       "bucket": "旧物新看",
       "title": "巴伐利亚传统皮裤的传承",
       "body": "新市政厅钟楼金漆雕饰与钟琴特写，繁复的中世纪人物浮雕泛铜绿，岁月质感，暖金与褐回响。",
-      "image": "/assets/images/loc_munich_old.png",
+      "image": "/assets/images/loc_munich_old.webp",
       "ponder": ""
     }
   ],
