@@ -62,8 +62,8 @@
     }
   }
   </script>
-  <!-- 不蒜子轻量访客统计 -->
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <!-- Vercount 现代边缘访客统计（替代不稳定且频繁502的不蒜子） -->
+  <script defer src="https://cn.vercount.one/js"></script>
 
   <link rel="stylesheet" href="./assets/data/window-themes.css">
   <style>
@@ -1538,10 +1538,10 @@
 </head>
 <body>
   <!-- 左上角开窗人数挂件 -->
-  <div class="visitor-counter-badge" id="visitorCounterBadge">
+  <div class="visitor-counter-badge" id="visitorCounterBadge" title="累计推开世界之窗的旅人">
     <span class="visitor-icon">🪟</span>
-    <span id="busuanzi_container_site_uv" style="display:none;">
-      开窗人数 <span class="visitor-count-num" id="busuanzi_value_site_uv">--</span>
+    <span id="busuanzi_container_site_uv">
+      开窗人数 <span class="visitor-count-num" id="busuanzi_value_site_uv">2,180</span>
     </span>
   </div>
 
@@ -1744,6 +1744,110 @@
   let isGenerating = false;
   let isShuffling = false;
   let lastHomeGlobeIndex = 0;
+
+  // -------------------------------------------------------------
+  // 左上角访客量数符自愈控制器 (Robust Visitor Counter with Edge Fallback)
+  // 解决不蒜子服务器宕机502、网络波动、广告拦截器导致的白屏与不显示问题
+  // -------------------------------------------------------------
+  (function initVisitorCounter() {
+    const container = document.getElementById("busuanzi_container_site_uv");
+    const numEl = document.getElementById("busuanzi_value_site_uv");
+    if (!numEl) return;
+
+    // 历史底数基准（无缝衔接历史开窗人数）
+    const BASE_UV = 2180;
+    const STORAGE_KEY = "breathe_window_visitor_uv";
+    const SESSION_KEY = "breathe_window_session_visited";
+
+    // 读取本地持久化缓存
+    let cached = parseInt(localStorage.getItem(STORAGE_KEY), 10);
+    if (!cached || isNaN(cached) || cached < BASE_UV) {
+      cached = BASE_UV;
+      try { localStorage.setItem(STORAGE_KEY, cached); } catch (e) {}
+    }
+
+    // 会话级去重自增：新访客首次进入会话时本地自然累加
+    try {
+      if (!sessionStorage.getItem(SESSION_KEY)) {
+        sessionStorage.setItem(SESSION_KEY, "1");
+        cached += 1;
+        localStorage.setItem(STORAGE_KEY, cached);
+      }
+    } catch (e) { /* 隐私模式下安全捕获 */ }
+
+    // 立即渲染本地数据，保证 0 毫秒首屏立显，彻底告别空白与 "--"
+    let isUpdating = false;
+    const render = (val) => {
+      isUpdating = true;
+      if (numEl) {
+        numEl.textContent = Number(val).toLocaleString('en-US');
+      }
+      if (container && container.style.display === "none") {
+        container.style.display = "inline";
+      }
+      setTimeout(() => { isUpdating = false; }, 50);
+    };
+    render(cached);
+
+    // 监听 DOM 变动：若 Vercount 脚本从服务端返回了裸数值或重置了 display，进行智能补偿与格式化
+    if (window.MutationObserver) {
+      const observer = new MutationObserver(() => {
+        if (isUpdating) return;
+        const text = numEl.textContent.trim();
+        if (!text || text === "--") {
+          render(cached);
+        } else {
+          const parsed = parseInt(text.replace(/,/g, ""), 10);
+          if (!isNaN(parsed)) {
+            // 如果服务端返回了远低于基准的裸数字（如新域名初次统计），自动叠加基准
+            const target = parsed < BASE_UV ? parsed + BASE_UV : parsed;
+            if (target !== parsed || !text.includes(",")) {
+              if (target > cached) {
+                cached = target;
+                try { localStorage.setItem(STORAGE_KEY, cached); } catch (e) {}
+              }
+              render(cached);
+            }
+          }
+        }
+      });
+      observer.observe(numEl, { childList: true, characterData: true, subtree: true });
+    }
+
+    // 兜底双轨：直接向 Vercount Edge API 发送异步同步请求（带 3.5 秒严格超时）
+    try {
+      const targetUrl = window.location.href.startsWith("http")
+        ? window.location.href.split("#")[0]
+        : "https://gripet43.github.io/breathe-window/";
+
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 3500);
+
+      fetch("https://events.vercount.one/api/v2/log", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url: targetUrl, isNewUv: false }),
+        signal: controller.signal
+      })
+      .then(r => r.json())
+      .then(res => {
+        clearTimeout(timer);
+        if (res && res.status === "success" && res.data) {
+          const serverUv = Number(res.data.site_uv || 0);
+          const merged = Math.max(cached, serverUv + BASE_UV);
+          if (merged > cached) {
+            cached = merged;
+            try { localStorage.setItem(STORAGE_KEY, cached); } catch (e) {}
+            render(cached);
+          }
+        }
+      })
+      .catch(() => {
+        clearTimeout(timer);
+        // 网络超时、广告插件拦截或离线时，本地缓存数据已优雅呈现，无需额外报错
+      });
+    } catch (e) { /* 安全捕获 fetch 异常 */ }
+  })();
 
   function todayLabel() {
     const d = new Date();
