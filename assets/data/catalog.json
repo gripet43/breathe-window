@@ -3837,35 +3837,35 @@
       "bucket": "世界一角",
       "title": "维也纳金色大厅的微光",
       "body": "透过一扇巴洛克鎏金拱窗，望见圣斯蒂芬大教堂南尖塔与彩色拼瓦屋顶，午后金光，窗框的暖金与赭在光里回响，街景典雅。",
-      "image": "/assets/images/loc_vienna.png",
+      "image": "/assets/images/loc_vienna.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "维也纳森林的生态",
       "body": "维也纳森林的生态切面：山毛榉林坡与坡地葡萄园，秋日层林，多瑙河谷的温带落叶生态细节，暖金与绿低饱和。",
-      "image": "/assets/images/loc_vienna_nature.png",
+      "image": "/assets/images/loc_vienna_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "百年咖啡馆的侍者",
       "body": "传统咖啡馆内，穿礼服黑围裙的侍者端着银托盘，大理石桌边一位读报的顾客，安静不挤，暖金调。",
-      "image": "/assets/images/loc_vienna_people.png",
+      "image": "/assets/images/loc_vienna_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "咖啡馆里虚度的一下午",
       "body": "金色音乐厅里一把空椅，椅背搁着一把小提琴，午后斜光穿过尘埃，曲终的寂静，留白诗意，暖金回响。",
-      "image": "/assets/images/loc_vienna_spark.png",
+      "image": "/assets/images/loc_vienna_spark.webp",
       "ponder": "你有多久没有允许自己做一些“毫无意义”的事了？"
     },
     {
       "bucket": "旧物新看",
       "title": "圆舞曲的平民起源",
       "body": "美泉宫巴洛克鎏金框饰与灰泥浮雕特写，金箔泛旧、纹样繁复，帝国工艺的岁月质感，暖金调。",
-      "image": "/assets/images/loc_vienna_old.png",
+      "image": "/assets/images/loc_vienna_old.webp",
       "ponder": ""
     }
   ],

@@ -1408,7 +1408,7 @@
     "glow": "radial-gradient(circle at center, #FFFFF0 20%, #EEDC82 100%)",
     "stampColor": "#B7950B",
     "locClass": "loc-vienna",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "奥地利 · 萨尔茨堡",
