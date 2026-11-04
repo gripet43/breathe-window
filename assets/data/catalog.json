@@ -3874,35 +3874,35 @@
       "bucket": "世界一角",
       "title": "萨尔察赫河畔的黄昏古城",
       "body": "透过一扇巴洛克石拱窗，望见山顶的萨尔茨堡要塞与老城错落的灰屋顶，背后阿尔卑斯山脊，窗框石板灰在柔光里回响。",
-      "image": "/assets/images/loc_salzburg.png",
+      "image": "/assets/images/loc_salzburg.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "湿润的阿尔卑斯北麓",
       "body": "盐矿的地质切面：粉白盐晶与古老木支撑，盐水微光，展现赋予城市之名的盐层地质与千年开采，冷灰与暖白。",
-      "image": "/assets/images/loc_salzburg_nature.png",
+      "image": "/assets/images/loc_salzburg_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "手工巧克力工坊的烘焙师",
       "body": "粮食胡同石巷里一位街头乐手拉着小提琴，一位行人驻足，巴洛克立面与锻铁招牌安静，人气疏朗，灰调温润。",
-      "image": "/assets/images/loc_salzburg_people.png",
+      "image": "/assets/images/loc_salzburg_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "莫扎特故居前的清凉喷泉",
       "body": "清晨空旷的巴洛克教堂广场，鸽影掠过，柔光斜照石地，音乐之城的静默一刻，留白克制，石板灰调。",
-      "image": "/assets/images/loc_salzburg_spark.png",
+      "image": "/assets/images/loc_salzburg_spark.webp",
       "ponder": "如果给你一个机会，你希望给这个世界留下怎样的温柔？"
     },
     {
       "bucket": "旧物新看",
       "title": "盐矿与城市名字的渊源",
       "body": "莫扎特用过的古钢琴特写，泛黄象牙琴键与木纹被岁月磨亮，烛光柔照，温润质感，灰褐回响。",
-      "image": "/assets/images/loc_salzburg_old.png",
+      "image": "/assets/images/loc_salzburg_old.webp",
       "ponder": ""
     }
   ],

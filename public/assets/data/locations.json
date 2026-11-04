@@ -1421,7 +1421,7 @@
     "glow": "radial-gradient(circle at center, #F4F6F7 20%, #D5DBDB 100%)",
     "stampColor": "#7F8C8D",
     "locClass": "loc-salzburg",
-    "hasCustomImages": false
+    "hasCustomImages": true
   },
   {
     "name": "奥地利 · 哈尔施塔特",
