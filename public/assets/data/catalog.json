@@ -3911,35 +3911,35 @@
       "bucket": "世界一角",
       "title": "晨曦笼罩的湖畔木屋",
       "body": "透过一扇摆着天竺葵的阿尔卑斯雕花木窗，望见湖畔粉彩木屋沿窄岸层叠，尖顶教堂临水，达赫施泰因山倒映如镜，窗框暖褐回响。",
-      "image": "/assets/images/loc_hallstatt.png",
+      "image": "/assets/images/loc_hallstatt.webp",
       "ponder": ""
     },
     {
       "bucket": "科学自然",
       "title": "哈尔施塔特湖的生态",
       "body": "哈尔施塔特湖的生态切面：澄澈见底的湖水露出石床，一只天鹅滑过，陡峭阿尔卑斯岩壁环抱，展现高山湖泊的清澈生态，冷蓝与暖褐。",
-      "image": "/assets/images/loc_hallstatt_nature.png",
+      "image": "/assets/images/loc_hallstatt_nature.webp",
       "ponder": ""
     },
     {
       "bucket": "他人在场",
       "title": "湖畔的木雕手艺人",
       "body": "清晨湖面，一位居民撑着平底木船缓缓划过，岸边木屋花箱静立，日常安静温柔，人气疏朗，暖褐调。",
-      "image": "/assets/images/loc_hallstatt_people.png",
+      "image": "/assets/images/loc_hallstatt_people.webp",
       "ponder": ""
     },
     {
       "bucket": "思想火花",
       "title": "悬崖与湖水之间的平衡",
       "body": "破晓的湖畔，水面升着薄雾，村屋未亮，山成剪影，岸边一张空木椅，寂静而诗意，暖褐与冷蓝。",
-      "image": "/assets/images/loc_hallstatt_spark.png",
+      "image": "/assets/images/loc_hallstatt_spark.webp",
       "ponder": "当你感到焦虑重重时，试着在心中为自己划出一片平静的湖水。"
     },
     {
       "bucket": "旧物新看",
       "title": "独特的白骨彩绘传统",
       "body": "骸骨堂里彩绘头骨特写，额上绘着花环与姓名纹样，绿红金细笔，烛光柔照，百年习俗的温润质感，无人无字。",
-      "image": "/assets/images/loc_hallstatt_old.png",
+      "image": "/assets/images/loc_hallstatt_old.webp",
       "ponder": ""
     }
   ],
